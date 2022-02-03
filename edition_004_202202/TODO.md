@@ -14,6 +14,7 @@ Planned Sections
 - Ask who people would want to see interviewed - IK
 - Book review: Permutation City -- Claus
 - Game review: (Townscaper?) -- Claus
+- Game review: Dwarf Fortress -- (submission on 07/02, IK)
 - Art: ????
 - Petr intervieww - IK
 
