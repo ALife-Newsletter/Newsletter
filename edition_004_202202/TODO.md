@@ -5,6 +5,7 @@ Planned Sections
 - [ok] Review of JSAI special issue
 - [ok] ERA Board nomination (chair introductions) - IK
 - [ok] ERA Call for membership - IK
+- [ok] The bibites
 - ISAL Board nomination (chair introductions) - Lana
 - [ok] https://virtualcreatures.github.io/ competition (Lana)
 - GECCO oee competition (Lana)
