@@ -1,20 +1,26 @@
 Planned Sections
 
-- ALien Life Contribution (https://alien-project.org/) MY
-  https://www.reddit.com/r/AlienProject/
-- Old paper write-up (submission, Lana) 
-- ERA Board nomination (chair introductions) - IK
-- ERA Call for membership - IK
-- ISAL Board nomination (chair introductions) 
-- ISAL has a new president (Lana)
-- https://virtualcreatures.github.io/ competition (Lana)
+
+- [ok] Old paper write-up (submission, Lana) 
+- [ok] Review of JSAI special issue
+- [ok] ERA Board nomination (chair introductions) - IK
+- [ok] ERA Call for membership - IK
+- ISAL Board nomination (chair introductions) - Lana
+- [ok] https://virtualcreatures.github.io/ competition (Lana)
 - GECCO oee competition (Lana)
 - ISAL awards nominations (Lana)
   https://alife.org/2021-isal-awards-winners/
-- Ask who people would want to see interviewed - IK
+- [ok] Ask who people would want to see interviewed - IK
 - Book review: Permutation City -- Claus
-- Game review: (Townscaper?) -- Claus
-- Game review: Dwarf Fortress -- (submission on 07/02, IK)
-- Art: ????
-- Petr intervieww - IK
+- [ok] Game review: Dwarf Fortress -- (submission on 07/02, IK)
+- Art: Petr? - IK
+- [ok] Petr interview - IK
+- Fiction Science contest - Lana
+- [ok] Japanese ALife workshop review
+- Generative Game Jam (Younes) - Claus
+- Deadlines:
+-   ALife 2022
+-   Fiction Science contest - Lana
+-   Gecco OEE
+-   Virtual Creatures
 
