@@ -16,7 +16,7 @@ Planned Sections
 - [ok] Game review: Dwarf Fortress -- (submission on 07/02, IK)
 - Art: Petr? - IK
 - [ok] Petr interview - IK
-- Fiction Science contest - Lana
+- [ok] Fiction Science contest - Lana
 - [ok] Japanese ALife workshop review
 - Generative Game Jam (Younes) - Claus
 - Deadlines:
