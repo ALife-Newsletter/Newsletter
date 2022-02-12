@@ -1,4 +1,4 @@
-Planned Sections
+# Planned Sections
 
 
 - [ok] Old paper write-up (submission, Lana)

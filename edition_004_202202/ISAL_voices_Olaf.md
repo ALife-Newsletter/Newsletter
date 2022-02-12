@@ -1,3 +1,5 @@
+# Voices from ISAL
+
 Dear all,
 
 We would like to announce a new opportunity for early career researchers
@@ -13,7 +15,8 @@ frontiers in abiogenesis research. At the end of the week, these proposals
 will have access to $5M total funding to implement their ideas. For further
 information, an email for questions from potential applicants, and the
 application form itself are all on the event website:
-https://templetonideaslab.umbc.edu/
+[https://templetonideaslab.umbc.edu/](https://templetonideaslab.umbc.edu/
+)
 
 Thank you, and good luck everyone!
 
