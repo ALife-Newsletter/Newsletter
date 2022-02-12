@@ -1,7 +1,7 @@
 Planned Sections
 
 
-- [ok] Old paper write-up (submission, Lana) 
+- [ok] Old paper write-up (submission, Lana)
 - [ok] Review of JSAI special issue
 - [ok] ERA Board nomination (chair introductions) - IK
 - [ok] ERA Call for membership - IK
@@ -12,7 +12,7 @@ Planned Sections
 - ISAL awards nominations (Lana)
   https://alife.org/2021-isal-awards-winners/
 - [ok] Ask who people would want to see interviewed - IK
-- Book review: Permutation City -- Claus
+- [ok] Book review: Permutation City -- Claus
 - [ok] Game review: Dwarf Fortress -- (submission on 07/02, IK)
 - Art: Petr? - IK
 - [ok] Petr interview - IK
@@ -24,4 +24,3 @@ Planned Sections
 -   Fiction Science contest - Lana
 -   Gecco OEE
 -   Virtual Creatures
-
