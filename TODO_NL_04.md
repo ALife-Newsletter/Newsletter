@@ -1,11 +1,14 @@
-# Planned Sections
+# HTML converter
+- Add footer and header to html
+- Add stylesheet
 
+# Contents
 
 - [ok] Old paper write-up (submission, Lana)
 - [ok] Review of JSAI special issue
 - [ok] ERA Board nomination (chair introductions) - IK
 - [ok] ERA Call for membership - IK
-- [ok] The bibites
+- [TODO] The bibites -- Claus -- Add images / UPDATE
 - ISAL Board nomination (chair introductions) - Lana
 - [ok] https://virtualcreatures.github.io/ competition (Lana)
 - GECCO oee competition (Lana)

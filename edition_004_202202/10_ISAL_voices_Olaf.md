@@ -1,4 +1,4 @@
-# Voices from ISAL
+# Voices from ISAL -- Early Researchers Workshop Call
 
 Dear all,
 

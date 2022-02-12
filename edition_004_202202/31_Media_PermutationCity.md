@@ -1,4 +1,6 @@
-"Permutation City" review, by Tanner Lund [@101010Lund](https://twitter.com/101010Lund)
+# Review: Permutation City
+
+*by Tanner Lund ([@101010Lund](https://twitter.com/101010Lund))*
 
 Greg Egan asks the question “What counts as life?” in many different ways throughout the course of his 1994 novel Permutation City. In a world where brain copying and approximation is possible for the well-off and where virtual copies of people can live on after the donor’s death, what counts as immortality? Are you alive if you do not have a body? If you cannot age? If you were created outside of the universe you inhabit? If you edit the parts of yourself you don’t like in the “real world”?
 

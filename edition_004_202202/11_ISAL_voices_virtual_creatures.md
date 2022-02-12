@@ -1,4 +1,4 @@
-# The 2022 Virtual Competition: Call for Submissions
+# ISAL Voices: The 2022 Virtual Creatures Competition
 
 Since the early 1990’s, virtual creatures have captured the imagination of artists, engineers, philosophers and scientists. Virtual creatures can now be found in our favorite animated movies, the design of useful robots and novel organisms, and the genesis of better explanations of nature and all of its creatures.
 
