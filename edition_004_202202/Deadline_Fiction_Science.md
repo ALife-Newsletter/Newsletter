@@ -1,4 +1,5 @@
-Fiction Science Contest, deadline Feb. 28th
+# Fiction Science Contest
+Deadline Feb. 28th
 
 Announcing the Fiction Science Contest, an idea contest for scientists and scientifically-minded people!
 
@@ -8,6 +9,6 @@ Prizes: $100 for the best entry to the first prompt; $100 for the best entry to 
 
 Two prompts: "First Case of Biological Organism Infected by Computer Virus" and "Computer Virus Nicknamed 'Akabake' Believed to Have Biological Origins".
 
-Find the full text prompts and rules of the contest at  https://sites.google.com/view/fiction-science/home
+Find the full text prompts and rules at the [contest webpage](https://sites.google.com/view/fiction-science/home)
 
-Lana Sinapayen
+Lana Sinapayen [@sina_lana](https://twitter/sina_lana)

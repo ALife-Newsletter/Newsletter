@@ -19,8 +19,4 @@ Planned Sections
 - [ok] Fiction Science contest - Lana
 - [ok] Japanese ALife workshop review
 - Generative Game Jam (Younes) - Claus
-- Deadlines:
--   ALife 2022
--   Fiction Science contest - Lana
--   Gecco OEE
--   Virtual Creatures
+- [ok] Deadlines: (Alife 2020, Fiction Science, GECCO OEE, Virtual Creatures)
