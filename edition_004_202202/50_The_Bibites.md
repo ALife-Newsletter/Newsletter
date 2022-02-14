@@ -8,28 +8,32 @@
 
 The Bibites eat to gain energy, which they must expend to sustain their metabolism, move around, grow, reproduce, and do other things.
 
-(Image 1)
+![Bibites Feeding on Pellets](images/bibites1.png)
 
-Bibites of different species feeding on plant pellets
+*Bibites of different species feeding on plant pellets*
 
 The Bibites is an evaluation-less simulation, what survives best is what is selected for. The bibites reproduce biologically, expending energy to produce offspring, which may present mutations. This results in natural selection.
 
-(Image 2 Image 3)
+![A bibite with an egg](images/bibites2a.png)
+![A young bibite](images/bibites2b.png)
 
-A bibite with an egg it just laid (left) and the result young bibite that later came out of that egg (right)
+*A bibite with an egg it just laid (left) and the result young bibite that later came out of that egg (right)*
 
 On death, the bibites release the energy they contain (the energy they used to grow, their stored energy, etc.) is released in the form of meat pellets, which are also a potential food source for the bibites.
 
-(Image 4)
+![Meat left after a bibite dies](images/bibites3.png)
 
 However, one of the genes a bibite can mutate is its diet. Basically, it’s a gene that ranges from fully herbivorous to fully carnivorous. Depending on their affinity toward a particular food source, they will be more or less efficient at extracting the energy out of that source, even potentially losing energy if they are incompatible enough.
 
-(Image 5 Image 6)
+![Herbivore Bibite](images/bibites4a.png)
+![Carnivore Bibite](images/bibites4b.png)
 Note the different mouthparts between herbivores (left) and carnivores (right)
 
 With this possibility, I’ve always wanted predation to develop naturally in the simulation, but never actually managed to see it arise.
 That’s why I decided to launch an epic journey to uncover what dynamics are lacking in the simulation in order for predation to be a possible development.
 And if a picture is worth a thousand words, here’s a video that must be worth at least a million words. [The Evolution of Predation in a Simulated Ecosystem](https://www.youtube.com/watch?v=rPkMoFJNcLA)
+
+![The latest Bibites video](images/bibites5.png)
 
 ## Impressions by a User
 
