@@ -27,7 +27,8 @@ However, one of the genes a bibite can mutate is its diet. Basically, it’s a g
 
 ![Herbivore Bibite](images/bibites4a.png)
 ![Carnivore Bibite](images/bibites4b.png)
-Note the different mouthparts between herbivores (left) and carnivores (right)
+
+*Note the different mouthparts between herbivores (left) and carnivores (right)*
 
 With this possibility, I’ve always wanted predation to develop naturally in the simulation, but never actually managed to see it arise.
 That’s why I decided to launch an epic journey to uncover what dynamics are lacking in the simulation in order for predation to be a possible development.

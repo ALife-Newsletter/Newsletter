@@ -18,22 +18,33 @@ if __name__ == "__main__":
 
     for filename in files:
         if filename.endswith(".md"):
-            with open(os.path.join(directory, filename), "r") as f:
-                text.append(f.read())
+            if filename.startswith("00"):
+                with open(os.path.join(directory, filename), "r") as f:
+                    opening = f.read()
+            else:
+                with open(os.path.join(directory, filename), "r") as f:
+                    text.append(f.read())
+
     bodytext = "\n".join(text)
 
     md = markdown.Markdown(extensions=['toc'])
+    htmlopen = md.convert(opening)
+    md.reset()
     htmlbody = md.convert(bodytext)
     htmltoc = md.toc
 
+    with open(os.path.join("static", "header.html")) as f:
+        htmlhead = f.read()
+
+    with open(os.path.join("static", "footer.html")) as f:
+        htmlfooter = f.read()
+
     html = [
-    "<html>",
-    "<head><title>Alife Newsletter</title></head>",
-    "<body>",
+    htmlhead,
+    htmlopen,
     htmltoc,
     htmlbody,
-    "</body>",
-    "</html>"
+    htmlfooter
     ]
 
     with open(os.path.join(directory, "newsletter.html"), "w") as o:
