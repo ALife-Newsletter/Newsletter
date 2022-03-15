@@ -54,12 +54,12 @@ if __name__ == "__main__":
 
     htmltext = "\n".join(html).replace('"images/',
                                        '"images_{}/'.format(target))
-    with open(os.path.join("publish", target+".html"), "w") as o:
+    with open(os.path.join("docs", target+".html"), "w") as o:
         o.write(htmltext)
 
     # copying images
     source_image_dir = os.path.join(target, "images")
-    dest_image_dir = os.path.join("publish", "images_"+target)
+    dest_image_dir = os.path.join("docs", "images_"+target)
 
     if not os.path.isdir(dest_image_dir):
         os.mkdir(dest_image_dir)

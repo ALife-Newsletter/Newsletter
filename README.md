@@ -7,6 +7,7 @@ Task management &amp; content backup for ALife Newsletter
 - [December 2021](https://alife.org/december-2021-alife-newsletter/)
 
 ## TODO
-- Automatically generate index.html
 - Improve the CSS of the automated generated newsletter
 - Add the old newsletters here
+- Automatically generate index.html
+  - Or maybe not? Need a way to hide "in progress" editions
