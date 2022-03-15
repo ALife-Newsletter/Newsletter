@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 
     htmltext = "\n".join(html).replace('"images/',
-                                       '"images_{}/'.format(target))
+                                       '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(target))
     with open(os.path.join("docs", target+".html"), "w") as o:
         o.write(htmltext)
 
