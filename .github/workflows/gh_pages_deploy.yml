@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # shellで $cd $GITHUB_WORKSPACE を行いmerge→github.tokenを用いてpushすればdevmasx/merge-branch@v1.3.1を使用せずに書けると思われる
+      - uses: actions/checkout@v2
+      - name: Deploy
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          from_branch: main
+          target_branch: gh-pages
+          github_token: ${{ github.token }}
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - run: python makeNewsletter.py
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.2.0
+        with:
+          commit_message: makeNewsletter.py
+          branch: gh-pages
