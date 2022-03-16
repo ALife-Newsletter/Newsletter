@@ -3,6 +3,18 @@ import os, shutil
 import re
 import argparse
 
+import sys
+# in case the system default encoding is not utf-8: it may cause UnicodeEncodeError on Markdown.convert() or file.write()
+if sys.getdefaultencoding() is not "utf-8":
+  try:
+    print("change encoding from {} to utf-8".format(sys.getdefaultencoding()))
+    sys.setdefaultencoding("utf-8")
+  except AttributeError:
+    reload(sys) # I don't know why but this fixes "AttributeError: 'module' object has no attribute 'setdefaultencoding'"
+    sys.setdefaultencoding("utf-8")
+  except Exception as e:
+    print("changing encoding failed: {}".format(e))
+
 if __name__ == "__main__":
     # Part I -- configure and validate the script from parameters
     parser = argparse.ArgumentParser(description="Create a newsletter html")
