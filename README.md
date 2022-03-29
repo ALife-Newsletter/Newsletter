@@ -11,3 +11,5 @@ Task management &amp; content backup for ALife Newsletter
 - Add the old newsletters here
 - Automatically generate index.html
   - Or maybe not? Need a way to hide "in progress" editions
+- Add permalink to each contribution
+- Twitter bot to remind people to contribute / talk about past contributions?
