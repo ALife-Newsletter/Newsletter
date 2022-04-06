@@ -1,6 +1,6 @@
 # A word from the team
 
-For this 4th issue, we are glad to welcome a new member to the ALife Newsletter team: a warm welcome to Katt Walker!
+For this 5th issue, THE NEWSLETTER IS STILL UNDER CONSTRUCTION!
 
 We hope you enjoy the contents!
 
