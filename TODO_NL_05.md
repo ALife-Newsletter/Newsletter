@@ -3,8 +3,8 @@ Christian Heinemann ALife Project: ALIEN ALIEN [link: https://alien-project.org]
 (Text already in #4th_issue channel - Add to github as MD) [YM] (Tag as art)
 
 Paper/Blog Suggestion
-Gautier HAMON, INRIA FLOWERS (Blog/Paper Suggestion) Learning Sensorimotor Agency in Cellular Automata,https://developmentalsystems.org/sensorimotor-lenia/
-(Text already in #4th issue channel - Add to github as MD) [CA]
+
+
 Luis Zaman will contribute a summary of this to the next issue:
 https://twitter.com/LuisZaman/status/1495251969094602755?t=vWoC0E0_AcBRkNYh3IgnRA&s=19 [CA]
 OfSwamp (Andrew Walpole): (Video Sharing) https://twitter.com/walpolea/status/1501351405080088576?t=lV4iRECuxJneIrYXGh7gBA&s=09 [CA]
@@ -20,7 +20,7 @@ HRI [IK]
 Fiction Science results [LS]
 
 Deadlines:
-Submission deadlines: 
-Virtual Creatures Competition, 
+Submission deadlines:
+Virtual Creatures Competition,
 “Animals to Animats” - ​​https://sab2022.sciencesconf.org/resource/page/id/5 (May 9th)
 Alife Workshops - https://www.2022.alife.org/copy-of-special-sessions -- check each workshop for its deadline
