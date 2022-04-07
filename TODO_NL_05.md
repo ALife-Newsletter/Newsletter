@@ -12,7 +12,7 @@ OfSwamp (Andrew Walpole): (Video Sharing) https://twitter.com/walpolea/status/15
 Media Reviews:
 Cybernetics (Norbert Wiener) [IK]
 Thomas Varley  -- 500 page textbook on game of life - https://twitter.com/ThosVarley/status/1502335952563408900?t=0x2i6J_ZSAlx9au7Y-WF0A&s=09
-Picture A Scientist (Documentary) - Aalok Varma
+Picture A Scientist (Documentary) - Aalok Varma [LS]
 
 Conference Reviews:
 Embodied Intelligence [IK] ?
