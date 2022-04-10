@@ -7,7 +7,7 @@ If you're unfamiliar with Dave Ackley's Movable Feast Machine (MFM), it's a radi
 
 Most notably, the bug that really bit me was the idea that in a robust-first environment, we will need to lean into living-systems concepts – regeneration, organic growth, reproduction, systems-thinking – in order to build software that can resiliently compute within a hostile digital environment. And while I can’t say there is too much useful computing going on as of yet, exploring lower-level living-systems concepts is unlocking ideas. Here are a few of those elemental explorations.
 
-## Directionals
+**Directionals**
 
 Directionals are the name I’ve given to grid travelers that use a sense of understanding directional heading, allowing for the ability to turn left or right or reverse on the grid. Here are a few: Fly, Mosquito, Bird and Wanderer.
 
@@ -15,7 +15,7 @@ Directionals are the name I’ve given to grid travelers that use a sense of und
 
 [VIEW DIRECTIONAL DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=FLY&atoms=FLY-15x11-15x46-38x33,MOSQUITO-58x15-58x56-70x31-71x53-85x17,BIRD-99x23-120x11,WANDERER-113x51-113x52-113x53-114x51-114x52-114x53-115x51-115x52-115x53)
 
-## Directors
+**Directors**
 
 Directors, which can influence the heading of any Directional show how we might create spatial structures that lead a computational workflow.
 
@@ -23,7 +23,7 @@ Directors, which can influence the heading of any Directional show how we might 
 
 [VIEW DIRECTOR DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=WANDERER&atoms=DIRECTOR%20S-40x21-40x23-40x27-40x29-40x33-41x18-42x16-44x15,DIRECTOR%20E-41x35-42x37-44x39-46x39-47x39-50x39-54x39-57x39-61x39-65x39,WANDERER-43x23-44x18-44x30-46x35-52x37-53x16-59x38-60x16-66x37-68x17-69x26-69x34,DIRECTOR%20W-49x14-52x14-56x14-60x14-64x14-67x14-69x15-71x16-71x19,DIRECTOR%20N-68x39-70x37-71x22-71x25-71x29-71x32-71x35)
 
-## Looper
+**Looper**
 
 Looper is really a culmination of both concepts, a Directional itself, it loops around leaving a trail of goop and Directors that traps any unsuspecting nearby Directional.
 
@@ -31,7 +31,7 @@ Looper is really a culmination of both concepts, a Directional itself, it loops 
 
 [VIEW LOOPER DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=MOSQUITO&atoms=MOSQUITO-28x30-28x31-28x32-28x33-29x30-29x31-29x32-29x33-30x30-30x31-30x32-30x33-31x30-31x31-31x32-31x33,LOOPER-92x32)
 
-## OfSwamp
+**OfSwamp**
 
 OfSwamp has a Cell-like composure, but it came aobut as an exploration of Environments and Systems. Swampling will loop around and set up a Swamp environment where all OfSwamp types can freely traverse within, while non-swampkind have a much tougher time intruding. I had approached cell building in the past, but through the lens of an environment the concepts used to put this together ended up being very different.
 
@@ -39,7 +39,7 @@ OfSwamp has a Cell-like composure, but it came aobut as an exploration of Enviro
 
 [VIEW OFSWAMP DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=EMPTY&atoms=MOSQUITO-9x31-16x14-21x48-37x55-55x33-69x19-84x30-92x47-109x55-120x31,SWAMPLING-31x26-33x25-33x28-64x43-65x42-95x25)
 
-## ForkBomb
+**ForkBomb**
 
 ForkBomb is sort of the infinite loop of the MFM grid, unabashedly consuming everything in its endless wake.
 
@@ -47,7 +47,7 @@ ForkBomb is sort of the infinite loop of the MFM grid, unabashedly consuming eve
 
 [VIEW FORKBOMB DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=FORKBOMB&atoms=FORKBOMB-64x32)
 
-## AntiForkBomb and Sentry
+**AntiForkBomb and Sentry**
 
 But Sentry, who spits out AntiForkBomb, can easily put a stop to this menace.
 
@@ -55,7 +55,7 @@ But Sentry, who spits out AntiForkBomb, can easily put a stop to this menace.
 
 [VIEW ANTIFORKBOMB DEMO](https://mfm.rocks/?size=128,64&speed=1&selected=FORKBOMB&atoms=FORKBOMB-22x31,SENTRY-118x30-121x22-123x38)
 
-## Living Wall
+**Living Wall**
 
 While some structures that are less robust easily get wiped out by ForkBomb, a Living Wall structure knows how to heal itself a bit as long as there are a few Sentry to keep it from getting entirely overridden.
 
