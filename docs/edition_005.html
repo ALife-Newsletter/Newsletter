@@ -48,7 +48,16 @@
 <ul>
 <li><a href="#alife-art-project-alien">Alife Art: Project ALIEN</a></li>
 <li><a href="#twitter-thread-highlight">Twitter Thread highlight:</a></li>
-<li><a href="#project-highlight-mfm-rocks">Project Highlight: MFM Rocks</a></li>
+<li><a href="#project-highlight-mfmrocks">Project Highlight: MFM.rocks</a><ul>
+<li><a href="#directionals">Directionals</a></li>
+<li><a href="#directors">Directors</a></li>
+<li><a href="#looper">Looper</a></li>
+<li><a href="#ofswamp">OfSwamp</a></li>
+<li><a href="#forkbomb">ForkBomb</a></li>
+<li><a href="#antiforkbomb-and-sentry">AntiForkBomb and Sentry</a></li>
+<li><a href="#living-wall">Living Wall</a></li>
+</ul>
+</li>
 <li><a href="#media-review-cybernetics">Media Review: Cybernetics</a></li>
 <li><a href="#media-review">Media Review:</a></li>
 <li><a href="#media-review-picture-a-scientist-documentary">Media Review: "Picture A Scientist" documentary</a></li>
@@ -71,9 +80,40 @@
 <p>An objective of this project is to encourage experimentation with worlds full of wonders that keep surprising the observers. ALIEN is powered by an own physics and rendering engine written in CUDA and thus requires an Nvidia graphics card.</p>
 <h1 id="twitter-thread-highlight">Twitter Thread highlight:</h1>
 <p>Luiz Zaman's <a href="https://twitter.com/LuisZaman/status/1495251969094602755?t=vWoC0E0_AcBRkNYh3IgnRA&amp;s=19">Twitter Thread</a></p>
-<h1 id="project-highlight-mfm-rocks">Project Highlight: MFM Rocks</h1>
-<p>(Reached out to Andrew)</p>
-<p>https://twitter.com/walpolea/status/1501351405080088576?t=lV4iRECuxJneIrYXGh7gBA&amp;s=09</p>
+<h1 id="project-highlight-mfmrocks">Project Highlight: MFM.rocks</h1>
+<p><em>Contributed by <a href="https://twitter.com/walpolea">Andrew Walpole</a></em></p>
+<p>If you're unfamiliar with Dave Ackley's Movable Feast Machine (MFM), it's a radically different architecture; an entirely new computational stack of hardware and software. An indefinitely-scalable, non-deterministic, tiled grid system meant to free itself from the fragility and constraints of a centralized computational model. (You can learn more about Dr. Ackley's system via <a href="https://t2tile.com/">the T2 Tile Project</a>, where over the last 3+ years he has video-documented his journey of building a hardware-based indefinitely scalable MFM grid.)</p>
+<p><a href="https://mfm.rocks">Mfm.rocks</a> is my playground of sorts; an exploratorium for this uncharted computational model. Not quite having the confidence or know-how to dive into Dr. Ackley’s platform directly, the underlying mfm-js library was born out of an insatiable yearn to explore MFM concepts first-hand. And recently I’ve completely rewritten the <a href="https://github.com/walpolea/mfm-js">library (mfm-js 2.0)</a> to be substantially more performant, allowing for bigger grids and more play!</p>
+<p>Most notably, the bug that really bit me was the idea that in a robust-first environment, we will need to lean into living-systems concepts – regeneration, organic growth, reproduction, systems-thinking – in order to build software that can resiliently compute within a hostile digital environment. And while I can’t say there is too much useful computing going on as of yet, exploring lower-level living-systems concepts is unlocking ideas. Here are a few of those elemental explorations.</p>
+<h2 id="directionals">Directionals</h2>
+<p>Directionals are the name I’ve given to grid travelers that use a sense of understanding directional heading, allowing for the ability to turn left or right or reverse on the grid. Here are a few: Fly, Mosquito, Bird and Wanderer.</p>
+<p><img alt="Directionals" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directionals.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FLY&amp;atoms=FLY-15x11-15x46-38x33,MOSQUITO-58x15-58x56-70x31-71x53-85x17,BIRD-99x23-120x11,WANDERER-113x51-113x52-113x53-114x51-114x52-114x53-115x51-115x52-115x53">VIEW DIRECTIONAL DEMO</a></p>
+<h2 id="directors">Directors</h2>
+<p>Directors, which can influence the heading of any Directional show how we might create spatial structures that lead a computational workflow.</p>
+<p><img alt="Directors" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directors.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=WANDERER&amp;atoms=DIRECTOR%20S-40x21-40x23-40x27-40x29-40x33-41x18-42x16-44x15,DIRECTOR%20E-41x35-42x37-44x39-46x39-47x39-50x39-54x39-57x39-61x39-65x39,WANDERER-43x23-44x18-44x30-46x35-52x37-53x16-59x38-60x16-66x37-68x17-69x26-69x34,DIRECTOR%20W-49x14-52x14-56x14-60x14-64x14-67x14-69x15-71x16-71x19,DIRECTOR%20N-68x39-70x37-71x22-71x25-71x29-71x32-71x35">VIEW DIRECTOR DEMO</a></p>
+<h2 id="looper">Looper</h2>
+<p>Looper is really a culmination of both concepts, a Directional itself, it loops around leaving a trail of goop and Directors that traps any unsuspecting nearby Directional.</p>
+<p><img alt="Looper" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_looper.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=MOSQUITO&amp;atoms=MOSQUITO-28x30-28x31-28x32-28x33-29x30-29x31-29x32-29x33-30x30-30x31-30x32-30x33-31x30-31x31-31x32-31x33,LOOPER-92x32">VIEW LOOPER DEMO</a></p>
+<h2 id="ofswamp">OfSwamp</h2>
+<p>OfSwamp has a Cell-like composure, but it came aobut as an exploration of Environments and Systems. Swampling will loop around and set up a Swamp environment where all OfSwamp types can freely traverse within, while non-swampkind have a much tougher time intruding. I had approached cell building in the past, but through the lens of an environment the concepts used to put this together ended up being very different.</p>
+<p><img alt="OfSwamp" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_ofswamp.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=EMPTY&amp;atoms=MOSQUITO-9x31-16x14-21x48-37x55-55x33-69x19-84x30-92x47-109x55-120x31,SWAMPLING-31x26-33x25-33x28-64x43-65x42-95x25">VIEW OFSWAMP DEMO</a></p>
+<h2 id="forkbomb">ForkBomb</h2>
+<p>ForkBomb is sort of the infinite loop of the MFM grid, unabashedly consuming everything in its endless wake.</p>
+<p><img alt="ForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_forkbomb.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-64x32">VIEW FORKBOMB DEMO</a></p>
+<h2 id="antiforkbomb-and-sentry">AntiForkBomb and Sentry</h2>
+<p>But Sentry, who spits out AntiForkBomb, can easily put a stop to this menace.</p>
+<p><img alt="AntiForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_antiforkbomb.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,SENTRY-118x30-121x22-123x38">VIEW ANTIFORKBOMB DEMO</a></p>
+<h2 id="living-wall">Living Wall</h2>
+<p>While some structures that are less robust easily get wiped out by ForkBomb, a Living Wall structure knows how to heal itself a bit as long as there are a few Sentry to keep it from getting entirely overridden.</p>
+<p><img alt="Living Wall" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_livingwall.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,LIVING%20WALL-67x19-67x20-67x21-67x22-67x23-67x24-67x25-67x26-67x27-68x18-68x19-68x20-68x21-68x22-68x23-68x24-68x25-68x26-68x27-68x28-69x17-69x18-69x19-69x20-69x21-69x22-69x23-69x24-69x25-69x26-69x27-69x28-69x29-70x16-70x17-70x18-70x19-70x20-70x21-70x22-70x26-70x27-70x28-70x29-71x16-71x17-71x18-71x19-71x20-71x27-71x28-71x29-72x16-72x17-72x18-72x19-72x27-72x28-72x29-73x16-73x17-73x18-73x19-73x27-73x28-73x29-74x16-74x17-74x18-74x19-74x27-74x28-74x29-75x16-75x17-75x18-75x19-75x26-75x27-75x28-75x29-76x16-76x17-76x18-76x19-76x20-76x21-76x26-76x27-76x28-76x29-77x17-77x18-77x19-77x20-77x21-77x22-77x23-77x24-77x25-77x26-77x27-77x28-78x18-78x19-78x20-78x21-78x22-78x23-78x24-78x25-78x26-78x27-78x28-79x20-79x21-79x22-79x23-79x24-79x25-79x26-79x27-80x21-80x22-80x23-80x24,SENTRY-72x22-74x21-74x24">VIEW LIVING WALL DEMO</a></p>
+<p>It’s only been a few months of working with mfm-js 2.0 and I’m only just getting started with this new set of living-systems experiments. I would like to explore more around regeneration, and building computational systems using specialized structures and elemental environments on the grid. There are also more elements and demos available over on the 1.0 version (most notably, SwapWorm and CellBrane) which is still available to check out at https://mfm.rocks/v1/ as well as the game, Dungeon Grid, I built on top of the mfm-js library https://mfm.rocks/v1/game/. The project is open source and I welcome anyone interested in building elements to jump in. If you have any questions you can find me, Andrew Walpole, on <a href="https://twitter.com/walpolea">twitter</a> or <a href="https://discord.gg/rBV6Y6sWNY">the T2 Tile Discord Server</a>!</p>
 <h1 id="media-review-cybernetics">Media Review: Cybernetics</h1>
 <p>Cybernetics (Norbert Wiener) [IK]</p>
 <h1 id="media-review">Media Review:</h1>
