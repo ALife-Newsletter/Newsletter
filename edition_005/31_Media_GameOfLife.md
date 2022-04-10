@@ -1,4 +1,4 @@
-# Media Review:
+# (TODO) Media Review:
 
 Thomas Varley -- 500 page textbook on game of life
 
