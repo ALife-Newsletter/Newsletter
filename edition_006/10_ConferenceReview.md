@@ -1,5 +1,8 @@
-# ALOE Workshop Review
-By Kevin Frans (Crosslabs)
+# Review of the Agent Learning in Open-Endedness Workshop
+*By Kevin Frans (Crosslabs)*
 
-**TODO**: Claus
-https://kvfrans.com/notes-on-aloe/
+Open-endedness is the idea of a system that "endlessly creates increasingly interesting designs". That's a simple concept with big implications, especially for those of us interested in AI and the emergence of intelligence. Because even with powerful learning algorithms, intelligence is one of those tricky things that's hard and complicated to specify. But that's the beauty of open-ended systems: they can generate unexpected designs, designs that go beyond the intention of the designer. And so even if intelligence is hard to create, it might be possible to create a system where intelligence naturally emerges. This weekend, a bunch of us thinking about how open-endedness can boost AI gathered at the Agent Learning in Open-Endedness (ALOE) workshop at ICLR.
+
+Many projects were presented, mainly centering around the question of "how can we generate training tasks that are rich, learnable, yet increasingly complex?". XLand aims to create an open-ended set of tasks by 1) defining a distribution of games, and 2) making them all multi-agent. The key lesson is that XLand tasks are so varied and dense that agents have no choice but to generalize. Sam Earle presented work on procedural content generation, showing that AI models could be used as level generators, resulting in a competitive game between AI players and AI designers. PAIRED, presented by Natasha Jaques, examines the game theory of this framework, and shows that a strong training curriculum can arise from a game between a designer, an antagonist, and a protagonist. The designer tries to propose tasks which the antagonist can solve, but the protagonist cannot, a metric which empirically corresponds to tasks just on the learning boundary. Finally, Julius Togelius argued that our classic framework of "agents interacting with an environment" is too limiting, and we should explore new ground.
+
+For more detailed notes, check out the [full blog post](https://kvfrans.com/notes-on-aloe/)
