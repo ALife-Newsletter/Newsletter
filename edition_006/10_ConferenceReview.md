@@ -1,5 +1,5 @@
 # Review of the Agent Learning in Open-Endedness Workshop
-*By Kevin Frans (Crosslabs)*
+*By [Kevin Frans](https://twitter.com/kvfrans)*
 
 Open-endedness is the idea of a system that "endlessly creates increasingly interesting designs". That's a simple concept with big implications, especially for those of us interested in AI and the emergence of intelligence. Because even with powerful learning algorithms, intelligence is one of those tricky things that's hard and complicated to specify. But that's the beauty of open-ended systems: they can generate unexpected designs, designs that go beyond the intention of the designer. And so even if intelligence is hard to create, it might be possible to create a system where intelligence naturally emerges. This weekend, a bunch of us thinking about how open-endedness can boost AI gathered at the Agent Learning in Open-Endedness (ALOE) workshop at ICLR.
 
