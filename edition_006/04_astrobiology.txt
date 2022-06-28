@@ -1,0 +1,6 @@
+# Summary of "Asymptotic burnout and homeostatic awakening: a possible solution to the Fermi paradox?"
+*By the authors, Michael L. Wong and Stuart Bartlett*
+
+In this paper, we explore the potential connections between the emergence of cities and globally connected technological civilizations and the Fermi Paradox. With this perspective, we explore the hypothesis that planetary civilizations may inevitably face a self-induced catastrophe that we call “asymptotic burnout” caused by their underlying social dynamics that drive the superlinear scaling of key metrics, including total energy consumption. Civilizations that develop the capability to understand their own trajectory will have a window of time to affect a fundamental change to prioritize long-term homeostasis over unyielding growth, avoiding burnout via a consciously induced trajectory change that we call “homeostatic awakening.” We propose that the longstanding Fermi paradox may be explained by the inevitability of civilizations to either collapse from burnout or redirect themselves to prioritizing homeostasis, a state where cosmic expansion is no longer a goal, making them difficult to detect remotely.
+
+For more details, check out the paper at https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0029
