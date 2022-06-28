@@ -1,4 +1,4 @@
-# Origins of Life Course (by Complexity Explorer) Review
+# Course Review: Origins of Life (by Complexity Explorer) 
 _By [Imy Khan](http://twitter.com/imy_tk)_
 
 For a couple of years now, I have sought to improve my understanding of the fields of origins of life and astrobiology, as well as refresh (and/or improve) my working knowledge of physics and chemistry as they relate to living systems. This desire was both a personal one (I think origins of life and astrobiology as research areas are just cool) as well as “professional”, given the overlap between those fields and Artificial Life. 
