@@ -1,6 +1,5 @@
-# ALife Papers
-
-# Evolutionary transition from a single RNA replicator to a multiple replicator network
+# ALife Paper Review
+**"Evolutionary transition from a single RNA replicator to a multiple replicator network"**
 
 by [Mituyoshi Yamazaki](https://twitter.com/vespid)
 
@@ -20,7 +19,7 @@ How to build a simple model that meets these conditions?
 
 In Spiegelmann's previous study, self-replicating RNA was evolved by feeding it raw material and an RNA-replicating enzyme to replicate it, and repeating the same procedure for the next generation. As a result, RNA converged on the shortest gene that has a trait with high replication efficiency. 
 
-**Cause of convergence:**
+*Cause of convergence:*
 - The selection pressure of RNA did not change because only RNA was passed in each procedure and the same type of RNA replication enzyme was added.
 - The information encoded by RNA was meaningless (the genetic information encoding the protein was included but not used for replication procedure)
     - The susceptibility to replication depended only on the physical properties of RNA and the replication enzyme.
@@ -40,18 +39,18 @@ At this point, the parasite had already developed, but it was suppressed to not 
 There is room for parasites to occur in this system (parasites seem to almost always appear) because there are vulnerabilities in the replication process that can be used by others. In this system, RNA does not replicate by itself, but has a structure that allows an RNA replication enzyme to replicate itself. RNA with a sequence ★ recognized by the replication enzyme as the replication target is replicated. The parasite is RNA of sequence ★ that lacks a gene that encodes a replicating enzyme, and because of this missing gene, the parasite's sequence is shorter and therefore it has a faster replication rate than that of the host RNA.
 
 
-# Impressions
+## Impressions
 
-## Specifications of the system that produces parasites
+### Specifications of the system that produces parasites
 
 This does not depend on the specific implementation target, so it can be installed in any kind of system including software simulators. In particular, Professor Ikegami's Machines and Tapes system seems to be easy to embed because the model structure is similar.
 
-## Multi-phased self-replication process
+### Multi-phased self-replication process
 
 The multi-phased process automatically removes the difficulty of self-referencing.
 
 
-## Explanation that evolved from RNA world to single cell
+### Explanation that evolved from RNA world to single cell
 
 This research / experiment is, as it is, an explanation of how the RNA world has evolved into a single cell.
 
