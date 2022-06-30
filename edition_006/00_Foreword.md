@@ -8,6 +8,6 @@ The Newsletter is distributed by email, and archived on the International Societ
 
 You can subscribe [here](https://forms.gle/QpQ68xhvSMt4wiv89).
 
-Contribute to any section of the next newsletter [here](https://forms.gle/jv7FdtdbWVTaTFGd9)!
+Contribute to any section of the next newsletter [here](https://forms.gle/jv7FdtdbWVTaTFGd9)! We are specially interested in Master and PhD students who want to talk about their own research.
 
 Lana, Imy, Mitsuyoshi, Claus and Katt.
