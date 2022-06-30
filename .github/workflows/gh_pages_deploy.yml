@@ -20,9 +20,10 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           cd $GITHUB_WORKSPACE
-      - name: Clean up
-        run: |
           git fetch          
+      - name: Clean up
+        continue-on-error: true
+        run: |
           git push origin :gh-pages
       - name: Checkout
         run: |
