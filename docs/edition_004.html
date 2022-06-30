@@ -3,13 +3,65 @@
 <title>Alife Newsletter</title>
 
 <style>
-  body { word-spacing:normal;background-color:#f4f4f4; }
+  body {
+         background-color:#f4f4f4;
 
-  p { color:#000000;font-family:Arial;font-size:13px; }
-  li { color:#000000;font-family:Arial;font-size:13px; }
+       }
 
-  h2 { margin-top: 10px; margin-bottom: 10px; font-weight: semi bold;font-family:Arial;font-size:15px; }
-  h1 { margin-top: 30px; margin-bottom: 10px; font-weight: bold;font-family:Arial;font-size:18px; }
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
   h1::before{
     content:'';
     position:relative;
@@ -27,6 +79,13 @@
 
 </head>
 <body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
 
 <h1 id="a-word-from-the-team">A word from the team</h1>
 <p>For this 4th issue, we are glad to welcome a new member to the ALife Newsletter team: a warm welcome to Katt Walker!</p>
@@ -183,5 +242,9 @@ So overall, while not as mathematically or academically elegant as Lenia, I beli
 <p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan@gmail.com</p>
 </li>
 </ul>
+
+</div>
+<!-- class = "content" -->
+
 </body>
 </html>

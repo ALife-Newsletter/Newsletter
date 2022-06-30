@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A word from the team</h1>
+<p>Welcome to the 5th issue of the ALife Newsletter. We have been gaining some momentum over the last few issues, and we are glad to see so many of you enjoying and contributing to this newsletter!</p>
+<p>This edition is packed full of great content - from media and conference reviews, news from some recent competitions, and some more information about our upcoming podcast. Be sure to check it all out and let us know what you think.</p>
+<p>The Newsletter is distributed by email, and archived on the International Society for Artificial Life's website.</p>
+<p>You can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+<p>Contribute to any section of the next newsletter <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">here</a>!</p>
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+<div class="toc">
+<ul>
+<li><a href="#alife-art-project-alien">Alife Art: Project ALIEN</a></li>
+<li><a href="#project-highlight-fingerpainting-fitness-landscapes">Project Highlight: Fingerpainting Fitness Landscapes</a></li>
+<li><a href="#project-highlight-mfmrocks">Project Highlight: MFM.rocks</a></li>
+<li><a href="#competition-highlight-evocraft">Competition Highlight: Evocraft</a></li>
+<li><a href="#media-review-picture-a-scientist-documentary">Media Review: "Picture A Scientist" documentary</a></li>
+<li><a href="#conference-review-acmieee-hri-human-robot-interaction-conference-2022">Conference Review: ACM/IEEE HRI (Human-Robot Interaction) Conference 2022</a></li>
+<li><a href="#results-of-the-fiction-science-contest">Results of the Fiction Science Contest</a></li>
+<li><a href="#upcoming-deadlines">Upcoming Deadlines:</a></li>
+<li><a href="#alife-community-podcast-call-for-questions">ALife Community Podcast: Call for Questions</a></li>
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+</ul>
+</div>
+
+<h1 id="alife-art-project-alien">Alife Art: Project ALIEN</h1>
+<p><em>Contributed by Christian Heinemann</em></p>
+<p><a href="https://alien-project.org">ALIEN</a> is an open-source artificial life project which aims to bring together particle-based simulations for soft bodies with a programming model for distributed systems. In this context, agents are networks of connected particles, where the nodes possess capabilities that could be attributed to robotic or biological components: sensors, muscles, computational units and much more. The communication inside a particle network is performed by signals consisting of stateful and transient entities. They facilitate more complex behavior patterns such as food seeking, self-replication, controlled movements, attacking and digestion of resources, swarming behavior, etc. to be implemented in the networks. The simulator comes along with various examples ranging from pure mechanical to evolution simulations to play with. Own particle machines can be constructed with the built-in graph editing and programming environment. For instance, a self-replicating machine provided with enough resources could work as follows:</p>
+<p><img alt="Self Replication" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_selfreplication.png" /></p>
+<p>From left to right: a possible replication cycle of a particle machine The replication process for this machine takes place in such a way that, starting from a center node, its own network structure is scanned and reconstructed in a spiral sequence. By injecting such a machine equipped with a functioning metabolism into a pristine world exposed to mutations, evolution simulations can be conducted. If desired, the user of the program can merely act as an observer and adjust some simulation parameters from time to time.</p>
+<p><img alt="User Interface" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_ui.png" /></p>
+<p>The color of a particle has become more importance in recent updates. There are several color flavors available, and they can play a crucial role in the sensoring and digesting functions depending on the simulation setting. In this long-term diagram taken from the built-in simulation monitor, for instance, one can see how populations of replicators with different colors have gained the predominance at different time epochs.</p>
+<p><img alt="Statistics" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_statistics.png" /></p>
+<p>An objective of this project is to encourage experimentation with worlds full of wonders that keep surprising the observers. ALIEN is powered by an own physics and rendering engine written in CUDA and thus requires an Nvidia graphics card.</p>
+<h1 id="project-highlight-fingerpainting-fitness-landscapes">Project Highlight: Fingerpainting Fitness Landscapes</h1>
+<p><em>Contributed by <a href="https://twitter.com/LuisZaman">Luis Zaman</a>, <a href="https://twitter.com/LuisZaman/status/1495251969094602755?t=vWoC0E0_AcBRkNYh3IgnRA&amp;s=19">Original Twitter Thread</a></em></p>
+<p>While I was a graduate student, I had a bit of fun one weekend and made a touch screen simulation to play with fitness landscapes. @RELenski, @CharlesOfria, and I wrote about this tool back in 2012. <a href="https://zeeelab.github.io/FingerpaintingFitnessLandscapes.js/">Now a version lives online</a>!</p>
+<p><img alt="Fingerpainting Opening" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_00.jpg" /></p>
+<p>You can watch a population evolve in your browser! Here, we're watching the population neutrally move around the fitness landscape. Note how correlations in the fitness landscape emerge from coalescing lineages.</p>
+<p><img alt="Random Walk Animation" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_01.gif" /></p>
+<p>By painting in the canvas, you can create regions of higher fitness and watch as the population climbs new peaks.</p>
+<p><img alt="Fingerpainting Animation" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_02.gif" /></p>
+<p>You can "poke" the population by erasing regions of high fitness, and watch as individuals seemingly scurry to find high fitness regions!</p>
+<p><img alt="Poking the Population" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_03.gif" /></p>
+<p>We can see what happens if fitness is density dependent, where organisms depress the fitness landscape locally. This is depicted (and mechanistically implemented) by lightening the fitness landscape around each individual.</p>
+<p><img alt="Density Fitness" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_04.gif" /></p>
+<p>Sexual recombination is a great way to increase variation, but it can also collapse diversity where hybrid organisms "fall off" high fitness regions. We can see that directly in cute fitness landscapes!</p>
+<p><img alt="Sexual Reproduction" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_05.gif" /></p>
+<p>And one of my favorite fitness landscape phenomenon, survival of the flattest at high mutation rates, is easy to recreate! We can see the population favor the large but less fit region as we crank up the mutation rate.</p>
+<p><img alt="Survival of the Flattest" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_06.gif" /></p>
+<p>I hope to keep adding to this (e.g., coevolution!), but please let me know if you have ideas. I'm certainly planning a few lessons in my classes using this, but would love to hear if others are interested!</p>
+<p>(Addendum: <a href="https://zeeelab.github.io/FingerpaintingFitnessLandscapes.js/coevolution.html">Co-evolution has been added!</a>)</p>
+<h1 id="project-highlight-mfmrocks">Project Highlight: MFM.rocks</h1>
+<p><em>Contributed by <a href="https://twitter.com/walpolea">Andrew Walpole</a></em></p>
+<p>If you're unfamiliar with Dave Ackley's Movable Feast Machine (MFM), it's a radically different architecture; an entirely new computational stack of hardware and software. An indefinitely-scalable, non-deterministic, tiled grid system meant to free itself from the fragility and constraints of a centralized computational model. (You can learn more about Dr. Ackley's system via <a href="https://t2tile.com/">the T2 Tile Project</a>, where over the last 3+ years he has video-documented his journey of building a hardware-based indefinitely scalable MFM grid.)</p>
+<p><a href="https://mfm.rocks">Mfm.rocks</a> is my playground of sorts; an exploratorium for this uncharted computational model. Not quite having the confidence or know-how to dive into Dr. Ackley’s platform directly, the underlying mfm-js library was born out of an insatiable yearn to explore MFM concepts first-hand. And recently I’ve completely rewritten the <a href="https://github.com/walpolea/mfm-js">library (mfm-js 2.0)</a> to be substantially more performant, allowing for bigger grids and more play!</p>
+<p>Most notably, the bug that really bit me was the idea that in a robust-first environment, we will need to lean into living-systems concepts – regeneration, organic growth, reproduction, systems-thinking – in order to build software that can resiliently compute within a hostile digital environment. And while I can’t say there is too much useful computing going on as of yet, exploring lower-level living-systems concepts is unlocking ideas. Here are a few of those elemental explorations.</p>
+<p><strong>Directionals</strong></p>
+<p>Directionals are the name I’ve given to grid travelers that use a sense of understanding directional heading, allowing for the ability to turn left or right or reverse on the grid. Here are a few: Fly, Mosquito, Bird and Wanderer.</p>
+<p><img alt="Directionals" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directionals.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FLY&amp;atoms=FLY-15x11-15x46-38x33,MOSQUITO-58x15-58x56-70x31-71x53-85x17,BIRD-99x23-120x11,WANDERER-113x51-113x52-113x53-114x51-114x52-114x53-115x51-115x52-115x53">VIEW DIRECTIONAL DEMO</a></p>
+<p><strong>Directors</strong></p>
+<p>Directors, which can influence the heading of any Directional show how we might create spatial structures that lead a computational workflow.</p>
+<p><img alt="Directors" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directors.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=WANDERER&amp;atoms=DIRECTOR%20S-40x21-40x23-40x27-40x29-40x33-41x18-42x16-44x15,DIRECTOR%20E-41x35-42x37-44x39-46x39-47x39-50x39-54x39-57x39-61x39-65x39,WANDERER-43x23-44x18-44x30-46x35-52x37-53x16-59x38-60x16-66x37-68x17-69x26-69x34,DIRECTOR%20W-49x14-52x14-56x14-60x14-64x14-67x14-69x15-71x16-71x19,DIRECTOR%20N-68x39-70x37-71x22-71x25-71x29-71x32-71x35">VIEW DIRECTOR DEMO</a></p>
+<p><strong>Looper</strong></p>
+<p>Looper is really a culmination of both concepts, a Directional itself, it loops around leaving a trail of goop and Directors that traps any unsuspecting nearby Directional.</p>
+<p><img alt="Looper" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_looper.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=MOSQUITO&amp;atoms=MOSQUITO-28x30-28x31-28x32-28x33-29x30-29x31-29x32-29x33-30x30-30x31-30x32-30x33-31x30-31x31-31x32-31x33,LOOPER-92x32">VIEW LOOPER DEMO</a></p>
+<p><strong>OfSwamp</strong></p>
+<p>OfSwamp has a Cell-like composure, but it came aobut as an exploration of Environments and Systems. Swampling will loop around and set up a Swamp environment where all OfSwamp types can freely traverse within, while non-swampkind have a much tougher time intruding. I had approached cell building in the past, but through the lens of an environment the concepts used to put this together ended up being very different.</p>
+<p><img alt="OfSwamp" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_ofswamp.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=EMPTY&amp;atoms=MOSQUITO-9x31-16x14-21x48-37x55-55x33-69x19-84x30-92x47-109x55-120x31,SWAMPLING-31x26-33x25-33x28-64x43-65x42-95x25">VIEW OFSWAMP DEMO</a></p>
+<p><strong>ForkBomb</strong></p>
+<p>ForkBomb is sort of the infinite loop of the MFM grid, unabashedly consuming everything in its endless wake.</p>
+<p><img alt="ForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_forkbomb.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-64x32">VIEW FORKBOMB DEMO</a></p>
+<p><strong>AntiForkBomb and Sentry</strong></p>
+<p>But Sentry, who spits out AntiForkBomb, can easily put a stop to this menace.</p>
+<p><img alt="AntiForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_antiforkbomb.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,SENTRY-118x30-121x22-123x38">VIEW ANTIFORKBOMB DEMO</a></p>
+<p><strong>Living Wall</strong></p>
+<p>While some structures that are less robust easily get wiped out by ForkBomb, a Living Wall structure knows how to heal itself a bit as long as there are a few Sentry to keep it from getting entirely overridden.</p>
+<p><img alt="Living Wall" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_livingwall.png" /></p>
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,LIVING%20WALL-67x19-67x20-67x21-67x22-67x23-67x24-67x25-67x26-67x27-68x18-68x19-68x20-68x21-68x22-68x23-68x24-68x25-68x26-68x27-68x28-69x17-69x18-69x19-69x20-69x21-69x22-69x23-69x24-69x25-69x26-69x27-69x28-69x29-70x16-70x17-70x18-70x19-70x20-70x21-70x22-70x26-70x27-70x28-70x29-71x16-71x17-71x18-71x19-71x20-71x27-71x28-71x29-72x16-72x17-72x18-72x19-72x27-72x28-72x29-73x16-73x17-73x18-73x19-73x27-73x28-73x29-74x16-74x17-74x18-74x19-74x27-74x28-74x29-75x16-75x17-75x18-75x19-75x26-75x27-75x28-75x29-76x16-76x17-76x18-76x19-76x20-76x21-76x26-76x27-76x28-76x29-77x17-77x18-77x19-77x20-77x21-77x22-77x23-77x24-77x25-77x26-77x27-77x28-78x18-78x19-78x20-78x21-78x22-78x23-78x24-78x25-78x26-78x27-78x28-79x20-79x21-79x22-79x23-79x24-79x25-79x26-79x27-80x21-80x22-80x23-80x24,SENTRY-72x22-74x21-74x24">VIEW LIVING WALL DEMO</a></p>
+<p>It’s only been a few months of working with mfm-js 2.0 and I’m only just getting started with this new set of living-systems experiments. I would like to explore more around regeneration, and building computational systems using specialized structures and elemental environments on the grid. There are also more elements and demos available over on the 1.0 version (most notably, SwapWorm and CellBrane) which is still available to check out at https://mfm.rocks/v1/ as well as the game, Dungeon Grid, I built on top of the mfm-js library https://mfm.rocks/v1/game/. The project is open source and I welcome anyone interested in building elements to jump in. If you have any questions you can find me, Andrew Walpole, on <a href="https://twitter.com/walpolea">twitter</a> or <a href="https://discord.gg/rBV6Y6sWNY">the T2 Tile Discord Server</a>!</p>
+<h1 id="competition-highlight-evocraft">Competition Highlight: Evocraft</h1>
+<p><em>Contributed by <a href="https://twitter.com/enasmel">Elias Najarro</a></em></p>
+<p>The purpose of this contest on open-endedness is to highlight the progress in algorithms that can create novel and increasingly complex artefacts. While most experiments in open-ended evolution have so far focused on simple toy domains, we believe Minecraft -with its almost unlimited possibilities- is the <a href="https://arxiv.org/abs/2012.04751">perfect environment</a> to study and compare such approaches. While other popular Minecraft competitions, like MineRL, have an agent-centric focus, in this competition the goal is to directly evolve Minecraft builds.</p>
+<p>To facilitate the development of submissions, we provide the <a href="https://github.com/real-itu/Evocraft-py">EvoCraft API</a>: a python interface to Minecraft. EvoCraft is implemented as a mod for Minecraft that allows clients to manipulate blocks in a running Minecraft server programmatically through an API. The framework is specifically developed to facilitate experiments in artificial evolution. The competition framework also supports the recently added "redstone" circuit components in Minecraft, which allowed players to build amazing functional structures, such as bridge builders, battle robots, or even complete CPUs. Can an open-ended algorithm running in Minecraft discover similarly complex artefacts automatically? If you have an API feature that you would like to use that is currently missing, feel free to open an issue on the <a href="https://github.com/real-itu/Evocraft-py">GitHub repo</a>.</p>
+<p>If you want to get familiar with the notion of open-ended algorithms, this is a good starting point: <a href="https://www.oreilly.com/radar/open-endedness-the-last-grand-challenge-youve-never-heard-of/">Open-endedness: The last grand challenge you’ve never heard of</a>. </p>
+<h1 id="media-review-picture-a-scientist-documentary">Media Review: "Picture A Scientist" documentary</h1>
+<p>By Aalok Varma</p>
+<p><img alt="Poster for Picure a Scientist" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/picture-a-scientist02-1623430515095.jpg" />
+https://www.pictureascientist.com/</p>
+<p>It’s well-known nowadays that science is riddled with gender stereotyping and undermining the work of female scientists. So much so that when children are asked to draw a scientist, they mostly draw white men in white lab coats. Gender inequality in science has cost not only the women who couldn’t pursue their passion, but also the scientific endeavour as a whole. “Picture A Scientist” follows some trailblazing women who have not only suffered at the hands of inequality, but have also fought back against it.
+I would strongly recommend everyone watch this documentary for many reasons. First, it gives a voice to the women who have been either sexually or emotionally harassed by powerful men. Hearing some of the incidents is moving and is perhaps the best way to understand the ground reality of what it’s like to be a woman in science. Second, it provides statistics to appeal to our logical side. Data, after all, is the currency of scientific discourse, and is powerful enough to convince those who don’t want to rely on anecdotal evidence alone. For instance, Nancy Hopkins at MIT, who was denied extra lab space while her junior male colleagues were given larger lab spaces, went about measuring everyone’s lab spaces and provided concrete data to the administration to prove that there was, indeed, systemic gender inequality. It was only then that the administration at MIT took the problem seriously and put in measures to reduce their inequality footprint.
+Lastly, I think the documentary provides new information even to those who may be aware of the problem and also its more insidious sides. For instance, I learnt about a psychological test (called the Implicit Association Test) that demonstrates that even those of us who are acutely aware of gender inequality and consciously put in efforts to combat it suffer from unconscious or implicit biases that contribute to the problem. It made me pause and think about how much more ground we have to cover before we really achieve parity, even if we are committed to the cause.
+All this might make you think that the documentary is depressing, which is partly true. However, it is also hopeful, because it showcases the solidarity people are showing in addressing the issue and bringing about lasting change. Do check it out. I think it would be a rewarding watch.</p>
+<p>"Picture A Scientist" is currently available for streaming on Netflix.</p>
+<h1 id="conference-review-acmieee-hri-human-robot-interaction-conference-2022">Conference Review: ACM/IEEE HRI (Human-Robot Interaction) Conference 2022</h1>
+<p><em>Contribution by Imy Khan <a href="https://twitter.com/imy_tk">(@imy_tk)</a></em></p>
+<p>The ACM/IEEE HRI (Human-Robot Interaction) Conference is an annual conference on, as the name suggests, all things related to human and robot interaction. Like ALife, HRI brings together a diverse set of researchers: from computer scientists, AI researchers, roboticists, engineers, psychologists, and behavioural and social scientists. As seems to be the way of many conferences at the moment, this year’s conference was run entirely online, originally moving from its intended location of Sapporo, Japan. This is the third time it has moved online, with next year’s conference hopefully being conducted in-person in Stockholm, Sweden. Here’s hoping…!</p>
+<p>The virtual conference itself was hosted using Hopin (www.hopin.com): a platform designed for hosting virtual events. This was my first experience using Hopin, with other conferences using platforms like Zoom, Gather.Town, and so on. Unfortunately, this experience was not a particularly good one. While the HRI conference is, traditionally busy, and attempts to pack in a lot of content over the course of the conference, there just seemed to be too much going on, and Hopin’s interface appeared to be quite clunky when navigating between sessions or finding key information. There were many “virtual stages”, running parallel workshops and special sessions along with an industry expo area, but no clear information on precisely what was happening in any of these stages. There was a persistent chat room embedded into the platform, too. While this seems like a good idea to have, it descended into researchers using it promote their workshops, special sessions, or their submissions, rather than a communal forum for discussion. Quite simply, this didn’t work, despite the fact that it probably should have (bring back IRC!). Overall, I don’t think Hopin was a particularly good platform to use, and it made engagement with some parts of the conference quite frustrating. This is, of course, my own personal opinion on the platform (not a reflection on the conference), and others may have really enjoyed the Hopin experience.</p>
+<p>Though the conference overall was excellent, with far too many exciting talks to summarise in a single review, the key highlight for me was in Dr. Friederike Eyssel’s keynote - <em>“What’s Social about Social Robots? A Psychological Perspective”</em>. She concluded this talk by talking about research practices in HRI in a post-COVID19 world: that we should recognise that some countries and researchers have bit hit more by (restrictions imposed by) COVID-19 than others and that we should remain sensitive to this when we evaluate their research productivity, research methods, and their outputs. Because of these (ongoing) restrictions, many researchers may not have access to the same tools, methods, or platforms (in this case, complex, autonomous robots), and we should re-evaluate the way that “robot” research is being conducted. This may be of particular interest to researchers in Artificial Life, as it means that the use of simulations or virtual agents may, once again, be valued in these fields where they have, over time, fallen out of favour or have not been granted the space over other methods. So for ALifers who may be interested in expanding their dissemination or research options, it is plausible that the HRI community may be looking for researchers like us to help them give a (semi-)fresh lens to their research.</p>
+<p>One interesting standout at this year’s conference was the number, and diversity, of social events on offer. These included virtual laboratory tours (via slides and videos, although a VR-component could have been very cool), a yoga session, a Dungeons &amp; Dragons one-shot campaign, a Judo workshop(!) and a karaoke night, where attendees were asked to partake in karaoke virtually. While I commend the idea, I did not attend that particular event, so I have no idea how well it would have transposed in a virtual setting. Nonetheless, I wanted to make mention of these social events as it is clear that many communities, like ours, are attempting to capture the social component of conferences; and are finding incredibly quirky and creative ways to go about it.</p>
+<p>One additional note is that the conference, as I believe it has done for a few years, also offers a “fee waiver” option for first-time attendees, students, or researchers from a selection of socio-economic backgrounds. While many conferences offer reduced/waived fees for the latter two, it was my first time seeing waived fees for first-time attendees. This is a great marketing tool for HRI: expanding the network and grabbing the attention of researchers who may, otherwise, not have been interested in attending, and who may find ways to contribute to the field in the future.</p>
+<p>Overall, HRI was a great conference despite the (poor) platform it was hosted on. While I don’t necessarily believe that it would be relevant to all ALifers, it seems like the research methods for HRI research could be swinging back in the direction of simulations and virtual agents. If HRI offer a “fee waiver” option next year (and a virtual option, too), I would encourage ALifers to take a look at attending - and perhaps even finding ways where your current work might fit into the world of human-robot interactions.</p>
+<h1 id="results-of-the-fiction-science-contest">Results of the Fiction Science Contest</h1>
+<p>by <a href="https://twitter.com/sina_lana">Lana Sinapayen</a></p>
+<p>When I first thought of doing the <a href="https://sites.google.com/view/fiction-science/home">Fiction Science Contest</a>, I knew what the goal would be. You know when your code is not running and you find 10 old, unrelated, and so far undetected bugs before solving the real issue? The real bug was only a useful pretext: if you look for problems, you will find them. I wanted to create an occasion for science to find undetected bugs in its commonly accepted assumptions. I had no idea of what topic to choose, but thankfully my biologist colleague was inspired and that is how we came with the idea of fictional viruses hopping from the biological to the artificial world and vice versa. I recruited the famous-but-anonymous neuro-blogger and twitter critic (Neuroskeptic)[https://twitter.com/Neuro_Skeptic] as a 3rd judge and we launched the contest.</p>
+<p>We received 11 entries, 1 of which was generated by an AI.
+A recurrent topic in many entries was mRNA sequencing. Our participants imagined ways to exploit vulnerabilities in the computers used to analyse data from viruses: as the most obvious entry point of outside information, sequencing was a prime candidate for malicious tinkering. But some entries also wondered if natural evolution could cause feedback loops between computers and biological organisms. And finally, some entries imagined less nefarious motives for cross-domain infection: research!</p>
+<p><a href="https://sites.google.com/view/fiction-science/archives">See the ranking and read the entries here.</a></p>
+<p>And let us know what you think: far fetched? Plausible? Threatening? Did any of them changed the way you think about a given phenomenon? And of course, if you publish your impressions (blog / twitter / paper...) or have your own story to submit, we'll be glad to add the link to this page. Contact fiction.for.science {at} gmail.com</p>
+<p>Finally, congratulations to the winners:</p>
+<ul>
+<li>
+<p>Romain from France for <a href="https://drive.google.com/file/d/1nmVUOpAYcmHb2pgbGvPK9DCVV1zh1zEk/view">"Bio-infection through computer virus heavily suspected"</a>, winner for Prompt 1: First Case of Biological Organism Infected by Computer Virus.  </p>
+</li>
+<li>
+<p>Claus ARANHA and Diego ARANHA (No relation) for <a href="https://drive.google.com/file/d/1iI4gfJmVAiIXGyMvY40lhXTOdjvhBC8L/view">"Nature finds a way"</a>, winner for Prompt 2: Computer Virus Nicknamed 'Akabake' Believed to Have Biological Origins. This submission got the highest score all categories.</p>
+</li>
+</ul>
+<h1 id="upcoming-deadlines">Upcoming Deadlines:</h1>
+<ul>
+<li><a href="https://www.2022.alife.org/copy-of-special-sessions">ALIFE Workshops</a> -- Check the deadline for each workshop</li>
+<li><a href="https://sab2022.sciencesconf.org/resource/page/id/5">Animals to Animats</a> -- May 9th</li>
+<li><a href="https://evocraft.life/">Open Ended Evolution Challenge at GECCO2022</a> -- June, 15th</li>
+<li><a href="https://virtualcreatures.github.io/">Virtual Creatures Competition</a> -- July, 1st</li>
+</ul>
+<h1 id="alife-community-podcast-call-for-questions">ALife Community Podcast: Call for Questions</h1>
+<p>We are happy to announce that we will be recording the first episode of the ALife Community Podcast in May. Our first guest is due to be the current president of the ISAL board, Dr. Charles Ofria. We are looking for questions from the community to put forth to Dr. Ofria. If there is anything you would like to ask him, please email imytkhan {at} gmail.com with the subject "ALife Podcast Questions", or send a DM on Twitter to <em>Contribution by Imy Khan <a href="https://twitter.com/imy_tk">(@imy_tk)</a></em>
+.</p>
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+<ul>
+<li>
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+</li>
+<li>
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+</li>
+<li>
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+</li>
+</ul>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>
