@@ -41,7 +41,7 @@ jobs:
         run: |
           git add .
           git commit -m 'Generated static html files'
-          git push
+          git push --set-upstream origin gh-pages
       - name: Teardown when the workflow failed
         if: failure() && steps.build_step.outcome == 'failure'
         run: |
