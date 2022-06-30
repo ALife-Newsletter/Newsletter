@@ -2,11 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ add-github-actions ]
+    branches: [ main ]
   workflow_dispatch:
 
 env:
-  BASE_BRANCH_NAME: add-github-actions
+  BASE_BRANCH_NAME: main
   HOSTING_BRANCH_NAME: gh-pages
   LOCAL_BRANCH_NAME: gh-pages-local
 
