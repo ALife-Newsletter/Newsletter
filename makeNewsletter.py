@@ -1,4 +1,5 @@
 import markdown
+from markdown.extensions.toc import TocExtension
 import os, shutil
 import re
 import argparse
@@ -42,7 +43,7 @@ if __name__ == "__main__":
                     text.append(f.read())
     bodytext = "\n".join(text)
 
-    md = markdown.Markdown(extensions=['toc'])
+    md = markdown.Markdown(extensions=[TocExtension(toc_depth=1)])
     htmlopen = md.convert(opening)
     md.reset()
     htmlbody = md.convert(bodytext)
