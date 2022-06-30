@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      # shellで $cd $GITHUB_WORKSPACE を行いmerge→github.tokenを用いてpushすればdevmasx/merge-branch@v1.3.1を使用せずに書けると思われる
+      # I think we can remove using devmasx/merge-branch, by doing: `$cd $GITHUB_WORKSPACE`, merge and push with github.token
       - uses: actions/checkout@v2
       - name: Deploy
         uses: devmasx/merge-branch@v1.3.1
@@ -22,9 +22,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: gh-pages
-      - run: python makeNewsletter.py
+      - run: python makeAllEditions.py
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4.2.0
         with:
-          commit_message: makeNewsletter.py
+          commit_message: makeAllEditions.py
           branch: gh-pages
