@@ -19,7 +19,11 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           git fetch
+          git checkout add-github-actions
+          git pull
           git checkout gh-pages
+          git pull
+          git merge add-github-actions
       - name: Build
         id: build_step
         run: |
@@ -30,6 +34,7 @@ jobs:
         run: |
           git add .
           git commit -m 'Generated static html files'
+          git push
       - name: Teardown when the workflow failed
         if: failure() && steps.build_step.outcome == 'failure'
         run: |
