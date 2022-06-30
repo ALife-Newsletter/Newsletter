@@ -2,8 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ add-github-actions ]
   workflow_dispatch:
+
+env:
+  BASE_BRANCH_NAME: add-github-actions
+  HOSTING_BRANCH_NAME: gh-pages
+  LOCAL_BRANCH_NAME: gh-pages-local
 
 jobs:
   Build-and-deploy:
@@ -22,16 +27,16 @@ jobs:
           cd $GITHUB_WORKSPACE
           git fetch          
       - name: Clean up
-        # It removes gh-pages branch on origin, to prevent git complains gh-pages and the base branch have unrelated histories and conflicts on merge (it should never happen. idk the reason)
+        # The reason why we don't use origin/gh-pages and just merge to it is, to prevent git complains gh-pages and the base branch have unrelated histories and conflicts on merge (it should never happen. idk why this happens)
         continue-on-error: true
         run: |
-          git push origin :gh-pages
+          git branch -d $LOCAL_BRANCH_NAME
       - name: Checkout
         run: |
           git fetch
-          git checkout main
+          git checkout $BASE_BRANCH_NAME
           git pull
-          git checkout -b gh-pages
+          git checkout -b $LOCAL_BRANCH_NAME
       - name: Build
         id: build_step
         run: |
@@ -42,7 +47,7 @@ jobs:
         run: |
           git add .
           git commit -m 'Generated static html files'
-          git push --set-upstream origin gh-pages
+          git push -f origin $LOCAL_BRANCH_NAME:$HOSTING_BRANCH_NAME
       - name: Teardown when the workflow failed
         if: failure() && steps.build_step.outcome == 'failure'
         run: |
