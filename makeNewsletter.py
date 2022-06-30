@@ -17,24 +17,24 @@ if sys.getdefaultencoding() is not "utf-8":
         print("changing encoding failed: {}".format(e))
 
 
-def makeNewsletter(targetEditionName):
-    if not os.path.isdir(targetEditionName):
-        raise ValueError("Can't find directory {}".format(targetEditionName))
+def make_newsletter(target_edition_name):
+    if not os.path.isdir(target_edition_name):
+        raise ValueError("Can't find directory {}".format(target_edition_name))
 
 
     # Part II -- generate the newsletter from the md files
     text = []
 
-    files = os.listdir(targetEditionName)
+    files = os.listdir(target_edition_name)
     files.sort()
 
     for filename in files:
         if filename.endswith(".md"):
             if filename.startswith("00"):
-                with open(os.path.join(targetEditionName, filename), "r") as f:
+                with open(os.path.join(target_edition_name, filename), "r") as f:
                     opening = f.read()
             else:
-                with open(os.path.join(targetEditionName, filename), "r") as f:
+                with open(os.path.join(target_edition_name, filename), "r") as f:
                     text.append(f.read())
     bodytext = "\n".join(text)
 
@@ -61,13 +61,13 @@ def makeNewsletter(targetEditionName):
 
 
     htmltext = "\n".join(html).replace('"images/',
-                                       '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(targetEditionName))
-    with open(os.path.join("docs", targetEditionName+".html"), "w") as o:
+                                       '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(target_edition_name))
+    with open(os.path.join("docs", target_edition_name+".html"), "w") as o:
         o.write(htmltext)
 
     # copying images
-    source_image_dir = os.path.join(targetEditionName, "images")
-    dest_image_dir = os.path.join("docs", "images_"+targetEditionName)
+    source_image_dir = os.path.join(target_edition_name, "images")
+    dest_image_dir = os.path.join("docs", "images_"+target_edition_name)
 
     if not os.path.isdir(dest_image_dir):
         os.mkdir(dest_image_dir)
@@ -75,7 +75,7 @@ def makeNewsletter(targetEditionName):
         shutil.copyfile(os.path.join(source_image_dir, file),
                         os.path.join(dest_image_dir, file))
 
-    print("generating {} done.".format(targetEditionName))
+    print("generating {} done.".format(target_edition_name))
 
 if __name__ == "__main__":
     # Part I -- configure and validate the script from parameters
@@ -84,7 +84,7 @@ if __name__ == "__main__":
                         help="directory with the newsletter contents")
     target = (parser.parse_args()).directory
 
-    makeNewsletter(target)
+    make_newsletter(target)
 
 
 # with open("edition_004_202202/AlifeJapanReport.md") as f:
