@@ -23,7 +23,8 @@ jobs:
           git pull
           git checkout gh-pages
           git pull
-          git merge add-github-actions
+          git merge --allow-unrelated-histories add-github-actions
+          # I don't think it's unrelated histories but git complains :(
       - name: Build
         id: build_step
         run: |
