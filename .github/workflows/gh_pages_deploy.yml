@@ -14,8 +14,6 @@ jobs:
   Build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      # I think we can remove using devmasx/merge-branch, by doing: `$cd $GITHUB_WORKSPACE`, merge and push with github.token
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
