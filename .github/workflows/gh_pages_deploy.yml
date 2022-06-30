@@ -18,6 +18,7 @@ jobs:
       - name: Checkout
         run: |
           cd $GITHUB_WORKSPACE
+          git fetch
           git checkout gh-pages
       - name: Build
         run: |
