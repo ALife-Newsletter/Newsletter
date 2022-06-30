@@ -21,6 +21,7 @@ jobs:
           git fetch
           git checkout gh-pages
       - name: Build
+        id: build_step
         run: |
           python -m pip install --upgrade pip
           pip install markdown
@@ -29,6 +30,10 @@ jobs:
         run: |
           git add .
           git commit -m 'Generated static html files'
+      - name: Teardown when the workflow failed
+        if: failure() && steps.build_step.outcome == 'failure'
+        run: |
+          git stash -u
 
 # for using Python in workflow, see following links: 
 # - https://docs.github.com/actions/automating-builds-and-tests/building-and-testing-python#using-the-python-starter-workflow
