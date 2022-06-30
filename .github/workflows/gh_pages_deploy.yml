@@ -22,6 +22,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           git fetch          
       - name: Clean up
+        # It removes gh-pages branch on origin, to prevent git complains gh-pages and the base branch have unrelated histories and conflicts on merge (it should never happen. idk the reason)
         continue-on-error: true
         run: |
           git push origin :gh-pages
