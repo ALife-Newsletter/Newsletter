@@ -4,30 +4,37 @@ import os, shutil
 import re
 import argparse
 
-if __name__ == "__main__":
-    # Part I -- configure and validate the script from parameters
-    parser = argparse.ArgumentParser(description="Create a newsletter html")
-    parser.add_argument("directory", metavar="directory", type=str,
-                        help="directory with the newsletter contents")
-    target = (parser.parse_args()).directory
+import sys
+# in case the system default encoding is not utf-8: it may cause UnicodeEncodeError on Markdown.convert() or file.write()
+if sys.getdefaultencoding() is not "utf-8":
+    try:
+        print("change encoding from {} to utf-8".format(sys.getdefaultencoding()))
+        sys.setdefaultencoding("utf-8")
+    except AttributeError:
+        reload(sys) # I don't know why but this fixes "AttributeError: 'module' object has no attribute 'setdefaultencoding'"
+        sys.setdefaultencoding("utf-8")
+    except Exception as e:
+        print("changing encoding failed: {}".format(e))
 
-    if not os.path.isdir(target):
-        raise ValueError("Can't find directory {}".format(target))
+
+def make_newsletter(target_edition_name):
+    if not os.path.isdir(target_edition_name):
+        raise ValueError("Can't find directory {}".format(target_edition_name))
 
 
     # Part II -- generate the newsletter from the md files
     text = []
 
-    files = os.listdir(target)
+    files = os.listdir(target_edition_name)
     files.sort()
 
     for filename in files:
         if filename.endswith(".md"):
             if filename.startswith("00"):
-                with open(os.path.join(target, filename), "r") as f:
+                with open(os.path.join(target_edition_name, filename), "r") as f:
                     opening = f.read()
             else:
-                with open(os.path.join(target, filename), "r") as f:
+                with open(os.path.join(target_edition_name, filename), "r") as f:
                     text.append(f.read())
     bodytext = "\n".join(text)
 
@@ -54,13 +61,13 @@ if __name__ == "__main__":
 
 
     htmltext = "\n".join(html).replace('"images/',
-                                       '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(target))
-    with open(os.path.join("docs", target+".html"), "w") as o:
+                                       '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(target_edition_name))
+    with open(os.path.join("docs", target_edition_name+".html"), "w") as o:
         o.write(htmltext)
 
     # copying images
-    source_image_dir = os.path.join(target, "images")
-    dest_image_dir = os.path.join("docs", "images_"+target)
+    source_image_dir = os.path.join(target_edition_name, "images")
+    dest_image_dir = os.path.join("docs", "images_"+target_edition_name)
 
     if not os.path.isdir(dest_image_dir):
         os.mkdir(dest_image_dir)
@@ -68,7 +75,16 @@ if __name__ == "__main__":
         shutil.copyfile(os.path.join(source_image_dir, file),
                         os.path.join(dest_image_dir, file))
 
-    print("done.")
+    print("generating {} done.".format(target_edition_name))
+
+if __name__ == "__main__":
+    # Part I -- configure and validate the script from parameters
+    parser = argparse.ArgumentParser(description="Create a newsletter html")
+    parser.add_argument("directory", metavar="directory", type=str,
+                        help="directory with the newsletter contents")
+    target = (parser.parse_args()).directory
+
+    make_newsletter(target)
 
 
 # with open("edition_004_202202/AlifeJapanReport.md") as f:
