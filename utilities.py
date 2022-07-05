@@ -11,6 +11,8 @@ def enforce_default_encoding():
         except Exception as e:
             print("changing encoding failed: {}".format(e))
 
+enforce_default_encoding()
+
 def get_source_image_directory_path(target_edition_name):
     import os
     path = os.path.join(target_edition_name, "images")
