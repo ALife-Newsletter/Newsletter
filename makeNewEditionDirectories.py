@@ -34,7 +34,6 @@ def make_new_edition_directories(target_edition):
     results.append("created: {}".format(target_edition_name))
 
     image_source_directory_path = get_source_image_directory_path(target_edition_name)
-    os.mkdir(image_source_directory_path)
     results.append("created: {}".format(image_source_directory_path))
 
     previous_edition_name = "edition_{:03}".format(target_edition - 1)
