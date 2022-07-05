@@ -13,6 +13,14 @@ Task management &amp; content backup for ALife Newsletter
 
 Issues published on GitHub Pages: https://alife-newsletter.github.io/Newsletter/
 
+## Subscription/Contribution
+You can subscribe [here](https://forms.gle/QpQ68xhvSMt4wiv89).
+
+Contribute to any section of the next newsletter [here](https://forms.gle/jv7FdtdbWVTaTFGd9)!
+
+
+---
+
 # for Repository Contributors
 ## TODO
 - Improve the CSS of the automated generated newsletter
