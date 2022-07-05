@@ -9,6 +9,10 @@ Task management &amp; content backup for ALife Newsletter
 - [June 2022]()
   - coming soon!
 
+---
+
+Issues published on GitHub Pages: https://alife-newsletter.github.io/Newsletter/
+
 ## TODO
 - Improve the CSS of the automated generated newsletter
 - Add the old newsletters here
