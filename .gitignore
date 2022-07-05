@@ -1,2 +1,2 @@
-makeNewsletter.pyc
-makeAllEditions.pyc
+*.pyc
+
