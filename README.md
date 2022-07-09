@@ -36,6 +36,21 @@ Contribute to any section of the next newsletter [here](https://forms.gle/jv7Fdt
 - gh-pages
   - A branch for GitHub Pages. Only CI modify it. Do not manually commit to it.
 
+## How to Publish Newsletter
+1. update subscibers
+  - download new subscribers from google form as csv
+  - log into mailjet
+  - update contact list in contact menu in mailjet (use csv) (do not "resubscribe")
+2. create newsletter
+  - go to "marketing templates"
+  - duplicate last newsletter
+  - update subject and sender (check that sender is gmail, not proton)
+  - update html
+  - "save and publish to gallery" <= **DO NOT FORGET** this step
+3. send
+  - create a campaign from the next page
+  - schedule or send now
+
 ## How to Use Scripts
 Basically those scripts are self-explanatory, so `$ <script> -h` shows what arguments it accepts.
 
