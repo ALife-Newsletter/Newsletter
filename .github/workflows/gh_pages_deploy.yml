@@ -3,10 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch:  # Makes it be able to triggered manually https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+  pull_request:
 
 env:
-  BASE_BRANCH_NAME: main
+  BASE_BRANCH_NAME: main  # when you edit the branch name here, also change `if` condition in `Deploy` phase
   HOSTING_BRANCH_NAME: gh-pages
   LOCAL_BRANCH_NAME: gh-pages-local
 
@@ -41,7 +42,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install markdown
           python makeAllEditions.py
-      - name: Commit
+      - name: Deploy
+        if: github.ref == 'refs/heads/main'
         run: |
           git add .
           git commit -m 'Generated static html files'
