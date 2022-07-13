@@ -7,7 +7,6 @@ on:
   pull_request:
 
 env:
-  BASE_BRANCH_NAME: main  # when you edit the branch name here, also change `if` condition in `Deploy` phase
   HOSTING_BRANCH_NAME: gh-pages
   LOCAL_BRANCH_NAME: gh-pages-local
 
@@ -31,9 +30,10 @@ jobs:
         run: |
           git branch -d $LOCAL_BRANCH_NAME
       - name: Checkout
+        # ${GITHUB_REF##*/} represents the branch that triggeres this action https://stackoverflow.com/a/58034787
         run: |
           git fetch
-          git checkout $BASE_BRANCH_NAME
+          git checkout ${GITHUB_REF##*/}
           git pull
           git checkout -b $LOCAL_BRANCH_NAME
       - name: Build
@@ -43,7 +43,7 @@ jobs:
           pip install markdown
           python makeAllEditions.py
       - name: Deploy
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' # It only runs on main branch (not in a Pull Request)
         run: |
           git add .
           git commit -m 'Generated static html files'
