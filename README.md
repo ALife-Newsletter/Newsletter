@@ -1,6 +1,8 @@
 # Newsletter
 Task management &amp; content backup for ALife Newsletter
 
+- [2022-07-22] Awarded the ISAL Exceptional Service Award at ALIFE2022
+
 ## Issues
 - [August 2020](https://alife.org/newsletter-august-2020/)
 - [October 2021](https://alife.org/newsletter-october-2021/)
