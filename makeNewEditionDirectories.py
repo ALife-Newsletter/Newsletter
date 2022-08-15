@@ -1,15 +1,14 @@
 import os
 import shutil
 import argparse
-# from utilities import enforce_default_encoding
-from utilities import get_source_image_directory_path, collect_content_directory_names
+from utilities import enforce_default_encoding, get_source_image_directory_path, collect_content_directory_names
 
 static_section_filenames = [
   "00_Foreword.md",
   "FF_CallForVolunteers.md",
 ]
 
-# enforce_default_encoding()
+enforce_default_encoding()
 
 def copy_common_section_files(previous_edition_name, target_edition_name):
     results = []
@@ -45,7 +44,7 @@ def make_new_edition_directories(target_edition):
 
     print("\n".join(results))
 
-if __name__ == "__main__":
+if __name__ == "__main__":    
     parser = argparse.ArgumentParser(description="Create the new edition directories")
     parser.add_argument("edition number", metavar="edition number", type=int,
                         help="the next edition number")

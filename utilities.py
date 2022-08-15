@@ -1,23 +1,17 @@
+def enforce_default_encoding():
+    import sys
+    # in case the system default encoding is not utf-8: it may cause UnicodeEncodeError on Markdown.convert() or file.write()
+    if sys.getdefaultencoding() is not "utf-8":
+        try:
+            print("change encoding from {} to utf-8".format(sys.getdefaultencoding()))
+            sys.setdefaultencoding("utf-8")
+        except AttributeError:
+            reload(sys) # I don't know why but this fixes "AttributeError: 'module' object has no attribute 'setdefaultencoding'"
+            sys.setdefaultencoding("utf-8")
+        except Exception as e:
+            print("changing encoding failed: {}".format(e))
 
-# This solution seems to be a hack, and does not work
-# in newer versions of python
-# see: https://anonbadger.wordpress.com/2015/06/16/why-sys-setdefaultencoding-will-break-code/
-# We need to think of a better solution (maybe run from a bash script that set proper environment variables?)
-
-# def enforce_default_encoding():
-#     import sys
-#     # in case the system default encoding is not utf-8: it may cause UnicodeEncodeError on Markdown.convert() or file.write()
-#     if sys.getdefaultencoding() is not "utf-8":
-#         try:
-#             print("change encoding from {} to utf-8".format(sys.getdefaultencoding()))
-#             sys.setdefaultencoding("utf-8")
-#         except AttributeError:
-#             reload(sys) # I don't know why but this fixes "AttributeError: 'module' object has no attribute 'setdefaultencoding'"
-#             sys.setdefaultencoding("utf-8")
-#         except Exception as e:
-#             print("changing encoding failed: {}".format(e))
-#
-# enforce_default_encoding()
+enforce_default_encoding()
 
 def get_source_image_directory_path(target_edition_name):
     import os
