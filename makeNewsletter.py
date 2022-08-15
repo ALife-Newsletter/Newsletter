@@ -3,9 +3,7 @@ from markdown.extensions.toc import TocExtension
 import os, shutil
 import re
 import argparse
-from utilities import enforce_default_encoding, get_source_image_directory_path, get_destination_image_directory_path
-
-enforce_default_encoding()
+from utilities import get_source_image_directory_path, get_destination_image_directory_path
 
 def make_newsletter(target_edition_name):
     if not os.path.isdir(target_edition_name):

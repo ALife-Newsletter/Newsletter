@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '2.7'
+          python-version: '3.6'
       - name: Check branch
         if: github.event_name == 'pull_request'
         # github.head_ref: source branch of the pull request in a workflow run https://docs.github.com/en/actions/learn-github-actions/contexts#github-context
