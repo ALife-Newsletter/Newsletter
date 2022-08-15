@@ -26,6 +26,7 @@ We intend to make ***Tell Me What You Eat*** a sort of *generative detective* ga
 Our various prototypes and playful experiments are all available on the [Github repo](https://github.com/Pyrofoux/Tell-Me-What-You-Eat/).
 
 The repository contains:
+
 - a first rough prototype of generating a fictional world's cookbook;
 - a tentative at cooking a fictional recipe;
 - a simulation of how places get their names from the people they are traversed by;
