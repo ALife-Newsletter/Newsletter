@@ -1,6 +1,6 @@
 # Media Review: Prehistoric Planet
 
-By [Albert Chen]([https://twitter.com/albertonykus](https://linktr.ee/albertonykus)
+By [Albert Chen](https://linktr.ee/albertonykus)
 
 ![Prehistoric Planet](images/dino.jpg)
 
