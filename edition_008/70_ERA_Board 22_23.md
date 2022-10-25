@@ -1,0 +1,6 @@
+# ERA Board Update 2022/23
+*By [Imy Khan](http://twitter.com/imy_tk)*
+
+The nomination and voting process for the Emerging Researchers in ALife Board for the 2022/23 is currently taking place (at the time of writing - perhaps, by the time this newsletter is sent out, the results will have been finalised!). As always, there are six positions on the board: General Chair, Vice Chair, Communications Chair, Equity Chair, Conference Chair, and ISAL Representative. The results of the election will be posted on the [ERA Slack](https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A) as well as the [Twitter account](http://twitter.com/isalstudents). We hope to welcome and introduce the new board in the next newsletter issue. For now, check out either the Slack or Twitter to find more details of the board and the chairs.
+
+For now, if you are interested in becoming a member of the Emerging Researchers in ALife group, then all you need to do is [join the Slack workspace](https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A). There, we can keep you up-to-date with ERA-related events, and you will be able to nominate and vote in future board elections.
