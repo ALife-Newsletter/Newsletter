@@ -3,14 +3,11 @@ import shutil
 import argparse
 from utilities import get_source_image_directory_path, collect_content_directory_names
 
-static_section_filenames = [
-  "00_Foreword.md",
-  "FF_CallForVolunteers.md",
-]
+template_directory_name = "template"
 
-def copy_common_section_files(previous_edition_name, target_edition_name):
+def copy_common_section_files(target_edition_name):
     results = []
-    paths = [[os.path.join(previous_edition_name, x), os.path.join(target_edition_name, x)] for x in static_section_filenames]
+    paths = [[os.path.join(template_directory_name, x), os.path.join(target_edition_name, x)] for x in os.listdir(template_directory_name)]
     for path in paths:
         shutil.copy(path[0], path[1])
         results.append("copied: {0}, {1}".format(path[0], path[1]))
@@ -34,11 +31,7 @@ def make_new_edition_directories(target_edition):
     image_source_directory_path = get_source_image_directory_path(target_edition_name)
     results.append("created: {}".format(image_source_directory_path))
 
-    previous_edition_name = "edition_{:03}".format(target_edition - 1)
-    if not os.path.isdir(previous_edition_name):
-        results.append("no previous edition (edition {:03}) found".format(target_edition - 1))
-    else:
-        results.extend(copy_common_section_files(previous_edition_name, target_edition_name))
+    results.extend(copy_common_section_files(target_edition_name))
 
     print("\n".join(results))
 
