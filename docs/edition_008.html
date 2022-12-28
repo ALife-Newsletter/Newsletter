@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A word from the team</h1>
+<p>Welcome to the 8th issue of the ALife Newsletter. As 2022 is drawing to
+a close, we hope that everyone is having a great fall or spring!</p>
+<p>This month we got two very interesting projects to share: A free book
+on Conway's Game of Life by Nathaniel and Dave, and an Alife 
+Simulation in Pico8 by Lj. We are particularly intersted in showcasing 
+smaller projects like the last one, that inspire people to prototype and 
+share their own ideas of what Alife could be!</p>
+<p>Also this month we introduce our first regular column, "Creature of the Month"
+by Domenic from Astrovitae, sharing a little bit of speculative 
+bio to tickle everyone's mind each edition. If you have an idea for a 
+regular column, please reach out! For example, we would love to have 
+someone who could review alife inspired games for the newsletter.</p>
+<p>As usual, we welcome contributions, ideas and suggestions to the newsletter 
+at <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">this form</a>! In particular, we are 
+specially interested in Master and PhD students who want to talk about their 
+own research ideas. Do send us a line!</p>
+<p>If you'd like to receive our e-mails, you can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+<div class="toc">
+<ul>
+<li><a href="#conways-game-of-life">Conway's Game of Life</a></li>
+<li><a href="#astrovitaes-creature-of-the-month-the-onyx-flutter-flea">Astrovitae's Creature of the Month - The Onyx Flutter Flea</a></li>
+<li><a href="#picoworld">Picoworld</a></li>
+<li><a href="#sf-review-koichi-harukure-mortal-game">SF Review: Koichi Harukure "Mortal Game"</a></li>
+<li><a href="#era-board-update-202223">ERA Board Update 2022/23</a></li>
+<li><a href="#post-doctoral-fellowship-opportunity-eutopia-sif-msca-cofund-deadline-dec-2022">Post-Doctoral Fellowship Opportunity: EUTOPIA-SIF (MSCA COFUND) (Deadline: Dec 2022)</a></li>
+<li><a href="#upcoming-event">Upcoming Event:</a></li>
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+</ul>
+</div>
+
+<h1 id="conways-game-of-life">Conway's Game of Life</h1>
+<h2 id="mathematics-and-construction">Mathematics and Construction</h2>
+<p><a href="https://conwaylife.com/book/">A free book</a> by Nathaniel Johnston and Dave Greene</p>
+<p>Blurb by <a href="http://www.njohnston.ca/">Nathaniel Johnston</a></p>
+<p>This book provides an introduction to Conway's Game of Life, the interesting mathematics behind it, and the methods used to construct many of its most interesting patterns. The book starts by exploring many of the well-known patterns like blinkers and gliders, but quickly shifts its focus to the problem of combining these various components into complicated mega-structures that can perform unexpectedly complex tasks. In particular, the books guides the reader through the construction of patterns that are able to perform arbitrary computations, are able to create copies of themselves, and even patterns that mimic biological cells by having a central helix of DNA that controls its behavior and replication cycle.</p>
+<p>While the book largely follows the history of the Game of Life, that is not its primary purpose. Rather, it is a by-product of the fact that most recently discovered patterns build upon patterns and techniques that were developed earlier. The goal of this book is to demystify the Game of Life by breaking down the complex patterns that have been developed in it into bite-size chunks that can be understood individually.</p>
+<p>(Comment by Lana: Not only is the book free, but you can run every game of life patterns from the book by copy pasting the code in a web-based game of life engine like https://golly.sourceforge.net/!)</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/gol.png" /></p>
+<h1 id="astrovitaes-creature-of-the-month-the-onyx-flutter-flea">Astrovitae's Creature of the Month - The Onyx Flutter Flea</h1>
+<p>By <a href="https://twitter.com/domenicpennetta">Domenic V. Pennetta</a></p>
+<p>Last month I shared the speculative biology magazine Astrovitae with 
+the ALife community. After many excited responses from ALife members, 
+I now plan on sharing a creature from Astrvoitae Magazine every month! 
+In each newsletter a speculative biology artist and their chosen 
+creature design will be showcased for all to see. For this initial 
+"Creature of the Month", I want to showcase the first ever creature 
+featured in Astrovitae, the onyx flutter flea, which was published on the 
+cover of issue 1!</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/astrovitae_flutterflea.jpg" /></p>
+<p>From the naked eye, these small planktonic creatures appear to float using 
+a "halo" or "ring". However under closer inspection this halo is in fact 
+the specimen’s forearms locked in place above its head. This particular s
+pecies of flutter flea has been identified within the oceans of the 
+exoplanet Perdita c, and is named Anellusbrachium onyx (a.k.a. the onyx 
+flutter flea). Its large forearms forming the halo are used for feeding; 
+often outstretched and are able to clamp shut when another planktonic 
+organism wriggles by. Once caught, prey items will become ensnared by 
+sharp follicles, and are held in place long enough to be pierced by the 
+onyx flutter flea’s proboscis. Like other species of flutter fleas, A. onyx 
+is found in aggregates, passively waiting in the water column for 
+unsuspecting victims. </p>
+<p>Interested in learning more about other flutter fleas? 
+<a href="https://www.instagram.com/project_perditus/">Follow Project Perditus on Instagram</a> 
+or see the projects <a href="https://www.projectperditus.com">official website</a>.</p>
+<p>For more speculative biology content, see <a href="https://www.astrovitae.com/issues.html">past issues of Astrovitae Magazine</a>.</p>
+<h1 id="picoworld">Picoworld</h1>
+<p>by Lj Miranda (<a href="https://twitter.com/ljvmiranda921">@ljvmiranda921</a>)</p>
+<p><a href="https://ljvmiranda921.itch.io/picoworld"><strong>Picoworld</strong></a> is a PICO-8 simulation
+that explores the concept of <em>emergence</em> and <em>self-organization</em>. In this
+sandbox game, you define a set of particles and their interaction rules.
+Particles, by themselves, can only attract or repel one another. However, from
+these simple interactions, we can observe complex phenomena.</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_simple.gif" /></p>
+<p>I chose Pico-8 as the game engine for Picoworld because I like its small and
+portable nature--like a petri dish! However, developing on Pico-8 requires you
+to lean into its constraints: you are limited to a 16-color palette, a 128x128
+pixel resolution, and a set amount of programming tokens. This forces me to be
+more deliberate in what features I need to add (or remove). It pushes me to
+achieve simplicity, and what's fun is that just like any ALife concept,
+simplicity can lead to emergent complexity.</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_sample.gif" /></p>
+<p>The way Picoworld works is that you have four different types of colored
+particles. Using the editor, you can define how many particles of each type to
+spawn and their corresponding interaction (attraction/repulsion). You can do
+this by toggling the symbol in the editor until you reach the desired value:</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_editor.gif" /></p>
+<p>Because of Pico-8 constraints, there is only a set number of population and
+attraction/repulsion strength available. However, these are already enough to
+create fun simulations! </p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_token1.png" />
+<img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_token2.png" /></p>
+<p>My goal for Picoworld is to encourage experimentation on this artificial life
+system. If you discover interesting patterns, feel free to share a screenshot of
+the configuration as a comment on the itch.io page! Lastly, I love working in
+ALife and collective intelligence, so you can check out my other works!
+[<a href="https://github.com/ljvmiranda921/pyswarms">1</a>]
+[<a href="https://ljvmiranda921.github.io/sprites-as-a-service/">2</a>]</p>
+<h1 id="sf-review-koichi-harukure-mortal-game">SF Review: Koichi Harukure "Mortal Game"</h1>
+<p>A short story in <a href="https://www.amazon.co.jp/dp/B0B2HWFXDX">SF Magazine 2022/08</a></p>
+<p><em>By <a href="http://twitter.com/vespid">Mitsuyoshi Yamazaki</a></em></p>
+<p>The Search for Interstellar Life project has discovered an organic cellular automaton. The rules are deterministic, and calculations show that all "cells" will disappear in the near future.
+Cellular automata are life-like if they are self-replicators that spontaneously reproduce from their environment, whereas a phenomenon whose behavior can be computed deterministically cannot be treated as life.
+Should we leave the automaton untouched and let it "go extinct" in order not to disturb its natural environment, or should we "breed" it and modify the rules to foster long-period patterns?
+The team's conclusion is…</p>
+<p>This is the story of a human being's journey to an alien planet in search of an unknown phenomenon, the discovery of a phenomenon that fulfills that very purpose, and how humans deal with things that cannot be captured within the framework of existing science.
+The spontaneous generation of an organic automaton is a plausible scenario, considering the spontaneous generation of life, and the life-like nature of such a quasi-life form is exactly what is being discussed in the artificial life field.</p>
+<p>Can we call a phenomenon whose behavior can be deterministically determined life?<br />
+If it is life, can we call an electronically simulated pattern of that phenomenon life?<br />
+Would we not call life a being that survives by any means and resists its own destruction?  </p>
+<p>But the focus of this story is not the alien cellular automaton, nor the discussion of its vitality, but the outpouring of human imagination and creativity towards the unknown.
+The conclusion of introducing non-deterministic elements into a deterministic system is exactly one direction of artificial life production toward an Open-Ended system.</p>
+<p>See for yourself how this story will end.</p>
+<h1 id="era-board-update-202223">ERA Board Update 2022/23</h1>
+<p><em>By <a href="http://twitter.com/imy_tk">Imy Khan</a></em></p>
+<p>The nomination and voting process for the Emerging Researchers in ALife Board for the 2022/23 is currently taking place (at the time of writing - perhaps, by the time this newsletter is sent out, the results will have been finalised!). As always, there are six positions on the board: General Chair, Vice Chair, Communications Chair, Equity Chair, Conference Chair, and ISAL Representative. The results of the election will be posted on the <a href="https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A">ERA Slack</a> as well as the <a href="http://twitter.com/isalstudents">Twitter account</a>. We hope to welcome and introduce the new board in the next newsletter issue. For now, check out either the Slack or Twitter to find more details of the board and the chairs.</p>
+<p>For now, if you are interested in becoming a member of the Emerging Researchers in ALife group, then all you need to do is <a href="https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A">join the Slack workspace</a>. There, we can keep you up-to-date with ERA-related events, and you will be able to nominate and vote in future board elections.</p>
+<h1 id="post-doctoral-fellowship-opportunity-eutopia-sif-msca-cofund-deadline-dec-2022">Post-Doctoral Fellowship Opportunity: EUTOPIA-SIF (MSCA COFUND) (Deadline: Dec 2022)</h1>
+<p>The <a href="https://eutopia-university.eu/english-version/research/sif-post-doctoral-fellowships">third call for the EUTOPIA Science and Innovation Fellowship</a> is now open until the middle of December. This is an exciting and innovative fellowship which allows young researchers to pursue their creative and innovative projects across several universities in the EUTOPIA University Alliance. </p>
+<p><em>The EUTOPIA Science and Innovation Fellowship Programme has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement n. 945380, for a total number of 76 post-doctoral fellowships, over 4 years, and a budget of 10,2M€, of which 5,6M€ financed by the European Union and 4,6M€ by the EUTOPIA partner universities.</em></p>
+<p><em>EUTOPIA-SIF post-doctoral fellows will be recruited by one of the six EUTOPIA universities which are part of the programme - Vrije Universiteit Brussel, CY Cergy Paris University, University of Gothenburg, University of Ljubljana, Pompeu Fabra University-Barcelona, The University of Warwick - (host university) on the basis of an individual research project and the quality of their academic profile for a 24-month post-doctoral contract with highly attractive conditions. The selected candidates from the 2022/23 call will start their positions in September 2023.</em></p>
+<p><em>EUTOPIA-SIF fellowships offer the opportunity to high-profile young researchers to develop their own research projects in the stimulating academic environment of the EUTOPIA Alliance. Extensive research mobility is integral to the fellowships with two compulsory secondment periods: one at another EUTOPIA university (co-host university) and one with an external academic or non-academic partner institution with the aim of fostering the fellows’ entrepreneurial spirit, tangible research impact and innovation. Furthermore, fellows will access a rich training programme, career guidance and academic supervision.</em></p>
+<p>The timelines for the call for applicants can be <a href="https://eutopia-university.eu/english-version/opportunities/research/eutopia-sif-third-call">found here</a>.</p>
+<h1 id="upcoming-event">Upcoming Event:</h1>
+<h2 id="japan-alife-workshop-5"><a href="https://alife-japan.org/archives/event/第5回人工生命研究会">Japan ALife Workshop #5</a></h2>
+<p>November 23th 9:30am - 6:00pm (JST)<br />
+onsite (registration is finished) and online (registration available until the day of the event) hybrid style.  </p>
+<p>"General presentations are invited on a wide range of topics related to autonomy, evolution, consciousness, and other phenomena that characterize “life-like behavior.”"</p>
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+<ul>
+<li>
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+</li>
+<li>
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+</li>
+<li>
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+</li>
+</ul>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>
