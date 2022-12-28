@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Artificial Life Newsletter</title>
+<link>https://alife-newsletter.github.io/Newsletter/</link>
+<description>The Artificial Life Newsletter Brings you the latest alife news!</description>
+<language>en-US</language>
+
+<item>
+<title>4th Edition, February 2022</title>
+<link>https://alife-newsletter.github.io/Newsletter/edition_004.html</link>
+<guid>edition_004</guid>
+<pubDate>Tue, 01 Feb 2022 01:01:01 GMT</pubDate>
+<description>The Fourth Alife Newsletter Edition!</description>
+</item>
+
+<item>
+<title>5th Edition, April 2022</title>
+<link>https://alife-newsletter.github.io/Newsletter/edition_005.html</link>
+<guid>edition_005</guid>
+<pubDate>Fri, 01 Apr 2022 01:01:01 GMT</pubDate>
+<description>The Fifth Alife Newsletter Edition!</description>
+</item>
+
+</channel>
+</rss>
