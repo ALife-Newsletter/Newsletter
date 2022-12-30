@@ -1,27 +1,1387 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
+ <title>Artificial Life Newsletter</title>
+ <link>https://alife-newsletter.github.io/Newsletter/</link>
+ <description>The Artificial Life Newsletter Brings you the latest alife news!</description>
+ <lastBuildDate>30 Dec 2022 14:48:33 GMT</lastBuildDate>
+ <item>
+  <title>The 8th edition of the Alife Newsletter, October 2022</title>
+  <link>https://alife-newsletter.github.io/Newsletter/edition_008.html</link>
+  <guid>edition_008</guid>
+  <pubDate>01 Oct 2022 00:00:00 GMT</pubDate>
+<description><![CDATA[
+<h1 id="a-word-from-the-team">A word from the team</h1>
 
-<title>Artificial Life Newsletter</title>
-<link>https://alife-newsletter.github.io/Newsletter/</link>
-<description>The Artificial Life Newsletter Brings you the latest alife news!</description>
-<language>en-US</language>
+<p>Welcome to the 8th issue of the ALife Newsletter. As 2022 is drawing to
 
-<item>
-<title>4th Edition, February 2022</title>
-<link>https://alife-newsletter.github.io/Newsletter/edition_004.html</link>
-<guid>edition_004</guid>
-<pubDate>Tue, 01 Feb 2022 01:01:01 GMT</pubDate>
-<description>The Fourth Alife Newsletter Edition!</description>
-</item>
+a close, we hope that everyone is having a great fall or spring!</p>
 
-<item>
-<title>5th Edition, April 2022</title>
-<link>https://alife-newsletter.github.io/Newsletter/edition_005.html</link>
-<guid>edition_005</guid>
-<pubDate>Fri, 01 Apr 2022 01:01:01 GMT</pubDate>
-<description>The Fifth Alife Newsletter Edition!</description>
-</item>
+<p>This month we got two very interesting projects to share: A free book
 
+on Conway's Game of Life by Nathaniel and Dave, and an Alife 
+
+Simulation in Pico8 by Lj. We are particularly intersted in showcasing 
+
+smaller projects like the last one, that inspire people to prototype and 
+
+share their own ideas of what Alife could be!</p>
+
+<p>Also this month we introduce our first regular column, "Creature of the Month"
+
+by Domenic from Astrovitae, sharing a little bit of speculative 
+
+bio to tickle everyone's mind each edition. If you have an idea for a 
+
+regular column, please reach out! For example, we would love to have 
+
+someone who could review alife inspired games for the newsletter.</p>
+
+<p>As usual, we welcome contributions, ideas and suggestions to the newsletter 
+
+at <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">this form</a>! In particular, we are 
+
+specially interested in Master and PhD students who want to talk about their 
+
+own research ideas. Do send us a line!</p>
+
+<p>If you'd like to receive our e-mails, you can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+
+<div class="toc">
+
+<ul>
+
+<li><a href="#conways-game-of-life">Conway's Game of Life</a></li>
+
+<li><a href="#astrovitaes-creature-of-the-month-the-onyx-flutter-flea">Astrovitae's Creature of the Month - The Onyx Flutter Flea</a></li>
+
+<li><a href="#picoworld">Picoworld</a></li>
+
+<li><a href="#sf-review-koichi-harukure-mortal-game">SF Review: Koichi Harukure "Mortal Game"</a></li>
+
+<li><a href="#era-board-update-202223">ERA Board Update 2022/23</a></li>
+
+<li><a href="#post-doctoral-fellowship-opportunity-eutopia-sif-msca-cofund-deadline-dec-2022">Post-Doctoral Fellowship Opportunity: EUTOPIA-SIF (MSCA COFUND) (Deadline: Dec 2022)</a></li>
+
+<li><a href="#upcoming-event">Upcoming Event:</a></li>
+
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+
+</ul>
+
+<h1 id="conways-game-of-life">Conway's Game of Life</h1>
+
+<h2 id="mathematics-and-construction">Mathematics and Construction</h2>
+
+<p><a href="https://conwaylife.com/book/">A free book</a> by Nathaniel Johnston and Dave Greene</p>
+
+<p>Blurb by <a href="http://www.njohnston.ca/">Nathaniel Johnston</a></p>
+
+<p>This book provides an introduction to Conway's Game of Life, the interesting mathematics behind it, and the methods used to construct many of its most interesting patterns. The book starts by exploring many of the well-known patterns like blinkers and gliders, but quickly shifts its focus to the problem of combining these various components into complicated mega-structures that can perform unexpectedly complex tasks. In particular, the books guides the reader through the construction of patterns that are able to perform arbitrary computations, are able to create copies of themselves, and even patterns that mimic biological cells by having a central helix of DNA that controls its behavior and replication cycle.</p>
+
+<p>While the book largely follows the history of the Game of Life, that is not its primary purpose. Rather, it is a by-product of the fact that most recently discovered patterns build upon patterns and techniques that were developed earlier. The goal of this book is to demystify the Game of Life by breaking down the complex patterns that have been developed in it into bite-size chunks that can be understood individually.</p>
+
+<p>(Comment by Lana: Not only is the book free, but you can run every game of life patterns from the book by copy pasting the code in a web-based game of life engine like https://golly.sourceforge.net/!)</p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/gol.png" /></p>
+
+<h1 id="astrovitaes-creature-of-the-month-the-onyx-flutter-flea">Astrovitae's Creature of the Month - The Onyx Flutter Flea</h1>
+
+<p>By <a href="https://twitter.com/domenicpennetta">Domenic V. Pennetta</a></p>
+
+<p>Last month I shared the speculative biology magazine Astrovitae with 
+
+the ALife community. After many excited responses from ALife members, 
+
+I now plan on sharing a creature from Astrvoitae Magazine every month! 
+
+In each newsletter a speculative biology artist and their chosen 
+
+creature design will be showcased for all to see. For this initial 
+
+"Creature of the Month", I want to showcase the first ever creature 
+
+featured in Astrovitae, the onyx flutter flea, which was published on the 
+
+cover of issue 1!</p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/astrovitae_flutterflea.jpg" /></p>
+
+<p>From the naked eye, these small planktonic creatures appear to float using 
+
+a "halo" or "ring". However under closer inspection this halo is in fact 
+
+the specimen’s forearms locked in place above its head. This particular s
+
+pecies of flutter flea has been identified within the oceans of the 
+
+exoplanet Perdita c, and is named Anellusbrachium onyx (a.k.a. the onyx 
+
+flutter flea). Its large forearms forming the halo are used for feeding; 
+
+often outstretched and are able to clamp shut when another planktonic 
+
+organism wriggles by. Once caught, prey items will become ensnared by 
+
+sharp follicles, and are held in place long enough to be pierced by the 
+
+onyx flutter flea’s proboscis. Like other species of flutter fleas, A. onyx 
+
+is found in aggregates, passively waiting in the water column for 
+
+unsuspecting victims. </p>
+
+<p>Interested in learning more about other flutter fleas? 
+
+<a href="https://www.instagram.com/project_perditus/">Follow Project Perditus on Instagram</a> 
+
+or see the projects <a href="https://www.projectperditus.com">official website</a>.</p>
+
+<p>For more speculative biology content, see <a href="https://www.astrovitae.com/issues.html">past issues of Astrovitae Magazine</a>.</p>
+
+<h1 id="picoworld">Picoworld</h1>
+
+<p>by Lj Miranda (<a href="https://twitter.com/ljvmiranda921">@ljvmiranda921</a>)</p>
+
+<p><a href="https://ljvmiranda921.itch.io/picoworld"><strong>Picoworld</strong></a> is a PICO-8 simulation
+
+that explores the concept of <em>emergence</em> and <em>self-organization</em>. In this
+
+sandbox game, you define a set of particles and their interaction rules.
+
+Particles, by themselves, can only attract or repel one another. However, from
+
+these simple interactions, we can observe complex phenomena.</p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_simple.gif" /></p>
+
+<p>I chose Pico-8 as the game engine for Picoworld because I like its small and
+
+portable nature--like a petri dish! However, developing on Pico-8 requires you
+
+to lean into its constraints: you are limited to a 16-color palette, a 128x128
+
+pixel resolution, and a set amount of programming tokens. This forces me to be
+
+more deliberate in what features I need to add (or remove). It pushes me to
+
+achieve simplicity, and what's fun is that just like any ALife concept,
+
+simplicity can lead to emergent complexity.</p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_sample.gif" /></p>
+
+<p>The way Picoworld works is that you have four different types of colored
+
+particles. Using the editor, you can define how many particles of each type to
+
+spawn and their corresponding interaction (attraction/repulsion). You can do
+
+this by toggling the symbol in the editor until you reach the desired value:</p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_editor.gif" /></p>
+
+<p>Because of Pico-8 constraints, there is only a set number of population and
+
+attraction/repulsion strength available. However, these are already enough to
+
+create fun simulations! </p>
+
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_token1.png" />
+
+<img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_008/picoworld_token2.png" /></p>
+
+<p>My goal for Picoworld is to encourage experimentation on this artificial life
+
+system. If you discover interesting patterns, feel free to share a screenshot of
+
+the configuration as a comment on the itch.io page! Lastly, I love working in
+
+ALife and collective intelligence, so you can check out my other works!
+
+[<a href="https://github.com/ljvmiranda921/pyswarms">1</a>]
+
+[<a href="https://ljvmiranda921.github.io/sprites-as-a-service/">2</a>]</p>
+
+<h1 id="sf-review-koichi-harukure-mortal-game">SF Review: Koichi Harukure "Mortal Game"</h1>
+
+<p>A short story in <a href="https://www.amazon.co.jp/dp/B0B2HWFXDX">SF Magazine 2022/08</a></p>
+
+<p><em>By <a href="http://twitter.com/vespid">Mitsuyoshi Yamazaki</a></em></p>
+
+<p>The Search for Interstellar Life project has discovered an organic cellular automaton. The rules are deterministic, and calculations show that all "cells" will disappear in the near future.
+
+Cellular automata are life-like if they are self-replicators that spontaneously reproduce from their environment, whereas a phenomenon whose behavior can be computed deterministically cannot be treated as life.
+
+Should we leave the automaton untouched and let it "go extinct" in order not to disturb its natural environment, or should we "breed" it and modify the rules to foster long-period patterns?
+
+The team's conclusion is…</p>
+
+<p>This is the story of a human being's journey to an alien planet in search of an unknown phenomenon, the discovery of a phenomenon that fulfills that very purpose, and how humans deal with things that cannot be captured within the framework of existing science.
+
+The spontaneous generation of an organic automaton is a plausible scenario, considering the spontaneous generation of life, and the life-like nature of such a quasi-life form is exactly what is being discussed in the artificial life field.</p>
+
+<p>Can we call a phenomenon whose behavior can be deterministically determined life?<br />
+
+If it is life, can we call an electronically simulated pattern of that phenomenon life?<br />
+
+Would we not call life a being that survives by any means and resists its own destruction?  </p>
+
+<p>But the focus of this story is not the alien cellular automaton, nor the discussion of its vitality, but the outpouring of human imagination and creativity towards the unknown.
+
+The conclusion of introducing non-deterministic elements into a deterministic system is exactly one direction of artificial life production toward an Open-Ended system.</p>
+
+<p>See for yourself how this story will end.</p>
+
+<h1 id="era-board-update-202223">ERA Board Update 2022/23</h1>
+
+<p><em>By <a href="http://twitter.com/imy_tk">Imy Khan</a></em></p>
+
+<p>The nomination and voting process for the Emerging Researchers in ALife Board for the 2022/23 is currently taking place (at the time of writing - perhaps, by the time this newsletter is sent out, the results will have been finalised!). As always, there are six positions on the board: General Chair, Vice Chair, Communications Chair, Equity Chair, Conference Chair, and ISAL Representative. The results of the election will be posted on the <a href="https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A">ERA Slack</a> as well as the <a href="http://twitter.com/isalstudents">Twitter account</a>. We hope to welcome and introduce the new board in the next newsletter issue. For now, check out either the Slack or Twitter to find more details of the board and the chairs.</p>
+
+<p>For now, if you are interested in becoming a member of the Emerging Researchers in ALife group, then all you need to do is <a href="https://join.slack.com/t/isalstudents/shared_invite/zt-1g7e8aex2-JKCdL53xOxs2dlRGG38R7A">join the Slack workspace</a>. There, we can keep you up-to-date with ERA-related events, and you will be able to nominate and vote in future board elections.</p>
+
+<h1 id="post-doctoral-fellowship-opportunity-eutopia-sif-msca-cofund-deadline-dec-2022">Post-Doctoral Fellowship Opportunity: EUTOPIA-SIF (MSCA COFUND) (Deadline: Dec 2022)</h1>
+
+<p>The <a href="https://eutopia-university.eu/english-version/research/sif-post-doctoral-fellowships">third call for the EUTOPIA Science and Innovation Fellowship</a> is now open until the middle of December. This is an exciting and innovative fellowship which allows young researchers to pursue their creative and innovative projects across several universities in the EUTOPIA University Alliance. </p>
+
+<p><em>The EUTOPIA Science and Innovation Fellowship Programme has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement n. 945380, for a total number of 76 post-doctoral fellowships, over 4 years, and a budget of 10,2M€, of which 5,6M€ financed by the European Union and 4,6M€ by the EUTOPIA partner universities.</em></p>
+
+<p><em>EUTOPIA-SIF post-doctoral fellows will be recruited by one of the six EUTOPIA universities which are part of the programme - Vrije Universiteit Brussel, CY Cergy Paris University, University of Gothenburg, University of Ljubljana, Pompeu Fabra University-Barcelona, The University of Warwick - (host university) on the basis of an individual research project and the quality of their academic profile for a 24-month post-doctoral contract with highly attractive conditions. The selected candidates from the 2022/23 call will start their positions in September 2023.</em></p>
+
+<p><em>EUTOPIA-SIF fellowships offer the opportunity to high-profile young researchers to develop their own research projects in the stimulating academic environment of the EUTOPIA Alliance. Extensive research mobility is integral to the fellowships with two compulsory secondment periods: one at another EUTOPIA university (co-host university) and one with an external academic or non-academic partner institution with the aim of fostering the fellows’ entrepreneurial spirit, tangible research impact and innovation. Furthermore, fellows will access a rich training programme, career guidance and academic supervision.</em></p>
+
+<p>The timelines for the call for applicants can be <a href="https://eutopia-university.eu/english-version/opportunities/research/eutopia-sif-third-call">found here</a>.</p>
+
+<h1 id="upcoming-event">Upcoming Event:</h1>
+
+<h2 id="japan-alife-workshop-5"><a href="https://alife-japan.org/archives/event/第5回人工生命研究会">Japan ALife Workshop #5</a></h2>
+
+<p>November 23th 9:30am - 6:00pm (JST)<br />
+
+onsite (registration is finished) and online (registration available until the day of the event) hybrid style.  </p>
+
+<p>"General presentations are invited on a wide range of topics related to autonomy, evolution, consciousness, and other phenomena that characterize “life-like behavior.”"</p>
+
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+
+<ul>
+
+<li>
+
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+
+</li>
+
+<li>
+
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+
+</li>
+
+<li>
+
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+
+</li>
+
+</ul>
+
+
+
+]]></description>
+ </item> <item>
+  <title>The 7th edition of the Alife Newsletter, August 2022</title>
+  <link>https://alife-newsletter.github.io/Newsletter/edition_007.html</link>
+  <guid>edition_007</guid>
+  <pubDate>01 Aug 2022 00:00:00 GMT</pubDate>
+<description><![CDATA[
+<h1 id="a-word-from-the-team">A word from the team</h1>
+
+<p>Welcome to the 7th issue of the ALife Newsletter. Last month we had the yearly meeting of the <a href="https://www.2022.alife.org/">International Society of Artificial Life (Alife 2022)</a>, which we hope was as inspiring for everyone as it was for our team.</p>
+
+<p>We are terribly grateful and humbled by receiving the <strong>ISAL Exceptional Service Award</strong>. We would like to thank everyone who has made contributions to these Seven Editions, and everyone who has taken the time to read our collection of Artificial Life news and interesting projects. We hope to continue serving as a platform to amplify the voices of our community, and raise awareness of cool and inspiring projects to everyone.</p>
+
+<p>Speaking about cool and inspiring projects, in this edition we highlight some great projects, including droplets, cultural simulations, speculative bio art, media reviews and more! We hope you enjoy it.</p>
+
+<p>The Newsletter is distributed by email, and archived on the International Society for Artificial Life's website.</p>
+
+<p>If you'd like to receive our e-mails, you can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+
+<p>Also, we encourage everyone to contribute to the next newsletter <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">here</a> (ETA October 2022)! In particular, we are specially interested in Master and PhD students who want to talk about their own research ideas. Do send us a line!</p>
+
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+
+<div class="toc">
+
+<ul>
+
+<li><a href="#complex-behavior-of-paraffin-droplets">Complex Behavior of Paraffin Droplets</a></li>
+
+<li><a href="#project-introduction-tell-me-what-you-eat">Project Introduction: "Tell Me What You Eat"</a></li>
+
+<li><a href="#astrovitae-the-speculative-biology-magazine">Astrovitae: The Speculative Biology Magazine</a></li>
+
+<li><a href="#media-review-prehistoric-planet">Media Review: Prehistoric Planet</a></li>
+
+<li><a href="#alife-conference-survey">ALIFE Conference Survey</a></li>
+
+<li><a href="#alife-2022-student-abstract-essay-winner">ALIFE 2022 Student Abstract &amp; Essay Winner</a></li>
+
+<li><a href="#book-review-cybernetics-or-control-and-communication-in-the-animal-and-the-machine">Book Review: Cybernetics (or, Control and Communication in the Animal and the Machine)</a></li>
+
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+
+</ul>
+
+<h1 id="complex-behavior-of-paraffin-droplets">Complex Behavior of Paraffin Droplets</h1>
+
+<p><em>By <a href="https://twitter.com/entosse">Richard Löffler</a></em></p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7KEv9vUwQLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<p><a href="https://www.youtube.com/watch?v=-aMw_64CfZ4&amp;list=PLy9lT30tFAXYG9_v3MzjHierF65Z6zGhj">Second Clip</a></p>
+
+<p>In these clips, paraffin droplets containing different concentration combinations of camphor and the dye Oil red O were placed on a pure water surface. Droplets develop different behaviors such as tendrils, which form a maze-like space filling structure before splitting into smaller droplets that periodically move and trigger waves of activity or slowly morphing larger droplets. The behavior comes from the camphor in the droplet/s being deposited onto the water surface where it lowers the surface tension temporarily until it evaporates from the surface again, causing a marangoni convection in the bulk water phase that triggers a surface flow. Furthermore, the dye in the droplet lowers the interfacial tension between oil and water which enables the droplet to expand without splitting immediately.
+
+For more on this: Richard's paper published this month: <a href="https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp02456j">Complexity and bifurcations in the motion of a self-propelled rectangle confined in a circular water chamber</a>; ALife 2018 paper: <a href="https://direct.mit.edu/isal/proceedings/alife2018/30/574/99652">Better red than dead: On the influence of Oil Red O dye on complexity of evolution of a camphor-paraffin droplet on the water surface</a></p>
+
+<h1 id="project-introduction-tell-me-what-you-eat">Project Introduction: "Tell Me What You Eat"</h1>
+
+<p>By <a href="https://knivesandpaintbrushes.org/younes">Younès</a> / <a href="https://twitter.com/pyrofoux/">@pyrofoux</a></p>
+
+<p><img alt="Actual Dish" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/tellmewhatyoueat_dish.jpg" /></p>
+
+<blockquote>
+
+<p>"Tell me what you eat, and I will tell you what you are."</p>
+
+</blockquote>
+
+<p>— <em>Jean-Anthelme Brillat-Savarin</em></p>
+
+<p>If you want to understand a group of humans — where they live, how they speak, what they value, how they use their time or what they are proud of, a good place to start is with <strong>how they eat</strong>.</p>
+
+<p>We'd like to place the deep bond between food and culture at the heart of an interactive experience: What can you learn from a group of people, based on what they eat?</p>
+
+<h2 id="explore-a-world-through-its-cookbook"><em>Explore a world through its cookbook</em></h2>
+
+<p><strong><em>Tell Me What You Eat</em></strong> is an in-development game where players are invited to discover human cultures living in a fictional world, using their cooking practices as a red thread. If I tell you how they prepare food, can you piece together their history, where they lived, how they spoke, what they loved?</p>
+
+<p>We intend to make <strong><em>Tell Me What You Eat</em></strong> a sort of <em>generative detective</em> game: each time you replay it, the world you explore will be recreated anew. New landmaps, new plants, new populations, new historical events — that will in turn, influence the recipes of this world. You might want to cook one of these recipes yourself, or try to imagine with your friends which kind of world exist around them.</p>
+
+<h2 id="prototypes-experiments">Prototypes &amp; Experiments</h2>
+
+<p><img alt="Prototype Screenshot" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/tellmewhatyoueat_nagada.png" /></p>
+
+<p>Our various prototypes and playful experiments are all available on the <a href="https://github.com/Pyrofoux/Tell-Me-What-You-Eat/">Github repo</a>.</p>
+
+<p>The repository contains:</p>
+
+<ul>
+
+<li>a first rough prototype of generating a fictional world's cookbook;</li>
+
+<li>a tentative at cooking a fictional recipe;</li>
+
+<li>a simulation of how places get their names from the people they are traversed by;</li>
+
+</ul>
+
+<p><em>Editor's note</em>: Many Alife projects focus on the evolution of biology, agency, and intelligence. But another important aspect of living creatures is the culture they produce by their lived experiences!</p>
+
+<h1 id="astrovitae-the-speculative-biology-magazine">Astrovitae: The Speculative Biology Magazine</h1>
+
+<p>By <a href="https://twitter.com/domenicpennetta">Domenic V. Pennetta</a></p>
+
+<p><img alt="Astrovitae Image 1" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/astrovitae_intro_1.jpg" /></p>
+
+<p>Hello ALifers! I’m Domenic Pennetta, the founder and editor of <a href="https://www.astrovitae.com/">Astrovitae Magazine</a>—an online publication focused on popularizing the genre of fiction called <a href="https://en.wikipedia.org/wiki/Speculative_evolution">speculative biology</a> (specbio). Many of you have seen the first images taken by the <a href="https://webbtelescope.org/">James Webb Space Telescope</a>, which recently made headline news around the globe. Now humanity can gaze into the universe once more, but this time with more accuracy and clarity. Looking at the vastness of space—taking in all of the brightly-lit stars, nebulas, and funny shaped galaxies… brings up a nagging question: Where is all the life?</p>
+
+<p>Specbio artists take this question to heart. The universe is, no doubt, full of life. We just haven't found it yet! And since alien life is most certainly out there, then what does it look like? Astrovitae’s mission is to gather up all these curious minds—all sharing the same goal of exploring what alien or alternate Earthly life could be—and put them in one place. This nexus of creatives fosters collaboration and a strong sense of community, while also providing many with thoughtful biology-inspired entertainment. With a slogan like “life as it could be'', I’m confident that many ALifers can sympathize with specbio artists and our search for a different form of life.</p>
+
+<p><img alt="Astrovitae Image 2" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/astrovitae_intro_2.jpg" /></p>
+
+<p><em>“Crested Snout Skimmer”, by <a href="https://www.instagram.com/pierce_adams_art">Pierce Adams</a>.</em></p>
+
+<h2 id="what-is-astrovitae-magazine-all-about">What is Astrovitae Magazine All About?</h2>
+
+<p>Astrovitae is a FREE, digital magazine focused on showcasing topics involving speculative biology, art, and science fiction. The magazine releases biannually, with a new issue planned to appear every April and September. The magazine is not peer reviewed, and there is no masthead or advisory board—the founder of the magazine is currently the only editor (who occasionally receives outside help from friends and other artists). The very first issue debuted in April of 2021 amid the global pandemic, and so far, there have been three published issues featuring a variety of artists and projects. Issue 4, which is now in the works, releases this coming September! New issues can be found on the magazine’s website: <a href="https://www.astrovitae.com">www.astrovitae.com</a>.</p>
+
+<p><a href="https://www.astrovitae.com/issues.html">READ PAST ISSUES</a></p>
+
+<h2 id="whats-inside-an-issue">What’s Inside an Issue?</h2>
+
+<p>Inside a typical Astrovitae issue are three main categories:</p>
+
+<ul>
+
+<li><strong>Captivating Worlds</strong>: This is the primary content in Astrovitae where specbio artists showcase their unique world, biomes, and creature designs. <em>Captivating Worlds</em> contains the most detailed representation of a specbio project.</li>
+
+<li><strong>Artist Spotlight</strong>: <em>Artist Spotlight</em> is typically less refined—focusing on the "behind the scenes" of a speculative project. Creators have an opportunity to speak about their creative process, inspirations, and can also show off sketches and unfinished art.</li>
+
+<li><strong>Creature Compendium</strong>: This section is exactly what it sounds like—it's a collection of various creatures by participating artists! These organisms are often accompanied by a brief description that gives the reader a small snippet into another speculative world.</li>
+
+</ul>
+
+<p><img alt="Astrovitae Image 3" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/astrovitae_intro_3.jpg" /></p>
+
+<p><em>“A Variety of Enetodontians”, by <a href="https://www.deviantart.com/blackfrog96">Lorenzo Battilani</a>.</em></p>
+
+<p>There are also other segments included in Astrovitae, such as Spec News—a section that updates readers on some of the going-on’s in the community, like newly announced specbio projects, youtube content, video game releases, and science news associated with astrobiology, paleontology, and other fields.</p>
+
+<p>Astrovitae occasionally features larger creators in interviews, such as <a href="https://twitter.com/JayRock5858">Jay Eaton</a>, one of the founder’s of the specbio zine called Almost Real, and the popular Youtuber <a href="https://www.youtube.com/c/curiousarchive">Curious Archive</a>. Some other notable people in the genre may be interviewed in the future, like the vertebrate paleontologist Darren Naish, artists C.M. Kosemen and Wayne Barlowe, and maybe one day the father of speculative biology himself, Dougal Dixon.</p>
+
+<p><img alt="Astrovitae Image 4" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/astrovitae_intro_4.jpg" /></p>
+
+<p><em>“Anatomy of a Spadecrab”, by <a href="https://www.deviantart.com/pesterjelly">Hunter Welch</a>.</em></p>
+
+<p><strong>How Can ALifers Submit to Astrovitae?</strong></p>
+
+<p>Any ALifer interested in speculative biology may send a submission! Creating submissions does not require an art or science degree, nor do you have to be a professional artist to submit work. However, Astrovitae does prefer submissions that include artistic visuals to engage its readers—so if you’re just an author-type, then it might be best to hold off on a submission unless you’d like to collaborate with artists. One of Astrovitae’s missions is to foster collaboration among creators, so working with other individuals in the community is highly encouraged!</p>
+
+<p>If you’re interested in sending a submission to Astrovitae, then visit <a href="https://www.astrovitae.com/submissions">www.astrovitae.com/submissions</a> to see the magazine’s official guidelines and additional information, like deadlines, word counts, image requirements, and more. Contributors are encouraged to read past issues to see what type of content is typically accepted. Send submissions to <a href="mailto:astrovitaeofficial@gmail.com">astrovitaeofficial@gmail.com</a> with the subject line “ASTROVITAE SUBMISSION'' followed by your project’s or article’s name.</p>
+
+<p><img alt="Astrovitae Image 5" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/astrovitae_intro_5.jpg" /></p>
+
+<p><em>“The Tokabi”, by <a href="https://www.instagram.com/art_of_maryana_s">Maryana Simpson</a>.</em></p>
+
+<h2 id="how-can-i-support-the-magazine">How Can I Support the Magazine?</h2>
+
+<p>There are a few ways to support Astrovitae:</p>
+
+<ul>
+
+<li>Spread the news! Word of mouth is the best form of marketing, so tell your friends, family, and peers about the magazine!</li>
+
+<li>Participate by creating your own submission! And don’t hesitate to encourage others to submit work of their own!</li>
+
+<li>Like, comment, and share <a href="https://www.instagram.com/astrovitae_official">Astrovitae’s Instagram posts</a>.</li>
+
+<li>Donate to <a href="https://ko-fi.com/astrovitae">Astrovitae’s Kofi</a> to support the editor’s efforts to popularize the genre and contributing artists!</li>
+
+</ul>
+
+<p>Regarding donations, Astrovitae is not sponsored and currently makes no revenue from ads or sales. The magazine is absolutely FREE to read in its current state. Donations go a long way to help facilitate the production and marketing of an issue. You can donate a meager $3 (USD) or more to help support the magazine’s mission to showcase specbio artists in the community. If you're interested in donating, visit <a href="https://ko-fi.com/astrovitae">Astrovitae's Kofi</a> to send a donation. Make sure to leave a comment about your favorite artist or project featured in the magazine!</p>
+
+<h1 id="media-review-prehistoric-planet">Media Review: Prehistoric Planet</h1>
+
+<p>By <a href="https://linktr.ee/albertonykus">Albert Chen</a></p>
+
+<p><img alt="Prehistoric Planet" src="https://alife-newsletter.github.io/Newsletter/images_edition_007/dino.jpg" /></p>
+
+<p><em>The following is modified from a <a href="https://albertonykus.blogspot.com/2022/06/prehistoric-planet.html">longer review</a>.</em>
+
+<em>Prehistoric Planet</em>, a new documentary series now available for streaming on Apple TV+, has caused quite the stir in the online paleontology community. With its focus on reconstructing extinct life in ancient environments, this show inevitably invites comparisons to <em>Walking with Dinosaurs</em> (1999), but it borrows more from recent documentaries that focus on the modern biosphere, such as <em>Planet Earth</em> (2006) and its sequels. For example, each episode of <em>Prehistoric Planet</em> comprises several vignettes that take place in multiple locations, instead of revolving around a narrative about one specific ecosystem. In addition, the segments in <em>Prehistoric Planet</em> are all set within the Maastrichtian Age of the Late Cretaceous Epoch (spanning 72.1–66 million years ago, shortly before the mass extinction event that would end it all), not spread across the entire Age of Dinosaurs.</p>
+
+<p>Most responses to <em>Prehistoric Planet</em> have been overwhelmingly positive, and the acclaim is well deserved. The series features spectacular visual effects as well as naturalistic, scientifically plausible depictions of extinct animals. An excellent example is the adorable portrayal of the small, feathered <em>Mononykus</em>, which appears in the second episode (“Deserts”) and is arguably one of the breakout stars of the series, with even executive producers <a href="https://www.youtube.com/watch?v=l8xyqhuz3Wg&amp;t=1257s">Jon Favreau</a> and <a href="https://www.youtube.com/watch?v=MbNZhVM8ICw&amp;t=163s">Mike Gunton</a> identifying it as one of their favorite dinosaurs that they featured. This dinosaur belongs to a group called the <a href="https://en.wikipedia.org/wiki/Alvarezsauridae">alvarezsaurids</a>, characterized by their slender skulls, long legs, and most unusually of all, incredibly short but powerful arms that each end in an enlarged thumb claw. In <em>Prehistoric Planet, Mononykus</em> is shown <a href="https://www.biotaxa.org/Zootaxa/article/view/zootaxa.2413.1.1/0">traveling for long distances while foraging</a>, <a href="https://www.science.org/doi/10.1126/science.abe7941">detecting prey with its sensitive hearing</a>, and using its specialized thumb claw to <a href="https://www.cambridge.org/core/journals/paleobiology/article/abs/function-in-the-stunted-forelimbs-of-mononykus-olecranus-theropoda-a-dinosaurian-anteater/6823FD1CA0FDE6F376621C52A014BF1A">dig for termites</a> in <a href="https://www.sciencedirect.com/science/article/pii/S0195667108000943">dead wood</a>, all of which are behaviors that have been suggested for alvarezsaurids based on studies of their functional anatomy and ecology.</p>
+
+<p>If I had any notable criticisms of <em>Prehistoric Planet</em>, it would be the fact that this extensive scientific background is probably not apparent to viewers unfamiliar with dinosaur paleontology, as the show generally does not clarify which elements are speculation and which are backed by direct evidence. Each episode does have an accompanying 5-minute “Uncovered” video that delves into some of the science behind the series, but each of these segments focuses only on a single narrow topic, leaving the majority of what is shown in the episodes unaddressed. If anything, a lack of transparency does a disservice to the tremendous amount of thought and research that clearly went into this show.</p>
+
+<p>This point of concern, however, does not undermine the excellence that <em>Prehistoric Planet</em> has achieved. The series is outstanding in nearly every way possible, setting a new and extremely high standard for works of this genre. Given the positive reception so far, I feel hopeful that we will eventually see future seasons of <em>Prehistoric Planet</em> and, with luck, maybe even a whole new age of paleontology-inspired media.</p>
+
+<h1 id="alife-conference-survey">ALIFE Conference Survey</h1>
+
+<p>by Anya Vostinar, ISAL Diversity Chair</p>
+
+<p>Hello ISAL Members! We’ve just wrapped up a successful ALIFE 2022 and the ISAL board would like to get some feedback from you all on two specific aspects of conference organization, double-blind reviewing and extended abstracts, as well as any other comments or suggestions that you have.</p>
+
+<p><a href="https://forms.gle/sfhdu1xfJPRptsbo7">Please complete the survey at this link by September 6th.</a></p>
+
+<p>Thank you for all of your involvement in our ALife community!</p>
+
+<h1 id="alife-2022-student-abstract-essay-winner">ALIFE 2022 Student Abstract &amp; Essay Winner</h1>
+
+<p>by <a href="https://twitter.com/PigozziFederico">Federico Pigozzi</a></p>
+
+<p>Large Language Models (LLMs) (Devlin et al., 2018) have propelled breakthroughs in sequence modeling by pre-training on large web corpora, to the point of seemingly incorporating “universal” knowledge (Lu et al., 2021). But, to what extent is such knowledge universal remains an open question. In other words, do LLMs ground knowledge that is so universal to solve far-fetched downstream tasks?
+
+Most notably, Reinforcement Learning (RL) agents lag behind the computational abilities of animals and they might benefit from the common sense embedded in LLMs as if those were world models (Ha and Schmidhuber, 2018).
+
+In particular, we wonder whether LLMs can be used as off-the-shelf reservoirs for RL tasks by simply optimizing a readout function on top of them.
+
+Proving that LLMs ground knowledge that is so universal to solve RL tasks would be a relevant discovery. As a consequence, being the LLM reservoir frozen, we can solve tasks by optimizing much fewer parameters than usual.</p>
+
+<p><strong>View the full submission and the other Student Abstract and Essay submissions <a href="https://www.2022.alife.org/_files/ugd/534077_2d1b5f057cae4d8abdedf7774aec177d.pdf">here</a>.</strong></p>
+
+<h1 id="book-review-cybernetics-or-control-and-communication-in-the-animal-and-the-machine">Book Review: Cybernetics (or, Control and Communication in the Animal and the Machine)</h1>
+
+<p><strong>by <a href="http://twitter.com/imy_tk">Imy Khan</a></strong></p>
+
+<p>This book has been on my reading list for some time, and I had hoped that volunteering a review back in December would force my hand into reading it. Alas, carving out the time for it was tricker than I had hoped, and while I’m still not through it (I’m writing this review only six chapters in), I wanted to contribute this short piece in the hope that it might inspire others to pick up and read this, quite frankly, fascinating and insightful book.</p>
+
+<p>A quick primer on cybernetics (though I’m sure many of us may be familiar with the term). Cybernetics is a field which concerns itself with regulatory, self-governing systems, attempting to provide a theoretical framework for the regulatory mechanisms and feedback loops that drive system stability or auto/self-regulation. While these systems were originally described from a biological perspective (partially, at least, since Wiener takes the position that the biological “brain” is the primary controller of regulation), the cybernetics principles can be (and have been) applied to systems across numerous scales and fields. These include biology, neuroscience, sociology, engineering, economics, robotics, and artificial intelligence. Closer to the field of ALife, cybernetics has also inspired biologically-relevant theories of self-regulation, such as autopoiesis, enactivism, and viable systems models. Cybernetics as a field, then, is both wide-reaching and cross-disciplinary and has found both theoretical and practical applications across many domains. It is fascinating to think that this is an approach that was developed over 70 years ago, and one that is continually finding relevance in our work.</p>
+
+<p>My reasons for reading this book are simple: the work that I have done (by proxy of the lab where I completed my PhD) has been inspired by cybernetics (as well as other fields). After several years of using, citing, and, at times, defending this approach, I decided that it was only fitting to go back and read some of the original literature on the area. </p>
+
+<p>To start, I have to say that this book is very dense. After a couple of introductory chapters, the book becomes quite heavy on mathematics very quickly - at times, there are several pages of mathematical equations all at once - but Weiner does an excellent job of narrating, commenting, and making analogies for the points he is putting forth. The mathematics is not unnecessarily verbose. On the contrary, Weiner is attempting (and, as it turns out, successful in doing so) to argue for a new perspective on communication (or information) theory as it relates both to animals and machines, drawing parallels between both. The explicit mathematical definitions, therefore, are used to strengthen this position. </p>
+
+<p>I had to constantly remind myself that this book (well, the first edition of this book) was written in 1948, as some of the points that Weiner describes were incredibly forward-thinking and almost predictive of what would unfold in the fields of artificial intelligence, computer vision, and neuroscience. For instance, in the chapter, “Gestalt and Universals”, Weiner discusses how we (animals) can identify and recognise objects using generalisable features While this chapter is light on the mathematical formalisms of these mechanisms, Weiner’s discussions of the (theoretical) mechanisms responsible for this generalisation have perhaps found a home in the field of computer vision. In another instance, in one of the supplementary chapters (published in 1961, that I had a brief read of), Weiner also discusses the potential dangers of machine automation and self-reproducing machines. I don’t want to spoil the contents of the book too much, but his views and seemingly-accurate predictions of some of the social and political problems that may arise from self-replicating machines is, in itself, reason to read this book.</p>
+
+<p>One of my favourite chapters (so far) is the chapter on “Computing Machines and the Nervous System.” Weiner speaks of the “affective tone”, with descriptors of “pleasure” and “pain”, and how they can affect other processes responsible for self-organisation. He also talks about how all of these different affective tones are themselves regulated by an “affective tone totalizer”, and also describes how this plays out in biological systems (through hormonal modulation of the nervous system). What Weiner describes here is the role of “emotional regulation” in biological self-regulatory systems, which I, personally, found to be an interesting perspective. Juxtaposed against the theme of the rest of this book, which emphasises the machine-like processes of inputs, outputs, feedback loops and regulatory systems, the description of a very animalistic quality---emotion---as both a regulator and, itself, regulated, was surprising. To me, this highlighted that Weiner cared just as much about the processes associated with the “animal” as he did the “machine”: a refreshing take in an era where strictly-computational approaches (such as those by von Neumann and Turing) were gaining prominence.</p>
+
+<p>I briefly read some other reviews of this book before I wrote this review, and have seen people call its contents “disorganised” or “disjointed”. I certainly understand these points, but I respectfully disagree. As I mentioned above, Weiner is simultaneously attempting to define this new field of cybernetics, describe its potential applications across numerous domains, while also not shying away from his own opinions on certain matters. At least in my reading of this book, I get the sense that this was written by an incredible individual who is attempting to communicate their groundbreaking work to as many disciplines as possible. As we might all appreciate, interdisciplinary communication is hard work, and I do not hold that against Weiner or this book.</p>
+
+<p>Overall, whether or not your research is directly related to cybernetics or its tangential principles, I would highly recommend that this book finds its way onto your respective bookshelves. Oftentimes, I found that even reading a few pages would spark an idea or two in my head, giving me a wider appreciation of how we can think of (almost) everything in terms of feedback loops and self-organising systems. Others have called this book worthy of reading as a historical document if nothing else. I am inclined to agree. It is not a casual read by any means, but one that I wish I had read years ago. Some of the ideas and theories may have been better refined in the 70 years since its publication, but it is clear to see how this book and his later works were crucial in laying the groundwork for many theories and applications that we take for granted in our own research nowadays.</p>
+
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+
+<ul>
+
+<li>
+
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+
+</li>
+
+<li>
+
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+
+</li>
+
+<li>
+
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+
+</li>
+
+</ul>
+
+
+
+]]></description>
+ </item> <item>
+  <title>The 6th edition of the Alife Newsletter, June 2022</title>
+  <link>https://alife-newsletter.github.io/Newsletter/edition_006.html</link>
+  <guid>edition_006</guid>
+  <pubDate>01 Jun 2022 00:00:00 GMT</pubDate>
+<description><![CDATA[
+<h1 id="a-word-from-the-team">A word from the team</h1>
+
+<p>Welcome to the 6th issue of the ALife Newsletter. Summer is here in the North hemisphere and we are all being boiled alive, but hopefully this fresh newsletter will help cooling you down!</p>
+
+<p>This edition has several paper reviews, a course review, and two workshop summaries! If you attended an ALife event recently, let us know.</p>
+
+<p>The Newsletter is distributed by email, and archived on the International Society for Artificial Life's website.</p>
+
+<p>You can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+
+<p>Contribute to any section of the next newsletter <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">here</a>! We are specially interested in Master and PhD students who want to talk about their own research.</p>
+
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+
+<div class="toc">
+
+<ul>
+
+<li><a href="#review-of-the-agent-learning-in-open-endedness-workshop">Review of the Agent Learning in Open-Endedness Workshop</a></li>
+
+<li><a href="#artificial-life-reading-list">Artificial Life Reading List</a></li>
+
+<li><a href="#running-a-life-simulation-for-60-hours">Running a Life Simulation for 60 hours!</a></li>
+
+<li><a href="#course-review-origins-of-life-by-complexity-explorer-santa-fe-institute">Course Review: Origins of Life (by Complexity Explorer - Santa Fe Institute)</a></li>
+
+<li><a href="#alife-paper-review">ALife Paper Review</a></li>
+
+<li><a href="#summary-of-asymptotic-burnout-and-homeostatic-awakening-a-possible-solution-to-the-fermi-paradox">Summary of "Asymptotic burnout and homeostatic awakening: a possible solution to the Fermi paradox?"</a></li>
+
+<li><a href="#bringing-physics-to-life-an-ideas-lab-from-the-templeton-foundation">Bringing Physics to Life, an Ideas Lab from the Templeton Foundation</a></li>
+
+<li><a href="#upcoming-deadlines">Upcoming Deadlines:</a></li>
+
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+
+</ul>
+
+<h1 id="review-of-the-agent-learning-in-open-endedness-workshop">Review of the Agent Learning in Open-Endedness Workshop</h1>
+
+<p><em>By <a href="https://twitter.com/kvfrans">Kevin Frans</a></em></p>
+
+<p>Open-endedness is the idea of a system that "endlessly creates increasingly interesting designs". That's a simple concept with big implications, especially for those of us interested in AI and the emergence of intelligence. Because even with powerful learning algorithms, intelligence is one of those tricky things that's hard and complicated to specify. But that's the beauty of open-ended systems: they can generate unexpected designs, designs that go beyond the intention of the designer. And so even if intelligence is hard to create, it might be possible to create a system where intelligence naturally emerges. This weekend, a bunch of us thinking about how open-endedness can boost AI gathered at the Agent Learning in Open-Endedness (ALOE) workshop at ICLR.</p>
+
+<p>Many projects were presented, mainly centering around the question of "how can we generate training tasks that are rich, learnable, yet increasingly complex?". XLand aims to create an open-ended set of tasks by 1) defining a distribution of games, and 2) making them all multi-agent. The key lesson is that XLand tasks are so varied and dense that agents have no choice but to generalize. Sam Earle presented work on procedural content generation, showing that AI models could be used as level generators, resulting in a competitive game between AI players and AI designers. PAIRED, presented by Natasha Jaques, examines the game theory of this framework, and shows that a strong training curriculum can arise from a game between a designer, an antagonist, and a protagonist. The designer tries to propose tasks which the antagonist can solve, but the protagonist cannot, a metric which empirically corresponds to tasks just on the learning boundary. Finally, Julius Togelius argued that our classic framework of "agents interacting with an environment" is too limiting, and we should explore new ground.</p>
+
+<p>For more detailed notes, check out the <a href="https://kvfrans.com/notes-on-aloe/">full blog post</a></p>
+
+<h1 id="artificial-life-reading-list">Artificial Life Reading List</h1>
+
+<p>By <a href="https://anyaevostinar.github.io/">Anya E Vostinar</a></p>
+
+<p>This is a reading list of sci-fi books (and a few tv shows/movies) that explore humanistic alife topics for a college-level reading-intensive course. Questions include 'What makes an individual?', 'What makes us human?', and 'Are androids human?'</p>
+
+<p><a href="https://anyaevostinar.github.io/teaching/2022/06/17/alife-reading.html">Artificial Life Reading List</a></p>
+
+<h1 id="running-a-life-simulation-for-60-hours">Running a Life Simulation for 60 hours!</h1>
+
+<p><em>by <a href="https://scholar.social/@caranha">Claus Aranha</a></em></p>
+
+<p>Remember <a href="https://leocaussan.itch.io/the-bibites">The Bibites</a>, a life simulation that we introduced back in <a href="https://alife-newsletter.github.io/Newsletter/edition_004.html#alife-project-the-bibites">Edition 04</a>?</p>
+
+<p>A few weeks ago the simulator received an uppdate, so I decided to let a simulation run in my work computer for the week. It was very nice to check on how my bibites had evolved during my work breaks.</p>
+
+<p><img alt="30 hours of bibites" src="https://alife-newsletter.github.io/Newsletter/images_edition_006/30h_bibites.jpg" /></p>
+
+<p><em>the simulation at around 30 hours</em></p>
+
+<p>Because there was no physical separation in the environment where the digital creatures lived, the population quickly converged. However, evolution continued, and it was very interesting to guess when a new mutation would take hold of the population (such as the ability to avoid other bibites), or be lost to genetic drift (such as the expression of colorful pheromones).</p>
+
+<p>By the way, the author of the simulation recently released a similar video, where he follows 100 hours of simulation and prepares a simple phylogenetic tree of the species that came up. He also promised better tools to visualize the simulation, so look forward to that!</p>
+
+<ul>
+
+<li><a href="https://youtu.be/sEPh6bAQVP0">The result of 100 hours of simulation (Part I)</a></li>
+
+<li><a href="https://youtu.be/xBQ3knSi0Uo">The result of 100 hours of simulation (Part II)</a></li>
+
+</ul>
+
+<h1 id="course-review-origins-of-life-by-complexity-explorer-santa-fe-institute">Course Review: Origins of Life (by Complexity Explorer - Santa Fe Institute)</h1>
+
+<p><em>By <a href="http://twitter.com/imy_tk">Imy Khan</a></em></p>
+
+<p>For a couple of years now, I have sought to improve my understanding of the fields of origins of life and astrobiology, as well as refresh (and/or improve) my working knowledge of physics and chemistry as they relate to living systems. This desire was both a personal one (I think origins of life and astrobiology as research areas are just cool) as well as “professional”, given the overlap between those fields and Artificial Life. </p>
+
+<p>Many readers may agree when I say that diving into and (attempting to) teach yourself new areas can be a daunting and overwhelming endeavour. When it comes to learning about new areas and disciplines (often outside our areas of expertise), knowing where to start or what the foundations of the field are, and then to source the “best” material to learn the new concepts and theory, is a task that perhaps leads many people to either give up their attempts to learn altogether (or, alternatively, creates gaps in their foundational knowledge that need to be filled in later on). Herein lies the value of structured courses, in my humble opinion, where these problems are solved by experts in the area of interest. So, I was quite excited when I found that Complexity Explorer (Santa Fe Institute) was running an Origins of Life online course which started in June 2022. It was even nicer knowing that the course was free of charge (which, to the best of my knowledge, is true of all Complexity Explorer courses).</p>
+
+<p>I chose to write this short review of this course for the ALife community, as I suspect I may not be the only person who may be interested in better understanding OoL/astrobiology or some of the related disciplines. In fact, studying “origins of life” isn’t strictly correct. Rather, what we are doing (I think) is learning about concepts and principles from other disciplines - including the earth sciences, biology, chemistry, and physics - as they relate to the emergence of the properties of what we call “life”, and then to question, explore, and try to figure out what the minimal (biological, chemical and physical) conditions might be in order for “life” to emerge. Or, what “life” would look like if those properties or parameters were different. That second point might make the tie-in to ALife a little clearer…! (There may be more to it, but so far, these are the things that have me interested in OoL research.)</p>
+
+<p>I have been apprehensive about committing to online courses in the past, particularly as so many currently exist that it’s sometimes difficult to separate the good from the…less-good. But since Complexity Explorer/SFI have a reputation for delivering high-quality courses, I decided to take the plunge and commit to the course for the entire duration (11 weeks). Despite the fact that I have no formal background and very limited exposure to anything related to OoL/astrobiology, I have found this course to be a very accessible entry point into this field of research. The course instructors (Prof. Chris Kempes (SFI), Prof. Sarah Maurer (CCSU), and instructor Maria Kalambokidis (UMN)) have done an excellent job of putting together a well-thought-out roadmap of content in both the weekly topics (each week’s subtopics are carefully crafted and structured to build on top of each other) as well as throughout the course itself. Lectures have, so far, been easily digestible, well-presented, coherent and succinct (the length of each lecture is anywhere between 8-25ish minutes each). The instructors have also been thoughtful enough to provide a comprehensive list of references and supplementary material related to each week’s topics, addressing the previously-described problem of not knowing where to start when it comes to finding information on new topics. Crucially, the course has no prerequisites, though they do mention that it may be useful to have some background knowledge of algebra, introductory chemistry and biology. Though I have little knowledge of chemistry, I have not been overwhelmed by the chemistry-heavy units so far, but rather, found them fascinating and insightful. Perhaps this is indicative of how thoughtful and meticulous the instructors have been in choosing how to collate and present the information.</p>
+
+<p>In terms of time commitments, I have been able to watch all the lectures, read the material, and make study notes accordingly within 3-4 hours per week. This is a fair commitment, in my view and like with any course, I suspect you will get out what you put in. If you are interested in learning about (or improving your basic knowledge about) OoL concepts and theories, but don’t know where to start, then this course gets my recommendation. There are (optional) assessments and quizzes to test comprehension, with a certificate of completion if you meet a certain mark threshold, but the course can also be completed without submitting any of those. Nevertheless, if you can carve out some time (3-4hrs per week) to commit to it, I think it will reward you accordingly. At the time of writing, I am on week 3 of 11 (this week’s topic is “Chemical Commonalities” which, amongst other things, will discuss some of the common chemical properties across different living systems, DNA as information, and chemical configurations) and I fully intend on continuing this momentum for the entire course. </p>
+
+<p>Overall, this course is playing its role as an introductory course brilliantly, giving me a stronger understanding and appreciation of some of the core concepts and principles of the field. As a result, I suspect this will become a jumping-off point for me to be able to confidently dive into OoL research in the future with a more informed perspective.</p>
+
+<h1 id="alife-paper-review">ALife Paper Review</h1>
+
+<p><strong>"Evolutionary transition from a single RNA replicator to a multiple replicator network"</strong></p>
+
+<p>by <a href="https://twitter.com/vespid">Mituyoshi Yamazaki</a></p>
+
+<p>This research is an attempt to realize a host-parasite coevolution model aiming at Open-Ended Evolution.
+
+<em><a href="https://webpark2056.sakura.ne.jp/papers/2022_Mizuuchi.pdf">https://webpark2056.sakura.ne.jp/papers/2022_Mizuuchi.pdf</a></em></p>
+
+<h2 id="research-content">Research Content</h2>
+
+<p>The following two conditions are necessary for evolution:</p>
+
+<ul>
+
+<li>Self-replication ability</li>
+
+<li>Inheritance of changes in replication ability</li>
+
+</ul>
+
+<p>How to build a simple model that meets these conditions?</p>
+
+<h3 id="previous-research">Previous Research</h3>
+
+<p>In Spiegelmann's previous study, self-replicating RNA was evolved by feeding it raw material and an RNA-replicating enzyme to replicate it, and repeating the same procedure for the next generation. As a result, RNA converged on the shortest gene that has a trait with high replication efficiency. </p>
+
+<p><em>Cause of convergence:</em>
+
+- The selection pressure of RNA did not change because only RNA was passed in each procedure and the same type of RNA replication enzyme was added.
+
+- The information encoded by RNA was meaningless (the genetic information encoding the protein was included but not used for replication procedure)
+
+    - The susceptibility to replication depended only on the physical properties of RNA and the replication enzyme.</p>
+
+<h3 id="research-by-professor-ichihashi">Research by Professor Ichihashi</h3>
+
+<p>In this paper, Professor Ichihashi continues the previous work by introducing a cell-free protein synthesis, and implementing a model in which RNA makes an RNA-replicating enzyme and the replicating enzyme makes RNA. RNA mutations also affect replication enzymes, avoiding convergence by changing the selection pressure of the system.</p>
+
+<p>Along with that change, they introduced a cellular structure. (In order to prevent the generated RNA-replicating enzyme from drifting somewhere, the cell structure pre-encloses RNA and the necessary nutrients. If it drifts, the tragedy of the commons arises).</p>
+
+<p>As a result of conducting experiments on such a system, the introduction of a cell-free protein synthesis system was not enough, and it converged and stopped evolving.</p>
+
+<p>At this point, the parasite had already developed, but it was suppressed to not inhibit the host's self-renewal. After removing the repression and subculturing for a while, co-evolution began with the RNA of the host and the RNA of the parasite, and new parasites were born.</p>
+
+<h3 id="specifications-of-the-system-that-produces-parasites">Specifications of the system that produces parasites</h3>
+
+<p>There is room for parasites to occur in this system (parasites seem to almost always appear) because there are vulnerabilities in the replication process that can be used by others. In this system, RNA does not replicate by itself, but has a structure that allows an RNA replication enzyme to replicate itself. RNA with a sequence ★ recognized by the replication enzyme as the replication target is replicated. The parasite is RNA of sequence ★ that lacks a gene that encodes a replicating enzyme, and because of this missing gene, the parasite's sequence is shorter and therefore it has a faster replication rate than that of the host RNA.</p>
+
+<h2 id="impressions">Impressions</h2>
+
+<h3 id="specifications-of-the-system-that-produces-parasites_1">Specifications of the system that produces parasites</h3>
+
+<p>This does not depend on the specific implementation target, so it can be installed in any kind of system including software simulators. In particular, Professor Ikegami's Machines and Tapes system seems to be easy to embed because the model structure is similar.</p>
+
+<h3 id="multi-phased-self-replication-process">Multi-phased self-replication process</h3>
+
+<p>The multi-phased process automatically removes the difficulty of self-referencing.</p>
+
+<h3 id="explanation-that-evolved-from-rna-world-to-single-cell">Explanation that evolved from RNA world to single cell</h3>
+
+<p>This research / experiment is, as it is, an explanation of how the RNA world has evolved into a single cell.</p>
+
+<p>Since RNA needs a cellular structure to make and retain a replicating enzyme, it becomes a prerequisite for self-renewal. From that starting point, it already is the simplest form of a cell and easily developed into a fully functional ancestral cell.</p>
+
+<h1 id="summary-of-asymptotic-burnout-and-homeostatic-awakening-a-possible-solution-to-the-fermi-paradox">Summary of "Asymptotic burnout and homeostatic awakening: a possible solution to the Fermi paradox?"</h1>
+
+<p><em>By the authors, Michael L. Wong and Stuart Bartlett</em></p>
+
+<p>In this paper, we explore the potential connections between the emergence of cities and globally connected technological civilizations and the Fermi Paradox. With this perspective, we explore the hypothesis that planetary civilizations may inevitably face a self-induced catastrophe that we call “asymptotic burnout” caused by their underlying social dynamics that drive the superlinear scaling of key metrics, including total energy consumption. Civilizations that develop the capability to understand their own trajectory will have a window of time to affect a fundamental change to prioritize long-term homeostasis over unyielding growth, avoiding burnout via a consciously induced trajectory change that we call “homeostatic awakening.” We propose that the longstanding Fermi paradox may be explained by the inevitability of civilizations to either collapse from burnout or redirect themselves to prioritizing homeostasis, a state where cosmic expansion is no longer a goal, making them difficult to detect remotely.</p>
+
+<p>For more details, check out the paper at <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0029">https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0029</a></p>
+
+<h1 id="bringing-physics-to-life-an-ideas-lab-from-the-templeton-foundation">Bringing Physics to Life, an Ideas Lab from the Templeton Foundation</h1>
+
+<p><em>by Lana Sinapayen</em></p>
+
+<p>This event held in Czech Republic brought together early career scientists from 3 big fields: Artificial Life, Biological Chemistry, and Nonequilibrium Physics.
+
+It was an intense workshop where we had one week to write several grants to apply for up to $5 million in total funding to tackle a research question related to Origins of Life research. Thankfully, the event was highly structured along a tried and tested schedule that saw us generate dozen of ideas individually or in teams, and gradually select the most promising to develop them through several cycles of writing and presentation. 
+
+Without giving away any details, the topics broadly ranged from planetary science to information theory, alternatives to the RNA-world hypothesis, and new definitions of life.
+
+It was exhausting but rewarding. I left having expanded my network of colleagues through true collaborative work rather than simple conference-style chitchat, and with many new ideas to advance my own research. 
+
+The organization was top notch, the discussions between different fields both difficult and enriching. I would highly encourage anyone to apply to relevant "Ideas Lab" if they have a chance.</p>
+
+<h1 id="upcoming-deadlines">Upcoming Deadlines:</h1>
+
+<ul>
+
+<li>Simulation of Adaptive Behaviour (SAB i.e. ANIMATS) - September 2022</li>
+
+<li>European Simulation &amp; Modelling Conference (ESM, Oct 2022)</li>
+
+<li><a href="https://iros2022.org/">IROS 2022</a> (October 23–27)</li>
+
+</ul>
+
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+
+<ul>
+
+<li>
+
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+
+</li>
+
+<li>
+
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+
+</li>
+
+<li>
+
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+
+</li>
+
+</ul>
+
+
+
+]]></description>
+ </item> <item>
+  <title>The 5th edition of the Alife Newsletter, April 2022</title>
+  <link>https://alife-newsletter.github.io/Newsletter/edition_005.html</link>
+  <guid>edition_005</guid>
+  <pubDate>01 Apr 2022 00:00:00 GMT</pubDate>
+<description><![CDATA[
+<h1 id="a-word-from-the-team">A word from the team</h1>
+
+<p>Welcome to the 5th issue of the ALife Newsletter. We have been gaining some momentum over the last few issues, and we are glad to see so many of you enjoying and contributing to this newsletter!</p>
+
+<p>This edition is packed full of great content - from media and conference reviews, news from some recent competitions, and some more information about our upcoming podcast. Be sure to check it all out and let us know what you think.</p>
+
+<p>The Newsletter is distributed by email, and archived on the International Society for Artificial Life's website.</p>
+
+<p>You can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+
+<p>Contribute to any section of the next newsletter <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">here</a>!</p>
+
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+
+<div class="toc">
+
+<ul>
+
+<li><a href="#alife-art-project-alien">Alife Art: Project ALIEN</a></li>
+
+<li><a href="#project-highlight-fingerpainting-fitness-landscapes">Project Highlight: Fingerpainting Fitness Landscapes</a></li>
+
+<li><a href="#project-highlight-mfmrocks">Project Highlight: MFM.rocks</a></li>
+
+<li><a href="#competition-highlight-evocraft">Competition Highlight: Evocraft</a></li>
+
+<li><a href="#media-review-picture-a-scientist-documentary">Media Review: "Picture A Scientist" documentary</a></li>
+
+<li><a href="#conference-review-acmieee-hri-human-robot-interaction-conference-2022">Conference Review: ACM/IEEE HRI (Human-Robot Interaction) Conference 2022</a></li>
+
+<li><a href="#results-of-the-fiction-science-contest">Results of the Fiction Science Contest</a></li>
+
+<li><a href="#upcoming-deadlines">Upcoming Deadlines:</a></li>
+
+<li><a href="#alife-community-podcast-call-for-questions">ALife Community Podcast: Call for Questions</a></li>
+
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+
+</ul>
+
+<h1 id="alife-art-project-alien">Alife Art: Project ALIEN</h1>
+
+<p><em>Contributed by Christian Heinemann</em></p>
+
+<p><a href="https://alien-project.org">ALIEN</a> is an open-source artificial life project which aims to bring together particle-based simulations for soft bodies with a programming model for distributed systems. In this context, agents are networks of connected particles, where the nodes possess capabilities that could be attributed to robotic or biological components: sensors, muscles, computational units and much more. The communication inside a particle network is performed by signals consisting of stateful and transient entities. They facilitate more complex behavior patterns such as food seeking, self-replication, controlled movements, attacking and digestion of resources, swarming behavior, etc. to be implemented in the networks. The simulator comes along with various examples ranging from pure mechanical to evolution simulations to play with. Own particle machines can be constructed with the built-in graph editing and programming environment. For instance, a self-replicating machine provided with enough resources could work as follows:</p>
+
+<p><img alt="Self Replication" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_selfreplication.png" /></p>
+
+<p>From left to right: a possible replication cycle of a particle machine The replication process for this machine takes place in such a way that, starting from a center node, its own network structure is scanned and reconstructed in a spiral sequence. By injecting such a machine equipped with a functioning metabolism into a pristine world exposed to mutations, evolution simulations can be conducted. If desired, the user of the program can merely act as an observer and adjust some simulation parameters from time to time.</p>
+
+<p><img alt="User Interface" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_ui.png" /></p>
+
+<p>The color of a particle has become more importance in recent updates. There are several color flavors available, and they can play a crucial role in the sensoring and digesting functions depending on the simulation setting. In this long-term diagram taken from the built-in simulation monitor, for instance, one can see how populations of replicators with different colors have gained the predominance at different time epochs.</p>
+
+<p><img alt="Statistics" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/alien_statistics.png" /></p>
+
+<p>An objective of this project is to encourage experimentation with worlds full of wonders that keep surprising the observers. ALIEN is powered by an own physics and rendering engine written in CUDA and thus requires an Nvidia graphics card.</p>
+
+<h1 id="project-highlight-fingerpainting-fitness-landscapes">Project Highlight: Fingerpainting Fitness Landscapes</h1>
+
+<p><em>Contributed by <a href="https://twitter.com/LuisZaman">Luis Zaman</a>, <a href="https://twitter.com/LuisZaman/status/1495251969094602755?t=vWoC0E0_AcBRkNYh3IgnRA&amp;s=19">Original Twitter Thread</a></em></p>
+
+<p>While I was a graduate student, I had a bit of fun one weekend and made a touch screen simulation to play with fitness landscapes. @RELenski, @CharlesOfria, and I wrote about this tool back in 2012. <a href="https://zeeelab.github.io/FingerpaintingFitnessLandscapes.js/">Now a version lives online</a>!</p>
+
+<p><img alt="Fingerpainting Opening" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_00.jpg" /></p>
+
+<p>You can watch a population evolve in your browser! Here, we're watching the population neutrally move around the fitness landscape. Note how correlations in the fitness landscape emerge from coalescing lineages.</p>
+
+<p><img alt="Random Walk Animation" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_01.gif" /></p>
+
+<p>By painting in the canvas, you can create regions of higher fitness and watch as the population climbs new peaks.</p>
+
+<p><img alt="Fingerpainting Animation" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_02.gif" /></p>
+
+<p>You can "poke" the population by erasing regions of high fitness, and watch as individuals seemingly scurry to find high fitness regions!</p>
+
+<p><img alt="Poking the Population" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_03.gif" /></p>
+
+<p>We can see what happens if fitness is density dependent, where organisms depress the fitness landscape locally. This is depicted (and mechanistically implemented) by lightening the fitness landscape around each individual.</p>
+
+<p><img alt="Density Fitness" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_04.gif" /></p>
+
+<p>Sexual recombination is a great way to increase variation, but it can also collapse diversity where hybrid organisms "fall off" high fitness regions. We can see that directly in cute fitness landscapes!</p>
+
+<p><img alt="Sexual Reproduction" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_05.gif" /></p>
+
+<p>And one of my favorite fitness landscape phenomenon, survival of the flattest at high mutation rates, is easy to recreate! We can see the population favor the large but less fit region as we crank up the mutation rate.</p>
+
+<p><img alt="Survival of the Flattest" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/fingerpaint_06.gif" /></p>
+
+<p>I hope to keep adding to this (e.g., coevolution!), but please let me know if you have ideas. I'm certainly planning a few lessons in my classes using this, but would love to hear if others are interested!</p>
+
+<p>(Addendum: <a href="https://zeeelab.github.io/FingerpaintingFitnessLandscapes.js/coevolution.html">Co-evolution has been added!</a>)</p>
+
+<h1 id="project-highlight-mfmrocks">Project Highlight: MFM.rocks</h1>
+
+<p><em>Contributed by <a href="https://twitter.com/walpolea">Andrew Walpole</a></em></p>
+
+<p>If you're unfamiliar with Dave Ackley's Movable Feast Machine (MFM), it's a radically different architecture; an entirely new computational stack of hardware and software. An indefinitely-scalable, non-deterministic, tiled grid system meant to free itself from the fragility and constraints of a centralized computational model. (You can learn more about Dr. Ackley's system via <a href="https://t2tile.com/">the T2 Tile Project</a>, where over the last 3+ years he has video-documented his journey of building a hardware-based indefinitely scalable MFM grid.)</p>
+
+<p><a href="https://mfm.rocks">Mfm.rocks</a> is my playground of sorts; an exploratorium for this uncharted computational model. Not quite having the confidence or know-how to dive into Dr. Ackley’s platform directly, the underlying mfm-js library was born out of an insatiable yearn to explore MFM concepts first-hand. And recently I’ve completely rewritten the <a href="https://github.com/walpolea/mfm-js">library (mfm-js 2.0)</a> to be substantially more performant, allowing for bigger grids and more play!</p>
+
+<p>Most notably, the bug that really bit me was the idea that in a robust-first environment, we will need to lean into living-systems concepts – regeneration, organic growth, reproduction, systems-thinking – in order to build software that can resiliently compute within a hostile digital environment. And while I can’t say there is too much useful computing going on as of yet, exploring lower-level living-systems concepts is unlocking ideas. Here are a few of those elemental explorations.</p>
+
+<p><strong>Directionals</strong></p>
+
+<p>Directionals are the name I’ve given to grid travelers that use a sense of understanding directional heading, allowing for the ability to turn left or right or reverse on the grid. Here are a few: Fly, Mosquito, Bird and Wanderer.</p>
+
+<p><img alt="Directionals" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directionals.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FLY&amp;atoms=FLY-15x11-15x46-38x33,MOSQUITO-58x15-58x56-70x31-71x53-85x17,BIRD-99x23-120x11,WANDERER-113x51-113x52-113x53-114x51-114x52-114x53-115x51-115x52-115x53">VIEW DIRECTIONAL DEMO</a></p>
+
+<p><strong>Directors</strong></p>
+
+<p>Directors, which can influence the heading of any Directional show how we might create spatial structures that lead a computational workflow.</p>
+
+<p><img alt="Directors" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_directors.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=WANDERER&amp;atoms=DIRECTOR%20S-40x21-40x23-40x27-40x29-40x33-41x18-42x16-44x15,DIRECTOR%20E-41x35-42x37-44x39-46x39-47x39-50x39-54x39-57x39-61x39-65x39,WANDERER-43x23-44x18-44x30-46x35-52x37-53x16-59x38-60x16-66x37-68x17-69x26-69x34,DIRECTOR%20W-49x14-52x14-56x14-60x14-64x14-67x14-69x15-71x16-71x19,DIRECTOR%20N-68x39-70x37-71x22-71x25-71x29-71x32-71x35">VIEW DIRECTOR DEMO</a></p>
+
+<p><strong>Looper</strong></p>
+
+<p>Looper is really a culmination of both concepts, a Directional itself, it loops around leaving a trail of goop and Directors that traps any unsuspecting nearby Directional.</p>
+
+<p><img alt="Looper" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_looper.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=MOSQUITO&amp;atoms=MOSQUITO-28x30-28x31-28x32-28x33-29x30-29x31-29x32-29x33-30x30-30x31-30x32-30x33-31x30-31x31-31x32-31x33,LOOPER-92x32">VIEW LOOPER DEMO</a></p>
+
+<p><strong>OfSwamp</strong></p>
+
+<p>OfSwamp has a Cell-like composure, but it came aobut as an exploration of Environments and Systems. Swampling will loop around and set up a Swamp environment where all OfSwamp types can freely traverse within, while non-swampkind have a much tougher time intruding. I had approached cell building in the past, but through the lens of an environment the concepts used to put this together ended up being very different.</p>
+
+<p><img alt="OfSwamp" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_ofswamp.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=EMPTY&amp;atoms=MOSQUITO-9x31-16x14-21x48-37x55-55x33-69x19-84x30-92x47-109x55-120x31,SWAMPLING-31x26-33x25-33x28-64x43-65x42-95x25">VIEW OFSWAMP DEMO</a></p>
+
+<p><strong>ForkBomb</strong></p>
+
+<p>ForkBomb is sort of the infinite loop of the MFM grid, unabashedly consuming everything in its endless wake.</p>
+
+<p><img alt="ForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_forkbomb.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-64x32">VIEW FORKBOMB DEMO</a></p>
+
+<p><strong>AntiForkBomb and Sentry</strong></p>
+
+<p>But Sentry, who spits out AntiForkBomb, can easily put a stop to this menace.</p>
+
+<p><img alt="AntiForkBomb" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_antiforkbomb.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,SENTRY-118x30-121x22-123x38">VIEW ANTIFORKBOMB DEMO</a></p>
+
+<p><strong>Living Wall</strong></p>
+
+<p>While some structures that are less robust easily get wiped out by ForkBomb, a Living Wall structure knows how to heal itself a bit as long as there are a few Sentry to keep it from getting entirely overridden.</p>
+
+<p><img alt="Living Wall" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/mfm_livingwall.png" /></p>
+
+<p><a href="https://mfm.rocks/?size=128,64&amp;speed=1&amp;selected=FORKBOMB&amp;atoms=FORKBOMB-22x31,LIVING%20WALL-67x19-67x20-67x21-67x22-67x23-67x24-67x25-67x26-67x27-68x18-68x19-68x20-68x21-68x22-68x23-68x24-68x25-68x26-68x27-68x28-69x17-69x18-69x19-69x20-69x21-69x22-69x23-69x24-69x25-69x26-69x27-69x28-69x29-70x16-70x17-70x18-70x19-70x20-70x21-70x22-70x26-70x27-70x28-70x29-71x16-71x17-71x18-71x19-71x20-71x27-71x28-71x29-72x16-72x17-72x18-72x19-72x27-72x28-72x29-73x16-73x17-73x18-73x19-73x27-73x28-73x29-74x16-74x17-74x18-74x19-74x27-74x28-74x29-75x16-75x17-75x18-75x19-75x26-75x27-75x28-75x29-76x16-76x17-76x18-76x19-76x20-76x21-76x26-76x27-76x28-76x29-77x17-77x18-77x19-77x20-77x21-77x22-77x23-77x24-77x25-77x26-77x27-77x28-78x18-78x19-78x20-78x21-78x22-78x23-78x24-78x25-78x26-78x27-78x28-79x20-79x21-79x22-79x23-79x24-79x25-79x26-79x27-80x21-80x22-80x23-80x24,SENTRY-72x22-74x21-74x24">VIEW LIVING WALL DEMO</a></p>
+
+<p>It’s only been a few months of working with mfm-js 2.0 and I’m only just getting started with this new set of living-systems experiments. I would like to explore more around regeneration, and building computational systems using specialized structures and elemental environments on the grid. There are also more elements and demos available over on the 1.0 version (most notably, SwapWorm and CellBrane) which is still available to check out at https://mfm.rocks/v1/ as well as the game, Dungeon Grid, I built on top of the mfm-js library https://mfm.rocks/v1/game/. The project is open source and I welcome anyone interested in building elements to jump in. If you have any questions you can find me, Andrew Walpole, on <a href="https://twitter.com/walpolea">twitter</a> or <a href="https://discord.gg/rBV6Y6sWNY">the T2 Tile Discord Server</a>!</p>
+
+<h1 id="competition-highlight-evocraft">Competition Highlight: Evocraft</h1>
+
+<p><em>Contributed by <a href="https://twitter.com/enasmel">Elias Najarro</a></em></p>
+
+<p>The purpose of this contest on open-endedness is to highlight the progress in algorithms that can create novel and increasingly complex artefacts. While most experiments in open-ended evolution have so far focused on simple toy domains, we believe Minecraft -with its almost unlimited possibilities- is the <a href="https://arxiv.org/abs/2012.04751">perfect environment</a> to study and compare such approaches. While other popular Minecraft competitions, like MineRL, have an agent-centric focus, in this competition the goal is to directly evolve Minecraft builds.</p>
+
+<p>To facilitate the development of submissions, we provide the <a href="https://github.com/real-itu/Evocraft-py">EvoCraft API</a>: a python interface to Minecraft. EvoCraft is implemented as a mod for Minecraft that allows clients to manipulate blocks in a running Minecraft server programmatically through an API. The framework is specifically developed to facilitate experiments in artificial evolution. The competition framework also supports the recently added "redstone" circuit components in Minecraft, which allowed players to build amazing functional structures, such as bridge builders, battle robots, or even complete CPUs. Can an open-ended algorithm running in Minecraft discover similarly complex artefacts automatically? If you have an API feature that you would like to use that is currently missing, feel free to open an issue on the <a href="https://github.com/real-itu/Evocraft-py">GitHub repo</a>.</p>
+
+<p>If you want to get familiar with the notion of open-ended algorithms, this is a good starting point: <a href="https://www.oreilly.com/radar/open-endedness-the-last-grand-challenge-youve-never-heard-of/">Open-endedness: The last grand challenge you’ve never heard of</a>. </p>
+
+<h1 id="media-review-picture-a-scientist-documentary">Media Review: "Picture A Scientist" documentary</h1>
+
+<p>By Aalok Varma</p>
+
+<p><img alt="Poster for Picure a Scientist" src="https://alife-newsletter.github.io/Newsletter/images_edition_005/picture-a-scientist02-1623430515095.jpg" />
+
+https://www.pictureascientist.com/</p>
+
+<p>It’s well-known nowadays that science is riddled with gender stereotyping and undermining the work of female scientists. So much so that when children are asked to draw a scientist, they mostly draw white men in white lab coats. Gender inequality in science has cost not only the women who couldn’t pursue their passion, but also the scientific endeavour as a whole. “Picture A Scientist” follows some trailblazing women who have not only suffered at the hands of inequality, but have also fought back against it.
+
+I would strongly recommend everyone watch this documentary for many reasons. First, it gives a voice to the women who have been either sexually or emotionally harassed by powerful men. Hearing some of the incidents is moving and is perhaps the best way to understand the ground reality of what it’s like to be a woman in science. Second, it provides statistics to appeal to our logical side. Data, after all, is the currency of scientific discourse, and is powerful enough to convince those who don’t want to rely on anecdotal evidence alone. For instance, Nancy Hopkins at MIT, who was denied extra lab space while her junior male colleagues were given larger lab spaces, went about measuring everyone’s lab spaces and provided concrete data to the administration to prove that there was, indeed, systemic gender inequality. It was only then that the administration at MIT took the problem seriously and put in measures to reduce their inequality footprint.
+
+Lastly, I think the documentary provides new information even to those who may be aware of the problem and also its more insidious sides. For instance, I learnt about a psychological test (called the Implicit Association Test) that demonstrates that even those of us who are acutely aware of gender inequality and consciously put in efforts to combat it suffer from unconscious or implicit biases that contribute to the problem. It made me pause and think about how much more ground we have to cover before we really achieve parity, even if we are committed to the cause.
+
+All this might make you think that the documentary is depressing, which is partly true. However, it is also hopeful, because it showcases the solidarity people are showing in addressing the issue and bringing about lasting change. Do check it out. I think it would be a rewarding watch.</p>
+
+<p>"Picture A Scientist" is currently available for streaming on Netflix.</p>
+
+<h1 id="conference-review-acmieee-hri-human-robot-interaction-conference-2022">Conference Review: ACM/IEEE HRI (Human-Robot Interaction) Conference 2022</h1>
+
+<p><em>Contribution by Imy Khan <a href="https://twitter.com/imy_tk">(@imy_tk)</a></em></p>
+
+<p>The ACM/IEEE HRI (Human-Robot Interaction) Conference is an annual conference on, as the name suggests, all things related to human and robot interaction. Like ALife, HRI brings together a diverse set of researchers: from computer scientists, AI researchers, roboticists, engineers, psychologists, and behavioural and social scientists. As seems to be the way of many conferences at the moment, this year’s conference was run entirely online, originally moving from its intended location of Sapporo, Japan. This is the third time it has moved online, with next year’s conference hopefully being conducted in-person in Stockholm, Sweden. Here’s hoping…!</p>
+
+<p>The virtual conference itself was hosted using Hopin (www.hopin.com): a platform designed for hosting virtual events. This was my first experience using Hopin, with other conferences using platforms like Zoom, Gather.Town, and so on. Unfortunately, this experience was not a particularly good one. While the HRI conference is, traditionally busy, and attempts to pack in a lot of content over the course of the conference, there just seemed to be too much going on, and Hopin’s interface appeared to be quite clunky when navigating between sessions or finding key information. There were many “virtual stages”, running parallel workshops and special sessions along with an industry expo area, but no clear information on precisely what was happening in any of these stages. There was a persistent chat room embedded into the platform, too. While this seems like a good idea to have, it descended into researchers using it promote their workshops, special sessions, or their submissions, rather than a communal forum for discussion. Quite simply, this didn’t work, despite the fact that it probably should have (bring back IRC!). Overall, I don’t think Hopin was a particularly good platform to use, and it made engagement with some parts of the conference quite frustrating. This is, of course, my own personal opinion on the platform (not a reflection on the conference), and others may have really enjoyed the Hopin experience.</p>
+
+<p>Though the conference overall was excellent, with far too many exciting talks to summarise in a single review, the key highlight for me was in Dr. Friederike Eyssel’s keynote - <em>“What’s Social about Social Robots? A Psychological Perspective”</em>. She concluded this talk by talking about research practices in HRI in a post-COVID19 world: that we should recognise that some countries and researchers have bit hit more by (restrictions imposed by) COVID-19 than others and that we should remain sensitive to this when we evaluate their research productivity, research methods, and their outputs. Because of these (ongoing) restrictions, many researchers may not have access to the same tools, methods, or platforms (in this case, complex, autonomous robots), and we should re-evaluate the way that “robot” research is being conducted. This may be of particular interest to researchers in Artificial Life, as it means that the use of simulations or virtual agents may, once again, be valued in these fields where they have, over time, fallen out of favour or have not been granted the space over other methods. So for ALifers who may be interested in expanding their dissemination or research options, it is plausible that the HRI community may be looking for researchers like us to help them give a (semi-)fresh lens to their research.</p>
+
+<p>One interesting standout at this year’s conference was the number, and diversity, of social events on offer. These included virtual laboratory tours (via slides and videos, although a VR-component could have been very cool), a yoga session, a Dungeons &amp; Dragons one-shot campaign, a Judo workshop(!) and a karaoke night, where attendees were asked to partake in karaoke virtually. While I commend the idea, I did not attend that particular event, so I have no idea how well it would have transposed in a virtual setting. Nonetheless, I wanted to make mention of these social events as it is clear that many communities, like ours, are attempting to capture the social component of conferences; and are finding incredibly quirky and creative ways to go about it.</p>
+
+<p>One additional note is that the conference, as I believe it has done for a few years, also offers a “fee waiver” option for first-time attendees, students, or researchers from a selection of socio-economic backgrounds. While many conferences offer reduced/waived fees for the latter two, it was my first time seeing waived fees for first-time attendees. This is a great marketing tool for HRI: expanding the network and grabbing the attention of researchers who may, otherwise, not have been interested in attending, and who may find ways to contribute to the field in the future.</p>
+
+<p>Overall, HRI was a great conference despite the (poor) platform it was hosted on. While I don’t necessarily believe that it would be relevant to all ALifers, it seems like the research methods for HRI research could be swinging back in the direction of simulations and virtual agents. If HRI offer a “fee waiver” option next year (and a virtual option, too), I would encourage ALifers to take a look at attending - and perhaps even finding ways where your current work might fit into the world of human-robot interactions.</p>
+
+<h1 id="results-of-the-fiction-science-contest">Results of the Fiction Science Contest</h1>
+
+<p>by <a href="https://twitter.com/sina_lana">Lana Sinapayen</a></p>
+
+<p>When I first thought of doing the <a href="https://sites.google.com/view/fiction-science/home">Fiction Science Contest</a>, I knew what the goal would be. You know when your code is not running and you find 10 old, unrelated, and so far undetected bugs before solving the real issue? The real bug was only a useful pretext: if you look for problems, you will find them. I wanted to create an occasion for science to find undetected bugs in its commonly accepted assumptions. I had no idea of what topic to choose, but thankfully my biologist colleague was inspired and that is how we came with the idea of fictional viruses hopping from the biological to the artificial world and vice versa. I recruited the famous-but-anonymous neuro-blogger and twitter critic (Neuroskeptic)[https://twitter.com/Neuro_Skeptic] as a 3rd judge and we launched the contest.</p>
+
+<p>We received 11 entries, 1 of which was generated by an AI.
+
+A recurrent topic in many entries was mRNA sequencing. Our participants imagined ways to exploit vulnerabilities in the computers used to analyse data from viruses: as the most obvious entry point of outside information, sequencing was a prime candidate for malicious tinkering. But some entries also wondered if natural evolution could cause feedback loops between computers and biological organisms. And finally, some entries imagined less nefarious motives for cross-domain infection: research!</p>
+
+<p><a href="https://sites.google.com/view/fiction-science/archives">See the ranking and read the entries here.</a></p>
+
+<p>And let us know what you think: far fetched? Plausible? Threatening? Did any of them changed the way you think about a given phenomenon? And of course, if you publish your impressions (blog / twitter / paper...) or have your own story to submit, we'll be glad to add the link to this page. Contact fiction.for.science {at} gmail.com</p>
+
+<p>Finally, congratulations to the winners:</p>
+
+<ul>
+
+<li>
+
+<p>Romain from France for <a href="https://drive.google.com/file/d/1nmVUOpAYcmHb2pgbGvPK9DCVV1zh1zEk/view">"Bio-infection through computer virus heavily suspected"</a>, winner for Prompt 1: First Case of Biological Organism Infected by Computer Virus.  </p>
+
+</li>
+
+<li>
+
+<p>Claus ARANHA and Diego ARANHA (No relation) for <a href="https://drive.google.com/file/d/1iI4gfJmVAiIXGyMvY40lhXTOdjvhBC8L/view">"Nature finds a way"</a>, winner for Prompt 2: Computer Virus Nicknamed 'Akabake' Believed to Have Biological Origins. This submission got the highest score all categories.</p>
+
+</li>
+
+</ul>
+
+<h1 id="upcoming-deadlines">Upcoming Deadlines:</h1>
+
+<ul>
+
+<li><a href="https://www.2022.alife.org/copy-of-special-sessions">ALIFE Workshops</a> -- Check the deadline for each workshop</li>
+
+<li><a href="https://sab2022.sciencesconf.org/resource/page/id/5">Animals to Animats</a> -- May 9th</li>
+
+<li><a href="https://evocraft.life/">Open Ended Evolution Challenge at GECCO2022</a> -- June, 15th</li>
+
+<li><a href="https://virtualcreatures.github.io/">Virtual Creatures Competition</a> -- July, 1st</li>
+
+</ul>
+
+<h1 id="alife-community-podcast-call-for-questions">ALife Community Podcast: Call for Questions</h1>
+
+<p>We are happy to announce that we will be recording the first episode of the ALife Community Podcast in May. Our first guest is due to be the current president of the ISAL board, Dr. Charles Ofria. We are looking for questions from the community to put forth to Dr. Ofria. If there is anything you would like to ask him, please email imytkhan {at} gmail.com with the subject "ALife Podcast Questions", or send a DM on Twitter to <em>Contribution by Imy Khan <a href="https://twitter.com/imy_tk">(@imy_tk)</a></em>
+
+.</p>
+
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+
+<ul>
+
+<li>
+
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+
+</li>
+
+<li>
+
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+
+</li>
+
+<li>
+
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan {at} gmail.com</p>
+
+</li>
+
+</ul>
+
+
+
+]]></description>
+ </item> <item>
+  <title>The 4th edition of the Alife Newsletter, February 2022</title>
+  <link>https://alife-newsletter.github.io/Newsletter/edition_004.html</link>
+  <guid>edition_004</guid>
+  <pubDate>01 Feb 2022 00:00:00 GMT</pubDate>
+<description><![CDATA[
+<h1 id="a-word-from-the-team">A word from the team</h1>
+
+<p>For this 4th issue, we are glad to welcome a new member to the ALife Newsletter team: a warm welcome to Katt Walker!</p>
+
+<p>We hope you enjoy the contents!</p>
+
+<p>The Newsletter is distributed by email, and archived on the International Society for Artificial Life's website.</p>
+
+<p>You can subscribe <a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>.</p>
+
+<p>Contribute to any section of the next newsletter <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">here</a>!</p>
+
+<p>Lana, Imy, Mitsuyoshi, Claus and Katt.</p>
+
+<div class="toc">
+
+<ul>
+
+<li><a href="#isal-voices-the-2022-virtual-creatures-competition">ISAL Voices: The 2022 Virtual Creatures Competition</a></li>
+
+<li><a href="#paper-learning-sensorimotor-agency-in-cellular-automata">Paper: Learning Sensorimotor Agency in Cellular Automata</a></li>
+
+<li><a href="#report-2nd-workshop-of-the-japanese-society-of-alife">Report: 2nd Workshop of the Japanese Society of Alife</a></li>
+
+<li><a href="#review-interactions-between-learning-and-evolution-ackley-and-littman-1991">Review: Interactions Between Learning and Evolution (Ackley and Littman, 1991)</a></li>
+
+<li><a href="#review-permutation-city">Review: Permutation City</a></li>
+
+<li><a href="#review-of-the-alife-special-issue-at-the-japanese-society-of-ai-journal">Review of the Alife Special issue at the Japanese Society of AI Journal</a></li>
+
+<li><a href="#fiction-science-contest">Fiction Science Contest</a></li>
+
+<li><a href="#upcoming-deadlines">Upcoming Deadlines</a></li>
+
+<li><a href="#alife-project-the-bibites">Alife Project: The bibites</a></li>
+
+<li><a href="#interview-petr-salaba">Interview: Petr Salaba</a></li>
+
+<li><a href="#introduction-of-the-era-board-membership">Introduction of the ERA Board membership</a></li>
+
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+
+</ul>
+
+<h1 id="isal-voices-the-2022-virtual-creatures-competition">ISAL Voices: The 2022 Virtual Creatures Competition</h1>
+
+<p>Since the early 1990’s, virtual creatures have captured the imagination of artists, engineers, philosophers and scientists. Virtual creatures can now be found in our favorite animated movies, the design of useful robots and novel organisms, and the genesis of better explanations of nature and all of its creatures.</p>
+
+<p><strong>Be part of the next generation of virtual creatures, and enter the 2022 Virtual Creatures Competition (VCC)!</strong></p>
+
+<p>The VCC is now soliciting short films (under five minutes) from thinkers, builders, and artists, of their latest simulated artificial lifeforms. Submissions will be judged on their contribution to science (new explanatory theories), engineering (technical achievement), and art (aesthetic appeal). To enter, submit your five-minute film, along with a one page summary, before July 1.</p>
+
+<p><strong>Email submissions to</strong>: caitlin.grasso@uvm.edu</p>
+
+<p><strong>Deadline</strong>: July 1, 2022</p>
+
+<p><strong>Website</strong>: <a href="https://virtualcreatures.github.io">https://virtualcreatures.github.io</a></p>
+
+<p><strong>Organizers</strong>: Caitlin Grasso, Kathryn Walker, Lana Sinapayen, Sam Kriegman.</p>
+
+<h1 id="paper-learning-sensorimotor-agency-in-cellular-automata">Paper: Learning Sensorimotor Agency in Cellular Automata</h1>
+
+<p><strong>Website:</strong> https://developmentalsystems.org/sensorimotor-lenia/ </p>
+
+<p><img alt="Screenshot from the blog" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/inria_lenia.jpg" /></p>
+
+<p><em>by Gautier HAMON, INRIA FLOWERS</em></p>
+
+<p>In this blogpost, we propose an approach enabling to learn self-organizing agents capable of reacting to the perturbations induced by the environment, i.e. robust agents with sensorimotor capabilities. We provide a method based on curriculum learning, on diversity search and on gradient descent over a differentiable CA able to discover the rules leading to the emergence of such creatures.</p>
+
+<h1 id="report-2nd-workshop-of-the-japanese-society-of-alife">Report: 2nd Workshop of the Japanese Society of Alife</h1>
+
+<p><em>by Mikihiro Suda　(suda(at)websci.cs.tsukuba.ac.jp)</em></p>
+
+<p>On 2022-12-06, I participated in the workshop of the Japanese Society of Artificial Life. The purpose of this workshop was to share and discuss a wide range of research on artificial life. In fact, what impressed me the most was the great variety of research fields presented. In the oral presentation session, three researchers gave presentations. I presented my research on human relationships as an ecosystem and extracting keystone relationships from social networks. The other two researchers presented a study on emergence in the legal world from a computational perspective, and a study on wealth distribution in a multi-agent simulation with agents with personalities. Just by looking at the contents of these three presentations, you can see the diversity of research discussed at the workshop.</p>
+
+<p>In addition to the oral presentations, there were also poster sessions and keynote speeches. The poster session used an online communication tool called Gather, where 12 posters were displayed in a user interface that resembled an RPG game. I was impressed by the very cheerful atmosphere of the entire workshop. I think one of the reasons is that there were many young participants, and I was able to see everywhere that the discussions were friendly and active.</p>
+
+<p><img alt="Participants of the workshop together in Gather" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/alifejapan.png" /></p>
+
+<p>Overall, I feel that it was a very meaningful workshop. I am deeply grateful to have been able to participate in such an occasion.</p>
+
+<h1 id="review-interactions-between-learning-and-evolution-ackley-and-littman-1991">Review: Interactions Between Learning and Evolution (Ackley and Littman, 1991)</h1>
+
+<p><em>By Federico Pigozzi, University of Trieste (pigozzife@gmail.com)</em></p>
+
+<p>Link: https://www.gwern.net/docs/reinforcement-learning/1992-ackley.pdf</p>
+
+<p>The authors experiment with a grid-world environment, which rewards agents for eating food and punishes them for dying (either of starvation or being killed by predators). The agent model employs two networks: an evaluation network that predicts the goodness of a state, and an action network that selects the next action. A genetic algorithm evolves the evaluation network against a “survival” fitness function, while a temporal reinforcement learning algorithm learns the action network (over the course of a simulation), using the output of the evaluation network as reward.</p>
+
+<p>The main result is that learning and evolution together were more successful than either alone in producing adaptive populations; the authors attributed the result to the Baldwin effect, by which agents used learning to stay alive while waiting for successful behaviours to be incorporated directly into the genetic code in the form of preferences.</p>
+
+<p>Moreover, the authors found that successful inherited behaviours “shielded” the inherited preferences, allowing for deleterious mutations to accumulate and eventually leading to maladaptations and instability in the population dynamics. While the former result had already been witnessed in simulations, the latter revealed a novelty.</p>
+
+<p>Reason why I liked it: (Effective) adaptation in animals emerges from the interplay between evolved, instinctive traits (e.g., body) and learned, plastic traits (e.g., behaviour). Starting from the seminal study of Hinton and Nowlan (1987), researchers have asked themselves how learning and evolution can extend each other. As a matter of example, we have recently witnessed a surge in robotics papers attempting to learn controllers while evolving morphologies, and it looks a very promising research direction for the future.</p>
+
+<h1 id="review-permutation-city">Review: Permutation City</h1>
+
+<p><em>by Tanner Lund (<a href="https://twitter.com/101010Lund">@101010Lund</a>)</em></p>
+
+<p>Greg Egan asks the question “What counts as life?” in many different ways throughout the course of his 1994 novel Permutation City. In a world where brain copying and approximation is possible for the well-off and where virtual copies of people can live on after the donor’s death, what counts as immortality? Are you alive if you do not have a body? If you cannot age? If you were created outside of the universe you inhabit? If you edit the parts of yourself you don’t like in the “real world”?</p>
+
+<p>Visionary Paul Durham is convinced there is another, more real form of virtual immortality than what brain scans offer, and he claims to have the capital and compute resources to pull it off. He enlists the help of Maria Deluca, an ALife researcher who dabbles in a cloud-based chemistry simulation environment called the Autoverse, to engineer the jewel in his crown. She is conflicted and suspicious, but what Paul wants her to design is too big a dream for her to pass up, even if she’s convinced it couldn’t ever really be run with the limits of modern computing systems. Neither of them fully understands what they are about to create together.</p>
+
+<p>Permutation City expertly weaves philosophy, metaphysics, computer science, biology, and other disciplines into a compelling vision of a future where the pursuit of immortality is tied to the pursuit of artificial life. All of this is neatly explored in a compelling narrative featuring well rounded, believable characters who are not what they appear - neither the “real” humans nor their various digital counterparts. Though at times it is bleak and pessimistic, the book is also beautiful and full of wonder.</p>
+
+<p>If we do ever create artificial life, what will we owe to our creations?</p>
+
+<p>Who will we become?</p>
+
+<h1 id="review-of-the-alife-special-issue-at-the-japanese-society-of-ai-journal">Review of the Alife Special issue at the Japanese Society of AI Journal</h1>
+
+<p><em>by Hiroki Sayama, Binghamton University, SUNY (sayama@binghamton.edu)</em></p>
+
+<p>The most recent issue of the Journal of the Japanese Society for Artificial Intelligence (JSAI Journal) is a special issue featuring ALife, edited by Yasuhiro Hashimoto, Claus Aranha and Mizuki Oka.</p>
+
+<p>Articles are all written in Japanese, but you can still try and check out its contents using machine translation (and also enjoy the gorgeous cover illustration of the issue created by Shun Iwasawa). <a href="https://www.jstage.jst.go.jp/browse/jjsai/37/1/_contents/-char/ja">Read the special issue here</a></p>
+
+<h1 id="fiction-science-contest">Fiction Science Contest</h1>
+
+<p><em>by Lana Sinapayen (<a href="https://twitter/sina_lana">@sina_lana</a>)</em></p>
+
+<p>Deadline: Feb. 28th</p>
+
+<p>Announcing the Fiction Science Contest, an idea contest for scientists and scientifically-minded people!</p>
+
+<p>Can fake discoveries inspire real-world science? We give you fake news, you convince us it could have been true.</p>
+
+<p>Prizes: $100 for the best entry to the first prompt; $100 for the best entry to the second prompt; Special mentions for other excellent entries!</p>
+
+<p>Two prompts: "First Case of Biological Organism Infected by Computer Virus" and "Computer Virus Nicknamed 'Akabake' Believed to Have Biological Origins".</p>
+
+<p>Find the full text prompts and rules at the <a href="https://sites.google.com/view/fiction-science/home">contest webpage</a></p>
+
+<h1 id="upcoming-deadlines">Upcoming Deadlines</h1>
+
+<ul>
+
+<li><a href="https://alife.org/conference/alife-2022/">ALife 2022</a> -- Submission Deadline: March, 1st</li>
+
+<li><a href="https://evocraft.life/">Open Ended Evolution Challenge at GECCO2022</a> -- Submission Deadline: June, 15th</li>
+
+<li><a href="https://virtualcreatures.github.io/">Virtual Creatures Competition</a> -- July, 1st</li>
+
+</ul>
+
+<h1 id="alife-project-the-bibites">Alife Project: The bibites</h1>
+
+<h2 id="introduction-by-the-author">Introduction by the author</h2>
+
+<p><em>by Leo Caussan</em></p>
+
+<p><a href="https://leocaussan.itch.io/the-bibites">The Bibites</a> is an Artificial Life Project that emulates biological processes, physics, and mutation of both phenotypical and behavioral characteristics, resulting in evolution.</p>
+
+<p>The Bibites eat to gain energy, which they must expend to sustain their metabolism, move around, grow, reproduce, and do other things.</p>
+
+<p><img alt="Bibites Feeding on Pellets" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites1.png" /></p>
+
+<p><em>Bibites of different species feeding on plant pellets</em></p>
+
+<p>The Bibites is an evaluation-less simulation, what survives best is what is selected for. The bibites reproduce biologically, expending energy to produce offspring, which may present mutations. This results in natural selection.</p>
+
+<p><img alt="A bibite with an egg" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites2a.png" />
+
+<img alt="A young bibite" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites2b.png" /></p>
+
+<p><em>A bibite with an egg it just laid (left) and the result young bibite that later came out of that egg (right)</em></p>
+
+<p>On death, the bibites release the energy they contain (the energy they used to grow, their stored energy, etc.) is released in the form of meat pellets, which are also a potential food source for the bibites.</p>
+
+<p><img alt="Meat left after a bibite dies" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites3.png" /></p>
+
+<p>However, one of the genes a bibite can mutate is its diet. Basically, it’s a gene that ranges from fully herbivorous to fully carnivorous. Depending on their affinity toward a particular food source, they will be more or less efficient at extracting the energy out of that source, even potentially losing energy if they are incompatible enough.</p>
+
+<p><img alt="Herbivore Bibite" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites4a.png" />
+
+<img alt="Carnivore Bibite" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites4b.png" /></p>
+
+<p><em>Note the different mouthparts between herbivores (left) and carnivores (right)</em></p>
+
+<p>With this possibility, I’ve always wanted predation to develop naturally in the simulation, but never actually managed to see it arise.
+
+That’s why I decided to launch an epic journey to uncover what dynamics are lacking in the simulation in order for predation to be a possible development.
+
+And if a picture is worth a thousand words, here’s a video that must be worth at least a million words. <a href="https://www.youtube.com/watch?v=rPkMoFJNcLA">The Evolution of Predation in a Simulated Ecosystem</a></p>
+
+<p><img alt="The latest Bibites video" src="https://alife-newsletter.github.io/Newsletter/images_edition_004/bibites5.png" /></p>
+
+<h2 id="impressions-by-a-user">Impressions by a User</h2>
+
+<p><em>by Joao Guilherme (twitter: @_joaogui1))</em></p>
+
+<p>The Bibites: Digital Life (or just Bibites) is a very interesting Alife project. The system's main individuals are bibites, virtual cratures capable of movement, reproduction, feeding and evolution. They each have genes, which are passed to their children during reproduction, and "brains", simple neural networks that dictate their behaviour. There are a couple of fruitful ways to interact with the project, among them I've done 2:  Watching the youtube videos made by the developer and downloading the software and running your own simulations. On the channel one may find videos about the inner workings of the bibites, or about how ecological properties properties arise in the simulation, like herding, altruism, and in the newest series predation.  Playing with the simulations is also greatly rewarding, it's quite flexible and allows one to truly formulate hypothesis and explore their validity.
+
+So overall, while not as mathematically or academically elegant as Lenia, I believe Bibites is a great example of an Alife project, and I recommend other members of the community play with the simulations and interact with the author on twitter and Reddit, to help shape future explorations.</p>
+
+<h1 id="interview-petr-salaba">Interview: Petr Salaba</h1>
+
+<p><em>(1) Could you give us a very quick introduction? Who you are, where you’re from, what your area is, etc?</em></p>
+
+<p>My initial background in theatre and reportage photography. You can find photos of burning cars in the streets of Vancouver and nightlife parties in my portfolio. This has further synthesized into documentary filmmaking with the focus on communication of science. I’m currently finishing my masters at the Film and TV Faculty of the Performing Arts in Prague in the Department of Documentary Film. Besides filmmaking, I work part time at the Czech Technical University where I help to set up and coordinate interdisciplinary projects - for example a collaboration with the Czech National Institute Mental Health about machine learning analysis of sleep patterns for predicting affective mood changes in subliclinal population.</p>
+
+<p><strong>On “ALife”</strong></p>
+
+<p><em>(2) Why is your research Alife-like?</em></p>
+
+<p>As an artist, I’m preparing a documentary film about the general concept of emergence. And as a science networker who dips into interesting topics across areas, I’m drawn into the theory of embodied cognition. The two areas that I’m currently exploring are about dance archeology and AAI. By dance archeology I mean the reconstruction and reinterpretation of the baroque dances that were recorded in symbolic Beauchamp-Feuillet notation. These baroque dances originated at the court of the king Louis XIV and are particularly interesting for the ritualistic and propagandistic effect they had. It is believed that Louis XIV managed to unprecedentedly consolidate power and gain authority through his grandeur ballet performances. I find this as a great example of epistemic significance of embodied cognition where we can observe cognition as a relation between mind, body, space and goal oriented action unfolding in real time. So I’m figuring out how to connect the research from the Laboratory of Chronorobotics at CTU with the analysis of the baroque dance patterns of the ballet dancers from the dance academy.</p>
+
+<p>And AAI stands for animal assisted intervention. I think many people are excited about artificial intelligence because it offers some comparative perspective to our human cognition. But then I find that most of AI research provides a very isolationist perspective on cognition. So ethology in the context of animal assisted psychotherapy and emotional human-animal interaction seems to me as a very low hanging fruit for further research in comparative cognition. More than any formal research, this is a passion that I’m currently exploring as I’m learning how to ride a horse.</p>
+
+<p><em>(3) Why do you do ALife research (especially if you have another main research field)?</em></p>
+
+<p>I like the Alife approach to cognitive sciences because it is very bottom-up. And not only that it might make sense to go the Alife way in order to develop more advanced artificial intelligence, I think it’s also the way to even start communicating about cognition. This is useful for me when I’m thinking about how to talk about artificial intelligence or cognition in my art work. Most art and culture is drawn so much to artificial intelligence as some meaningful “other” that we can compare ourselves to. But I think that’s often intellectually very dishonest. To me it makes more sense to first explore general principles such as emergence or reinforcement feedback loops before we get speculating about human-like behaviour.</p>
+
+<p><em>(4) What is your vision for the future of ALife research?</em></p>
+
+<p>As I foreshadowed earlier I think it’s about the horses. Really. Equine neuroscience is still a very emerging field, yet through our mutual embodied cognition we have managed to gain a lot of utility from these animals for about 8 000 years. I think that the further study of equine cognition could enlighten us in the general principles of how the entire nervous system of an organism functions. We should focus more towards the perspective on cognition that takes into account all the sensory input from the environment and emotional regulation in the limbic system before the final evaluation in the neocortex.</p>
+
+<p><strong>On Research</strong></p>
+
+<p><em>(5) What convinced you to become a researcher?</em></p>
+
+<p>As a filmmaker believing in effective altruism, I’ve been wondering what topics would make the most beneficial impact if I captured them in my films. And so communication of science seemed to me as a potentially impactful path and lots of fun. As I was making research for the development of my films, I realized that if I want to say something meaningful and intellectually honest, I should put a substantial effort into the research phase. This is far from usual in the filmmaking art world as there is rarely any budget for too much prior thinking. And so as I was meeting scientists across the fields, I was gaining horizontal understanding in different areas and I eventually drifted from filmmaking into the field of science development and science networking.  </p>
+
+<p><em>(6) What is something that made you happy about doing research recently?</em></p>
+
+<p>As an artist I’m happy when I read someone else’s research in cognitive sciences and neurobiology that validates some rationality of emotions. I like when something previously seen as wizardry is getting more evidence based ground.</p>
+
+<p><em>(7) When was the last time that you felt like a scientist?</em></p>
+
+<p>I still feel quite a lot like an impostor. But these questions do make me feel a bit like a scientist. On the other hand, I would argue that a toddler figuring out how their fingers move is also a scientist.</p>
+
+<p><strong>General</strong></p>
+
+<p><em>(8) Who are three non-ALIFE scientists/researchers/philosophers/etc that have inspired your work/research, and how?</em></p>
+
+<p>I really enjoyed the documentary film In Silico by Noah Hutton. It’s about the Swiss based Human Brain Project that gained a 1 billion euro grant with the ambition to simulate human consciousness. The film is unusually critical towards the research project and it offers a unique inside view into the problem of over-promise that is rarely reflected in the media. Then I really enjoyed reading the research in psychology by Bessel van der Kolk (the author of The Body Keeps the Score) and Joseph Spinazzola (research on post traumatic stress and animal assisted intervention).</p>
+
+<p><em>(9) What is some advice you would give to your younger-self or new researchers?</em></p>
+
+<p>Don’t worry too much about your status. It’s fine to do embarrassing things if this is what it takes to act honestly. Your integrity is the biggest asset you have.</p>
+
+<p><em>(10) Do you have anywork that you would like to promote?</em></p>
+
+<p>You can watch this 5 minute short film <a href="https://vimeo.com/30485952">"Time Sealed"</a> I made some time ago. It’s about the tintype photography process. I could argue it’s an early Alife film since it’s about how chemistry creates emotional life like representation.</p>
+
+<p><em>(11) Where can people find you? (Twitter/website/etc)</em></p>
+
+<p>Here is my website: <a href="petrsalaba.cz">petrsalaba.cz</a>, until I update it, you can find there my photography and video work.</p>
+
+<h1 id="introduction-of-the-era-board-membership">Introduction of the ERA Board membership</h1>
+
+<p><em>By Imy Khan (<a href="https://twitter.com/imy_tk">@imy_tk</a>)</em></p>
+
+<p>October 2021 saw the introduction of six new ERA (Emerging Researchers in ALife) board members for the 2021/22 term. We’d like to introduce these members to the ALife community. The group spans both PhD and post-PhD members located all across the globe, and represent a diverse set of experiences, expertise, and research interests.</p>
+
+<ul>
+
+<li><strong>General Chair</strong>: Abe Leite - a first-year PhD student at Stony Brook University (USA).</li>
+
+<li><strong>Vice Chair</strong>: Barbora Hudcova - a second-year PhD student at Czech Technical University (Czech Republic)</li>
+
+<li><strong>ISAL Board Representative</strong>: Richard Löffler - a post-doc researcher at the University of Trento. (Italy)</li>
+
+<li><strong>Communications Chair</strong>: Thomas Chen (tbc)</li>
+
+<li><strong>Equity Chair</strong>: Imy Khan - a researcher at the University of Hertfordshire and University of Sussex (UK).</li>
+
+<li><strong>Conference Chair</strong>: Federico Pigozzi - a second-year PhD student at the ​​University of Trieste (Italy)</li>
+
+</ul>
+
+<p>The board is already hard at work making many changes which they will communicate in the next newsletter. If you are interested in joining the ERA group, feel free to join the <a href="https://join.slack.com/t/isalstudents/shared_invite/zt-5t9huf34-bw3sKCY3mlfhEsIg4xcPCg">Slack channel</a></p>
+
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+
+<ul>
+
+<li>
+
+<p>The newsletter is looking for volunteers to curate content and come up with new ideas! Contact lana.sinapayen@gmail.com</p>
+
+</li>
+
+<li>
+
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial Life</a> is live and needs contributions!</p>
+
+</li>
+
+<li>
+
+<p>How cool would it be to have an ALife podcast? If you are interested in helping out contact imytkhan@gmail.com</p>
+
+</li>
+
+</ul>
+
+
+
+]]></description>
+ </item>
 </channel>
 </rss>
