@@ -2,7 +2,7 @@
 
 [https://arxiv.org/abs/0704.0304](https://arxiv.org/abs/0704.0304)
 
-*Paper review by [Michael Crosscombe]()*
+*Paper review by [Michael Crosscombe](https://twitter.com/m_crosscombe)*
 
 I recently transitioned into Artificial Life research and I have been digging through the digital archives to familiarise myself with some of the exciting ideas in the field. Given my outsider’s perspective, I find that I am most drawn to papers which offer a novel way of thinking about the world and, in doing so, provide a different lens through which we can approach the ongoing problems of the field.
 
