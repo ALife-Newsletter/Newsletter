@@ -1,7 +1,7 @@
 # Abiogenesis (artwork by Markos R. Kay)
 shared by Lana
 
-![Video still](images/abiogenesis.png)
+![Video still](images/abiogenesis.png?h=200)
 
 I found this video imagining the origins of life in oil droplets mesmerising and wanted to share it with the community. [The artist says](https://www.mrkism.com/abiogenesis.html): 
 
