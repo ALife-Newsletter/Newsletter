@@ -11,4 +11,4 @@ Rather than a user-device relationship built on extractive use, our approach exp
 
 ![How it works](images/6-interaction-graphic.jpg)
 
-Read our paper at http://lab.plopes.org/#integrating-living-organisms or watch the project video at https://youtu.be/Bex91KV56PQ
+Read [our paper](http://lab.plopes.org/#integrating-living-organisms) or [watch the project video](https://youtu.be/Bex91KV56PQ)
