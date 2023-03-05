@@ -1,5 +1,4 @@
 # Video: Can Boquilla Trifoliolata mimic other plants?
-[Claus Aranha](https://scholar.social/@caranha)
 Video from [SciHow](https://www.youtube.com/@SciShow), shared by [Lana](https://mstdn.science/@lana)
 
 I (Lana) have been intrigued by the Peruvian vine Boquilla Trifoliolata for years, and even unsuccefully tried to import some for experiments (if you can help hit me up).
