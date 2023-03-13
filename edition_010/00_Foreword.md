@@ -3,6 +3,9 @@
 # A word from the team
 
 Welcome to the 10th issue of the Alife Newsletter!
+Congratulations to all who made it to the ALife2023 paper submission deadline, and for those who didn't, workshop deadlines are still upcoming!
+
+This edition
 
 PLANTS PLANTS PLANTS PLANTS PLANTS PLANTS PLANTS PLANTS PLANTS 
 
