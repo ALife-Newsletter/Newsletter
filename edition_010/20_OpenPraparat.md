@@ -9,10 +9,10 @@ This artificial life model is proposed with the aim of simulating reproduction, 
 Currently, two types of creatures have been found in this model. One is a dumbbell-shaped creature, and the other is a reticulated creature. <br>
 
 The dumbbell-shaped creature has a body where two cells are connected, literally shaped like dumbbells. This dumbbell-shaped creature multiplies by asexual reproduction, during which it deploys a white protective organ.  This is a trait they have acquired during evolution to make them less likely to be eaten by other creatures. <br>
-![dumbbell](images/openpararat_dumbbell.png)
+![dumbbell](images/OpenPraparat_dumbbell.png)
 
 The reticulated creatures are constructed by a large network of many interconnected cells. Its mode of reproduction is asexual, like that of the dumbbell-shaped creatures, but in the case of this reticulated creature, it has acquired the survival strategy of expanding its habitat by tearing off parts of its body and sending them flying far away. <br>
-![reticulated](images/openpararat_reticulated.png)
+![reticulated](images/OpenPraparat_reticulated.png)
 
 By installing this OpenPraparat, you will be able to simulate these creatures by yourself and also search for new ones! <br>
 
