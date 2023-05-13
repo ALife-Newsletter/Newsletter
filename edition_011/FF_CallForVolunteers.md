@@ -7,5 +7,3 @@
   Life](https://alife.org/encyclopedia/) is live and needs
   contributions!
 
-- How cool would it be to have an ALife podcast? If you are interested
-  in helping out contact imytkhan {at} gmail.com
