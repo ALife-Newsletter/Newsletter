@@ -1,4 +1,4 @@
-#Crescent Loom
+# Crescent Loom
 By [OLIVE 🌺🐍](https://twitter.com/jovialthunder)
 
 **Crescent Loom** is a game about weaving new forms of life. Players build up an intuitive sense of central pattern generators by knitting bones, stitching muscles, and linking neurons to design an underwater creature in a biologically-realistic neuronbiology simulation. After using these Lego-like biological tools to make a creature, it is then put to the challenge of exploring environments, navigating past hazards, and competing against each other in races — all with constant access to view and modify their simulated nervous system in real time. 
