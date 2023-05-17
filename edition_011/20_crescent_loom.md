@@ -11,6 +11,6 @@ By wrapping a detailed RC-circuit model in a friendly user interface, it is desi
 
 There is also a virtual wetlab "Connectome Explorer" which provides mock lab tools to puzzle out obscured connectomes of creatures created in the game's editor. Students can collect data to map unknown nervous systems using ablation, optogenetics, current clamping, and pharmacological blockers of excitation, inhibition, and action potentials.
 
-Crescent Loom can accessed and played for free in-browser at [crescentloom.com](crescentloom.com)
+Crescent Loom can accessed and played for free in-browser at [crescentloom.com](https://crescentloom.com/)
 
 
