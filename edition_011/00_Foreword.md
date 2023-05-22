@@ -20,6 +20,11 @@ Severino](https://twitter.com/GJSeverino), who has joined the team
 with an amazing contribution: the banner that you see on top of this
 edition!
 
+By the way, if you are joining us in Hokkaido for [ALIFE 2023](https://2023.alife.org/) 
+in July, don't forget to book your hotels now! July is high season in Sapporo, and the 
+weekend of the conference coincides with one of the most famous fireworks of the area, so 
+many of the hotels are going to be booked by tourists.
+
 If you'd like to contribute in any way to the newsletter: talking
 about your project, boosting something that you like, or even just
 giving suggestions about what we should cover next, please leave us a
