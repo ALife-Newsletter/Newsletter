@@ -1,7 +1,5 @@
 **Artificial Life Newsletter 011 -- Creature Feature!**
 
-![Opening Image for the newsletter, a round green creature with a red brain peeking out of its top, eye like corals off its sides, and several green tentacles.](images/newsletter_header11.png)
-
 # A word from the team
 
 Welcome to the 11th issue of the Alife Newsletter!

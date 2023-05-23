@@ -50,17 +50,23 @@ def make_newsletter(target_edition_name):
 
     htmltext = "\n".join(html).replace('"images/',
                                        '"https://alife-newsletter.github.io/Newsletter/images_{}/'.format(target_edition_name))
-    with open(os.path.join("docs", target_edition_name+".html"), "w") as o:
-        o.write(htmltext)
 
     # copying images
     source_image_dir = get_source_image_directory_path(target_edition_name)
     dest_image_dir = get_destination_image_directory_path(target_edition_name)
 
     for file in os.listdir(source_image_dir):
+        if "newsletter_header" in file:
+            print("Newsletter {} has a header file {}".format(target_edition_name, file))
+            htmltext = htmltext.replace('images/alifenewshead.png',"images_{}/".format(target_edition_name)+file)
         shutil.copyfile(os.path.join(source_image_dir, file),
                         os.path.join(dest_image_dir, file))
 
+        
+    # writing HTML file
+    with open(os.path.join("docs", target_edition_name+".html"), "w") as o:
+        o.write(htmltext)
+        
     print("generating {} done.".format(target_edition_name))
 
 if __name__ == "__main__":
