@@ -1,7 +1,7 @@
 # Playing Video Games with Algae
 Shared by [Lana](mstdn.science/@lana)
 
-In this 2019 paper, researchers created a JavaScript web toolkit to allow real-time interaction with swarms of the algae Euglena, used as "active matter".
+In this 2019 paper, Washington et al created a JavaScript web toolkit to allow real-time interaction with swarms of the algae Euglena, used as "active matter".
 Beginner and expert users were then able to program little video games where the human gamer interacts with the algae through joysticks or leds.
 Sadly [the code](https://github.com/hirklab/euglenalab) seems to have gone stale since the paper was published, but have a look at the game descriptions and this video of the interface.
 
