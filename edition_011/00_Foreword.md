@@ -11,7 +11,7 @@ Some of the amazing contributions to this edition include: a link to a
 paper about an interface for people to play games with algae; a web
 game that allows you to design a virtual creature with bones, muscle
 tissue and brain controls; a review of a paper laying the basic ideas
-of modelling life; and many other interesting tidbits!
+of modelling life; and many other interesting tidbits! Claus and Mitsuyoshi also take you through the process of creating this very newsletter. It's not a huge commitment, so join us!
 
 Talking about creatures, we would like to welcome [Gabriel
 Severino](https://twitter.com/GJSeverino), who has joined the team
