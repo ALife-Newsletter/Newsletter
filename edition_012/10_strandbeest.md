@@ -9,6 +9,9 @@ For more than 30 years, artist Theo Jansen's artificial "beach animals" (strandb
 Every winter, Jansen builds a giant skeletal structure out of various materials. Many have sails, all have legs.
 In the summer the new strandbeest is released on the beach of The Hague to walk all season, propelled only by wind.
 
+![A strandbeest on the beach](images/strandbeest_bw.jpg)
+Picture by Robbert van den Beld (Wikimedia Commons)
+
 [gif][gif] (waiting for Theo Jansen's permission to use copyrighted images)
 
 Strandbeests are popular in the ALife community for their robust walking abilities on unstable terrain, achieved without brains or electricity; their evolution through the years, leading to a genealogical tree with innovations such as self-propelling or energy storage; and simply their fluid artistic beauty.
