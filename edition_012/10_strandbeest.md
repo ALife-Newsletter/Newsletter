@@ -1,7 +1,8 @@
 # Theo Jansen's Strandbeests
 *Written by [Lana](https://lanasina.github.io/)
 
-![Theo Jansen standing next to a strandbeest](images/Jansen_Theo_Hannover.png)
+![Theo Jansen standing next to a strandbeest](images/Jansen_Theo_Hannover.jpg)
+
 Theo Jansen in Hannover (public domain)
 
 For more than 30 years, artist Theo Jansen's artificial "beach animals" (strandbeests) have fascinated the world.
