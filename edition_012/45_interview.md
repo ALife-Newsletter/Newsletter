@@ -1,11 +1,13 @@
-# Making Robots from Swimming Fossils: Interview with Toshiyasu Kondo (Twitter: [@robokaseki](https://twitter.com/robokaseki))
-* Interview by [Lana]()
+# Making Robots from Swimming Fossils: Toshiyasu Kondo (Twitter: [@robokaseki](https://twitter.com/robokaseki))
+* Interview by [Lana](https://lanasina.github.io/)
 
-A robot fish swims at the bottom of a shallow pool, its shape and color reminiscent of a horseshoe crab https://twitter.com/robokaseki/status/1672499885906726912?s=20.
+A [robot fish](https://twitter.com/robokaseki/status/1672499885906726912?s=20) swims at the bottom of a shallow pool, its shape and color reminiscent of a horseshoe crab.
 Another one, shaped like a sunfish, zooms in bathtub. A third one bobs to the surface, its face slightly goofy looking.
-But those are not inspired by horseshoe crabs, or sunfish. They are fossil fishes Bothriolepis bothriolepis, Ranzania ogaii, Sacabambaspis that Toshiyasu Kondo's robots are bringing back motion to.
+But those robots are not inspired by horseshoe crabs, or sunfish. They are fossil fishes Bothriolepis bothriolepis, Ranzania ogaii, Sacabambaspis that Toshiyasu Kondo's robots are bringing back motion to.
 
 [sacabambaspis robot: a barrel shaped fish](images/sacabambaspis.png)
+[Sea scorpion cartoon from Kondo's educational manual](images/cartoon.png)
+
 
 Kondo's robots often help illuminating the kinetic characteristics of these fish, and he has published several papers in collaboration with paleontologists.
 I asked him about his unconventional and inspirational path to the research world. (Interview edited for brevity)
@@ -20,12 +22,20 @@ At that time I was already interested in aquatic robots myself, and occasionally
 
 **Tell us more about that educational aspect of your project.**
 
+
+[comparison between a robot and the sea scorpion fossil](images/kaseki_manual.jpg)
+Caption
+
 Initially I was thinking mostly of contemporary species like sharks, focusing on observation in aquariums, study of the internal structure of prepared specimens, etc. But it turned out to be too time consuming and difficult for the students, so I pivoted to simpler swimming animal that could bring out the emotion of making one's own creation swim while being easy to build.
 So I chose well preserved fossils, the ancestors of arthropods, who despite not having complex brains and not being very agile, were at the top of the food pyramid between the Ordovician and the Devonian period.
 
 With the help of paleontologists and robotics engineers, after 2 years and many unexpected discoveries, I finished building a robot mimicking the motion of extinct sea scorpions and published my educational manual.
 
 **Can your approach be used to understand life by building it, a tenet of ALife?**
+
+
+[comparison between a robot and the sea scorpion fossil](images/robot.png)
+
 
 After I released videos of my swimming sea scorpion and on social media and gave some lectures, it became easier to reach out to both professional and student paleontologists. I started supporting students who wanted to better understand the life of fossil animals by building robotic reproductions. The students went on to present their work at research conferences and science competitions, and thanks to their hard work it became possible for us to gather support and information from more and more researchers, including from outside Japan.
 
