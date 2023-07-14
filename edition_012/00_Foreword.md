@@ -6,8 +6,8 @@ Welcome to the 12th issue of the Alife Newsletter! In tandem with
 ALIFE 2023, this is the first **Physical Edition** of the newsletter!
 Keep it as a memento, or show it to your friends!
 
-The theme for this issue is **fishes**. We have Fish fossil robots,
-simulated fishes, and even some RL-powered sand to put in your aquarium.
+The theme for this issue is **summer beaches!**. We have Fish fossil robots,
+simulated fishes, sand beasts, and even some RL-powered sand to put in your aquarium.
 Of course, you can also get some great seafood in Hokkaido.
 
 Because of physical limitations, the texts in this edition are
