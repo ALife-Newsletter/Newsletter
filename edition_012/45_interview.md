@@ -3,7 +3,7 @@
 
 A [robot fish](https://twitter.com/robokaseki/status/1672499885906726912?s=20) swims at the bottom of a shallow pool, its shape and color reminiscent of a horseshoe crab.
 Another one, shaped like a sunfish, zooms in bathtub. A third one bobs to the surface, its face slightly goofy looking.
-But those robots are not inspired by horseshoe crabs, or sunfish. They are fossil fishes Bothriolepis bothriolepis, Ranzania ogaii, Sacabambaspis that Toshiyasu Kondo's ([@robokaseki](https://twitter.com/robokaseki) on Twitter) robots are bringing back motion to.
+But those robots are not inspired by horseshoe crabs, or sunfish. They are fossil fishes Bothriolepis bothriolepis, Ranzania ogaii, Sacabambaspis that Toshiyasu Kondo's ([@robokaseki](https://twitter.com/robokaseki) on Twitter) robots are bringing back to motion.
 
 <img src="images/cartoon.png" width="500" alt="Sea scorpion cartoon from Kondo's educational manual">
 
