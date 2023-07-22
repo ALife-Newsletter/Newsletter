@@ -16,7 +16,7 @@ moving particles to specific locations. A [paper overviewing the
 environment](https://arxiv.org/abs/2211.13051) was published in ICRL
 2023.
 
-% TODO PICTURE / GIF
+![Examples of tasks created in the Powderworld Engine](images/powder_world.png)
 
 Beyond nostalgia, I think this environment could be a great tool to
 explore concepts of open-endedness. I imagine searching initial states
