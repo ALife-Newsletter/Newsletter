@@ -1,16 +1,11 @@
-**Artificial Life Newsletter 012 -- Summer Beaches**
+**Artificial Life Newsletter 013 -- THEME TO BE SELECTED**
 
 # A word from the team
 
-Welcome to the 12th issue of the Alife Newsletter! In tandem with
-ALIFE 2023, this is the first edition of the newsletter with a **Physical Edition** which you can find at the ALIFE2023 conference.
-If you were at the conference and picked up a copy, keep it as a memento, or show it to your friends!
+Welcome to the 13th issue of the Alife Newsletter! We are back to our traditional online editions, and this time we got a nice selection of interesting Alife-y projects for you to check out!
 
-The theme for this issue is **summer beaches!**. We have Fish fossil robots, simulated fishes, sand beasts, and even some RL-powered sand to put in your aquarium. Of course, you can also get some great seafood in Hokkaido.
+The theme for this issue is **TODO** - talk about the different contributions.
 
-We had to constrain how much information we could include in our physical edition, but not to worry: this digital edition---whether you have accessed it via the QR code, via your inbox, or are viewing it online---has no such constraints, and is full of incredible (longer-form) contributions.
+As always, we appreciate any feedback and suggestions for future content. Please don't hesitate to reach us by e-mail, social media, or our trusty submission form! If you got something to share that other Alifers would be interested in, we want to know about it!
 
-As always, we appreciate any feedback and suggestions for future
-content. If you were in ALIFE 2023, we'd be
-very happy to hear your impressions about the conference!
-
+Lana, Imy, Mitsuyoshi, Claus and Gabriel
