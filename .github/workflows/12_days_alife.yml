@@ -13,6 +13,31 @@ jobs:
   Echo:
     runs-on: ubuntu-20.04
     steps:
-      - name: Echo
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.6.7'
+      - name: Setup git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          cd $GITHUB_WORKSPACE
+          git fetch          
+      - name: Clean up
+        continue-on-error: true
+        run: |
+          git branch -d $LOCAL_BRANCH_NAME
+      - name: Checkout
+        run: |
+          git fetch
+          git checkout $BASE_BRANCH_NAME
+          git pull
+          git checkout -b $LOCAL_BRANCH_NAME
+      - name: Build
+        id: build_step
         run: |
           python 12DaysAlife.py
+      - name: Teardown when the workflow failed
+        if: failure() && steps.build_step.outcome == 'failure'
+        run: |
+          git stash -u
