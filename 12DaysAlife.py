@@ -119,7 +119,7 @@ if __name__ == "__main__":
         if you want to test locally, put an arbitary integer value to `day` (example: `day = 3`)
         and call this script by `$ python3 12DaysAlife.py`
         """
-        day = 12 #get_day()
+        day = get_day()
         print(f"today is {day}th day!")
         make_12days(day)
     except:
