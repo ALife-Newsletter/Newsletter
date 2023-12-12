@@ -2,7 +2,7 @@ name: Deploy 12 Days ALife
 
 on:
   schedule:
-    - cron:  '1-59 * * * *'
+    - cron:  '*/6 * * * *' # minimum interval is 5 minutes
 
 env:
   BASE_BRANCH_NAME: 12-days-alife
