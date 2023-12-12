@@ -97,6 +97,24 @@ def make_12days(day: int):
     print("generating {} done.".format(root_directory_name))
 
 
-if __name__ == "__main__":    
-    # print(f"it is {datetime.now()}")
-    # make_12days(3)
+def get_day(testing_padding_date=0) -> int:
+    now = datetime.now()
+    if now.year != 2023:
+        raise RuntimeError("out of range")
+    if now.month != 12:
+        raise RuntimeError("out of range")
+
+    day = (now.day + testing_padding_date) - 13 # Dec 14th is the 1st day
+    if day <= 0 or day > 14:
+        raise RuntimeError("out of range")
+    
+    return day
+
+if __name__ == "__main__":
+    try:
+        # day = get_day(testing_padding_date=3) # for testing
+        day = get_day()
+        print(f"today is {day}th day!")
+        make_12days(day)
+    except:
+        print(f"not in the 12days")
