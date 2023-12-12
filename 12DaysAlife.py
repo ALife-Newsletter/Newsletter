@@ -22,6 +22,9 @@ def make_12days(day: int):
         - day_12.md
       - 90_something.md
       - ...
+
+    for testing:
+    read comment in `if __name__ == "__main__":` scope
     """
 
     root_directory_name = "12_days_alife_2023"
@@ -97,14 +100,14 @@ def make_12days(day: int):
     print("generating {} done.".format(root_directory_name))
 
 
-def get_day(testing_padding_date=0) -> int:
+def get_day() -> int:
     now = datetime.now()
     if now.year != 2023:
         raise RuntimeError("out of range")
     if now.month != 12:
         raise RuntimeError("out of range")
 
-    day = (now.day + testing_padding_date) - 13 # Dec 14th is the 1st day
+    day = now.day - 13 # Dec 14th is the 1st day
     if day <= 0 or day > 14:
         raise RuntimeError("out of range")
     
@@ -112,8 +115,11 @@ def get_day(testing_padding_date=0) -> int:
 
 if __name__ == "__main__":
     try:
-        # day = get_day(testing_padding_date=3) # for testing
-        day = get_day()
+        """
+        if you want to test locally, put an arbitary integer value to `day` (example: `day = 3`)
+        and call this script by `$ python3 12DaysAlife.py`
+        """
+        day = 12 #get_day()
         print(f"today is {day}th day!")
         make_12days(day)
     except:
