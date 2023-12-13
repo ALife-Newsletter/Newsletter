@@ -2,12 +2,12 @@ name: Deploy 12 Days ALife
 
 on:
   schedule:
-    - cron:  '1-59 * * * *'
+    - cron:  '30 0 * * *' # minimum interval is 5 minutes
 
 env:
-  BASE_BRANCH_NAME: 12-days-alife
-  HOSTING_BRANCH_NAME: gh-pages-12-days-alife
-  LOCAL_BRANCH_NAME: gh-pages-local-12-days-alife
+  BASE_BRANCH_NAME: main
+  HOSTING_BRANCH_NAME: gh-pages
+  LOCAL_BRANCH_NAME: gh-pages-local
 
 jobs:
   Echo:
