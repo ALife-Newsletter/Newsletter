@@ -39,6 +39,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install markdown
           python 12DaysAlife.py
+          python makeAllEditions.py
       - name: Deploy
         if: github.ref == 'refs/heads/main' # It only runs on main branch (not in a Pull Request)
         run: |
