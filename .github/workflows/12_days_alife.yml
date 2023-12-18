@@ -10,7 +10,7 @@ env:
   LOCAL_BRANCH_NAME: gh-pages-local
 
 jobs:
-  Echo:
+  Deploy-12Days-ALife:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
@@ -36,7 +36,15 @@ jobs:
       - name: Build
         id: build_step
         run: |
+          python -m pip install --upgrade pip
+          pip install markdown
           python 12DaysAlife.py
+      - name: Deploy
+        if: github.ref == 'refs/heads/main' # It only runs on main branch (not in a Pull Request)
+        run: |
+          git add .
+          git commit -m 'Generated static html files'
+          git push -f origin $LOCAL_BRANCH_NAME:$HOSTING_BRANCH_NAME
       - name: Teardown when the workflow failed
         if: failure() && steps.build_step.outcome == 'failure'
         run: |
