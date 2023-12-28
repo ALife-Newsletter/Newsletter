@@ -108,7 +108,7 @@ def get_day() -> int:
         raise RuntimeError("out of range")
 
     day = now.day - 13 # Dec 14th is the 1st day
-    if day <= 0 or day > 14:
+    if day <= 0:
         raise RuntimeError("out of range")
     
     return day
