@@ -101,17 +101,18 @@ def make_12days(day: int):
 
 
 def get_day() -> int:
-    now = datetime.now()
-    if now.year != 2023:
-        raise RuntimeError("out of range")
-    if now.month != 12:
-        raise RuntimeError("out of range")
+    # now = datetime.now()
+    # if now.year != 2023:
+    #     raise RuntimeError("out of range")
+    # if now.month != 12:
+    #     raise RuntimeError("out of range")
 
-    day = now.day - 13 # Dec 14th is the 1st day
-    if day <= 0:
-        raise RuntimeError("out of range")
+    # day = now.day - 13 # Dec 14th is the 1st day
+    # if day <= 0:
+    #     raise RuntimeError("out of range")
     
-    return day
+    # return day
+    return 12
 
 if __name__ == "__main__":
     try:
