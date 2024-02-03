@@ -1,7 +1,6 @@
 # About the Artificial Life Newsletter
 
-The Alife Newsletter is a bi-monthly publication that aims to bring
-interesting news to the Artificial Life community.
+The Alife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.
 
 The current editors of the newsletter are: 
 - Lana Sinapayen
