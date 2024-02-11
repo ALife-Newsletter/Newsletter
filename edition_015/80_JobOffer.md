@@ -13,3 +13,15 @@ Links:
 - [Job Description](https://www.jobbnorge.no/en/available-jobs/job/255679/dstrain-msca-postdoctoral-fellowships-in-computational-and-natural-sciences-18-positions)
 
 - [Specifics on the position related to bio-inspired AI](https://www.uio.no/dscience/english/dstrain/research-areas/informatics/biologically-inspired-artificial-intelligence-for-/)
+
+***
+
+Seth Bullock, from the Department of Computer Science at the University of Bristol, shares the following job offer:
+
+"If you're into Intelligent Agents, Machine Learning, Collective Intelligence, and closing the AI Gap, check out our new UKRI National AI Research Hub - postdocs, PhDs, and collaborative research fundings all available soon..."
+
+Links:
+
+- [UKRI National AI Research Hub](https://www.ukri.org/news/100m-boost-in-ai-research-will-propel-transformative-innovations/)
+
+- [Original post on Mastodon](https://fediscience.org/@sethbullock/111885804851825730)
