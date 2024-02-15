@@ -12,4 +12,5 @@ Is it practical? Will it ever be used in real life to inconspicuously power stre
 
 
 Press: [Scitechdaily](https://scitechdaily.com/scientists-develop-literal-power-plants-that-harness-energy-from-wind-and-rain/)
-[Paper Ref](https://pubs.acs.org/doi/10.1021/acssuschemeng.3c03620): Multisource Energy Harvester on Textile and Plants for Clean Energy Generation from Wind and Rainwater Droplets” by Guanbo Min, Gaurav Khandelwal, Abhishek Singh Dahiya, Shashank Mishra, Wei Tang and Ravinder Dahiya, 2 January 2024, ACS Sustainable Chemistry & Engineering.
+
+Paper Ref: [Multisource Energy Harvester on Textile and Plants for Clean Energy Generation from Wind and Rainwater Droplets](https://pubs.acs.org/doi/10.1021/acssuschemeng.3c03620) by Guanbo Min, Gaurav Khandelwal, Abhishek Singh Dahiya, Shashank Mishra, Wei Tang and Ravinder Dahiya, 2 January 2024, ACS Sustainable Chemistry & Engineering.
