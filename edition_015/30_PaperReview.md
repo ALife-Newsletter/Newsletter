@@ -1,4 +1,4 @@
-# Paper Review:
+# Paper Review: Artificial Life: Discipline or Method? Report on a Debate Held at ECAL '99 
 
 By [Imy Khan](http://imytk.co.uk)
 
