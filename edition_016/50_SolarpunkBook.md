@@ -18,12 +18,8 @@ Where “Multispecies Cities” sought to broaden the spotlight and highlight th
 
 Solarpunk Creatures features 20 stories and 8 artworks and is available since January 2024 [as an ebook](https://www.worldweaverpress.com/store/p187/Solarpunk_Creatures_%28ebook%29.html) or [paperback with color art](https://www.worldweaverpress.com/store/p186/Solarpunk_Creatures.html) directly from World Weaver Press or any bookshop.
 
-
-![Main Text
-They tell me people arriving during dry season are usually confused: where are the streams? Watching the city transform as the rain returns is an unforgettable sight. Instead of battling stormwater surges by flushing them towards the sea, the whole neighborhood embraces the gift and soars! Without the water the succulent architecture soaks up for storage in the aquaria, nobody would make it through the long drought. Connecting two extremes in a circle — a dance around the element all life has in common! Fungi-based redistribution then is just the logical choice… (my attempts to draw a mycelial map amuse the locals… “follow the streams” they say!)
-Side Text
-Living water infrastructure, the whole place an autopoietic, vibrant rain garden, as it would have once been called. Plants and people play their parts, but one cannot but trace it to the elemental, more-than-human agencies behind it all… what was that gust just now, when I sipped from my glass?”
-](images/sp01.jpg)
+![Main Text: They tell me people arriving during dry season are usually confused: where are the streams? Watching the city transform as the rain returns is an unforgettable sight. Instead of battling stormwater surges by flushing them towards the sea, the whole neighborhood embraces the gift and soars! Without the water the succulent architecture soaks up for storage in the aquaria, nobody would make it through the long drought. Connecting two extremes in a circle — a dance around the element all life has in common! Fungi-based redistribution then is just the logical choice… (my attempts to draw a mycelial map amuse the locals… “follow the streams” they say!)
+Side Text: Living water infrastructure, the whole place an autopoietic, vibrant rain garden, as it would have once been called. Plants and people play their parts, but one cannot but trace it to the elemental, more-than-human agencies behind it all… what was that gust just now, when I sipped from my glass?”](images/sp01.jpg)
 
 Cover art: [Paul Sommerfield](https://www.psummerfield.com/) 
 
