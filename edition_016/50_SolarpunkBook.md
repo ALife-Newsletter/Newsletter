@@ -21,7 +21,6 @@ Solarpunk Creatures features 20 stories and 8 artworks and is available since Ja
 
 ![Main Text
 They tell me people arriving during dry season are usually confused: where are the streams? Watching the city transform as the rain returns is an unforgettable sight. Instead of battling stormwater surges by flushing them towards the sea, the whole neighborhood embraces the gift and soars! Without the water the succulent architecture soaks up for storage in the aquaria, nobody would make it through the long drought. Connecting two extremes in a circle — a dance around the element all life has in common! Fungi-based redistribution then is just the logical choice… (my attempts to draw a mycelial map amuse the locals… “follow the streams” they say!)
-
 Side Text
 Living water infrastructure, the whole place an autopoietic, vibrant rain garden, as it would have once been called. Plants and people play their parts, but one cannot but trace it to the elemental, more-than-human agencies behind it all… what was that gust just now, when I sipped from my glass?”
 ](images/sp01.jpg)
