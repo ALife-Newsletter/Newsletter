@@ -8,7 +8,7 @@ In this series of talks shared by the [Solarpunk Now!](https://spore.social/@sol
 ["From Capitalist Realism to a Solarpunk Reality: Building the Infrastructures of a Better Future" ](https://www.youtube.com/watch?v=rsu8hHtomtQ)
 
 
-# Book: Speculative fiction anthology “Solarpunk Creatures"
+## Book: Speculative fiction anthology “Solarpunk Creatures"
 [Christoph Rupprecht](https://multispecies.city)
 
 What would coexisting with all forms of life be like? Three years have passed since our first anthology,  “Multispecies Cities: Solarpunk Urban Futures”, set out to tell stories of more-than-human urban coexistence and kinship.
