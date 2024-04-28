@@ -1,8 +1,8 @@
 # Featured Paper: Artificial "Power Plants"
 Spotted by Lana
 
-I can't help it, I love projects that mix plants and robotics! How could I resist this recent paper about fake leaves that produce real emergy?
-The leaves are "multi-source enery harvesters": they produce electricity from both windpower and falling rain.
+I can't help it, I love projects that mix plants and robotics! How could I resist this recent paper about fake leaves that produce real energy?
+The leaves are "multi-source energy harvesters": they produce electricity from both windpower and falling rain.
 
 ![figure from the paper: a fake potted plant with added energy-producing fake leaves](images/plants2.jpeg) 
 
