@@ -1,7 +1,8 @@
 # Rest In Peace, Daniel Dennett
 
 [Daniel Dennett](https://en.wikipedia.org/wiki/Daniel_Dennett) was a philosopher who left a tremendous mark on several fields, including cognitive science and consciousness studies. Dennett passed away on April 19th. If you ever were interested in the hard science of consciousness, you probably heard of Dennett's models and experiments. What I did not know is that he also turned his sights to ALife.
-Read below an homage to the philosopher by Dave Ackley. This text from [Dave's blog](https://livingcomputation.com/lc/morning/202404201125-dan-dennett.html) is shared with his permission.
+Read below an homage to the philosopher by Dave Ackley. This text from [Dave's blog](https://livingcomputation.com/lc/morning/202404201125-dan-dennett.html) is shared with his permission.  
+Lana
 
 ## Thank you Dan
 
