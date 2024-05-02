@@ -1,6 +1,6 @@
 # A Word from the Team
 
-Welcome to the 15th issue of the Alife Newsletter! The theme for this newsletter is **Solarpunk**. Many of us have grown up on "Cyberpunk" -- an aesthetic that imagines the negative runaway effects of technology and capitalism on society. Now that, in true Torment Nexus style, many of those predictions are coming to tuition, a new aesthetic comes up to imagine how we can break into a future where nature, sustainable tech, and society can collaborate with each other. 
+Welcome to the 16th issue of the Alife Newsletter! The theme for this newsletter is **Solarpunk**. Many of us have grown up on "Cyberpunk" -- an aesthetic that imagines the negative runaway effects of technology and capitalism on society. Now that, in true Torment Nexus style, many of those predictions are coming to tuition, a new aesthetic comes up to imagine how we can break into a future where nature, sustainable tech, and society can collaborate with each other. 
 
 With this new image in mind, we bring a review of the science fiction books "Solarpunk Creatures", and "The Kaiju Preservation Society". We also highlight a link to the "Solarpunk Conference". 
 
