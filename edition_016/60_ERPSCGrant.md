@@ -5,7 +5,7 @@ The UK Research and Innovation (UKRI), through the Engineering and Physical Scie
 
 While these buzzwords might make some of you roll your eyes, the scope of the research appears to be fairly broad and overlaps with many areas of research in the ALife community: complex systems, computational chemistry, closed-loop robotics, collective intelligence, just to name a few. 
 
-![UKRI](https://www.ukri.org/wp-content/uploads/2024/02/UKRI-05022024-GettyImages-1687097892.jpg)
+![UKRI](images/UKRI_grant.jpg)
 
 In fact, our community's own [Professor Seth Bullock](https://www.bristol.ac.uk/people/person/Seth-Bullock-c00cea1b-0612-4ce9-988c-bb095ea1e416/) will be leading one of these hubs from the University of Bristol, focusing on collective intelligence in application areas such as healthcare, pandemics, and the environment. 
 
