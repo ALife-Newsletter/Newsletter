@@ -1,5 +1,4 @@
 # Are Boids the future of self-driving cars?
-
 Shared by Lana
 
 Probably not, but in this viral video taking swings at the broken promises of self-driving cars, boids make a surprise appearance that took me off-guard.
