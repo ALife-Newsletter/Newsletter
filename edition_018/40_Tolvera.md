@@ -5,7 +5,7 @@ Jack Armitage is a postdoctoral researcher at the [Intelligent Instruments Lab, 
 
 Based on a desire for more diversity of real-time AI (and ALife) in music interaction, Jack developed a library called [Tölvera](https://intelligent-instruments-lab.github.io/tolvera/). Tölvera is a Python library designed for composing together and interacting with basal agencies, inspired by fields such as artificial life (ALife) and self-organising systems. It provides creative coding-style APIs that allow users to combine and compose various built-in behaviours, such as flocking, slime mold growth, and swarming, and also author their own. 
 
-[!Tölvera](https://www.youtube.com/watch?v=ahSXjnYHZLU&list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x/0.jpg)(https://www.youtube.com/watch?v=ahSXjnYHZLU&list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x "Tölvera")
+[!Tölvera(https://www.youtube.com/watch?v=ahSXjnYHZLU&list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x/0.jpg)](https://www.youtube.com/watch?v=ahSXjnYHZLU&list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x "Tölvera")
 
 Check out the relevant paper, "Tölvera: Composing With Basal Agencies" [here](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf).
 
