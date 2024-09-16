@@ -11,4 +11,3 @@ Check out the relevant paper, "Tölvera: Composing With Basal Agencies" [here](
 
 Call for Collaborators: I am looking for researchers from across ALife, biology and complex systems to collaborate with in using and extending the software project Tölvera.
 I can be contacted at jack@hi.is or via our [Discord](https://discord.gg/ER7tWds9vM)
-https://img.youtube.com/vi/
