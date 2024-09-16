@@ -25,7 +25,22 @@ b has been developing a tool for defining HyperNEAT substrates to help simplify 
 
 [You can check you the tool in b's website.](B: https://tkwn2080.github.io/substrate-designer) The basic idea is to allow the user to visually design semi-complex HyperNEAT substrates in a way that can easily interface with code. In particular, b is using this to construct spiking neural networks.
 
-## METTA-AI, by David Bloomin (TODO)
+## Exploring Emergent Complexity with MettaGrid, by David Bloomin
 
-[Metta AI](https://github.com/Metta-AI/metta)
-A reinforcement learning codebase focusing on the emergence of cooperation and alignment in multi-agent AI systems.
+David is developing MettaGrid, an open-source environment for investigating competition, cooperation and alignment in multi-agent AI systems. It’s built to be highly performant, processing 800k+ steps per second, enabling rapid experimentation and analysis of complex social dynamics.
+
+Key features:
+- Fully customizable, allowing arbitrary objects and actions
+- Novel reward-sharing mechanisms mimicking familial bonds
+- Highly multi-agent supporting anywhere from a few to a few thousand agents
+- Integrated with a reinforcement learning framework, allowing for fast and easy training of policies
+
+MettaGrid provides a testbed for studying the evolution of cooperation, altruism, and general intelligence in artificial agents. Its flexible, open-ended design allows for easy adaptation to specific research interests.
+
+David invites the readers to join them in pushing the boundaries of artificial life and multi-agent systems. Your expertise could be crucial in unlocking new insights into AI alignment and cooperation.
+
+### Links:
+MettaGrid environment code: https://github.com/Metta-AI/mettagrid
+MettaAI project, research plan, and code: https://github.com/Metta-AI/metta
+Discord: https://discord.gg/XrGETJYSe7
+Email: daveey@gmail.com

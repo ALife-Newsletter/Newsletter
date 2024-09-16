@@ -9,5 +9,5 @@ Based on a desire for more diversity of real-time AI (and ALife) in music intera
 
 Check out the relevant paper, "Tölvera: Composing With Basal Agencies" [here](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf).
 
-Call for Collaborators: I am looking for researchers from across ALife, biology and complex systems to collaborate with in using and extending the software project Tölvera.
-I can be contacted at jack@hi.is or via our [Discord](https://discord.gg/ER7tWds9vM)
+Call for Collaborators: Jake is looking for researchers from across ALife, biology and complex systems to collaborate with in using and extending the software project Tölvera.
+They be contacted at jack@hi.is or via their [Discord](https://discord.gg/ER7tWds9vM)
