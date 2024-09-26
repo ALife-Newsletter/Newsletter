@@ -1,7 +1,5 @@
 # Upcoming Deadlines and Events
 
-By Lana
-
 Check out the upcoming submission deadlines for these ALife related conferences:
 
 The International Society for Artificial Life (ISAL) is seeking proposals to host the Conference on Artificial Life in 2026 and 2027. [Check out the call on the ISAL website](https://alife.org/alife-2026-and-2027-call-for-proposals-to-host-conferences/) for more details, including on how to submit your proposal.
