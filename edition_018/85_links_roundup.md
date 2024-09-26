@@ -1,6 +1,7 @@
 # Links roundup
 
 Here is a list of ALife-related papers that were published in the last 2 months:
+
 - Hiroki Sayama and Chrystopher L. Nehaniv, ["Self-Reproduction and Evolution in Cellular Automata: 25 Years after Evoloops".](https://arxiv.org/html/2402.03961v2#S3)
 - Nam H. Le, Richard Watson, Mike Levin, Chrys Buckley, [Emergent Collective Reproduction via Evolving Neuronal Flocks](https://arxiv.org/abs/2409.13254)
 - Lapo Frati, Csenge Petak, Nick Cheney, [JaxLife: An Open-Ended Agentic Simulator](https://arxiv.org/abs/2409.00853)
