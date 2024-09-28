@@ -15,13 +15,13 @@ You can [read it in the ACM digital library](https://dl.acm.org/doi/10.1145/3643
 
 The paper also draws some parallels between Alife and “research through design”. RtD is a family of design practices that focus more on emergence than problem solving. Joseph thinks there should be more bridges between the two communities. 
 
-You can see [Joseph talk about the parallels between the two communities at the ERA workshop in this video!](https://youtu.be/OWNibNLjtdU) He also recommends a video documentary about research design called [Permission to muck about](https://vimeo.com/961000450).
+You can see [Joseph talk about the parallels between the two communities at the ERA workshop in this video!](https://youtu.be/OWNibNLjtdU) He also recommends a video documentary about RtD called [Permission to muck about](https://vimeo.com/961000450).
 
 ## HyperNEAT Substrate design tool, by b from the ISAL Discord Server
 
 b has been developing a tool for defining HyperNEAT substrates to help simplify the process. The tool is currently used by them for their own projects, but they are looking for people to check their work and provide feedback!
 
-[You can check you the tool in b's website.](B: https://tkwn2080.github.io/substrate-designer) The basic idea is to allow the user to visually design semi-complex HyperNEAT substrates in a way that can easily interface with code. In particular, b is using this to construct spiking neural networks.
+[You can check you the tool in b's website.](https://tkwn2080.github.io/substrate-designer) The basic idea is to allow the user to visually design semi-complex HyperNEAT substrates in a way that can easily interface with code. In particular, b is using this to construct spiking neural networks.
 
 ## Exploring Emergent Complexity with MettaGrid, by David Bloomin
 
