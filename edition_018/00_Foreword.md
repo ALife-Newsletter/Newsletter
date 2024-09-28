@@ -7,7 +7,7 @@ In this edition, we are happy to share several contributions from our readings a
 
 Also in this edition, Lana review's Greg Egan's newest book, which is based on existing ALife research. You can also read about a fascinating project where a mushroom is used as a robot's brain!
 
-Finally, we would like to highlight our side project [Alife Socials](https://github.com/ALife-Newsletter/alife_social). This is a list of the different social media used by alifers (Mastodon, Bluesky, Threads, and even good old blogs!) Make sure to add yours too.
+Finally, we would like to highlight our side project [Alife Socials](https://github.com/ALife-Newsletter/alife_social). This is a list of the different social media used by alifers (Mastodon, Bluesky, Threads, and even good old blogs!) Make sure to add yours too. **Huge thanks to Adam Stanton for formatting and automating the page!**
 
 If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the [feedback form](https://forms.gle/jv7FdtdbWVTaTFGd9). We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line! If you got something to share that other Alifers would be interested in, we want to know about it!
 
