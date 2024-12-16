@@ -7,5 +7,6 @@ Go visit Etienne Jacob's project to see beautiful screenshots and run the simula
 In fact, go have a look at [the entire channel](https://www.youtube.com/@bleuje), you won't regret it!
 
 ![Screenshot showing a physarum pattern from the simulation](images/phys.png)
+
 Image credit: Etienne Jacob
 
