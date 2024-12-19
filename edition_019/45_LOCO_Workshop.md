@@ -9,6 +9,6 @@ For me as an ALIFE researcher, there is something about low carbon and permacomp
 
 The evolution of life on earth was a process that took hundreds of millions of years. Even though it was a world spanning process, it took many false starts and a long process for life to evolve from the "primordial soup" to the diversity of species that we have today. How can we expect our computational process to be any different?
 
-Although we are not there yet (?), I do believe that eventually we will want to create digital evolution simulations, or even robots, that will run for decates, if not more. This goes against the trend of our technological landscape, where the lifetime of each generation of digital devices seems shorter than the last. 
+Although we are not there yet (?), I do believe that eventually we will want to create digital evolution simulations, or even robots, that will run for decades, if not more. This goes against the trend of our technological landscape, where the lifetime of each generation of digital devices seems shorter than the last. 
 
 I invite the Alife community to consider computing platforms that can robustly work for years, independently from changes around itself and without putting undue burden on the environment. 
