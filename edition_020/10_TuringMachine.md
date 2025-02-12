@@ -3,7 +3,7 @@ shared by Lana
 
 **webpage here: https://samwho.dev/turing-machines/**
 
-One of the most famous concept in computer science is the concept of "Turing machine" and its exciting associate, "Turing completeness". The Game of Life is Turing Complete! DNA is a Turing machine! Biology and computers brought together, a topic of interest to ALifers since the beginnings of the field. But wait, what does any of this mean, and why do people get excited about it? Whether you learned about it in school and need a refresher, have never really known what it is and how it relates to Alan Turing, or know exactly what it means and would like to have fun with a beautiful interactive animations, this website is for you. As stated by the introduction,
+One of the most famous concept in computer science is the concept of "Turing machine" and its exciting associate, "Turing completeness". The [Game of Life](http://game-of-life.daneaiulian.com/index.php) is Turing Complete! DNA is a Turing machine! Biology and computers brought together, a topic of interest to ALifers since the beginnings of the field. But wait, what does any of this mean, and why do people get excited about it? Whether you learned about it in school and need a refresher, have never really known what it is and how it relates to Alan Turing, or know exactly what it means and would like to have fun with a beautiful interactive animations, this website is for you. As stated by the introduction,
 
 "By the end of this post, you will know:
 
