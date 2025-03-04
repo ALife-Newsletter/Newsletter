@@ -13,4 +13,4 @@ One of the most famous concept in computer science is the concept of "Turing mac
     - How modern computers relate to Turing machines.
     - How to write and run your own programs for a Turing machine."
 
-![screenshot showing an interactive Turing machine](./images/turing-machine.png)
+![screenshot showing an interactive Turing machine](images/turing-machine.png)
