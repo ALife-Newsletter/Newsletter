@@ -6,7 +6,7 @@ Never miss an issue by subscribing [here](https://forms.gle/QpQ68xhvSMt4wiv89).
 
 In this edition, we learn about a 13 million Euro push to create a minimal living system, explore a cool interactive website all about Turing machines, and envision systems to light up the space of infinite possible intelligences.
 
-A review of the literature reveals bacteria trained to perform computations, a snapshot of ALife as it was over 20 years ago, and a new class of life that has been colonizing us all along.
+A review of the literature reveals bacteria trained to perform computations, a snapshot of ALife-as-it-was over 20 years ago, and a new class of life that has been colonizing us all along.
 
 In the land of opportunity, the University of Oslo is hiring a postdoc focusing on bio-inspired AI, the Tölvera Python library is accepting applications for Google Summer of Code 2025, and we have a roundup of conferences with active calls. Plus, Jitka Čejková is preparing a book to commemorate 40 years of ALife conferences, to be filled with *your* stories and memories!
 
