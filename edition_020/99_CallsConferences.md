@@ -1,7 +1,8 @@
 # Conferences and Calls
 
-It's quite a busy time for conference calls at the moment! Here is a short list of conferences and other symposia that have active calls.
+It's quite a busy time for conference calls at the moment! Here is a short list of conferences and other symposia that have active calls. Special thanks to Eleni Nisioti at IT University of Copenahgen.
 
+- Gecco Workkshop: [Evolving Self-organisation](https://evolving-self-organisation-workshop.github.io/). Málaga, Spain from July 14 to July 18 (Virtual and In-Person). Submission deadline: March 26, 2025. 
 - [Evolutionary Computation Theory and Applications](https://ecta.scitevents.org/) (Virtual and In-Person in Marbella, Spain). October 22-24 2025. Regular paper submission: May 19th 2025.
 - [The Animal Behavior Society](https://www.animalbehaviorsociety.org/2025/abstracts.php) (Virtual and In-Person in Baltimore, Maryland). July 8-12 2025. Abstract Submission Deadline: March 21st 2025.
 - [International Conference on Social Robotics + AI](https://icsr2025.eu/calls) (In Person in Naples, Italy). September 10-12th 2025. Full Papers submission: March 28th 2025.
