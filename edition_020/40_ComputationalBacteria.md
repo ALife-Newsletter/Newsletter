@@ -2,7 +2,7 @@
 
 Shared by Lana
 
-![An illustration of two containers with bacteria receiving questions as math problems and "replying" yes or no](./images/bactoneuron.png)
+![An illustration of two containers with bacteria receiving questions as math problems and "replying" yes or no](images/bactoneuron.png)
 
 Graphical abstract by Sangram Bagh
 
