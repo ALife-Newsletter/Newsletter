@@ -6,7 +6,7 @@ Shared by Lana
 
 **Pop-sci writeup: [Science alert](https://www.sciencealert.com/obelisks-entirely-new-class-of-life-has-been-found-in-the-human-digestive-system)**
 
-![obelisk](./images/obelisk.png)
+![obelisk](images/obelisk.png)
 
 An analysis of Obelisk Alpha, one of the types of obelisks discovered by the team. Credit: Ivan N. Zheludev, Robert C. Edgar, Maria Jose Lopez-Galiano, Marcos de la Peña, Artem Babaian, Ami S. Bhatt, Andrew Z. Fire
 
