@@ -8,7 +8,7 @@ The current editors of the newsletter are:
 - Mitsuyoshi Yamazaki
 - Claus Aranha
 - Gabriel Severino
-- Martha **SURNAME?**
+- Martha Emerson
 
 The newsletter is sent by e-mail and can also be acessed by RSS. You
 can [subscribe here](https://forms.gle/QpQ68xhvSMt4wiv89) or follow
