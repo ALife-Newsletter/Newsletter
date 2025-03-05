@@ -2,6 +2,8 @@
 
 Welcome to the 20th issue of the Alife Newsletter! 
 
+Never miss an issue by subscribing [here](https://forms.gle/QpQ68xhvSMt4wiv89).
+
 **INTRODUCTORY MESSAGE FOR THE 20th EDITION**
 
 **OUTLINE OF THE CONTRIBUTIONS IN THE 20th EDITION**
