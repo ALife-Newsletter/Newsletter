@@ -2,7 +2,7 @@
 
 By Jitka Cejkova
 
-![A colorful banner with the number 40 in red and purple and blue, and the text "Celebrate 40 years of Artificial Life](./images/celebrate.png)
+![A colorful banner with the number 40 in red and purple and blue, and the text "Celebrate 40 years of Artificial Life](images/celebrate.png)
 
 The first Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems took place in September 1987. The 40th anniversary of the artificial life conference series is approaching! In honor of this milestone, I am planning to prepare a book and would greatly appreciate your help in gathering materials to support its creation or to celebrate the anniversary in another way.
 
