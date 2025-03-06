@@ -2,7 +2,7 @@
 
 Welcome to the 20th issue of the ALife Newsletter! 
 
-Never miss an issue by subscribing [here](https://forms.gle/QpQ68xhvSMt4wiv89).
+[Never miss an issue by subscribing here](https://forms.gle/QpQ68xhvSMt4wiv89).
 
 In this edition, we learn about a 13 million Euro push to create a minimal living system, explore a cool interactive website all about Turing machines, and envision systems to light up the space of infinite possible intelligences.
 
