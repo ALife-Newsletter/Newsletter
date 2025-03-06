@@ -2,7 +2,7 @@
 
 Shared by Jack, Founder, [Afhverju Ekki](http://æ.is)
 
-Jack shares [an opinion piece at the Mozilla Foundation *Builders* project](https://builders.mozilla.org/building-our-way-out/)**
+Jack shares [an opinion piece at the Mozilla Foundation *Builders* project](https://builders.mozilla.org/building-our-way-out/)
 
 > Picture the space of all possible forms of intelligence. Now zoom in — way in — until you see a tiny mote. That’s where we’re stuck right now: trapped in the speck of machine learning and large language models.
 

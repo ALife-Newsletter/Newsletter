@@ -2,9 +2,9 @@
 
 Shared by Lana
 
-**Preprint: [Biorxiv](https://www.biorxiv.org/content/10.1101/2024.01.20.576352v1)**
+**[Preprint at Biorxiv](https://www.biorxiv.org/content/10.1101/2024.01.20.576352v1)**
 
-**Pop-sci writeup: [Science alert](https://www.sciencealert.com/obelisks-entirely-new-class-of-life-has-been-found-in-the-human-digestive-system)**
+**[Pop-sci writeup at Science alert](https://www.sciencealert.com/obelisks-entirely-new-class-of-life-has-been-found-in-the-human-digestive-system)**
 
 ![obelisk](images/obelisk.png)
 

@@ -8,6 +8,6 @@ Tölvera is a Python library designed for composing together and interacting wit
 
 Google Summer of Code (GSoC) is a global program that offers new contributors over 18 an opportunity to be paid for contributing to an open source project over a three month period.
 
-To find out more and learn how to apply, read the page here: [https://afhverjuekki.github.io/tolvera/gsoc](https://afhverjuekki.github.io/tolvera/gsoc)
+To find out more and learn how to apply, [read Tölvera's GSoC page](https://afhverjuekki.github.io/tolvera/gsoc).
 
 Discussion will take place on the Tölvera Discord's #gsoc channel

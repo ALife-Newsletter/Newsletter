@@ -3,6 +3,7 @@
 Shared by Kai Olav Ellefsen, University of Oslo
 
 **Links:**
+
 - [Job Description](https://www.jobbnorge.no/en/available-jobs/job/273057/dstrain-msca-postdoctoral-fellowships-in-computational-and-natural-sciences-up-to-18-positions)
 - [Specifics on the position related to bio-inspired AI](https://www.uio.no/dscience/english/dstrain/research-areas2025/informatics/biologically-inspired-artificial-intelligence-for-/index.html)
 
