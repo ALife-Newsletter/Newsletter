@@ -19,6 +19,23 @@ In this edition we have collected quite a few interesting videos, here they all 
 [https://www.youtube.com/watch?v=pD-PNwk-Z9E](https://www.youtube.com/watch?v=pD-PNwk-Z9E)
 
 
+"Clusters - an Asymmetrifcal Particle System with Emergent Patterns" by Jeffrey Ventrella
+
+![](images/ventrella.png)
+
+"This is a video explaining the Clusters particle algorithm. Explore it in real-time at ventrella.com/clusters"
+
+[https://vimeo.com/1048238799](https://vimeo.com/1048238799)
+
+
+"Dear Humans: Meet Ferro Pets!"
+
+![](images/ferropet.png)
+
+A video showcasing a clever use of ferromagnetic sand and "lifelike" behavior.
+
+[https://www.youtube.com/watch?v=koN1SnLldGU](https://www.youtube.com/watch?v=koN1SnLldGU)
+
  “Robots and Artificial Life from Visual Foundation Models”, a talk by Phillip Isola (MIT) for Spring 2025 GRASP on Robotics.
 ![](images/isola.png)
 
