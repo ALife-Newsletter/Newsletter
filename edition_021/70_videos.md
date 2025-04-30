@@ -10,13 +10,14 @@ In this edition we have collected quite a few interesting videos, here they all 
 
 [https://www.youtube.com/watch?v=2rvJoa31-KI](https://www.youtube.com/watch?v=2rvJoa31-KI)
 
-"London 1940" by ‪Tom Barbalet
+"Hypercycle – Let There Be Artificial Life" by Jeffrey Ventrella and ean-Claude Heudin
 
-![](images/barbalet.png)
+![](images/hypercycle.png)
 
-"Tom talks about his London1940.org simulation project that really needs a particular kind of developer to pick it up."
+"A collaboration between visual artist and Artificial Life researcher Jeffrey Ventrella and AI researcher and composer Jean-Claude Heudin. Both the video and the music are created using bio-inspired algorithms showing the emergence of life-like forms."
+The entry after this one is also by Jeffrey Ventrella!
 
-[https://www.youtube.com/watch?v=pD-PNwk-Z9E](https://www.youtube.com/watch?v=pD-PNwk-Z9E)
+[https://youtu.be/nMuyJQ0GXSk](https://youtu.be/nMuyJQ0GXSk) 
 
 
 "Clusters - an Asymmetrifcal Particle System with Emergent Patterns" by Jeffrey Ventrella
@@ -26,6 +27,17 @@ In this edition we have collected quite a few interesting videos, here they all 
 "This is a video explaining the Clusters particle algorithm. Explore it in real-time at ventrella.com/clusters"
 
 [https://vimeo.com/1048238799](https://vimeo.com/1048238799)
+
+
+"London 1940" by ‪Tom Barbalet
+
+![](images/barbalet.png)
+
+"Tom talks about his London1940.org simulation project that really needs a particular kind of developer to pick it up."
+
+[https://www.youtube.com/watch?v=pD-PNwk-Z9E](https://www.youtube.com/watch?v=pD-PNwk-Z9E)
+
+
 
 
 "Dear Humans: Meet Ferro Pets!"
