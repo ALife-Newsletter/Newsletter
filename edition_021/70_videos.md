@@ -38,6 +38,13 @@ The entry after this one is also by Jeffrey Ventrella!
 [https://www.youtube.com/watch?v=pD-PNwk-Z9E](https://www.youtube.com/watch?v=pD-PNwk-Z9E)
 
 
+"Rewriting DNA to make custom monstrosities" by The Thought Emporium
+ 
+![](images/dna.png)
+
+"In this video we take a deep dive into the world of genetic engineering. What is it, what's it's history, how does it work, and how you can do it too! We explore a variety of custom printer pieces of DNA, and see all the amazing things they do when you put them into a living organism. We've got things that glow, smell, and even things that behave like electrical circuits and transistors."
+
+[https://www.youtube.com/watch?v=10OUPyamn1w](https://www.youtube.com/watch?v=10OUPyamn1w)
 
 
 "Dear Humans: Meet Ferro Pets!"
