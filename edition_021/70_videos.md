@@ -62,3 +62,20 @@ ABSTRACT
 "I will talk about two ways we can design agents with the help of powerful vision/graphics models. In the first project, LucidSim, we augment a traditional robotics simulation engine (MuJoCo) with visual detail from an image generative model. The generator adds diversity and realism to the barebones MuJoCo content, and results in a RGB-only policy trained entirely in sim that generalizes zero-shot to the real world. In the second project, ASAL, we use a visual recognition model to search for artificial lifeforms that display distinct and interesting behaviors. This process can discover cellular automata that are open-ended like Conway’s Game of Life, particle swarms that flock like Boids, and more."
 
 [https://www.youtube.com/live/MywO2yL4b68](https://www.youtube.com/live/MywO2yL4b68)
+
+
+"Simulation of Ontogenesis"
+
+Simulife Hub is a youtube channel with many simulations of tenets of Artificial Life, from plant generation to the evolution of altruism. Here is their latest video, about multicellularity.
+
+![](images/simulife.png)
+
+"All cells have the same genome, but each cell must perform tasks according to its position in the growing organism.
+To do this, cells must somehow interact with each other and regulate the expression of their genes.
+This project is dedicated to exploring this process.
+I'm not a biologist. While delving into this topic,
+I'm trying to model these processes on a computer and create videos based on the results of my experiments."
+
+[https://www.youtube.com/watch?v=qwJNeq-WABU](https://www.youtube.com/watch?v=qwJNeq-WABU)
+
+
