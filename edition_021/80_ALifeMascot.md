@@ -1,6 +1,6 @@
 # Competition: Design the Official Mascot for ALIFE2025!
 
-Summary by Imy
+by Imy
 
 Hey! Want to win a free registration to this year's ALIFE 2025 conference?
 
