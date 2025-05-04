@@ -10,7 +10,7 @@ In this edition we have collected quite a few interesting videos, here they all 
 
 [https://www.youtube.com/watch?v=2rvJoa31-KI](https://www.youtube.com/watch?v=2rvJoa31-KI)
 
-"Hypercycle – Let There Be Artificial Life" by Jeffrey Ventrella and ean-Claude Heudin
+"Hypercycle – Let There Be Artificial Life" by Jeffrey Ventrella and Jean-Claude Heudin
 
 ![](images/hypercycle.png)
 
