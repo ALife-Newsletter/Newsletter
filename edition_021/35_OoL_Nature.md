@@ -2,7 +2,7 @@
 
 Summary by Imy
 
-The previous paper presented by Claus is not the only Origins of Life paper to make it into this issue. [This recent paper, written by Kavita Matange and colleagues, published in Nature Chemistry and accessible here,]([https://www.nature.com/articles/s41557-025-01734-x](https://williams.chemistry.gatech.edu/publications/LDW_162.pdf)) offers another perspective in the ongoing quest to understand the origins of life here on Earth. It aims to understand how the simple prebiotic chemicals readily available on early Earth might have transitioned into the more complex molecular assemblies necessary for the emergence of life. 
+The previous paper presented by Claus is not the only Origins of Life paper to make it into this issue. [This recent paper, written by Kavita Matange and colleagues, published in Nature Chemistry and accessible here,](https://williams.chemistry.gatech.edu/publications/LDW_162.pdf)) offers another perspective in the ongoing quest to understand the origins of life here on Earth. It aims to understand how the simple prebiotic chemicals readily available on early Earth might have transitioned into the more complex molecular assemblies necessary for the emergence of life. 
 
 Rather than focusing on individual reactions, this study examines the behaviour of entire chemical systems under simulated early Earth conditions. The authors developed an experimental model simulating early Earth conditions using fluctuating water activity and near-ambient temperatures to drive the evolution of organic molecule mixtures containing key functional groups.
 
