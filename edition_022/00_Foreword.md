@@ -1,14 +1,12 @@
 # A Word from the Team
 
-Welcome to the 22nd issue of the ALife Newsletter! 
+Welcome to the 22nd issue of the ALife Newsletter! This edition was a **Physical Print Edition** which was distributed to participants of the International Conference in Articificial Life, 2025, in Kyoto.
 
-[Never miss an issue by subscribing here](https://forms.gle/QpQ68xhvSMt4wiv89).
+Some of the content for this edition might not translate very well to a digital edition, but we did the best to adapt what could be adapted! In particular, because of space restrictions of the print media, the newsletter may look quite short digitally. But you do get to click links instead of scanning QR codes, so there are some upsides too!
 
-(PARAGRAPH WITH OUTLINE OF NEWSLETTER)
+Without further ado, we give you:
 
-If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the 
-[contribution form](https://forms.gle/jv7FdtdbWVTaTFGd9). We specially appreciate messages from Master and PhD students who want to 
-talk about their recent work. Send us a line! If you got something to share that other ALifers would be interested in, we want to 
-know about it!
+# Artificial Life Newsletter, 3rd Print Edition
 
-Lana, Imy, Mitsuyoshi, Claus, Gabriel and Martha
+They say *"twice is a coincidence, three times is a pattern"*, so with this edition, we can say now it is a **tradition** to prepare print editions of the Artificial Life Newsletter to go with the Annual International Conference on Artificial Life!
+
