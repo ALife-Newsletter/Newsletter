@@ -3,6 +3,7 @@
 The ALife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.
 
 The current editors of the newsletter are: 
+
 - Lana Sinapayen
 - Imy Khan
 - Mitsuyoshi Yamazaki
