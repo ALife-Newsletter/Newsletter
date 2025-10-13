@@ -114,9 +114,9 @@ If you still have energy left after ALIFE 2025, take a look at a selection by th
 
 # ALIFE 2025 Kyoto Bingo
 
-We prepared a Kyoto-themed bingo for people to play in Kyoto. Participants can check the cells as they encounter various things in their stay in Kyoto. There was nothing to win, but this may become a keepsake of how much fun you had there.
+We prepared a Kyoto-themed bingo for people to play in Kyoto. Participants can check the cells as they encounter various things in their stay in Kyoto. There is nothing to win, but this may become a keepsake of how much fun you had there.
 
-Below is an example of the bingo. You can also access [this website](https://bingobaker.com/#68cd3e0490a3a47b) to generate a new bing card just for you.
+Below is an example of the bingo. You can also access [this website](https://bingobaker.com/#68cd3e0490a3a47b) to generate a new bingo card just for you.
 
 ![Bingo of Things to do in Kyoto](images/bingo-card-text.png)
 
