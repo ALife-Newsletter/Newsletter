@@ -71,7 +71,7 @@ References: Rus (2018); Ackerman (2016); Wu (2024)
 
 We are happy to announce that the premiere International Conference on Artificial Life 2026 will take place in Waterloo, Ontario, Canada with the theme “Living and Lifelike Complex Adaptive Systems” !
 
-The organizing committee currently consists of Chrystopher L. Nehaniv (University of Waterloo, Ontario, Canada), Peter Lewis (Ontario Tech University, Oshawa, Ontario, Canada), Hanna Derets (University of Waterloo, Ontario, Canada), Hiroki Sayama (Binghamton University, State University of New York, U.S.A.), and Kirsten Wright (University of Waterloo). {\bf The conference will be held on 17-21 August 2026} at W. Laurier University in Waterloo with additional events at University of Waterloo and other locations nearby.
+The organizing committee currently consists of Chrystopher L. Nehaniv (University of Waterloo, Ontario, Canada), Peter Lewis (Ontario Tech University, Oshawa, Ontario, Canada), Hanna Derets (University of Waterloo, Ontario, Canada), Hiroki Sayama (Binghamton University, State University of New York, U.S.A.), and Kirsten Wright (University of Waterloo). **The conference will be held on 17-21 August 2026** at W. Laurier University in Waterloo with additional events at University of Waterloo and other locations nearby.
 
 ALIFE 2026 will be held in tandem with the VII AMMCS International Conference (Applied Mathematics, Modeling and Computational Science). Thus, the 2026 AMMCS-ALIFE Congress is a major international and interdisciplinary event combining the AMMCS and ALIFE meetings.
 
