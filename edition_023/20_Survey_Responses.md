@@ -1,7 +1,7 @@
 # The ALIFE Community Survey: Reflections
 *By Claus and Martha*
 
-Thank all of you who contributed to our survey. Your answers have given us a better idea of who is reading the Newsletter, what you like about our work, and how we could improve moving forward.
+Thanks to all of you who contributed to our survey. Your answers have given us a better idea of who is reading the Newsletter, what you like about our work, and how we could improve moving forward.
 
 There are many lessons that we can take from your answers to the surveys. Below are some of the things that came to mind as we read up your responses.
 
