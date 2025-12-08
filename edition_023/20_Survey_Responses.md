@@ -13,7 +13,7 @@ We often include a list of interesting papers that we have found, so you can be 
 
 Another common suggestion was to improve the Newsletter design. We will certainly look into reviewing our lovingly hand-crafted CSS, and also, if anyone among the readership has web-design experience, please do contact us!
 
-On a similar topic, some comments that stood up to us were about how the variety of different voices and topics in each edition was a positive point. We are always happy to feature the suggestions of the readers regarding what to cover, but we also feel that there is a lot of friction for people to leave their recommendations. We would love to know if you could tell us what makes it difficult for you to offer suggestions of things to feature in the newsletter.
+On a similar topic, some comments that stood out to us were about how the variety of different voices and topics in each edition was a positive point. We are always happy to feature reader suggestions regarding what to cover, so please let us know what you would like to see featured in the newsletter. You may drop us a line at ...  // what is the best way to contact?
 
 Although the Survey is over, we are always interested in hearing the opinions of our readers. Please do feel free to reach to us through social media (or our feedback form) with more comments and ideas about what you want to see in the Artificial Life Newsletter!
 
