@@ -11,7 +11,7 @@ Most of our respondents seem to have found us through social media or through ou
 
 ![](images/how_access.png)
 
-Email is by far the most common way that you are reading the newsletter. But did you even know we have a RSS feed? We might not have been advertising it enough! It's right here: [https://alife-newsletter.github.io/Newsletter/RSS.xml](RSS feed)
+Email is by far the most common way that you are reading the newsletter. But did you even know we have a RSS feed? We might not have been advertising it enough! It's right here: [RSS feed](https://alife-newsletter.github.io/Newsletter/RSS.xml)
 
 ![](images/how_often.png)
 
