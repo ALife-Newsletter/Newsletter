@@ -4,5 +4,5 @@ Do you know of Christmas Advent Calendars? This is a Western tradition where a c
 
 With this spirit in mind, we have prepared our own ALIFE advent calendar for you. Every day from today until New Years Eve, you can click the link below to find a new interesting ALIFE tidbit, brought to you by the ALIFE Newsletter Editors:
 
-**Advent Calendar Link**
+[The ALIFE Advent Calendar!](https://app.myadvent.net/calendar?id=fe0siqi59f1pw1pmsvanvaocnkeon8p3)
 
