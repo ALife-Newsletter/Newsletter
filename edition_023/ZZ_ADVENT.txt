@@ -1,0 +1,56 @@
+LIST OF ADVENT LINKS
+
+This file is a place for each member of the team to list three 
+items they want to offer for the "homecoming" advent. 
+
+Each item should be a link and a "short" description of what the
+link contains (LANA: How short?)
+
+I would recommend that, for each of us, each link should be 
+of a different type than the other two links (eg.: one media, one 
+paper, one something else).
+
+
+ITEMS:
+
+- Claus 
+1) "Batteries Not Included"
+https://www.imdb.com/title/tt0092494
+
+This 1987 movie may not be a masterpiece, but it left a deep impression 
+in me when I was a child that life could come in many forms. A sweet movie
+about a group of neighbors being visited by very different life forms, 
+something for you to watch with the kids this Christmas!
+
+2) "Learning and Coevolving Robots in Competitive Multi-Agent Environments"
+https://direct.mit.edu/isal/proceedings/isal2025/37/76/134085
+
+This is one of my favorite papers from 2025 ALIFE in Kyoto. It is the Evogym
+soft robot environment that we all know and love, but the authors made it
+so that two robots would evolve/compete at the same time. One interesting 
+twist is when one of the robots is replaced by an equivalent "dummy" in the 
+training. An easy and fun read.
+
+3) "The RSS Board"
+https://www.rssboard.org/
+
+The RSS board is an entity to promote the use of "Real Simple Sindication",
+a 20 year old technology that solves a problem that is extremely relevant
+today: How to share information on the web without bloat, walled gardens,
+and tracking. I'm a huge fan of RSS, and I would love to see more ALIFERs
+using this protocol to share their professional, and personal news!
+
+- Lana
+1)
+2)
+3)
+
+- Imy 
+1)
+2)
+3)
+
+- Martha 
+1)
+2)
+3)
