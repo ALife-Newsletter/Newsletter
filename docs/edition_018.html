@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A Word from the Team</h1>
+<p>Welcome to the 18th issue of the Alife Newsletter! We hope you enjoyed the ALife conference if you joined it, anfor those who didn't, we hope to see you for ALife 2025 in Kyoto! 
+But if if you couldn't be there this year, don't worry! Gabriel has written a retrospective for this edition of the newsletter. Also, you can now read the <a href="https://alife-newsletter.github.io/Newsletter/edition_017.html">online version of edition 17</a>, that was available physically during the conference.
+<strong>The theme of the December edition will be "TOGETHER". <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">Send us</a> your contributions, paper reviews, art, ALifey videos before November 30th to be featured in the TOGETHER edition!</strong></p>
+<p>In this edition, we are happy to share several contributions from our readings about the projects that they have been working on, including a tool for HyperNEAT, a multi-agent library, and even a picture book version of a paper!</p>
+<p>Also in this edition, Lana review's Greg Egan's newest book, which is based on existing ALife research. You can also read about a fascinating project where a mushroom is used as a robot's brain!</p>
+<p>Finally, we would like to highlight our side project <a href="https://github.com/ALife-Newsletter/alife_social">Alife Socials</a>. This is a list of the different social media used by alifers (Mastodon, Bluesky, Threads, and even good old blogs!) Make sure to add yours too. <strong>Huge thanks to Adam Stanton for formatting and automating the page!</strong></p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">contribution form</a>. We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line! If you got something to share that other Alifers would be interested in, we want to know about it!</p>
+<p>Lana, Imy, Mitsuyoshi, Claus and Gabriel</p>
+<div class="toc">
+<ul>
+<li><a href="#contributions-from-the-readers">Contributions from the readers</a></li>
+<li><a href="#software-review-the-simsulator-michael-finn">Software Review: The Simsulator (Michael Finn)</a></li>
+<li><a href="#software-showcase-call-for-collaborators-tolvera-jack-armitage">Software Showcase &amp; Call for Collaborators: Tölvera (Jack Armitage)</a></li>
+<li><a href="#book-review-morphotrophic-by-greg-egan-2024">Book Review: Morphotrophic, by Greg Egan (2024)</a></li>
+<li><a href="#the-carpentopod">The Carpentopod</a></li>
+<li><a href="#alife-2024-retrospective">ALife 2024 Retrospective</a></li>
+<li><a href="#an-oyster-mushroom-for-a-brain">An Oyster Mushroom for a Brain</a></li>
+<li><a href="#links-roundup">Links roundup</a></li>
+<li><a href="#domestic-camouflage">Domestic Camouflage</a></li>
+<li><a href="#upcoming-deadlines-and-events">Upcoming Deadlines and Events</a></li>
+<li><a href="#game-of-life-on-a-klein-bottle">Game of Life on a Klein Bottle</a></li>
+<li><a href="#about-the-artificial-life-newsletter">About the Artificial Life Newsletter</a></li>
+</ul>
+</div>
+
+<h1 id="contributions-from-the-readers">Contributions from the readers</h1>
+<p>arranged by Claus</p>
+<p>Several of our readers sent their projects to share through the newsletter. Take a look!</p>
+<p>If you would like to talk about your project (even if it is still in progress), send us a message through the <a href="https://forms.gle/QpQ68xhvSMt4wiv89">feedback form</a>, send us a message through discord (we are all on the ISAL discord server), or send a message to our <a href="https://fediscience.org/@alifenewsletter">Mastodon account</a>! </p>
+<p>We are always happy to highlight the work of our readers. Please add a short blurb (300 words or less) describing what you want to share. Pictures are specially welcome!</p>
+<h2 id="how-to-train-your-drone-a-pictorial-by-joseph-la-delfa">"How to Train your Drone", a pictorial by Joseph La Delfa:</h2>
+<p>What if you wrote a paper in the shape of a picture book? That's what Joseph did with his paper published at DIS24, about the design and testing of a system called "how to train your drone", that grants users partial control over the shape of the drone's sensory apparatus. In doing so, bespoke control mappings and behaviour emerges.</p>
+<p>You can <a href="https://dl.acm.org/doi/10.1145/3643834.3660737">read it in the ACM digital library</a> -- take a look, the paper is very pleasing to the eye! We need more creative designs to break away from the boring walls of text-and-equations.</p>
+<p>The paper also draws some parallels between Alife and “research through design”. RtD is a family of design practices that focus more on emergence than problem solving. Joseph thinks there should be more bridges between the two communities. </p>
+<p>You can see <a href="https://youtu.be/OWNibNLjtdU">Joseph talk about the parallels between the two communities at the ERA workshop in this video!</a> He also recommends a video documentary about RtD called <a href="https://vimeo.com/961000450">Permission to muck about</a>.</p>
+<h2 id="hyperneat-substrate-design-tool-by-b-from-the-isal-discord-server">HyperNEAT Substrate design tool, by b from the ISAL Discord Server</h2>
+<p>b has been developing a tool for defining HyperNEAT substrates to help simplify the process. The tool is currently used by them for their own projects, but they are looking for people to check their work and provide feedback!</p>
+<p><a href="https://tkwn2080.github.io/substrate-designer">You can check you the tool in b's website.</a> The basic idea is to allow the user to visually design semi-complex HyperNEAT substrates in a way that can easily interface with code. In particular, b is using this to construct spiking neural networks.</p>
+<h2 id="exploring-emergent-complexity-with-mettagrid-by-david-bloomin">Exploring Emergent Complexity with MettaGrid, by David Bloomin</h2>
+<p>David is developing MettaGrid, an open-source environment for investigating competition, cooperation and alignment in multi-agent AI systems. It’s built to be highly performant, processing 800k+ steps per second, enabling rapid experimentation and analysis of complex social dynamics.</p>
+<p>Key features:
+- Fully customizable, allowing arbitrary objects and actions
+- Novel reward-sharing mechanisms mimicking familial bonds
+- Highly multi-agent supporting anywhere from a few to a few thousand agents
+- Integrated with a reinforcement learning framework, allowing for fast and easy training of policies</p>
+<p>MettaGrid provides a testbed for studying the evolution of cooperation, altruism, and general intelligence in artificial agents. Its flexible, open-ended design allows for easy adaptation to specific research interests.</p>
+<p>David invites the readers to join them in pushing the boundaries of artificial life and multi-agent systems. Your expertise could be crucial in unlocking new insights into AI alignment and cooperation.</p>
+<h3 id="links">Links:</h3>
+<ul>
+<li><a href="https://github.com/Metta-AI/mettagrid">MettaGrid environment code</a></li>
+<li><a href="https://github.com/Metta-AI/metta">MettaAI project, research plan, and code</a></li>
+<li><a href="https://discord.gg/XrGETJYSe7">Discord</a></li>
+</ul>
+<h1 id="software-review-the-simsulator-michael-finn">Software Review: The Simsulator (Michael Finn)</h1>
+<p>Shared by <a href="http://twitter.com/imy_tk">Imy Khan</a></p>
+<p>Making ALife more accessible to the masses is one of the coolest things our community can do.</p>
+<p>Michael Finn has reintroduced Sims' famous <a href="https://karlsims.com/evolved-virtual-creatures.html">Evolved Virtual Creatures</a> into the world: this time, no coding required! The Simsulator is an open-source platform for simulating Sims' Evolved Virtual Creatures, providing tools to evolve, breed, experiment on the virtual creatures. This is a really great piece of software for those who haven't yet had a chance to be hands-on with EVC and want an intuitive way to play with (and study) them. It's also a really great educational tool, providing a really accessible, intuitive way to explore artificial life and evolutionary computation.</p>
+<p><img alt="Simsulator" src="https://github.com/mycoolfin/the-simsulator/raw/main/Media/ground_trial.gif" /></p>
+<p><img alt="Simsulator" src="https://github.com/mycoolfin/the-simsulator/raw/main/Media/underwater.gif" /></p>
+<p>This software was also demonstrated at ALIFE 2024, and you can read the corresponding paper <a href="https://direct.mit.edu/isal/proceedings/isal2024/36/84/123510">here</a>. The Simsulator works across all platforms, is packed full of interesting sandbox features, and (from what I hear) has a VR version in the works!</p>
+<p><a href="https://github.com/mycoolfin/the-simsulator?tab=readme-ov-file">Download The Simsulator</a></p>
+<h1 id="software-showcase-call-for-collaborators-tolvera-jack-armitage">Software Showcase &amp; Call for Collaborators: Tölvera (Jack Armitage)</h1>
+<p>Edited by Imy Khan</p>
+<p>Jack Armitage is a postdoctoral researcher at the <a href="https://iil.is/">Intelligent Instruments Lab, Iceland</a>: an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. </p>
+<p>Based on a desire for more diversity of real-time AI (and ALife) in music interaction, Jack developed a library called <a href="https://intelligent-instruments-lab.github.io/tolvera/">Tölvera</a>. Tölvera is a Python library designed for composing together and interacting with basal agencies, inspired by fields such as artificial life (ALife) and self-organising systems. It provides creative coding-style APIs that allow users to combine and compose various built-in behaviours, such as flocking, slime mold growth, and swarming, and also author their own. </p>
+<p><a href="https://www.youtube.com/watch?v=ahSXjnYHZLU"><img alt="Tölvera" src="https://img.youtube.com/vi/ahSXjnYHZLU/maxresdefault.jpg" /></a></p>
+<p>Check out the relevant paper, "Tölvera: Composing With Basal Agencies" <a href="http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf">here</a>.</p>
+<p>Call for Collaborators: Jack is looking for researchers from across ALife, biology and complex systems to collaborate with in using and extending the software project Tölvera.
+They can be contacted at jack@hi.is or via their <a href="https://discord.gg/ER7tWds9vM">Discord</a></p>
+<h1 id="book-review-morphotrophic-by-greg-egan-2024">Book Review: Morphotrophic, by Greg Egan (2024)</h1>
+<p>Shared by Lana Sinapayen</p>
+<p>What if we couldn't take multicellularity for granted, and every cell had the potential to revert to unicellularity it it felt like it?
+What if these unicellular entities could be convinced to get back to communal life, and integrate another body plan?
+Many of Greg Egan's are very popular in the ALife community, but this one is special: it was inspired by the work of the team behind the Xenobots project, work that received the 2021 Award for Outstanding Publication from the International Society for Artificial Life! </p>
+<p>I couldn't put the book down. Beyond the raw interest of the scientific concepts, the social and philosophical implications are so well integrated in the world building that you'll find yourself empathising with many of the characters even if when you don't agree with their motivations.
+A must-read.</p>
+<p>Find a free <a href="https://www.gregegan.net/MORPHOTROPHIC/00/MorphotrophicExcerpt.html">excerpt from Morphotrophic on Greg Egan's website.</a></p>
+<h1 id="the-carpentopod">The Carpentopod</h1>
+<p>Shared by Lana</p>
+<p>Have you seen <a href="https://www.youtube.com/watch?v=xKDY4yWxfJM">the viral videos</a> of this walking coffe table?</p>
+<p><img alt="a wooden table that looks like a robot" src="https://www.decarpentier.nl/wp-content/uploads/carpentopod_with_joystick_grey-3-1536x1256.jpg" /></p>
+<p>Giliam de Carpentier designed this table by using genetic algorithms to select the best linkages for the table legs. For those familiar with Theo Jansen's strandbeests, the carpentopod's linkages are actually more compact and allow for a more robust walking gait.
+Evolution, often one step ahead of human design... </p>
+<p>Find all the details of Giliam's thought process and experiments on <a href="https://www.decarpentier.nl/carpentopod">his blog</a>.</p>
+<p>Thank you Giliam for giving us permission to share your pictures and videos!</p>
+<h1 id="alife-2024-retrospective">ALife 2024 Retrospective</h1>
+<p>By <a href="https://sites.google.com/view/gabrieljulianoseverino/home">Gabriel J Severino</a></p>
+<p>I feel as though the 2024 conference theme, “Exploring New Frontiers,” couldn’t have come at a better time. For over 30 years, the ALife community has embraced a spirit of exploration, often prioritizing discovery and innovation over immediate practical application. This is what makes the field so fascinating—there’s a real excitement in the unknown. The trade-off between exploring new ideas and exploiting established ones is a challenge every scientific field faces, and ALife has clearly hit the ‘explore’ button with vigor.</p>
+<p>The theme felt particularly resonant this year because it touches on a broader question: what does it mean to explore new frontiers in science today? In the age of AI and computational advances, exploration often feels synonymous with pushing technological boundaries, but in ALife, it also means embracing creative, interdisciplinary approaches to understanding life itself. The sheer diversity of ideas and approaches showcased at ALife 2024 was a testament to this mindset. From evolutionary robotics to synthetic biology, from digital organisms to emergent social behaviors, the conference truly reflected breadth of research ecompasses by ALife.</p>
+<p>As the conference theme suggests, this is also a good time to reflect on what a “fundamental science of artificial life” might look like. The field has long been about understanding the principles of life and intelligence, but the boundaries of ALife remain somewhat fluid, which can be both a strength and a limitation. This flexibility allows ALife to engage with broad interdisciplinary methodologies, integrating several different discplines, such as computational modeling, experimental biology, and robotics. However, the absense of a clearly defined set of theoretical foundations can make it difficult to identify exactly what scientific questions ALife, as a discipline, is uniquely positioned to answer. Other fields, such as mathematical biology or cognitive science, also grapple with questions about life and intelligence. What makes ALife distinct?</p>
+<p>These questions of identity and purpose seemed to continually reemerge in conversations with a variety of different researchers (both from within ALife and from those visiting from other fields) throughout the week, reflecting a tension between exploration and exploitation—the same tension faced by any field navigating the fine line between speculative, fundamental research and more applied, outcome-driven work. In ALife, the spirit of exploration is very much alive. But there’s also an emerging recognition of the importance of balancing this exploration with clearer scientific foundations. This balance is crucial for the continued development of the field, as it provides the grounding necessary for sustained progress while maintaining the sense of intellectual curiosity that makes ALife so unique.</p>
+<p>What truly stood out to me, however, was the sense of community and collaboration that permeated the event—particularly among early-career researchers. The <a href="https://sites.google.com/view/emergingresearchersinal">Emerging Researchers in Artificial Life (ERA)</a> events were a huge success, providing a great oppurtunity for newer members of the ALife community to connect, share their work, and build collaborations. These events not only helped break down barriers but also fostered a genunie connection between people excited about the same niche things. ERA events, such as the "coffee" roundtable (which was really just a little party) and the always-entertaining Academic Karaoke night, allowed folks to really connect with each other in a fun, relaxed environment.</p>
+<p>Personally, while the intellectual stimulation and inspiration were immense, the most rewarding part of the conference was the opportunity to meet and connect with so many awesome and brilliant people.</p>
+<p>If you couldn't attend <a href="https://2024.alife.org/index.html">ALife 2024</a>, or if you had to prioritize one talk over another, you can still check out the work that peaks your interest in the <a href="https://direct.mit.edu/isal/proceedings/isal2024/36/1/123556">proceedings</a>. Also, be sure to check out the <a href="https://sites.google.com/view/vcc-2024/2024-winner">Virtual Creatures Competition</a> or check out this <a href="https://www.youtube.com/playlist?list=PLYIVn5Esp9JAFXt0CsizpD1r3CBmyRYZJ">playlist</a> showcasing some of the finalists.  </p>
+<h1 id="an-oyster-mushroom-for-a-brain">An Oyster Mushroom for a Brain</h1>
+<p>"By growing mycelium into the electronics of a robot, we were able to allow the biohybrid machine to sense and respond to the environment" <a href="https://news.cornell.edu/stories/2024/08/biohybrid-robots-controlled-electrical-impulses-mushrooms">source: Cornell University press release</a></p>
+<p><img alt="picture of the crawling robot from Cornell's website" src="https://alife-newsletter.github.io/Newsletter/images_edition_018/robot.png" /> </p>
+<p>In this research, the mushroom's mycelium (hair-thin root-like organs) acts as both a sensor and a controller for a pair of robots. We've seen plant-robot and slime mold-robot integrations before, but oyster mushroom is a first!</p>
+<p>(Paywalled) Mishra, Anand Kumar, et al. "Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia." Science Robotics 9.93 (2024): eadk8019.</p>
+<h1 id="links-roundup">Links roundup</h1>
+<p>Here is a list of ALife-related papers that were published in the last 2 months:</p>
+<ul>
+<li>Hiroki Sayama and Chrystopher L. Nehaniv, <a href="https://arxiv.org/html/2402.03961v2#S3">"Self-Reproduction and Evolution in Cellular Automata: 25 Years after Evoloops".</a></li>
+<li>Nam H. Le, Richard Watson, Mike Levin, Chrys Buckley, <a href="https://arxiv.org/abs/2409.13254">Emergent Collective Reproduction via Evolving Neuronal Flocks</a></li>
+<li>Lapo Frati, Csenge Petak, Nick Cheney, <a href="https://arxiv.org/abs/2409.00853">JaxLife: An Open-Ended Agentic Simulator</a></li>
+<li>Dan-Lu Fei, Zi-Wei Wu, Kang Zhang, <a href="https://arxiv.org/abs/2408.17186">"Benefit Game: Alien Seaweed Swarms" -- Real-time Gamification of Digital Seaweed Ecology</a></li>
+</ul>
+<p>In ALife talks, watch Robert Wagner's (Mechanical Engineering, Binghamton University) talk at the Binghamton Center of Complex Systems (CoCo) Seminar, titled <a href="https://vimeo.com/1012916074">"Inferring Local Interactions from Global Response in Condensed Active Matter: Complex Emergence in the Mechanics of Fire Ant Rafts"</a> from September 25th.</p>
+<h1 id="domestic-camouflage">Domestic Camouflage</h1>
+<p>Shared by Lana</p>
+<p>I came across this gorgeous ceramic art by <a href="http://utsuwamushi.com/">Hori Takaharu</a>, who focuses on insect-like forms camouflaging themselves as household objects.
+For my birthday, please send me a <a href="https://utsuwamushi.com/1397/">kintsugi scarab teapot</a>, thank you in advance.</p>
+<p>Takaharu graciously allowed us to share pictures with our readers, but you can also find him on <a href="https://www.instagram.com/ceramic_hori/">Instagram!</a></p>
+<p><img alt="a white ceramic beetle folds into a flower vase" src="https://alife-newsletter.github.io/Newsletter/images_edition_018/ceramic1.png" /> <img alt="the beetle flower vase with an actual flower inside" src="https://alife-newsletter.github.io/Newsletter/images_edition_018/ceramic2.png" /></p>
+<h1 id="upcoming-deadlines-and-events">Upcoming Deadlines and Events</h1>
+<p>Check out the upcoming submission deadlines for these ALife related conferences:</p>
+<p>The International Society for Artificial Life (ISAL) is seeking proposals to host the Conference on Artificial Life in 2026 and 2027. <a href="https://alife.org/alife-2026-and-2027-call-for-proposals-to-host-conferences/">Check out the call on the ISAL website</a> for more details, including on how to submit your proposal.</p>
+<p>Finally, the <a href="https://alife.org/">International Society on Artificial Life (ISAL)</a> is asking for nominations for the 2024 ISAL awards. Make your voice heard about outstanding publications in 2023, outstanding early career scientists, and awards for service, education and outreach, among others. Self-nominations welcome! <a href="https://alife.org/2024-isal-awards-nomination-form/">Learn more about it here</a>.</p>
+<h1 id="game-of-life-on-a-klein-bottle">Game of Life on a Klein Bottle</h1>
+<p>You have probably seen the Game of Life play on a 2D square with periodic boundaries -- what exits on the right side comes back through the left side, and what goes out from the top comes back from the bottom...
+The equivalent of wrapping the flat surface onto a donut.</p>
+<p>But have you ever seen the Game of Life play on a Klein surface, where there is no front or back? <a href="https://bsky.app/profile/jbertolotti.bsky.social/post/3l4g6tcgw322n">Now you can</a>, thanks to Jacopo Bertolotti.</p>
+<p><img alt="screenshot of the simulation with the game of life playing on a klein bottle" src="https://alife-newsletter.github.io/Newsletter/images_edition_018/klein.png" /></p>
+<p>Give Jacopo a follow on Bluesky. Thank you Jacopo for letting us share your simulation!</p>
+<h1 id="about-the-artificial-life-newsletter">About the Artificial Life Newsletter</h1>
+<p>The Alife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.</p>
+<p>The current editors of the newsletter are: 
+- Lana Sinapayen
+- Imy Khan
+- Mitsuyoshi Yamazaki
+- Claus Aranha
+- Gabriel Severino</p>
+<p>The newsletter is sent by e-mail and can also be acessed by RSS. You
+can <a href="https://forms.gle/QpQ68xhvSMt4wiv89">subscribe here</a> or follow
+the <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed here</a>.</p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">feedback form</a>. We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line!</p>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>
