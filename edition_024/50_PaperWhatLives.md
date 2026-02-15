@@ -1,1 +1,0 @@
-# Paper: What Lives? A meta-analysis of definitions of life
