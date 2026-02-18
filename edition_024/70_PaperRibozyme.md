@@ -6,4 +6,4 @@ When it comes to the question of "How did Life get started on Earth?", the RNA-w
 
 This paper synthesized much smaller ribozymes (30 to 45 nucleotides instead of 150) that can build both their complementary RNA strand and the complementary to the complentary, ie a copy of themselves. The new strand then folds itself, ready to perform its function. Folks, we have self-replication! The issue of unprompted emergence remains.
 
-[img/ribozyme.png]
+![Figure from the paper showing complementary strand synthesis](img/ribozyme.png)
