@@ -1,5 +1,4 @@
 # Contributions from Our Readers: GenesisSim
-*summarized by Claus*
 
 Reader Syed Sami sent us information about their project
 [GenesisSim](https://github.com/syedsamiullah45/GenesisSim), an ALife
