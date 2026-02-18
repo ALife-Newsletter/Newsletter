@@ -9,7 +9,7 @@ The introduction does a really good job of walking you through examples showing 
 It also offers a critique of Von Neumann's self replicating automaton, and defines the concept of Dynamical selection, which selects for stable reproduction potentially regardless of fitness.
 If you like hand drawn chickens and frogs, I recommend reading the full paper.
 
-![A figure from the paper showing crazy-looking hand drawn chickens](img/chickens.png]
+![A figure from the paper showing crazy-looking hand drawn chickens](img/chickens.png)
 
 
-![A figure from the paper showing a hand drawn chicken and a long-spined frog](img/frog.png]
+![A figure from the paper showing a hand drawn chicken and a long-spined frog](img/frog.png)
