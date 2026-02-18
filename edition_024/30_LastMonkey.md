@@ -1,1 +1,12 @@
-# Last Monkey Standing Youtube Update
+# ApeSDK Update - From the Stone Age to the Bronze Age
+Written by Imy
+
+The ApeSDK, created by [Tom Barbalet](https://en.everybodywiki.com/Tom_Barbalet), is a long-running ALife simulation platform designed to model complex autonomous agents - ape-like entities (hence the name!) - embedded within richly structured biological, environmental, and social systems. First launched in 1996, the project is now entering its 30th year of continuous development: a remarkable example of sustained iteration, refinement, and long-term vision in the ALife community.
+
+Over the decades, ApeSDK has evolved into a broader ecosystem of simulations that build upon its core world model and agent architecture. These include historically grounded and speculative scenarios, [such as London 1940](https://london1940.org/), which uses real geographic and demographic data from London to explore alternative developmental trajectories in the absence of war. Other projects, including _Simulated Ape_ and a range of experimental worlds [showcased on the official ApeSDK site](https://www.apesdk.com/), demonstrate the flexibility of the underlying engine: ranging from social organisation and emergent behavioural structures, all the way through to wider ecological and planetary dynamics.
+
+To mark its 30th anniversary, Tom has recently worked on an update to the ApeSDK that draws inspiration from some of the ideas developed in the London 1940 simulation, which he discusses in a [recent YouTube video.](https://www.youtube.com/watch?v=lvoEic15LdU) He discusses the introduction of various ideas from London 1940, including agent “professions” or “occupations”, into the ApeSDK, extending it beyond (in his own words) a “Stone Age” configuration to more of an "early Bronze Age" simulation that brings with it new layers of cultural and organisational complexity. 
+
+Tom discusses the motivation and implementation of this transition in his video, also giving a brief history of the project and some of the technical reasoning behind these additions. To me, the framing of this update as a move from the “"Stone Age" to "Bronze Age" is emblematic of the broader trajectory of ApeSDK itself - an evolving (30-year-old) simulation that grows in sophistication, finds new ways to be applicable across multiple scales and domains, all whilst remaining grounded in core ALife principles.
+
+Tom is actively interested in collaboration, whether from developers, researchers, or ALife enthusiasts curious about his work and want to find ways to contribute.  If you are interested in contributing or learning more, you can reach him at: barbalet [at] gmail [dot] com
