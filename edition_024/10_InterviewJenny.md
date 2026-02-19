@@ -49,3 +49,5 @@ I used to do 3D printing, but stopped recently. Now, I am trying to learn how to
 
 **M.E.**
 Thank you, Jenny, and best of luck in the future!
+
+*More info about Jenny Zhang's work may be found on [her website](https://www.jennyzhangzt.com)*.
