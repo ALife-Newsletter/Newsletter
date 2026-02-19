@@ -1,1 +1,0 @@
-# Interview with Will from Kyoto ALife Conference
