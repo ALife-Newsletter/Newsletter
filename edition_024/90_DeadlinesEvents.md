@@ -1,4 +1,4 @@
-# Events and Deadlines
+# Events
 
 ### ALICE Workshop:
 
