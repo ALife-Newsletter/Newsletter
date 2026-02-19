@@ -1,6 +1,6 @@
 # Interview with Jenny Zhang
 
-![Photo of Jenny Zhang](img/jenny_zhang.jpg)
+![Photo of Jenny Zhang](images/jenny_zhang.jpg)
 
 *Jenny Zhang is an AI researcher and PhD student studying under Jeff Clune at the University of British Columbia. She took some time over the holidays to answer a few of my questions about her background, work, and the future of AI.*
 
