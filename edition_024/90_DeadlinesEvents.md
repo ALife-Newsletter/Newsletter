@@ -6,6 +6,19 @@ The [Artificial Life, Intelligence, Complexity and Evolution (ALICE) workshop](h
 
 # Deadlines
 
+## CNC 2026 
+
+UNCONVENTIONAL COMPUTATION AND NATURAL COMPUTATION 2026
+
+June 22-26, 2026
+Trieste, Italy
+
+Website: https://ucnc2026.units.it
+
+Submission deadlines  
+* Regular and Short Papers: March 13, 2026
+* Posters and Late-Breaking Abstracts: May  8, 2026
+
 ## Gecco Workshop: ECXAI
 
 5th Workshop on Evolutionary Computing and Explainable AI
