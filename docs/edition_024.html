@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A Word from the Team</h1>
+<p>Welcome to the 24th issue of the ALife Newsletter! We hope you enjoyed the holiday calendar in our last edition. For this new year, our resolution is to implement the feedback you gave us in the survey!
+For a start, in this edition we give you more of what you like: people and papers! An interview with Jenny Zhang, and a project from contributor Syed Sami. Two paper reviews, and a news article that will surely pick up the interest of Alifers.</p>
+<p><a href="https://forms.gle/QpQ68xhvSMt4wiv89">Subscribe to the ALife Newsletter</a>!
+Alternatively, you can register our <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed</a> to read the newsletter from the confort of your favorite RSS reader! (Claus recommends <a href="https://lzone.de/liferea/">Liferea</a>)</p>
+<p>Let us know what you liked, what you didn't like, what you would like to see more or less! If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">contribution form</a>. 
+You can find past editions of the newletter <a href="https://alife-newsletter.github.io/Newsletter/">here</a>.</p>
+<p>Lana, Imy, Martha, and Claus</p>
+<div class="toc">
+<ul>
+<li><a href="#interview-with-jenny-zhang">Interview with Jenny Zhang</a></li>
+<li><a href="#contributions-from-our-readers-genesissim">Contributions from Our Readers: GenesisSim</a></li>
+<li><a href="#apesdk-update-from-the-stone-age-to-the-bronze-age">ApeSDK Update - From the Stone Age to the Bronze Age</a></li>
+<li><a href="#alife-on-the-media-computers-out-of-brain-cells">ALife on the Media: Computers out of Brain Cells</a></li>
+<li><a href="#dynamical-selection-natural-selection-biological-reproduction-as-an-emergent-dynamical-property">Dynamical selection != natural selection: Biological reproduction as an emergent dynamical property</a></li>
+<li><a href="#finally-self-replicating-rna-a-notch-for-the-rna-world-origin-of-life-hypothesis">Finally, self-replicating RNA - A notch for the RNA-world origin of life hypothesis</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#deadlines">Deadlines</a></li>
+<li><a href="#about-the-artificial-life-newsletter">About the Artificial Life Newsletter</a></li>
+</ul>
+</div>
+
+<h1 id="interview-with-jenny-zhang">Interview with Jenny Zhang</h1>
+<p><img alt="Photo of Jenny Zhang" src="https://alife-newsletter.github.io/Newsletter/images_edition_024/jenny_zhang.jpg" /></p>
+<p><em>Jenny Zhang is an AI researcher and PhD student studying under Jeff Clune at the University of British Columbia. She took some time over the holidays to answer a few of my questions about her background, work, and the future of AI.</em></p>
+<p>— <em>Martha</em></p>
+<p><strong>M.E.</strong> 
+I became interested in open-endedness after reading Lisa Soros &amp; Kenneth Stanley’s <a href="https://direct.mit.edu/isal/proceedings/alife2014/26/793/98965">chromaria paper</a> a few years ago. You have done quite a bit of research in this area too. How did open-endedness become a focus for you?</p>
+<p><strong>J.Z.</strong>
+One of the most life-changing papers I have read, and the one I credit with sparking my initial interest in open-endedness research, was <a href="https://www.nature.com/articles/nature14422">Robots that can adapt like animals</a>. After reading it, I reached out to Prof. Antoine Cully, a professor at the same university where I was an undergraduate, to ask about doing a research attachment with him. At the time, I did not think of this interest as "open-endedness”, I simply thought it was an incredibly cool paper with incredible results. Thankfully, Prof. Cully took me on as a student and taught me many of the skills that helped kickstart my research career.</p>
+<p>During my undergraduate studies, I explored several other research directions, but none resonated with me as strongly as my work with Prof. Cully. As a result, when applying for a PhD, I deliberately looked for researchers he had previously collaborated with, which is how I stumbled upon Prof. Jeff Clune and his seminal work. I am deeply grateful that Prof. Clune took me on as a PhD student, and it was there that I continued to deepen my interest in open-endedness. Each year, I continue to learn so much, not only from Prof. Clune, but also from the wider research community and from everyday life experiences.</p>
+<p><strong>M.E.</strong>
+I was so excited when I found <a href="https://github.com/jennyzzt/awesome-open-ended">Awesome Open-Ended AI</a>, your open-source collection of resources. What inspired you to create it?</p>
+<p><strong>J.Z.</strong>
+I am super glad to hear that! After my first PhD project, I found myself reflecting on how much I had learned, and realized retrospectively that having a resource to help navigate the thousands of AI papers published every year would have been incredibly useful for learning more about this niche field. I also realized that even though I had read many papers, I was likely still missing a large number of works that could be deeply inspiring. Hence, I decided to create this resource and invite contributions from everyone, both to expand my own reading list and, hopefully, to provide a helpful resource for others as well.</p>
+<p>If anyone thinks they know of a work that is relevant and not yet on the list, contributions to Awesome Open-Ended AI are always welcome!</p>
+<p><strong>M.E.</strong> 
+Tell me about some of your current work.</p>
+<p><strong>J.Z.</strong>
+Most recently, we released the <a href="https://sakana.ai/dgm/">Darwin Gödel Machine</a> (DGM), a project done together with Shengran Hu, Cong Lu, Robert Lange, and Jeff Clune. This work was exciting from ideation to implementation, and it continues to be exciting as we envision what a scaled-up version of the DGM could eventually achieve.</p>
+<p>Before working on the DGM, I focused on task generation to enable agents to continuously learn new and interesting tasks forever. However, across these projects, I observed that as runs become longer, agents require increasingly more iterations to learn the next new task, even when the increase in difficulty between successive tasks remains consistent. In other words, the learning rate of the agent slows down as tasks become more complex. This stands in contrast to human culture and evolution, where the rate at which new technologies are created appears to accelerate exponentially over time. I believe this gap between my earlier algorithms and human cultural evolution stems from the lack of self-referentiality and self-modification. Ideally, an algorithm should not only improve its performance over time, but also improve its ability to modify itself as it learns.</p>
+<p>Shengran’s work on <a href="https://arxiv.org/pdf/2408.08435?">Automated Design of Agentic Systems</a> demonstrated that coding agents can be used to improve performance on downstream tasks. At the same time, we noticed a growing trend of people using coding agents to automate their own coding workflows, including, in some cases, building better coding agents. This suggested that existing coding agents were already capable enough to collaborate with humans to construct improved future coding agents. Inspired by this observation, we asked: why not close the loop and allow a coding agent to autonomously improve itself over time? Closing this loop would also introduce true self-referentiality, whereby improvements in the agent’s coding ability directly translate into better future self-improvement.</p>
+<p>Motivated by these ideas, we worked together to create a coding agent that is self-referential and self-improving in an open-ended manner, giving rise to the Darwin Gödel Machine.</p>
+<p>Currently, I am continuing to work in a similar direction to the Darwin Gödel Machine, and hope to be able to share the full paper soon!</p>
+<p><strong>M.E.</strong>
+How do you think open-endedness fits into the future of AI?</p>
+<p><strong>J.Z.</strong>
+I believe that open-endedness is, and will continue to be, one of the key research directions that will allow AI to become ever more useful in society. Beyond AI research, principles from open-endedness also speak to how we navigate life, values, and long-term decisions. In many open-ended algorithms, we observe that stepping stones which may not carry the highest fitness score at first can, over time, give rise to outcomes that surpass all others. This serves as a reminder that progress does not always emerge from the most direct path, but often from a willingness to explore, to linger, and to follow curiosity into the unknown. In this co-evolution of technology and humans, I believe that open-endedness will not only play a key role in the development of AI itself, but also in the development of AI researchers, further deepening this cycle of mutual growth and co-evolution.</p>
+<p><strong>M.E.</strong>
+What are your favorite things to do outside of research?</p>
+<p><strong>J.Z.</strong>
+I used to do 3D printing, but stopped recently. Now, I am trying to learn how to communicate better, so I’ve been mainly reading books on communication. Wish me luck!</p>
+<p><strong>M.E.</strong>
+Thank you, Jenny, and best of luck in the future!</p>
+<p><em>More info about Jenny Zhang's work may be found on <a href="https://www.jennyzhangzt.com">her website</a></em>.</p>
+<h1 id="contributions-from-our-readers-genesissim">Contributions from Our Readers: GenesisSim</h1>
+<p>Reader Syed Sami sent us information about their project
+<a href="https://github.com/syedsamiullah45/GenesisSim">GenesisSim</a>, an ALife
+Simulator. GenesisSim, inspired by the book "Growing Artificial
+Societies: Social Science from the Bottom Up" (1996), includes both
+biological and social components to the simulation.</p>
+<p>More details about the project, from the words of Syed:</p>
+<blockquote>
+<p>I’ve been working on GenesisSim, a lightweight Python simulation
+where digital organisms evolve both biologically and
+culturally. Unlike systems such as Tierra, Avida, or Lenia,
+GenesisSim uses dual inheritance: agents pass down not only genes,
+but also symbols (“glyphs”), so cultural identities evolve alongside
+biology.</p>
+<p>This enables symbolic drift, branching, and diversification, with
+culture itself acting as an evolutionary substrate — all inside a
+single script, no GPUs or black-box AI. In short: GenesisSim lets
+symbols evolve like genes, unifying cultural and biological evolution
+in silico.</p>
+</blockquote>
+<p>Do you have a project you want to talk about? We welcome contributions
+from the readers! Please send a short blurb about your project to our
+<a href="https://forms.gle/WaJBmuZ9DBLcEEJ38">feedback form</a>.</p>
+<h1 id="apesdk-update-from-the-stone-age-to-the-bronze-age">ApeSDK Update - From the Stone Age to the Bronze Age</h1>
+<p>Written by Imy</p>
+<p>The ApeSDK, created by <a href="https://en.everybodywiki.com/Tom_Barbalet">Tom Barbalet</a>, is a long-running ALife simulation platform designed to model complex autonomous agents - ape-like entities (hence the name!) - embedded within richly structured biological, environmental, and social systems. First launched in 1996, the project is now entering its 30th year of continuous development: a remarkable example of sustained iteration, refinement, and long-term vision in the ALife community.</p>
+<p>Over the decades, ApeSDK has evolved into a broader ecosystem of simulations that build upon its core world model and agent architecture. These include historically grounded and speculative scenarios, <a href="https://london1940.org/">such as London 1940</a>, which uses real geographic and demographic data from London to explore alternative developmental trajectories in the absence of war. Other projects, including <em>Simulated Ape</em> and a range of experimental worlds <a href="https://www.apesdk.com/">showcased on the official ApeSDK site</a>, demonstrate the flexibility of the underlying engine: ranging from social organisation and emergent behavioural structures, all the way through to wider ecological and planetary dynamics.</p>
+<p>To mark its 30th anniversary, Tom has recently worked on an update to the ApeSDK that draws inspiration from some of the ideas developed in the London 1940 simulation, which he discusses in a <a href="https://www.youtube.com/watch?v=lvoEic15LdU">recent YouTube video.</a> He discusses the introduction of various ideas from London 1940, including agent “professions” or “occupations”, into the ApeSDK, extending it beyond (in his own words) a “Stone Age” configuration to more of an "early Bronze Age" simulation that brings with it new layers of cultural and organisational complexity. </p>
+<p>Tom discusses the motivation and implementation of this transition in his video, also giving a brief history of the project and some of the technical reasoning behind these additions. To me, the framing of this update as a move from the "Stone Age" to "Bronze Age" is emblematic of the broader trajectory of ApeSDK itself - an evolving (30-year-old) simulation that grows in sophistication, finds new ways to be applicable across multiple scales and domains, all whilst remaining grounded in core ALife principles.</p>
+<p>Tom is actively interested in collaboration, whether from developers, researchers, or ALife enthusiasts curious about his work and want to find ways to contribute.  If you are interested in contributing or learning more, you can reach him at: barbalet [at] gmail [dot] com</p>
+<h1 id="alife-on-the-media-computers-out-of-brain-cells">ALife on the Media: Computers out of Brain Cells</h1>
+<p>The <a href="https://www.bbc.com/news/articles/cy7p1lzvxjro">BBC ran a news article last
+year</a> about the
+efforts of a laboratory to create a computer using brain cells.</p>
+<p>The <a href="https://finalspark.com/">Final Spark</a> laboratory, out of
+Switzerland, is researching how to create a "wet" computational
+system. The idea is to make stem cells out of human skin cells, turn
+those stem cells into neurons, and then send electrical signals to
+these clumps of neurons, that they call "organoids".</p>
+<p>The news state that while they aren't yet able to do computation with
+these organoids, they respond to stimuli, and the laboratory is now
+trying to understand the rules behind these responses.</p>
+<p>The energy costs of animal brains is many order of magnitudes lower
+than those of our current computational technologies, so one of the
+hopes for this research is to discover a less costly computational
+substrate. On the other hand, we must also not lose sight of the
+potential ethical pitfalls of this kind of research: At what point do
+we need to start considering the ethical treatment of biological
+constructs the same way that we consider that of laboratory animals,
+etc?</p>
+<h1 id="dynamical-selection-natural-selection-biological-reproduction-as-an-emergent-dynamical-property">Dynamical selection != natural selection: Biological reproduction as an emergent dynamical property</h1>
+<p>Shared by Lana</p>
+<p>Brette, Romain. "<a href="https://hal.science/hal-05491732">A dynamical perspective on biological reproduction.</a>" (2026).</p>
+<p>This paper explores the consequences of considering reproduction not from the point of view of replicating a genome, but from the point of view of mapping an organism to another, with the genome as a constraint on the mapping function.
+The introduction does a really good job of walking you through examples showing that DNA is not a map of the organism: very different organisms can have identical DNA, some organisms have complex reproduction cycles where replication happens several times, etc.</p>
+<p>It also offers a critique of Von Neumann's self-replicating automaton, and defines the concept of Dynamical Selection, which selects for stable reproduction potentially regardless of fitness.
+If you like hand-drawn chickens and frogs, I recommend reading the full paper.</p>
+<p><img alt="A figure from the paper showing crazy-looking hand drawn chickens" src="https://alife-newsletter.github.io/Newsletter/images_edition_024/chickens.png" /></p>
+<p><img alt="A figure from the paper showing a hand drawn chicken and a long-spined frog" src="https://alife-newsletter.github.io/Newsletter/images_edition_024/frog.png" /></p>
+<h1 id="finally-self-replicating-rna-a-notch-for-the-rna-world-origin-of-life-hypothesis">Finally, self-replicating RNA - A notch for the RNA-world origin of life hypothesis</h1>
+<p>Gianni, Edoardo, et al. <a href="https://www.science.org/doi/10.1126/science.adt2760">"A small polymerase ribozyme that can synthesize itself and its complementary strand."</a> Science (2026): eadt2760.</p>
+<p>When it comes to the question of "How did Life get started on Earth?", the RNA-world hypothesis is probably the most popular. To get some sort of evolution by natural selection started, we need a function to which apply selection, a flexible coding molecule, and a copy mechanism. Until now, experiments had shown that RNA polymerase ribozymes (long molecules made of RNA) could copy other small strands of RNA, but that those ribozymes were too big and too complex to manage to replicate their own coding strands, let alone to have emerged by themselves.</p>
+<p>This research synthesized much smaller ribozymes (30 to 45 nucleotides instead of 150) that can build both their complementary RNA strand as well as the complementary to the complementary (i.e. a copy of themselves). The new strand then folds itself, ready to perform its function. Folks, we have self-replication! The issue of unprompted emergence remains.</p>
+<p><img alt="Figure from the paper showing complementary strand synthesis" src="https://alife-newsletter.github.io/Newsletter/images_edition_024/ribozyme.png" /></p>
+<h1 id="events">Events</h1>
+<h2 id="alice-workshop">ALICE Workshop:</h2>
+<p>The <a href="https://aliceworkshop.org/">Artificial Life, Intelligence, Complexity and Evolution (ALICE) workshop</a> happened between February 2nd and 6th, at the IT University of Copenhagen. You can visit their webpage to see details about the topics, pictures and discussions. Organizer Elias Najarro tells us that they are getting ready to upload podcasts and sessions from the workshop to the <a href="https://www.youtube.com/@ALICE_Workshop">ALICE Youtube Channel</a>, so, as they say, be sure to Like and Subscribe!</p>
+<h1 id="deadlines">Deadlines</h1>
+<h2 id="cnc-2026">CNC 2026</h2>
+<p>UNCONVENTIONAL COMPUTATION AND NATURAL COMPUTATION 2026</p>
+<p>June 22-26, 2026
+Trieste, Italy</p>
+<p>Website: https://ucnc2026.units.it</p>
+<p>Submission deadlines  
+* Regular and Short Papers: March 13, 2026
+* Posters and Late-Breaking Abstracts: May  8, 2026</p>
+<h2 id="gecco-workshop-ecxai">Gecco Workshop: ECXAI</h2>
+<p>5th Workshop on Evolutionary Computing and Explainable AI</p>
+<p>The workshop will be held at the GECCO conference in San Jose, Costa Rica.
+GECCO runs 13-17 July. It will be both on-site and streamed online.</p>
+<p><em>Submission deadline: March 27, 2026</em>
+For more detailed information, see the ECXAI at GECCO 2026 <a href="https://ecxai.github.io/ecxai/workshop-2026">workshop website</a></p>
+<h2 id="iscs-2026-awards-nominations">ISCS 2026 Awards Nominations</h2>
+<p>ISCS 2026 <a href="https://iutdijon.u-bourgogne.fr/ccs-france/">https://iutdijon.u-bourgogne.fr/ccs-france/</a> invites
+applications and nominations for two awards recognizing outstanding
+early-career contributions in Complex Systems.</p>
+<p><a href="https://iutdijon.u-bourgogne.fr/ccs-france/call-doctoral-student-award/">Doctoral Student Award</a></p>
+<p><a href="https://iutdijon.u-bourgogne.fr/ccs-france/call-young-resarcher-award/">Young Researcher Award</a></p>
+<p>Submission deadline: March 11, 2026</p>
+<h2 id="ants-2026">ANTS 2026</h2>
+<p>📢 Call for Late Breaking Results &amp; Fresh Perspectives (posters, demos &amp; more)</p>
+<p><a href="https://ants2026.org&lt;https://ants2026.org/&gt;">ANTS 2026</a> – 15th International Conference on Swarm Intelligence</p>
+<p>June 8–10, 2026</p>
+<p>darmstadtium – Science and Congress Center, Darmstadt, Germany</p>
+<p>Submission deadline: 30 March 2026</p>
+<h1 id="about-the-artificial-life-newsletter">About the Artificial Life Newsletter</h1>
+<p>The ALife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.</p>
+<p>The current editors of the newsletter are: </p>
+<ul>
+<li>Lana Sinapayen</li>
+<li>Imy Khan</li>
+<li>Mitsuyoshi Yamazaki</li>
+<li>Claus Aranha</li>
+<li>Gabriel Severino</li>
+<li>Martha Emerson</li>
+</ul>
+<p>The newsletter is sent by e-mail and can also be accessed by RSS. You can <a href="https://forms.gle/QpQ68xhvSMt4wiv89">subscribe here</a> or follow the <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed here</a>.</p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the  <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">feedback form</a>. We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line!</p>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>

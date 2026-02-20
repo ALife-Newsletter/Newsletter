@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images_edition_012/newsletter_header12.png">
+    </div>
+
+<p><strong>Artificial Life Newsletter 012 -- Summer Beaches</strong></p>
+<h1 id="a-word-from-the-team">A word from the team</h1>
+<p>Welcome to the 12th issue of the Alife Newsletter! In tandem with
+ALIFE 2023, this is the first edition of the newsletter with a <strong>Physical Edition</strong> which you can find at the ALIFE2023 conference.
+If you were at the conference and picked up a copy, keep it as a memento, or show it to your friends!</p>
+<p>The theme for this issue is <strong>summer beaches!</strong>. We have Fish fossil robots, simulated fishes, sand beasts, and even some RL-powered sand to put in your aquarium. Of course, you can also get some great seafood in Hokkaido.</p>
+<p>We had to constrain how much information we could include in our physical edition, but not to worry: this digital edition---whether you have accessed it via the QR code, via your inbox, or are viewing it online---has no such constraints, and is full of incredible (longer-form) contributions.</p>
+<p>As always, we appreciate any feedback and suggestions for future
+content. If you were in ALIFE 2023, we'd be
+very happy to hear your impressions about the conference!</p>
+<div class="toc">
+<ul>
+<li><a href="#theo-jansens-strandbeests">Theo Jansen's Strandbeests</a></li>
+<li><a href="#powder-world-simulation-for-rl">Powder World Simulation for RL</a></li>
+<li><a href="#from-the-archives-paper-artificial-fishes-autonomous-locomotion-perception-behavior-and-learning-in-a-simulated-physical-world">From the Archives - Paper: Artificial Fishes: Autonomous Locomotion, Perception, Behavior, and Learning in a Simulated Physical World</a></li>
+<li><a href="#making-robots-from-swimming-fossils-toshiyasu-kondo">Making Robots from Swimming Fossils: Toshiyasu Kondo</a></li>
+<li><a href="#artificial-life-journal-reference-list">Artificial Life Journal Reference List</a></li>
+<li><a href="#paper-geometric-analysis-of-shell-coiling-general-problems">Paper: Geometric Analysis of Shell Coiling: General Problems</a></li>
+<li><a href="#bonus-cover-image-easter-eggs">BONUS: Cover Image: Easter Eggs</a></li>
+<li><a href="#about-the-artificial-life-newsletter">About the Artificial Life Newsletter</a></li>
+</ul>
+</div>
+
+<h1 id="theo-jansens-strandbeests">Theo Jansen's Strandbeests</h1>
+<p>*Written by <a href="https://lanasina.github.io/">Lana</a>; images used with permission from <a href="https://www.strandbeest.com/">Theo Jansen</a></p>
+<p><img alt="Theo Jansen standing with a strandbeest" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/Theo_Jansen_The_Hague.jpeg" /></p>
+<p>Theo Jansen in The Hague (© Theo Jansen)</p>
+<p>For more than 30 years, artist Theo Jansen's artificial "beach animals" (strandbeests) have fascinated the world.
+Every winter, Jansen builds a giant skeletal structure out of various materials. Many have sails, all have legs.
+In the summer the new strandbeest is released on the beach of The Hague to walk all season, propelled only by wind.</p>
+<p><img alt="A strandbeest walking" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/strandbeest.gif" />
+A strandbeest walking (public domain)</p>
+<p>Strandbeests are popular in the ALife community for their robust walking abilities on unstable terrain, achieved without brains or electricity; their evolution through the years, leading to a genealogical tree with innovations such as self-propelling or energy storage; and simply their fluid artistic beauty.</p>
+<p><img alt="A flying strandbeest" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/flying_strandbeest.jpg" />
+A flying strandbeest (© Theo Jansen)</p>
+<p>Theo Jansen's interest does not stop at physical structures; <a href="https://www.strandbeest.com/strandbeest/1989-vermiculusantramentum">here</a> he is programming self-reproducting worms in 1989!</p>
+<p>You can keep up with new generations of strandbeests, book a beach viewing, or buy your own mini-strandbeest via Theo Jansen's website:
+<a href="https://strandbeest.com/">https://strandbeest.com/</a>
+Many thanks to Mr Jansen for letting us share his wonderful pictures.</p>
+<h1 id="powder-world-simulation-for-rl">Powder World Simulation for RL</h1>
+<p>*Write up by <a href="https://scholar.social/@caranha">Claus</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Falling-sand_game">Falling Sand Games</a>
+always had a special place in my heart. In the original 2005 game, you
+could mix elements like sand, water, fire and oil to produce all sorts
+of amazing interactions. In that time, people quickly made derivatives
+with increasingly more complex particle types.</p>
+<p>Last year, <a href="https://kvfrans.com">Kevin Frans</a> published an OpenAI Gym
+compatible <a href="https://kvfrans.com/static/powder/">RL environment that implements
+PowderWorld</a>, using GPU for fast
+simulation. Agents can place or remove pixels from the world in order
+to solve a variety of tasks, such as destroying the environment, or
+moving particles to specific locations. A <a href="https://arxiv.org/abs/2211.13051">paper overviewing the
+environment</a> was published in ICRL
+2023.</p>
+<p><img alt="Examples of tasks created in the Powderworld Engine" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/powder_world.png" /></p>
+<p>Beyond nostalgia, I think this environment could be a great tool to
+explore concepts of open-endedness. I imagine searching initial states
+for emergent/interesting systems would be a very cool task. </p>
+<h1 id="from-the-archives-paper-artificial-fishes-autonomous-locomotion-perception-behavior-and-learning-in-a-simulated-physical-world">From the Archives - Paper: Artificial Fishes: Autonomous Locomotion, Perception, Behavior, and Learning in a Simulated Physical World</h1>
+<p>*Written by <a href="https://twitter.com/imy_tk">Imy</a></p>
+<p>It feels fitting that we continue in the spirit of this month’s newsletter and revisit a (what would now be considered) “classic” paper from the Artificial Life journal on artificial fishes**. This month’s paper, <em>Artificial Fishes: Autonomous Locomotion, Perception, Behavior, and Learning in a Simulated Physical World</em>---published in 1995 by Demetri Terzopoulos, Xiaoyuan Tu, and Radek Grzeszczuk----showcases a wonderful piece of work describing their modelling of artificial fishes. That’s… pretty much it.</p>
+<p>The authors describe, in striking detail, their bottom-up compositional approach to creating these animats: seeking to model as many components (agents, environment, interactions) and subcomponents (e.g. fish anatomy---muscle, fins, eyes---the physics of their liquid environment, fish behaviours (collision avoidance, foraging, mating, schooling)) with a fairly high degree of realism. In turn, this means that the agents look and act as real as possible, and can provide visually convincing results for those who might be watching these virtual fishes interact with each other and their world. They also endow these fishes with a reinforcement learning algorithm for locomotion, meaning that not only do their agents behave like real fishes, but may also learn, optimise, and adapt in their dynamic environments in the same way that real fishes do. To my mind, this feels like a hugely important aspect of work like this: virtual agents and their (inter)actions need to be as comprehensible as possible to naive audiences: if these virtual fishes are used to understand natural phenomena, then their bodies, brains, and environments should resemble natural systems as closely as possible (see Barbara Webb's <em>"Animals Versus Animats: Or Why Not Model the Real Iguana?"</em> (2009): https://doi.org/10.1177/105971230933986).</p>
+<p><img alt="Artificial Fish Modelling" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/artificial_fish_fig1.png" /></p>
+<p>I could describe in further detail here how the fishes “live”---they generate intentions or motivations via an “intention generator” based on a set of sensory information, mental states, and an individual fish’s habits (e.g. its preferences for brightness, or temperature of water, or sex of the fish), which in turn generates goals and drives behaviours---but I would encourage you instead to read the details that this paper has to offer. From using photographs of real fish to create 3D geometric models of their virtual counterparts, or their physics-based fish model consisting of 23 nodal point masses and almost 100 springs between them to calculate and generate dynamic and realistic locomotion, this paper does not shy away from exploring a level of granularity and detail required to model a biological agent to a reasonable level of accuracy, whilst finding the balance between computational efficiency and complexity.</p>
+<p>What I <strong><em>really</em></strong> like about this paper is that it feels like a sort-of manual for a passion project: basically, “we wanted to create a bunch of artificial fishes, and this is how we did it.” And that feels so quintessentially ALife. To be fair to the authors, they do also mention that the long-term goal of their project  (“[to develop] a computational theory that can potentially account for the interplay of physics, locomotion, perception, behavior, and learning in higher animals”), and they conclude the paper by proposing a number of future research directions and use-cases for artificial fishes (for instance, suggesting that artificial fishes can be a sufficient “proving ground for theories that profess competence at effectively linking perception to action” due to their “unprecedented sophistication”). But I also like that this paper was welcomed as a contribution to the ALife field in spite of any actual research question being proposed or addressed within. It is “just” (and I use that term loosely) about the construction of artificial fishes. Of course, constructing models and virtual agents like this are a necessary first step for further work and can give rise to new research questions, but the fact that this paper stands on its own as (just) a simulation of virtual fishes is inspiring. The answer to the question, "Why did these authors create these artificial fishes?" is simple: because they could.</p>
+<p>** Yup. As the authors of the paper state, and much to my surprise, fishes is <strong>actually</strong> a word. The plural is fish when it refers to multiple fish of a single species, but fishes when it refers to multiple species. </p>
+<h1 id="making-robots-from-swimming-fossils-toshiyasu-kondo">Making Robots from Swimming Fossils: Toshiyasu Kondo</h1>
+<ul>
+<li>Interview by <a href="https://lanasina.github.io/">Lana</a></li>
+</ul>
+<p>A <a href="https://twitter.com/robokaseki/status/1672499885906726912?s=20">robot fish</a> swims at the bottom of a shallow pool, its shape and color reminiscent of a horseshoe crab.
+Another one, shaped like a sunfish, zooms in bathtub. A third one bobs to the surface, its face slightly goofy looking.
+But those robots are not inspired by horseshoe crabs, or sunfish. They are fossil fishes Bothriolepis bothriolepis, Ranzania ogaii, Sacabambaspis that Toshiyasu Kondo's (<a href="https://twitter.com/robokaseki">@robokaseki</a> on Twitter) robots are bringing back to motion.</p>
+<p><img src="https://alife-newsletter.github.io/Newsletter/images_edition_012/cartoon.png" width="500" alt="Sea scorpion cartoon from Kondo's educational manual"></p>
+<p><em>Sea scorpion cartoon from Kondo's educational manual</em></p>
+<p>Kondo's robots often help illuminating the kinetic characteristics of these fish, and he has published several papers in collaboration with paleontologists.
+I asked him about his unconventional and inspirational path to the research world. (Interview edited for brevity)</p>
+<p>Click here to see some of the robots in action: https://twitter.com/robokaseki/status/1445696921444646915</p>
+<p><strong>What motivates you?</strong></p>
+<p><img src="https://alife-newsletter.github.io/Newsletter/images_edition_012/sacabambaspis.png" width="500" alt="Sacabambaspis robot: inspired by a barrel shaped fish"></p>
+<p><em>Sacabambaspis robot: inspired by a barrel shaped fish</em></p>
+<p>My daughter built an aquatic robot for her high school graduation project. She entered it at an underwater robots competition, and as a reward for here good work, I contacted the Japan Agency for Marine-Earth Science and Technology and took her to see their experimental facility.</p>
+<p>At that time I was already interested in aquatic robots myself, and occasionally helped as a volunteer during robot competitions. I started thinking that the students joining the competitions would benefit from educational resources about underwater robotics, especially the students creating biomimetic robots.</p>
+<p><strong>Tell us more about that educational aspect of your project.</strong></p>
+<p><img src="https://alife-newsletter.github.io/Newsletter/images_edition_012/kaseki_manual.jpg" width="500" alt="Comparison between the robot and the sea scorpion fossil"></p>
+<p><em>From this comparison between the robot and the sea scorpion fossil, Kondo noticed that the fish had muscles dedicated to moving only the tail fin vigorously</em></p>
+<p>Initially I was thinking mostly of contemporary species like sharks, focusing on observation in aquariums, study of the internal structure of prepared specimens, etc. But it turned out to be too time consuming and difficult for the students, so I pivoted to simpler swimming animal that could bring out the emotion of making one's own creation swim while being easy to build.
+So I chose well preserved fossils, the ancestors of arthropods, who despite not having complex brains and not being very agile, were at the top of the food pyramid between the Ordovician and the Devonian period.</p>
+<p>With the help of paleontologists and robotics engineers, after 2 years and many unexpected discoveries, I finished building a robot mimicking the motion of extinct sea scorpions and published my educational manual.</p>
+<p><strong>Can your approach be used to understand life by building it, a tenet of ALife?</strong></p>
+<p><img src="https://alife-newsletter.github.io/Newsletter/images_edition_012/robot.png" width="500" alt="Inside of the sea scorpoion robot"></p>
+<p><em>Inside of the sea scorpion robot</em></p>
+<p>After I released videos of my swimming sea scorpion and on social media and gave some lectures, it became easier to reach out to both professional and student paleontologists. I started supporting students who wanted to better understand the life of fossil animals by building robotic reproductions. The students went on to present their work at research conferences and science competitions, and thanks to their hard work it became possible for us to gather support and information from more and more researchers, including from outside Japan.</p>
+<p><strong>What did your career path look like until now?</strong></p>
+<p>In college I studied statistical psychology (specifically personality traits) and developed computer tools for psychology experiments. I then joined an electrical company and worked on the first educational tools on Laser Discs... I also worked on applications for Blu-ray. After leaving and becoming independent, I worked in marketing on social media and did some more development work for various platforms.</p>
+<p><strong>Are there things that we can only understand by building, rather than by simulating organisms?</strong></p>
+<p>It depends on what you want to understand about an organism. Their swarming behavior? Their interactions? The micro-currents at the interface between their skin and the water? In all of those cases, you are better off building a simulation.
+On the other hand, the motion of real robots swimming in real water tends to be extremely different from simulated results, so if you base all of your estimations on simulated results you will never obtain a usable robot. Sometimes it is way faster and easier to just start by building the real thing. And to get inspiration for future projects, there is nothing like building, seeing, and feeling a real robot in your hands.</p>
+<p><strong>Many thanks to Mr Kondo for his time and gracious access to documentation and images!</strong></p>
+<h1 id="artificial-life-journal-reference-list">Artificial Life Journal Reference List</h1>
+<p>*Written by <a href="https://twitter.com/imy_tk">Imy</a></p>
+<p>For a few years, I have been maintaining a complete reference list of the articles published in the Artificial Life journal since its inception back in 1993. Initially, this was created so that I had a quick way to browse through all articles in the journal on a single page, to filter on specific topics or authors, or to drag-and-drop them into a tool like ResearchRabbit (http://researchrabbit.ai) to conduct further literature searches on specific areas of interest. More recently, it has become a way for me to search for, and find, interesting papers to read and review as part of the (semi-regular) paper review in this very newsletter (see above). But I’m sure that others might also find such a list useful, so I would like to use this opportunity to share it with you all. It is hosted on GitHub (https://github.com/imytk/alife_journal) in a variety of formats (RIS, BibTex, CSV), and it should be compatible with a reference manager of your choice. If you come across any issues, however, please let me know (email below).</p>
+<p>I have a (loose) roadmap of updates that I’d like to get through with this, including adding in conference proceedings from previous ISAL conferences along with accompanying videos/supplementary material if they’re available. The more interesting goal right now is to use this dataset to perform a deep dive into the 30 year history of the Artificial Life journal: to look at how the ALife journal has changed and evolved over the year, the breadth, depth and trends of topics covered, and a host of other interesting questions. If you are interested in collaborating on this, please come and chat with me in person at the conference, or email me at imytkhan@gmail.com. </p>
+<h1 id="paper-geometric-analysis-of-shell-coiling-general-problems">Paper: Geometric Analysis of Shell Coiling: General Problems</h1>
+<p>*Written by <a href="https://twitter.com/GJSeverino">Gabe</a></p>
+<p>Indeed, the beauty of nature is never as straightforward as it may seem. The way a flower blooms, the patterns of a snowflake, the symmetry of a butterfly’s wings. They are the outcomes of an elaborate balencing act of physical constraints and evolutionary pressures as intricate and layered as the most elaborate work of art. They are living manifestations of nature's own equations, found at the intersection of biology, physics, and mathematics. Yet, imagine if nature had chosen a different path. What if, instead of the reality we know, nature had painted with a different palette, a different set of mathematical equations? What if, instead of the snail shells and fish bodies we've become so farmiliar with, there were spirals and twists beyond our wildest imaginations? (Is this a Junji Ito story?!) These "what ifs" are the world of the morphospace – the canvas on which nature could have drawn, but didn't. Or perhaps, not yet!</p>
+<p>But what is a morphospace? A morphospace is formalized mathematically as a point that represents a different morphology, or form. Where the axis of this space are typically a variable used to describe some physical characteristic of interest. So the closer to points are in morphospace, the more similar they would appear in form. Importantly, <em>not all</em> of the forms that can be seen within a morphospace are always found in nature, making themselves an interesting area of inquiery. It is a concept that allows us to visualize and explore the vast array of forms that biological organisms, such as shells, can take. The use of theoretical morphospaces was popularized by Paleontologist David M. Raup in a series of paper in the 1960s. Specifically, in his 1966 paper, "Geometric Analysis of Shell Coiling: General Problems," exploring the geometric parameters that govern shell coiling, such as the rate of whorl expansion (<em>W</em>), the translation rate (<em>T</em>), and the distance from the generating curve (<em>D</em>). These parameters are manipulated to generate a variety of shell forms, demonstrating the wide range of morphologies that can result from different combinations of these parameters. </p>
+<p><img alt="Raup's Morphospace" src="https://alife-newsletter.github.io/Newsletter/images_edition_012/raup.png" /></p>
+<p>From the study of valve structure in brachiopods, fish body shape, to the work of understanding different possible network architectures when balancing small worldness and shortest path. Morphospaces have had a wide range of applications in the study of biological systems. Yet, one cannot help but wonder about the possibilities of morphospaces in line with "life as it could be". Many disciplines within Artificial Life involve the creation of artificial organisms, such as artificial neural networks, evolutionary robotics, and artificial chemistries often involves defining a space of possible forms or behaviors, much like a morphospace. Much like how a morphospace defines a space of possible biological forms, these disciplines often involve defining a theoretical space of possible artificial forms or behaviors.</p>
+<p>By considering the possible configurations and behaviors of artificial organisms, scientists can better understand not only the potential of artificial life, but also gain insights into the constraints and possibilities that define biological life. In this way, the concept of morphospace serves as a valuable tool for both understanding the diversity of life as we know it, and imagining life as it could be.</p>
+<p>If you're interested in reading more about morphospaces, you might want to check out the book <a href="https://www.cambridge.org/core/journals/short-courses-in-paleontology/article/abs/theoretical-morphology-the-concept-and-its-applications/B1FD474C1ECA2D0BEA20B23CF3C671E4">Theoretical Morphology: The Concept and Its Applications</a> by George McGhee (Raup's own Graduate Student!). </p>
+<h1 id="bonus-cover-image-easter-eggs">BONUS: Cover Image: Easter Eggs</h1>
+<p>Did you manage to find all of the Artificial Life-related easter eggs in the cover image (created by our very own Gabe)? Here is the list of little references that he managed to sneak in:</p>
+<ul>
+<li>Conway's Game of Life Clouds (all 4 permutations of the glider are hidden within: did you find them all?)</li>
+<li>Karl Sims' Virtual Creatures</li>
+<li>Charles Darwin (reading the Artificial Life newsletter, of course...)</li>
+<li>The ALife Newsletter Mascot! (which might come to be known as "Allie" --- great suggestion by Lana!)</li>
+</ul>
+<p>If you managed to get all of those references, then well done! Thank you, Gabe, for such a lovely and creative cover image for this very special edition of our newsletter.</p>
+<h1 id="about-the-artificial-life-newsletter">About the Artificial Life Newsletter</h1>
+<p>The Alife Newsletter is a bi-monthly publication that aims to bring
+interesting news to the Artificial Life community.</p>
+<p>The current editors of the newsletter are: 
+- Lana Sinapayen
+- Imy Khan
+- Mitsuyoshi Yamazaki
+- Claus Aranha
+- Gabriel Severino</p>
+<p>The newsletter is sent by e-mail and can also be acessed by RSS. You
+can <a href="https://forms.gle/QpQ68xhvSMt4wiv89">subscribe here</a> or follow
+the <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed here</a>.</p>
+<p>If you have any suggestions for future content, or would like to help
+us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">feedback
+form</a>. We specially appreciate
+messages from Master and PhD students who want to talk about their
+recent work. Send us a line!</p>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>

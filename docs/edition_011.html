@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images_edition_011/newsletter_header11.png">
+    </div>
+
+<p><strong>Artificial Life Newsletter 011 -- Creature Feature!</strong></p>
+<h1 id="a-word-from-the-team">A word from the team</h1>
+<p>Welcome to the 11th issue of the Alife Newsletter!</p>
+<p>The theme for this issue is <strong>creatures</strong>, virtual creatures, real
+creatures, fictional creatures. If it moves, we got it here!</p>
+<p>Some of the amazing contributions to this edition include: a link to a
+paper about an interface for people to play games with algae; a web
+game that allows you to design a virtual creature with bones, muscle
+tissue and brain controls; a review of a paper laying the basic ideas
+of modelling life; and many other interesting tidbits! Claus and Mitsuyoshi also take you through the process of creating this very newsletter. It's not a huge commitment, so join us!</p>
+<p>Talking about creatures, we would like to welcome <a href="https://twitter.com/GJSeverino">Gabriel
+Severino</a>, who has joined the team
+with an amazing contribution: the banner that you see on top of this
+edition!</p>
+<p>By the way, if you are joining us in Hokkaido for <a href="https://2023.alife.org/">ALIFE 2023</a> 
+in July, don't forget to book your hotels now! July is high season in Sapporo, and the 
+weekend of the conference coincides with one of the most famous fireworks of the area, so 
+many of the hotels are going to be booked by tourists.</p>
+<p>If you'd like to contribute in any way to the newsletter: talking
+about your project, boosting something that you like, or even just
+giving suggestions about what we should cover next, please leave us a
+message at <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">this form</a>! In
+particular, we are specially interested in Master and PhD students who
+want to talk about their own research ideas. Do send us a line!</p>
+<p>If you'd like to receive our news, you can subscribe by e-mail
+<a href="https://forms.gle/QpQ68xhvSMt4wiv89">here</a>, or by RSS
+<a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">here</a>.</p>
+<p>Lana, Imy, Mitsuyoshi, Claus and Gabriel.</p>
+<div class="toc">
+<ul>
+<li><a href="#playing-video-games-with-algae">Playing Video Games with Algae</a></li>
+<li><a href="#crescent-loom">Crescent Loom</a></li>
+<li><a href="#book-review-the-mountain">Book Review: "The Mountain"</a></li>
+<li><a href="#emerging-researchers-in-artificial-life-now-on-discord">Emerging Researchers in Artificial Life - Now on Discord!</a></li>
+<li><a href="#paper-review-on-modeling-life-by-chris-adami-1994">Paper Review - On Modeling Life by Chris Adami (1994)</a></li>
+<li><a href="#the-alife-community-in-scientific-american">The ALife community in Scientific American</a></li>
+<li><a href="#summary-of-survival-strategies-of-artificial-active-agents">Summary of "Survival strategies of artificial active agents"</a></li>
+<li><a href="#how-is-the-artificial-life-newsletter-made">How is the Artificial Life Newsletter Made?</a></li>
+<li><a href="#call-for-volunteers">Call for Volunteers</a></li>
+</ul>
+</div>
+
+<h1 id="playing-video-games-with-algae">Playing Video Games with Algae</h1>
+<p>Shared by <a href="mstdn.science/@lana">Lana</a></p>
+<p>In this 2019 paper, Washington et al created a JavaScript web toolkit to allow real-time interaction with swarms of the algae Euglena, used as "active matter".
+Beginner and expert users were then able to program little video games where the human gamer interacts with the algae through joysticks or LEDs.
+Sadly <a href="https://github.com/hirklab/euglenalab">the code</a> seems to have gone stale since the paper was published, but have a look at the game descriptions and this video of the interface!</p>
+<p><img alt="Figure from the paper showing screen captures of the different games created by users. Caption: Study participants (studies S1b and S1c) were enabled to create a variety of interactive biological applications (A–D, Top is screenshot and A–D, Bottom is illustrative picture of program). (A) (novice user, study S1b) A video game where the player must get specific Euglena into a moving virtual green box, controlled by the player, while the user-directed LEDs shine in the direction of the moving box, making the Euglena move away from the target goal. (B) (expert user, study S1c) A continuously rotating line visualizing the average orientation of all organisms detected by the BPU. (C) (expert user, study S1c) A two-player game where the first player shoots the red ball from a particular position with the aim of hitting as many Euglena as possible, while the second player then tries to steer the Euglena with the arrow keys (mapped to LEDs) so that the ball avoids as many Euglena as possible. (D) (semiexpert user) A histogram of Euglena rotations on the screen, grouped into bucket sizes of 10°. This program allows the user to change the intensity of the four LEDs by dragging four sliders on the screen. This program was created by an undergraduate who did not participate in any study and who later joined the research team. Mouse click event listeners were not explicitly supported by the current version of Bioty but were added through native JavaScript mouse event handlers on the HTML5 canvas." src="https://alife-newsletter.github.io/Newsletter/images_edition_011/euglena-game.png?h=100" /></p>
+<p><img alt="Video from the paper showing the UI with code and a live feed of the algae." src="https://alife-newsletter.github.io/Newsletter/images_edition_011/euglena-game.gif?h=100" /></p>
+<p><a href="https://www.pnas.org/doi/full/10.1073/pnas.1815367116">Interactive programming paradigm for real-time experimentation with remote living matter</a> Washington, P., Samuel-Gama, K. G., Goyal, S., Ramaswami, A., &amp; Riedel-Kruse, I. H.</p>
+<h1 id="crescent-loom">Crescent Loom</h1>
+<p>By <a href="https://twitter.com/jovialthunder">OLIVE 🌺🐍</a></p>
+<p><strong>Crescent Loom</strong> is a game about weaving new forms of life. Players build up an intuitive sense of central pattern generators by knitting bones, stitching muscles, and linking neurons to design an underwater creature in a biologically-realistic neuronbiology simulation. After using these Lego-like biological tools to make a creature, it is then put to the challenge of exploring environments, navigating past hazards, and competing against each other in races — all with constant access to view and modify their simulated nervous system in real time. </p>
+<p><img alt="Animation of a creature swimming with its nervous system lighting up on the side" src="https://alife-newsletter.github.io/Newsletter/images_edition_011/crescent_01.gif?h=100" /></p>
+<p>By wrapping a detailed RC-circuit model in a friendly user interface, it is designed to be the most accessible entryway into previously-gated high-level neuroscience concepts like reciprocal inhibition, postinhibitory rebound, reversal potentials, and channel-based intrinsic membrane properties. Over 5000 creatures have been made and uploaded to the public pool.</p>
+<p><img alt="Screenshot of the connectome explorer" src="https://alife-newsletter.github.io/Newsletter/images_edition_011/crescent_02.png?h=100" /></p>
+<p>There is also a virtual wetlab "Connectome Explorer" which provides mock lab tools to puzzle out obscured connectomes of creatures created in the game's editor. Students can collect data to map unknown nervous systems using ablation, optogenetics, current clamping, and pharmacological blockers of excitation, inhibition, and action potentials.</p>
+<p>Crescent Loom can accessed and played for free in-browser at <a href="https://crescentloom.com/">crescentloom.com</a></p>
+<h1 id="book-review-the-mountain">Book Review: "The Mountain"</h1>
+<p>By <a href="https://twitter.com/Jallafsen">Kai Olav Ellefsen</a></p>
+<p>"Mountain" is a short story from 2012 by Liu Cixin, author of The
+Three-Body Problem. It is available in the Apex Magazine or in
+the short story collection "The Wandering Earth".</p>
+<p>Mountain tells the story of an alien ship appearing on Earth, and the
+aliens describing how they developed into a space faring
+civilization. From an ALIFE-perspective, this story is fascinating, as
+it asks the question of how a civilization would develop if it started
+out with conditions that are very different to those faced by life on
+earth.</p>
+<p>The aliens describe their species originating in a space they call the
+"Bubble World": A spherical space without gravity around 3,500 miles
+in diameter, surrounded by a solid wall of rock in all
+directions. Similar to human explorers throughout the ages, the aliens
+after a while developed a drive to discover what existed beyond the
+walls of their bubble world and began developing technology for
+tunneling through the rock wall. "Mountain" goes on to describe in
+fascinating detail how this alien species went on to form theories
+about the universe they found themselves in, allowing them to find
+their way out of the "Bubble world" and eventually even begin to
+explore other planets.</p>
+<p>The details of the aliens' journey are best experienced in the short
+story. From an ALIFE perspective, I found it fascinating to see this
+very detailed description of how a civilization could develop
+technology, form theories about their surroundings and explore their
+universe in an environment so different from the one our civilization
+has developed in. For instance, the story describes the iterative
+development of scientific theory through generations of the aliens'
+lifetimes: Initially, the aliens believed their world was one of
+potentially several hollow bubbles in an otherwise solid
+universe. They called this cosmology the Solid Universe
+Theory. However, after thousands of years of exploring deep into the
+walls of their bubble, the aliens make a surprising discovery: The
+density of the walls decreased in all directions - indicating there
+may be an outer edge beyond which their universe is no longer
+solid. Obviously, this discovery shook the alien society, leading some
+(the Solid Universe purists) to dismiss it with alternative
+explanations, while others saw it as a beginning of a new scientific
+theory of their universe.</p>
+<p>Liu Cixin has done a very impressive job carefully thinking of the
+details of how an alien society would work in these strange
+environmental conditions, and by describing these details he forces
+the reader to reflect on our own planet, and our own theories of
+physics and cosmology.</p>
+<h1 id="emerging-researchers-in-artificial-life-now-on-discord">Emerging Researchers in Artificial Life - Now on Discord!</h1>
+<p>By <a href="https://twitter.com/Imy_TK">Imy Khan</a> on behalf of the ERA Board.</p>
+<p>The Emerging Researchers in Artificial Life (ERA) group is transitioning over to Discord as the main platform of communications. The community is growing (again), and we would love to have you there. Since it's inception, the intention for the ERA group has been to create a space for (self-identifying) emerging (early) researchers in the ALife community to make connections, have discussions, and generally find ways to connect and have fun. </p>
+<p>The ERA group is also running informal seminars and hang outs every few weeks on Discord, where you can also learn a little bit more about the group and its current members.</p>
+<p>Please join the Discord using the link <a href="https://discord.gg/fvJkKCKy4C">here</a>. See you inside.</p>
+<h1 id="paper-review-on-modeling-life-by-chris-adami-1994">Paper Review - <strong>On Modeling Life</strong> by Chris Adami (1994)</h1>
+<p>Paper Link: <a href="https://direct.mit.edu/artl/article-abstract/1/4/429/2236/On-Modeling-Life">Here</a>
+Review By <a href="https://twitter.com/Imy_TK">Imy Khan</a>.</p>
+<p>This month, I spent a little bit of time digging into the Artificial Life journal archives with two aims: first, to get a better understanding of the type of reesarch that the artificial life field consisted of in the early years after its inception, and secondly, to find a paper that captures (in my view) the <strong>essence</strong> of artificial life, as if to show to someone unaware of the field, <em>"Hey, look, this is the kind of thing Artificial Life is interested in exploring."</em></p>
+<p><a href="https://direct.mit.edu/artl/article-abstract/1/4/429/2236/On-Modeling-Life?redirectedFrom=fulltext">On Modeling Life</a>, written by Chris Adami and published in 1994 in the Artificial Life journal, is one such paper. The title itself is a bold statement, sure to catch the eye of future readers (it caught mine). The paper puts forth a model of life consisting of three minimal characteristics - self-replication of information, bit-wise mutation of information, and an environment (landscape) of information - proposing that a system consisting of these can form the foundations of a (minimally-)living system, with good universal approximation. Adami puts forth theoretical and experimental results (using Tierra and Avida) in defense of this point. Though the entire paper is worthy of a read, I was particularly enticed by this notion that Darwininan evolution may not have been a continuous process, but may have been "punctuated": where there were periods of stasis followed by large evolutionary changes (this may have common knowledge to some, but was completely new information to me!). Assuming the minimal criteria for living systems used in the model, Adami presents further experimental results to support this notion. It is statatements and experimental results like these that truly capture the beauty of ALife, in my opinion.</p>
+<p>As a general musing, I also appreciate the conciseness of the paper: at only 10 pages including all of the images and references, it's a paper you can do a first read of fairly swiftly to get a good grasp of the main ideas. Even <a href="https://direct.mit.edu/artl/article-abstract/1/4/353/2234/Evolving-3D-Morphology-and-Behavior-by-Competition">Karl Sims' paper in the same year</a> was (only) 20 pages, with roughly half of the space occupied with images. In my view, at least, there seems to be more of a trend towards longer papers in recent years, but reading this paper made me feel a sense of aneomoia for much shorter, much more concrete papers.</p>
+<h1 id="the-alife-community-in-scientific-american">The ALife community in Scientific American</h1>
+<p>Shared by <a href="https://mstdn.science/home">Lana</a></p>
+<p>Scientific American published an article on Artificial Life, and interviewed many familiar names about where they think the field is going.
+This piece was more than one year in the works, and is a good intro to our field if your relatives keep asking you "what do you work on again?" and you're struggling to provide a family-friendly answer!
+I don't personally agree with 100% of the opinions in the article, but I think it's really well done and I enjoyed reading it!</p>
+<p><a href="https://www.scientificamerican.com/article/life-evolves-can-attempts-to-create-artificial-life-evolve-too/"><strong>Life Evolves. Can Attempts to Create ‘Artificial Life’ Evolve, Too?
+Do efforts to create life—by cooking up imitations in computers, robots and molecules—point toward a universal definition of biology?</strong></a>
+By Shi En Kim</p>
+<p><img alt="Screenshot of the first paragraph of the article" src="https://alife-newsletter.github.io/Newsletter/images_edition_011/sciam.png?h=100" /></p>
+<h1 id="summary-of-survival-strategies-of-artificial-active-agents">Summary of "Survival strategies of artificial active agents"</h1>
+<p><em>By the authors Luigi Zanovello, Richard J. G. Löffler, Michele Caraglio, Thomas Franosch, Martin M. Hanczyc &amp; Pietro Faccioli</em></p>
+<p>Active systems can respond to stimuli provided by the environment and undertake specific displacements to remain out of equilibrium, e.g. by moving towards regions with higher fuel concentration. In this work, we take a first step to characterize "survival strategies" in active systems by adapting and applying to active systems the theoretical framework of Transition Path Theory, which was originally introduced to investigate rare thermally activated transitions in passive systems.</p>
+<p>For more details, check out the paper <a href="https://doi.org/10.1038/s41598-023-32267-3">here</a></p>
+<h1 id="how-is-the-artificial-life-newsletter-made">How is the Artificial Life Newsletter Made?</h1>
+<p>By <a href="https://scholar.social/@caranha">Claus Aranha</a> and <a href="https://mitsuyoshi-yamazaki.github.io/">Mitsuyoshi Yamazaki</a></p>
+<p>Every two months, we put our heads together to bring this little slice
+of Alife news to you. This is the process that we use.</p>
+<p>Our teams meets once every month (two meetings per news letter). </p>
+<p>In the first meeting, we choose the contents of the next newsletter,
+and assign these to each member - usually two or three items per
+member. To choose the contents, we check <a href="https://forms.gle/QpQ68xhvSMt4wiv89">the
+form</a> with your contributions,
+and also a big pile of interesting things that we find on the
+internet. </p>
+<p>In this stage, we make heavy use of a <a href="https://trello.com">Trello</a>
+board, with a column for the big pile, one for the different items
+that we choose for the newsletter, and another for done or rejected
+items.</p>
+<p>Over the next month, we work on the assigned items, writing them as
+<a href="https://daringfireball.net/projects/markdown/">Markdown</a> files. These
+files are kept on the <a href="https://github.com/ALife-Newsletter/Newsletter">Newsletter's Github
+repository</a>. Every
+time a change is pushed to the repository, it is converted to the HTML
+format that you know and love using python's <a href="https://pypi.org/project/Markdown/">Markdown
+Package</a>. The script concatenates
+the HTML from all markdown files together, and adds a static footer
+and header, including the newsletter CSS style.</p>
+<p>The second meeting happens about one week before the planned date of
+the newsletter. We check which of the contributions were completed,
+which have to be scrapped, and which need just a little bit more work
+before release. We also fix the final release date of the Newsletter.</p>
+<p>The day before the newsletter we give it a final check online, and
+after everyone gives the OK, we prepare it for release. The final HTML
+file is sent to everyone using MailJet, and a magic text file is added
+to the github repository that tells the script to update the
+newsletter RSS.</p>
+<p>Looks complicated? A lot of this routine grew organically, as we
+learned what worked and what didn't work for each edition of the
+newsletter. We still have a lot of pain points to solve (the
+Newsletter Mail service being probably the biggest one). If you have
+any ideas or suggestions to improve our workflow, <a href="https://forms.gle/QpQ68xhvSMt4wiv89">send us a
+message</a>!</p>
+<h1 id="call-for-volunteers">Call for Volunteers</h1>
+<ul>
+<li>
+<p>The newsletter is looking for volunteers to curate content and come
+  up with new ideas! Contact lana.sinapayen {at} gmail.com</p>
+</li>
+<li>
+<p>The <a href="https://alife.org/encyclopedia/">Encyclopedia of Artificial
+  Life</a> is live and needs
+  contributions!</p>
+</li>
+</ul>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A Word from the Team</h1>
+<p>Welcome to the 21st issue of the ALife Newsletter! </p>
+<p><a href="https://forms.gle/QpQ68xhvSMt4wiv89">Never miss an issue by subscribing here</a>.</p>
+<p>In this edition, we are proud to unveil our best-ever omnibus of ALife-related videos! Witness tiny lifelike pets made from sand, as well as the emergence of lifelike forms from bio-inspired music &amp; art. Explore DIY genetic engineering, see how vision/graphics models are used to both discover and create agents, and learn about the physics of living systems. Immerse yourself in ALife simulations, and you may even choose to become involved in one yourself!</p>
+<p>This month, we have also focused on the origins of life, as well as the origin of eyes. And Complexity Cat is here to help us reach a new understanding of living systems.</p>
+<p>As we look forward to the upcoming conference in Kyoto, there is another submission looming: the deadline for creating the official ALIFE2025 mascot! And to get in the spirit, be sure not to miss the most recent conference-themed What ALife! podcast.</p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">contribution form</a>. We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line! If you got something to share that other ALifers would be interested in, we want to know about it!</p>
+<p>Lana, Imy, Mitsuyoshi, Claus, Gabriel and Martha</p>
+<div class="toc">
+<ul>
+<li><a href="#paper-review-concomitant-formation-of-protocells-and-prebiotic-compounds-under-a-plausible-early-earth-atmosphere">Paper Review: "Concomitant formation of protocells and prebiotic compounds under a plausible early Earth Atmosphere"</a></li>
+<li><a href="#paper-review-evolution-of-complex-chemical-mixtures-reveals-combinatorial-compression-and-population-synchronicity-matange-et-al-2025">Paper Review: Evolution of complex chemical mixtures reveals combinatorial compression and population synchronicity (Matange et al., 2025)</a></li>
+<li><a href="#simulation-project-what-if-eye">Simulation Project: "What if Eye?"</a></li>
+<li><a href="#blog-post-review-relational-biology-i-is-it-possible-to-simulate-life-complexity-cat">Blog Post Review: "Relational Biology I: Is it possible to simulate life? - Complexity Cat"</a></li>
+<li><a href="#alife-videos">ALife Videos</a></li>
+<li><a href="#competition-design-the-official-mascot-for-alife2025">Competition: Design the Official Mascot for ALIFE2025!</a></li>
+<li><a href="#podcast-what-alife-bonus-episode-on-alife-2025">Podcast: What ALife! Bonus Episode on ALIFE 2025</a></li>
+<li><a href="#conferences-and-calls">Conferences and Calls</a></li>
+<li><a href="#about-the-artificial-life-newsletter">About the Artificial Life Newsletter</a></li>
+</ul>
+</div>
+
+<h1 id="paper-review-concomitant-formation-of-protocells-and-prebiotic-compounds-under-a-plausible-early-earth-atmosphere">Paper Review: "Concomitant formation of protocells and prebiotic compounds under a plausible early Earth Atmosphere"</h1>
+<p>Summary by Claus</p>
+<p><a href="https://tech.lgbt/@ngaylinn">Nate Gaylinn</a> shared on Mastodon a <a href="https://www.pnas.org/doi/10.1073/pnas.2413816122">paper about a recent experiment on the origins of life</a>. In this paper, the authors prepare an environment that mimics the conditions of early earth, and conduct lighting experiments in this environment. The goal was to find evidence of the early blocks of life, and understand the range of necessary conditions for life on earth and possibly in other worlds.</p>
+<p>Or, as <a href="https://tech.lgbt/@ngaylinn/114002744361757569">Nate puts it much better in his original post</a>: </p>
+<blockquote>
+<p>"Like Miller and Urey before them, these researchers simulated a tiny pond on ancient earth, and struck it with "lightning."</p>
+<p>They confirmed this produces biochemicals, but this time they used advanced microscopy to show it also produces tiny bubbles that look surprisingly lifelike on their own, and could serve as shelters for protolife.</p>
+<p>Awesome finding! This really could have been important for life's origins (though, to be properly alive, the protocell would need to be able to make its own vesicle, and divide it). It's a little disheartening, though, as this new evidence makes the search for microbial fossils that much harder.</p>
+<p>Understanding what life is and how it made itself what we see today is a real challenge. We're coming onto the scene a few billion years too late! Mostly, we must rely on our imagination and simulations, so when we get some new clues from the physical sciences, that's always a treat. This experiment shows us a new affordance available to primordial life, and gives some clues about how to interpret microfossils in the archaeological record.</p>
+</blockquote>
+<p>The paper itself is not very long, and has nice pictures of the experimental setup, so make sure to give it a read!</p>
+<h1 id="paper-review-evolution-of-complex-chemical-mixtures-reveals-combinatorial-compression-and-population-synchronicity-matange-et-al-2025">Paper Review: Evolution of complex chemical mixtures reveals combinatorial compression and population synchronicity (Matange et al., 2025)</h1>
+<p>Summary by Imy</p>
+<p>The previous paper presented by Claus is not the only Origins of Life paper to make it into this issue. This recent paper, written by Kavita Matange and colleagues, published in Nature Chemistry and accessible <a href="https://williams.chemistry.gatech.edu/publications/LDW_162.pdf">here,</a>
+offers another perspective in the ongoing quest to understand the origins of life here on Earth. It aims to understand how the simple prebiotic chemicals readily available on early Earth might have transitioned into the more complex molecular assemblies necessary for the emergence of life. </p>
+<p>Rather than focusing on individual reactions, this study examines the behaviour of entire chemical systems under simulated early Earth conditions. The authors developed an experimental model simulating early Earth conditions using fluctuating water activity and near-ambient temperatures to drive the evolution of organic molecule mixtures containing key functional groups.</p>
+<p>The researchers observed three key phenomena: (1) the chemical systems underwent continuous change without reaching a stable equilibrium, (2) they demonstrated 'combinatorial compression' where a limited number of products were formed despite a large number of possible combinations, indicating stringent chemical selection, and (3) different molecular species exhibited 'synchronicity of molecular populations', meaning their concentrations rose and fell in coordinated ways. These findings suggest that even simple environmental fluctuations could drive a non-chaotic progression towards molecular complexity.</p>
+<p>Their findings challenge the idea of a purely chaotic prebiotic environment. Instead, they observed that their chemical systems underwent continuous change without reaching equilibrium, demonstrating combinatorial compression with stringent chemical selection and a surprising synchronicity of molecular populations. The authors propose that simple environmental oscillations could have acted as a powerful engine for the generation of increasingly complex chemical species, the very building blocks of life.</p>
+<p>You can read the paper using the link above, or the <a href="https://scitechdaily.com/not-so-random-after-all-scientists-uncover-surprising-new-clues-to-the-origin-of-life/">press release here</a>.</p>
+<h1 id="simulation-project-what-if-eye">Simulation Project: "What if Eye?"</h1>
+<p><em>Summary by Claus</em></p>
+<p>The MIT Media Lab, Camera Culture group, has recently published a project called <a href="https://eyes.mit.edu/">"What if Eye?"</a>. This project aims to computationally simulate the evolution of visual systems, from early light sensors to fully fledged lensed eyes.</p>
+<p><img alt="Screenshots of the What if Eye simulator" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/whatifeye.png" /></p>
+<p>The simulation occurs in virtual creatures who have to solve tasks in a 2D environment using visual input. Evolution controls both the physical characteristics of these eyes (number of eyes, lensing, etc), as well as the neural network that reads and processes the signals produced by them. </p>
+<p><img alt="Figure 1 of the &quot;What If Eye&quot; Paper" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/WIE_paper.png" /></p>
+<p>The project's webpage has links to both the <a href="https://arxiv.org/pdf/2501.15001">paper describing the simulation and evolutionary framework</a>, as well as a <a href="https://github.com/cambrian-org/ACI">link to the simulation software on github</a>. </p>
+<h1 id="blog-post-review-relational-biology-i-is-it-possible-to-simulate-life-complexity-cat">Blog Post Review: "Relational Biology I: Is it possible to simulate life? - Complexity Cat"</h1>
+<p>Summary by Imy</p>
+<p>What's the real difference between a biological model and a simulation, and why is this distinction crucial for understanding life?</p>
+<p>Complexity Cat recently started <a href="https://amahury.github.io/posts/trilogy-relational-biology-I/">a new blog series</a> exploring the field of relational biology, pioneered by Robert Rosen. Moving beyond a purely reductionist view of life's molecular components, relational biology emphasises the organisational relationships and interactions that define living systems. This first post introduces these ideas to readers, and directly tackles a common misinterpretation that Rosen outright denied the possibility of simulating life.</p>
+<p>Instead, the blog post argues that Rosen's work (alongside that of his mentor, Nicolas Rashevsky) suggests that traditional, algorithmic simulations may inherently struggle to capture the essence of living systems, particularly their closure to efficient causation i.e. the ability of a system's components to generate and maintain their own organisation. The blog post clarifies the Rosen's distinction between abstract models and computational simulations and discusses how relational approaches offer a different lens for understanding the fundamental principles of life. </p>
+<p>Read the <a href="https://amahury.github.io/posts/trilogy-relational-biology-I/">full blog post</a> over on Complexity Cat.</p>
+<p>As an aside, <a href="https://amahury.github.io/">Complexity Cat</a> is an excellent and frequently updated resource for those interested in ALife. It is managed by <a href="https://twitter.com/amahury0">Amahury J. L. Díaz</a> and colleagues, so feel free to explore and follow their blog.</p>
+<h1 id="alife-videos">ALife Videos</h1>
+<p>Shared by Lana</p>
+<p>In this edition we have collected quite a few interesting videos, here they all are for your viewing pleasure!</p>
+<p>"The Physics of Living Systems" with Chris Kempes for "Reason with Science" 
+<img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/kempes.png" /></p>
+<p>"This episode is with Chris Kempes, a professor at the Santa Fe Institute, working at the fascinating intersection of physics and biology. Chris joins us to talk about some of the most profound questions about life starting from fundamental definitions to exploring life's potential multiple origins guided by the laws of physics. Join us as we explore the role of energy landscapes in Prebiotic chemistry, the physical basis of microbial behaviors, scaling laws that govern life's metabolic patterns, and how collective behaviors emerge in multicellular organisms. Let's embark on a journey to rethink life's mysteries through the lens of physics."</p>
+<p><a href="https://www.youtube.com/watch?v=2rvJoa31-KI">https://www.youtube.com/watch?v=2rvJoa31-KI</a></p>
+<p>"Hypercycle – Let There Be Artificial Life" by Jeffrey Ventrella and Jean-Claude Heudin</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/hypercycle.png" /></p>
+<p>"A collaboration between visual artist and Artificial Life researcher Jeffrey Ventrella and AI researcher and composer Jean-Claude Heudin. Both the video and the music are created using bio-inspired algorithms showing the emergence of life-like forms."
+The entry after this one is also by Jeffrey Ventrella!</p>
+<p><a href="https://youtu.be/nMuyJQ0GXSk">https://youtu.be/nMuyJQ0GXSk</a> </p>
+<p>"Clusters - an Asymmetrifcal Particle System with Emergent Patterns" by Jeffrey Ventrella</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/ventrella.png" /></p>
+<p>"This is a video explaining the Clusters particle algorithm. Explore it in real-time at ventrella.com/clusters"</p>
+<p><a href="https://vimeo.com/1048238799">https://vimeo.com/1048238799</a></p>
+<p>"London 1940" by ‪Tom Barbalet</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/barbalet.png" /></p>
+<p>"Tom talks about his London1940.org simulation project that really needs a particular kind of developer to pick it up."</p>
+<p><a href="https://www.youtube.com/watch?v=pD-PNwk-Z9E">https://www.youtube.com/watch?v=pD-PNwk-Z9E</a></p>
+<p>"Rewriting DNA to make custom monstrosities" by The Thought Emporium</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/dna.png" /></p>
+<p>"In this video we take a deep dive into the world of genetic engineering. What is it, what's it's history, how does it work, and how you can do it too! We explore a variety of custom printer pieces of DNA, and see all the amazing things they do when you put them into a living organism. We've got things that glow, smell, and even things that behave like electrical circuits and transistors."</p>
+<p><a href="https://www.youtube.com/watch?v=10OUPyamn1w">https://www.youtube.com/watch?v=10OUPyamn1w</a></p>
+<p>"Dear Humans: Meet Ferro Pets!"</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/ferropet.png" /></p>
+<p>A video showcasing a clever use of ferromagnetic sand and "lifelike" behavior.</p>
+<p><a href="https://www.youtube.com/watch?v=koN1SnLldGU">https://www.youtube.com/watch?v=koN1SnLldGU</a></p>
+<p>“Robots and Artificial Life from Visual Foundation Models”, a talk by Phillip Isola (MIT) for Spring 2025 GRASP on Robotics.
+<img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/isola.png" /></p>
+<p>ABSTRACT
+"I will talk about two ways we can design agents with the help of powerful vision/graphics models. In the first project, LucidSim, we augment a traditional robotics simulation engine (MuJoCo) with visual detail from an image generative model. The generator adds diversity and realism to the barebones MuJoCo content, and results in a RGB-only policy trained entirely in sim that generalizes zero-shot to the real world. In the second project, ASAL, we use a visual recognition model to search for artificial lifeforms that display distinct and interesting behaviors. This process can discover cellular automata that are open-ended like Conway’s Game of Life, particle swarms that flock like Boids, and more."</p>
+<p><a href="https://www.youtube.com/live/MywO2yL4b68">https://www.youtube.com/live/MywO2yL4b68</a></p>
+<p>"Simulation of Ontogenesis"</p>
+<p>Simulife Hub is a youtube channel with many simulations of tenets of Artificial Life, from plant generation to the evolution of altruism. Here is their latest video, about multicellularity.</p>
+<p><img alt="" src="https://alife-newsletter.github.io/Newsletter/images_edition_021/simulife.png" /></p>
+<p>"All cells have the same genome, but each cell must perform tasks according to its position in the growing organism.
+To do this, cells must somehow interact with each other and regulate the expression of their genes.
+This project is dedicated to exploring this process.
+I'm not a biologist. While delving into this topic,
+I'm trying to model these processes on a computer and create videos based on the results of my experiments."</p>
+<p><a href="https://www.youtube.com/watch?v=qwJNeq-WABU">https://www.youtube.com/watch?v=qwJNeq-WABU</a></p>
+<h1 id="competition-design-the-official-mascot-for-alife2025">Competition: Design the Official Mascot for ALIFE2025!</h1>
+<p>by Imy</p>
+<p>Hey! Want to win a free registration to this year's ALIFE 2025 conference?</p>
+<p>The 2025 Artificial Life conference is happening in Kyoto, Japan, and we want YOU to design the official mascot to be the face of the conference. We're seeking a unique character to embody the spirit of ALIFE - whatever that means to you. This is your opportunity to leave a lasting mark on the ALIFE community and become a part of conference history and folklore.</p>
+<p>All you need to do is submit your visual sketch or rendering, a catchy and memorable name, and an optional short backstory explaining your mascot's connection to artificial life and the ALIFE 2025 conference. The winning design will become the official face of the conference, featured on the website, social media, merchandise, and potentially even as a life-sized costume!</p>
+<p>Did we already mention winning a free registration to the ALIFE 2025 conference?</p>
+<p>All community members – researchers, students, enthusiasts, and artists – are encouraged and invited to participate. Let your imagination flourish and help us bring the ALIFE 2025 spirit to life!</p>
+<p>The deadline for submissions is June 15th, 2025. Don't miss this exciting chance to contribute your vision and potentially attend ALIFE 2025 for free! Submit your design today!</p>
+<p>Check the <a href="https://tinyurl.com/ALIFEMascotCompetition">submission page</a> for full submission details.</p>
+<h1 id="podcast-what-alife-bonus-episode-on-alife-2025">Podcast: What ALife! Bonus Episode on ALIFE 2025</h1>
+<p>by Imy</p>
+<p>And speaking of the ALIFE 2025 conference, <a href="https://open.spotify.com/episode/6Tlr0cmBzPL5yqqHy8UvLx?si=5906034150ef4f90">check out this bonus episode of the What ALife! podcast</a> where Imy spoke with Alyssa Adams (vice chair of the ALIFE 2025 conference), for a short overview of the conference, its ambitions, and a look at what goes into the planning of a scientific conference. Much has changed since this podcast was recorded, but it's still worth listening to if you want to get a feel for what the conference is going to be about!</p>
+<h1 id="conferences-and-calls">Conferences and Calls</h1>
+<p>The deadline for ALIFE 2025 has been extended by one week, so it is not too late to submit your paper!</p>
+<ul>
+<li><a href="https://2025.alife.org/submit">ALIFE 2025 conference</a> (Virtual and In-Person in Kyoto, Japan). October 6-10 2025. Full Papers/Summaries submission: May 11th 2025.</li>
+</ul>
+<p>Here is a short list of conferences and symposia that have active calls:</p>
+<ul>
+<li><a href="https://icsr2025.eu/call-for-papers/">International Conference on Social Robotics + AI</a> (In-Person in Naples, Italy). September 10-12 2025. Full Papers submission: May 9th 2025.</li>
+<li><a href="https://ecta.scitevents.org/">Evolutionary Computation Theory and Applications</a> (In-Person in Marbella, Spain). October 22-24 2025. Regular Paper submission: May 19th 2025.</li>
+<li><a href="wivace2025.diism.unisi.it">WIVACE 2025: XIX International Workshop on Artificial Life and Evolutionary Computation</a>. (In-Person in Siena, Italy). September 3-5 2025. Abstract/Paper submission: May 30th 2025.</li>
+<li><a href="https://complexnetworks.org">Complex Networks 2025</a> (In-Person in Binghamton, New York). December 9-11, 2025. Regular Paper submission: September 2nd 2025.</li>
+</ul>
+<p>This symposium will be exploring the intersection between complexity science and anarchism. The week will feature an unconference style, emphasizing a self-organized exchange of ideas, and camping!</p>
+<ul>
+<li><a href="https://clea.research.vub.be/complex-anarchism-symposium-19-23-may-2025-in-brussels">Complex Anarchism Symposium</a> (In-Person in Brussels, Belgium). May 19-23 2025. Confirmation of Participation: May 4th 2025 (or later, if space allows).</li>
+</ul>
+<p>Here are some other events of interest:</p>
+<ul>
+<li><a href="https://iutdijon.u-bourgogne.fr/ccs-france/">FRCCS 2025</a> (In-Person in Bordeaux, France). May 21-23 2025.</li>
+<li>Gecco Workshop: <a href="https://evolving-self-organisation-workshop.github.io/">Evolving Self-organisation</a>. (Virtual and In-Person in Málaga, Spain). July 14-18 2025.</li>
+<li><a href="https://www.animalbehaviorsociety.org/2025/abstracts.php">The Animal Behavior Society</a> (Virtual and In-Person in Baltimore, Maryland). July 8-12 2025.</li>
+<li><a href="https://www.ro-man2025.org/">RO-MAN 2025</a> (Virtual and In-Person in Eindhoven, the Netherlands). August 25-29 2025.</li>
+</ul>
+<h1 id="about-the-artificial-life-newsletter">About the Artificial Life Newsletter</h1>
+<p>The ALife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.</p>
+<p>The current editors of the newsletter are: 
+- Lana Sinapayen
+- Imy Khan
+- Mitsuyoshi Yamazaki
+- Claus Aranha
+- Gabriel Severino
+- Martha Emerson</p>
+<p>The newsletter is sent by e-mail and can also be accessed by RSS. You
+can <a href="https://forms.gle/QpQ68xhvSMt4wiv89">subscribe here</a> or follow
+the <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed here</a>.</p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">feedback form</a>. We specially appreciate messages from Master and PhD students who want to talk about their recent work. Send us a line!</p>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>
