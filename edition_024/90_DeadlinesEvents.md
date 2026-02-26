@@ -6,6 +6,20 @@ The [Artificial Life, Intelligence, Complexity and Evolution (ALICE) workshop](h
 
 # Deadlines
 
+## ALIFE 2026: Living and Lifelike Complex Adaptive Systems!
+
+The [2026 Artificial Life Conference](https://2026.alife.org/) - August 17-21, 2026 in Waterloo, Canada.
+
+Deadlines: 
+
+28 February 2026
+- Call for Tutorials and Workshops (Submission deadline)
+- Call for Special Sessions (Submission deadline)
+
+30 March 2026
+- Full Papers & Summaries Submission Deadline
+
+
 ## CNC 2026 
 
 UNCONVENTIONAL COMPUTATION AND NATURAL COMPUTATION 2026
