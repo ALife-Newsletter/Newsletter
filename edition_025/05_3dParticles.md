@@ -5,4 +5,4 @@ Go have a look, toggle the 3D setting and play with the parameters!
 
 [https://najarro.science/pl/](https://najarro.science/pl/)
 
-[image]
+![Screenshot showing the UI and a bunch of colorful flowing 3D shapes made of little dots](images/3dparticles.png)
