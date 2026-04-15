@@ -8,4 +8,4 @@ descritpion, date and links
 
 ## Event 2
 
-descritpion, links, and deadlines
+Book your tickets for SFI's hybrid Community Lecture: ['Computing, Life, and Intelligence'](https://lensic.org/events/blaise-aguera-y-arcas/), by Blaise Agüera y Arcas (May 20, 7:30pm MT) 
