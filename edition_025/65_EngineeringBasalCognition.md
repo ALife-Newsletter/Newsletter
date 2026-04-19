@@ -2,7 +2,7 @@
 
 
 
-Written by \[Imy](https://imytk.co.uk)
+Written by [Imy](https://imytk.co.uk)
 
 
 
@@ -18,7 +18,7 @@ In essence, the authors find that these circuits actually work, BUT learning ope
 
 
 
-It reminded me of a few other papers \[1](https://doi.org/10.1098/rstb.2019.0750) \[2](https://www.sciencedirect.com/science/article/abs/pii/S0006291X21001959) I've come across in recent times, in part inspired by \[Pamela Lyon's keynote talk at ALIFE 2023](https://www.youtube.com/watch?v=I4hq3LUx73Y). 
+It reminded me of a few other papers [1](https://doi.org/10.1098/rstb.2019.0750) [2](https://www.sciencedirect.com/science/article/abs/pii/S0006291X21001959) I've come across in recent times, in part inspired by [Pamela Lyon's keynote talk at ALIFE 2023](https://www.youtube.com/watch?v=I4hq3LUx73Y). 
 
 
 
