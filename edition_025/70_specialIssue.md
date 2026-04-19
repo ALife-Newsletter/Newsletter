@@ -5,6 +5,6 @@ The issue is from last year, but should remain relevant for many years to come.
 
 Origins of life: the possible and the actual
 
-[images/cover.png]
+![The cover of the theme issue, showing some glass blown apparatus](images/cover.gif)
 
 
