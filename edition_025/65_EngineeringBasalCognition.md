@@ -1,4 +1,4 @@
-# Paper Review - Engineering Basal Cognition \[Pla-Mauri \& Solé]
+# Paper Review - Engineering Basal Cognition [Pla-Mauri \& Solé]
 
 
 
@@ -8,6 +8,7 @@ Written by [Imy](https://imytk.co.uk)
 
 How does cognition arise without a nervous system? And what is the minimum genetic machinery needed to implement learning in a single cell? These are the questions that Pla-Mauri and Solé try to unpack in this recent paper. 
 
+![Engineering Basal Cognition Abstract](images/minimalcog.jpeg)
 
 
 Taking a synthetic biology angle, they design minimal synthetic genetic circuits capable of reproducing a few types of adaptive behaviours - habituation, sensitisation, and massed-spaced learning (a cognitive strategy in which learning sessions are distributed over time (spaced learning) rather than concentrated over a short period (massed learning)) - in silico, using well-characterised regulatory parts (repressors, quorum-sensing molecules, fluorescent reporters). These design decisions are grounded enough in biology to be to be experimentally realisable in E. coli, which is something I feel ALifers sometimes underappreciate. Being able to make concrete predictions of how the real world operates using such tractable models is \*really\* cool!
