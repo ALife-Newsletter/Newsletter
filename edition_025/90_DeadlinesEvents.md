@@ -18,3 +18,11 @@ The 7th IEEE [International Conference on Autonomic Computing and Self-Organizin
 
 - Abstract registration deadline: 24 April 2026
 - Paper submission deadline: 1 May 2026
+
+# Opportunities
+
+## ISAL Global Membership Program Pilot
+
+ISAL is now offering a special discounted membership rate to scholars from low-income countries through the new [ISAL Global Membership Program](https://alife.org/2026/03/24/new-isal-global-membership-program-pilot/). 
+
+- Application deadline: 8 May 2026
