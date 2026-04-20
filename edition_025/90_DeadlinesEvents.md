@@ -12,7 +12,9 @@ The Origin of Life Early Career Network's [Interdisciplinary Origin of Life Meet
 
 - Abstract submission deadline: May 2, 2026
 
-## The 7th IEEE [International Conference on Autonomic Computing and Self-Organizing Systems](https://2026.acsos.org/) (ACSOS) will be held in Cesena, Italy at the University of Bologna, Cesena Campus from 7-11 September 2026.
+## IEEE ACSOS 2026 | IEEE International Conference on Autonomic Computing and Self-Organizing Systems
+
+The 7th IEEE [International Conference on Autonomic Computing and Self-Organizing Systems](https://2026.acsos.org/) (ACSOS) will be held in Cesena, Italy at the University of Bologna, Cesena Campus from 7-11 September 2026.
 
 - Abstract registration deadline: 24 April 2026
 - Paper submission deadline: 1 May 2026
