@@ -5,10 +5,8 @@ The ALife Newsletter is a bi-monthly publication that aims to bring interesting 
 The current editors of the newsletter are: 
 
 - Lana Sinapayen
-- Imy Khan
-- Mitsuyoshi Yamazaki
 - Claus Aranha
-- Gabriel Severino
+- Imy Khan
 - Martha Emerson
 
 The newsletter is sent by e-mail and can also be accessed by RSS. You can [subscribe here](https://forms.gle/QpQ68xhvSMt4wiv89) or follow the [RSS feed here](https://alife-newsletter.github.io/Newsletter/RSS.xml).
