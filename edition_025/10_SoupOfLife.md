@@ -6,12 +6,9 @@
 
 — *Martha*
 
-
-**M.E.**
-I've had a lot of fun exploring Soup of Life. What inspired you to create it?
-
-**S.L.**
-Honestly, things just got out of hand.
+<details>
+<summary>I've had a lot of fun exploring Soup of Life. What inspired you to create it?</summary>
+<p>Honestly, things just got out of hand.
 
 I watched [The Most Controversial Idea in Biology](https://youtu.be/XX7PdJIGiCw) one evening, took a screenshot of the replicator dynamics on screen, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
 
@@ -19,7 +16,8 @@ The moment I realised I'd gone wrong was when I noticed I was no longer observin
 
 It was also a bit of a protest, to be honest, against the two-second attention span and the doomscrolling, my own included. I wanted to spend time on something else, and along the way I ended up building something that unfolds slowly and where you have no controls.
 
-I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
+I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.</p>
+</details>
 
 **M.E.**
 How did you first encounter the field of Artificial Life?
