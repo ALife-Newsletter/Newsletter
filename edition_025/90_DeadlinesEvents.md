@@ -2,7 +2,7 @@
 
 ## Santa Fe Institute's Community Lecture
 
-Book your tickets for SFI's hybrid Community Lecture: ['Computing, Life, and Intelligence'](https://lensic.org/events/blaise-aguera-y-arcas/), by Blaise Agüera y Arcas (May 20, 7:30pm MT) 
+Book your tickets for SFI's hybrid Community Lecture: ['Computing, Life, and Intelligence'](https://lensic.org/events/blaise-aguera-y-arcas/), by Blaise Agüera y Arcas (20 May 2026, 7:30pm MT) 
 
 # Deadlines
 
@@ -10,7 +10,7 @@ Book your tickets for SFI's hybrid Community Lecture: ['Computing, Life, and Int
 
 The Origin of Life Early Career Network's [Interdisciplinary Origin of Life Meeting for Early Career Researchers](https://www.oolen.org/news-and-events/in-person-meetings/iool2026/#) (IOoL2026) will be held in Tokyo, Japan at the Earth-Life Science Institute (ELSI) from 9-11 September 2026.
 
-- Abstract submission deadline: May 2, 2026
+- Abstract submission deadline: 2 May 2026
 
 ## IEEE ACSOS 2026 | IEEE International Conference on Autonomic Computing and Self-Organizing Systems
 
