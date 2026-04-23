@@ -13,7 +13,7 @@ I've had a lot of fun exploring Soup of Life. What inspired you to create it?
 **S.L.**
 Honestly, things just got out of hand.
 
-I watched The Most Controversial Idea in Biology](https://youtu.be/XX7PdJIGiCw) one evening, took a screenshot of the replicator dynamics on screen, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
+I watched [The Most Controversial Idea in Biology](https://youtu.be/XX7PdJIGiCw) one evening, took a screenshot of the replicator dynamics on screen, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
 
 The moment I realised I'd gone wrong was when I noticed I was no longer observing. I was going for quick hits. What happens if I throw a storm in, set everything to scarce, force something to happen. It felt like finding a cheat code in a game you've been playing for weeks. You use it for an hour and then never play again. So I stripped all of it out. No controls, no likes, no god mode. Just life unfolding slowly.
 
