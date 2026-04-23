@@ -124,7 +124,10 @@ There's also a catch-up feature that generates a description of what's been happ
 
 Making worlds deterministic opened up more sharing possibilities too. A world is no longer just yours, you can share the seed and someone else can run the exact same history.
 
-Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.</p>
+Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.
+
+![Photo of Soup of Life](images/SoL_card_collection.png)
+</p>
 </details>
 
 <details>
