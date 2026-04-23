@@ -111,7 +111,10 @@ Anya Vostinar's question about emergence versus engineering sent me into the ful
 
 My kids shaped the interface more than I'd have guessed. My eldest wanted to zoom in and capture [organisms](https://soupof.life/featured), which became the microscope view and the card system. My youngest goes through his card collection. My middle one wants to trade cards with friends, so I'm thinking about that.
 
-And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.</p>
+And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.
+
+![Screenshot of Three Cards](images/SoL_cards.png)
+</p>
 </details>
 
 <details>
@@ -126,7 +129,7 @@ Making worlds deterministic opened up more sharing possibilities too. A world is
 
 Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.
 
-![Photo of Soup of Life](images/SoL_card_collection.png)
+![Screenshot of Card Archive](images/SoL_card_collection.png)
 </p>
 </details>
 
