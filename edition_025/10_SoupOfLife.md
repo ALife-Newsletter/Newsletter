@@ -105,7 +105,7 @@ I have a full tick-by-tick breakdown if any readers want to go deeper.</p>
 
 In almost every direction.
 
-My girlfriend has a doctorate and teaches life sciences and evolution. She kept asking whether things actually made biological sense, what would realistically be selected for, where something felt hand-wavy. A lot got redone because of those conversations.
+My wife has a doctorate and teaches life sciences and evolution. She kept asking whether things actually made biological sense, what would realistically be selected for, where something felt hand-wavy. A lot got redone because of those conversations.
 
 Anya Vostinar's question about emergence versus engineering sent me into the full rebuild. Probably the single most consequential piece of feedback the project received.
 
