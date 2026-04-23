@@ -129,7 +129,7 @@ Making worlds deterministic opened up more sharing possibilities too. A world is
 
 Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.
 
-![Screenshot of Card Archive](images/SoL_card_collection.png)
+![Screenshot of Three Cards](images/SoL_cards.png)
 </p>
 </details>
 
@@ -147,6 +147,6 @@ Longer term I want to keep bridging the gap between people with no science backg
 
 My two favourite things about this whole project are still the same. People running worlds for weeks on end, and my kids calling me from another room to show off the latest organism they've spotted. If I can keep both of those happening I'll be happy.
 
-![Screenshot of Three Cards](images/SoL_cards.png)
+![Screenshot of Card Collection](images/SoL_card_collection.png)
 </p>
 </details>
