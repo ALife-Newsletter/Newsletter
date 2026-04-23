@@ -18,7 +18,10 @@ The moment I realised I'd gone wrong was when I noticed I was no longer observin
 
 It was also a bit of a protest, to be honest, against the two-second attention span and the doomscrolling, my own included. I wanted to spend time on something else, and along the way I ended up building something that unfolds slowly and where you have no controls.
 
-I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.</p>
+I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
+
+![Screenshot of running sim](images/autumn.png)
+</p>
 </details>
 
 <details>
@@ -31,7 +34,10 @@ I had no idea it was a whole field when I started building. Once I found out it 
 
 Then I felt a bit overwhelmed, because quite a few people reached out wanting to learn more or work together, and I had to figure out how to handle that without losing control of the project. I said no quite a lot early on, which felt harsh given that people were taking time to reach out. What worked better was being upfront from the start. This is a solo hobby project, here's what it is and isn't.
 
-The community itself turned out to be warm and welcoming, full of enthusiasm and hard questions. Different from what I was used to.</p>
+The community itself turned out to be warm and welcoming, full of enthusiasm and hard questions. Different from what I was used to.
+
+![Screenshot of running sim](images/dispersal.png)
+</p>
 </details>
 
 <details>
@@ -50,7 +56,10 @@ At some point I added a soundtrack that responds to what's actually happening. B
 
 Every world is also fully reproducible from its seed now, so if someone runs a world on their laptop and someone else runs the same seed on their phone, they get the exact same history. I like that a lot. It means worlds aren't lost when you close them, and it opens up more ways to share them. I'm also working on a headless version for people who want to focus more on the data side.
 
-The [concepts documentation](soupof.life/concepts) is there if you want to go deeper on what's simulated versus approximated.</p>
+The [concepts documentation](soupof.life/concepts) is there if you want to go deeper on what's simulated versus approximated.
+
+![Screenshot of running sim](images/formation.png)
+</p>
 </details>
 
 <details>
@@ -62,7 +71,10 @@ The first version was just replicator dynamics. Simple blobs competing for resou
 At some point I committed to observation only, no controls, which forced the underlying systems to carry the experience on their own.
 
 Then came the harder rebuild. Anya Vostinar, an ALife researcher, asked whether my mechanics were genuinely emergent or just designed to look that way. That sent me back into the codebase properly. I started by patching and fixing things, but every rock I turned I found things that were designed. Thresholds, shortcuts. After a couple of attempts I just made the decision: strip everything and rebuild with bottom-up as the only rule.
-It took a very long time before worlds got interesting again. With so many systems interacting it felt almost like the butterfly effect, a small change somewhere rippled in unpredictable directions. But when worlds started evolving again it felt better than the first time. More earned.</p>
+It took a very long time before worlds got interesting again. With so many systems interacting it felt almost like the butterfly effect, a small change somewhere rippled in unpredictable directions. But when worlds started evolving again it felt better than the first time. More earned.
+
+![Screenshot of running sim](images/goth_sakura.png)
+</p>
 </details>
 
 <details>
@@ -73,7 +85,10 @@ Running everything in the browser was a deliberate choice, partly for accessibil
 
 The other difficult one was getting the simulation to behave identically across different devices. Floating point math works subtly differently on different hardware, and those differences compound over millions of ticks until two worlds that started identical have quietly diverged. Getting that right took a lot of care but made it possible for anyone running the same seed to end up at the same world.
 
-And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)</p>
+And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)
+
+![Screenshot of running sim](images/lazer_lizard.png)
+</p>
 </details>
 
 <details>
@@ -96,7 +111,10 @@ Evolution happens through heritable numeric traits with noise rather than discre
 
 What I find most interesting in the data now is trait combinations. Some combinations seem to probe the fitness landscape, establish briefly, collapse, and then reappear millions of ticks later when conditions shift. It's as if they're waiting for the perfect storm. I didn't design that behaviour, and I'm still working out what to make of it.
 
-I have a full tick-by-tick breakdown if any readers want to go deeper.</p>
+I have a full tick-by-tick breakdown if any readers want to go deeper.
+
+![Screenshot of running sim](images/pink.png)
+</p>
 </details>
 
 <details>
