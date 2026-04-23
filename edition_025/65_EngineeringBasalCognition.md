@@ -11,7 +11,7 @@ How does cognition arise without a nervous system? And what is the minimum genet
 ![Engineering Basal Cognition Abstract](images/minimalcog.jpeg)
 
 
-Taking a synthetic biology angle, they design minimal synthetic genetic circuits capable of reproducing a few types of adaptive behaviours in silico: habituation, sensitisation, and massed-spaced learning (a cognitive strategy in which learning sessions are distributed over time (spaced learning) rather than concentrated over a short period (massed learning)). All of the circuits used well-characterised regulatory parts (repressors, quorum-sensing molecules, fluorescent reporters). These design decisions are sufficiently grounded in biology to be to be experimentally realisable in E. coli, which is something I feel ALifers sometimes underappreciate. Being able to make concrete predictions of how the real world operates using such tractable models is *really* cool!
+Taking a synthetic biology angle, they design minimal synthetic genetic circuits capable of reproducing a few types of adaptive behaviours in silico: habituation, sensitisation, and massed-spaced learning (a cognitive strategy in which learning sessions are distributed over time (spaced learning) rather than concentrated over a short period (massed learning)). All of the circuits used well-characterised regulatory parts (repressors, quorum-sensing molecules, fluorescent reporters). These design decisions are sufficiently grounded in biology to be to be experimentally realisable in *E. coli*, which is something I feel ALifers sometimes underappreciate. Being able to make concrete predictions of how the real world operates using such tractable models is *really* cool!
 
 
 
