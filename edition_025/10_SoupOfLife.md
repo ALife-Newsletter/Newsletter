@@ -113,7 +113,7 @@ My kids shaped the interface more than I'd have guessed. My eldest wanted to zoo
 
 And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.
 
-![Screenshot of Three Cards](images/SoL_cards.png)
+![Screenshot of Microscope View](images/SoL_microscope_view.png)
 </p>
 </details>
 
@@ -145,5 +145,8 @@ On the lighter side, my middle one wants to trade cards with friends. So I'm thi
 
 Longer term I want to keep bridging the gap between people with no science background and people who have one. A kid collecting organisms and someone running long replicates are using the same simulation for completely different reasons. I'd like to make both experiences better without compromising either.
 
-My two favourite things about this whole project are still the same. People running worlds for weeks on end, and my kids calling me from another room to show off the latest organism they've spotted. If I can keep both of those happening I'll be happy.</p>
+My two favourite things about this whole project are still the same. People running worlds for weeks on end, and my kids calling me from another room to show off the latest organism they've spotted. If I can keep both of those happening I'll be happy.
+
+![Screenshot of Three Cards](images/SoL_cards.png)
+</p>
 </details>
