@@ -15,12 +15,12 @@ they can adhere to each other. The simulation does not have an
 explicit fitness function, but cells with more energy survive for
 longer, and can reproduce more.
 
-In their simulation, they observe that cells would self-organize into
+In their simulation, they observed that cells would self-organize into
 three strategies, depending on the density of food sources in the
-environment: When food sources were far from each other, cells would
+environment: when food sources were far from each other, cells would
 join into each other, and migrate as a large multicellular
 organism. When food sources were frequent, unicellular strategies were
-dominant. Finally, a third intermediate strategy arise, where
+dominant. Finally, a third intermediate strategy arose, where
 multi-cellular organisms would send uni-celular "colonizers", similar
 to spores.
 
