@@ -9,6 +9,7 @@
 <details>
 <summary>I've had a lot of fun exploring Soup of Life. What inspired you to create it?</summary>
 <p>
+
 Honestly, things just got out of hand.
 
 I watched [The Most Controversial Idea in Biology](https://youtu.be/XX7PdJIGiCw) one evening, took a screenshot of the replicator dynamics on screen, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
