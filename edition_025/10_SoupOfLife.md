@@ -1,8 +1,8 @@
-# Soup of Life
+# A Conversation with the creator of Soup of Life
 
 ![Photo of Soup of Life](images/soup_of_life.png)
 
-*I recently spoke with the creator of [Soup of Life](https://soupof.life) to learn more about how he evolved this simulation. Here's what he had to say!*
+*I recently spoke with the creator of [Soup of Life](https://soupof.life) to learn more about how he evolved this simulation to model emergence. Here's what he had to say!*
 
 — *Martha*
 
