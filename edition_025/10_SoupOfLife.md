@@ -87,7 +87,7 @@ The other difficult one was getting the simulation to behave identically across 
 
 And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)
 
-![Screenshot of running sim](images/lazer_lizard.png)
+![Screenshot of running sim](images/pink.png)
 </p>
 </details>
 
@@ -113,7 +113,7 @@ What I find most interesting in the data now is trait combinations. Some combina
 
 I have a full tick-by-tick breakdown if any readers want to go deeper.
 
-![Screenshot of running sim](images/pink.png)
+![Screenshot of running sim](images/lazer_lizard.png)
 </p>
 </details>
 
