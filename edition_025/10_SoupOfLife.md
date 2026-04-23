@@ -73,7 +73,7 @@ Running everything in the browser was a deliberate choice, partly for accessibil
 
 The other difficult one was getting the simulation to behave identically across different devices. Floating point math works subtly differently on different hardware, and those differences compound over millions of ticks until two worlds that started identical have quietly diverged. Getting that right took a lot of care but made it possible for anyone running the same seed to end up at the same world.
 
-And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. The world filled the gap on its own.</p>
+And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)</p>
 </details>
 
 <details>
