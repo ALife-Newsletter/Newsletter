@@ -12,7 +12,7 @@
 
 Honestly, things just got out of hand.
 
-I watched [The Most Controversial Idea in Biology](https://youtu.be/XX7PdJIGiCw) one evening, took a screenshot of the replicator dynamics, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
+I watched <a href="https://youtu.be/XX7PdJIGiCw">The Most Controversial Idea in Biology</a> one evening, took a screenshot of the replicator dynamics, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.
 
 The moment I realised I'd gone wrong was when I noticed I was no longer observing. I was going for quick hits. What happens if I throw a storm in, set everything to scarce, force something to happen. It felt like finding a cheat code in a game you've been playing for weeks. You use it for an hour and then never play again. So I stripped all of it out. No controls, no likes, no god mode. Just life unfolding slowly.
 
@@ -20,7 +20,7 @@ It was also a bit of a protest, to be honest, against the two-second attention s
 
 I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
 
-![Screenshot of running sim](images/autumn.png)
+<img src="images/autumn.png" alt="Screenshot of running sim">
 </p>
 </details>
 
@@ -36,7 +36,7 @@ Then I felt a bit overwhelmed, because quite a few people reached out wanting to
 
 The community itself turned out to be warm and welcoming, full of enthusiasm and hard questions. Different from what I was used to.
 
-![Screenshot of running sim](images/dispersal.png)
+<img src="images/dispersal.png" alt="Screenshot of running sim">
 </p>
 </details>
 
