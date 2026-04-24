@@ -70,7 +70,7 @@
 
 <p>It took a very long time before worlds got interesting again. With so many systems interacting it felt almost like the butterfly effect, a small change somewhere rippled in unpredictable directions. But when worlds started evolving again it felt better than the first time. More earned.</p>
 
-<img src="images/goth_sakura.png" alt="Screenshot of running sim" style="margin-top: 1;">
+<img src="images/wanderer.png" alt="Screenshot of running sim" style="margin-top: 1;">
 </p>
 </details>
 
