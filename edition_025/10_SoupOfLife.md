@@ -53,7 +53,7 @@
 
 <p>Every world is also fully reproducible from its seed now, so if someone runs a world on their laptop and someone else runs the same seed on their phone, they get the exact same history. I like that a lot. It means worlds aren't lost when you close them, and it opens up more ways to share them. I'm also working on a headless version for people who want to focus more on the data side.</p>
 
-<p>The <a href="soupof.life/concepts">concepts documentation</a> is there if you want to go deeper on what's simulated versus approximated.</p>
+<p>The <a href="https://soupof.life/concepts">concepts documentation</a> is there if you want to go deeper on what's simulated versus approximated.</p>
 
 <img src="images/formation.png" alt="Screenshot of running sim" style="margin-top: 1;">
 </p>
