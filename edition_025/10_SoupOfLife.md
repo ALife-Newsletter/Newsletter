@@ -121,7 +121,7 @@
 
 <p>Anya Vostinar's question about emergence versus engineering sent me into the full rebuild. Probably the single most consequential piece of feedback the project received.</p>
 
-<p>My kids shaped the interface more than I'd have guessed. My eldest wanted to zoom in and capture <a href="https://soupof.life/featured">organisms<a/>, which became the microscope view and the card system. My youngest goes through his card collection. My middle one wants to trade cards with friends, so I'm thinking about that.</p>
+<p>My kids shaped the interface more than I'd have guessed. My eldest wanted to zoom in and capture <a href="https://soupof.life/featured">organisms</a>, which became the microscope view and the card system. My youngest goes through his card collection. My middle one wants to trade cards with friends, so I'm thinking about that.</p>
 
 <p>And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.</p>
 
