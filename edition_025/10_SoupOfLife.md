@@ -19,8 +19,8 @@ The moment I realised I'd gone wrong was when I noticed I was no longer observin
 It was also a bit of a protest, to be honest, against the two-second attention span and the doomscrolling, my own included. I wanted to spend time on something else, and along the way I ended up building something that unfolds slowly and where you have no controls.
 
 I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
-<br>
-<img src="images/autumn.png" alt="Screenshot of running sim">
+
+<img src="images/autumn.png" alt="Screenshot of running sim"> style="margin-top: 1em;">
 </p>
 </details>
 
