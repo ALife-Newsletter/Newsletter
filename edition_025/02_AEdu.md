@@ -16,7 +16,7 @@ We welcome interested educators around the globe to come and join us in our firs
 
 Dates: The workshop takes place twice, once on May 18th+19th (suited for Europe/NA), and again on May 25th+26th (suited for Asia/Oceania). Although some of the content will be unique in each, they will share a parallel structure (e.g., some activities/presentations will be repeated) and thus we expect most people to choose to attend one workshop or the other. (i.e. Workshop 1 or Workshop 2)
  
-More info here: https://alife-edu.github.io/aedu-virtual-workshop-2026.html
+More info here: [https://alife-edu.github.io/aedu-virtual-workshop-2026.html](https://alife-edu.github.io/aedu-virtual-workshop-2026.html)
 
 Organizers:
 **Jason A. Yoder** - Rose-Hulman Institute of Technology (USA); **Q. Tyrell Davis** - Independent Researcher; **Jean Alfonso-Decena** - In Silence AI (Japan, Phillipines); **Imy Khan** - University of Warwick (UK); **Anya E. Vostinar** - Carleton College, (USA); **Alyssa Adams** - Cross Labs (Japan)
