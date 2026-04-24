@@ -1,4 +1,4 @@
-# Soup of Life Inverview
+# Soup of Life Interview
 
 ![Photo of Soup of Life](images/soup_of_life.png)
 
