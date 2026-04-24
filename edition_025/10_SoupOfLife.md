@@ -43,7 +43,7 @@
   
 <p>It's a browser-based artificial life simulation. No goals, no controls. You open it and it starts immediately. Organisms are born, evolve, get sick, reproduce, go extinct. Sometimes they do things I've never seen before, and I've been running worlds for a long time now.</p>
 
-<p>There's a lot happening under the surface. Morphology, metabolism, pathogens, zones, lineage tracking, cognition, narration. But what makes it interesting isn't any single system, it's what emerges when they interact over thousands of ticks. I still remember the first time a world produced a [stable organism with tiny tentacles](https://soupof.life/card/kbca5xk3). And the first time one survived past a million ticks without collapsing. Since then people online have found [organisms bigger and stranger than anything I've ever seen](https://soupof.life/card/wgwmwufv), and spotted patterns I hadn't noticed.</p>
+<p>There's a lot happening under the surface. Morphology, metabolism, pathogens, zones, lineage tracking, cognition, narration. But what makes it interesting isn't any single system, it's what emerges when they interact over thousands of ticks. I still remember the first time a world produced a <a href="https://soupof.life/card/kbca5xk3">stable organism with tiny tentacles</a>. And the first time one survived past a million ticks without collapsing. Since then people online have found <a href="https://soupof.life/card/wgwmwufv">organisms bigger and stranger than anything I've ever seen</a>, and spotted patterns I hadn't noticed.</p>
 
 <p>One thing that really made the world come alive for me was adding the microscope view, being able to zoom into an individual organism and actually see what's going on. It changed how I related to the simulation.</p>
 
@@ -53,7 +53,7 @@
 
 <p>Every world is also fully reproducible from its seed now, so if someone runs a world on their laptop and someone else runs the same seed on their phone, they get the exact same history. I like that a lot. It means worlds aren't lost when you close them, and it opens up more ways to share them. I'm also working on a headless version for people who want to focus more on the data side.</p>
 
-<p>The [concepts documentation](soupof.life/concepts) is there if you want to go deeper on what's simulated versus approximated.</p>
+<p>The <a href="soupof.life/concepts">concepts documentation</a> is there if you want to go deeper on what's simulated versus approximated.</p>
 
 <img src="images/formation.png" alt="Screenshot of running sim" style="margin-top: 1;">
 </p>
@@ -81,7 +81,7 @@
 
 <p>The other difficult one was getting the simulation to behave identically across different devices. Floating point math works subtly differently on different hardware, and those differences compound over millions of ticks until two worlds that started identical have quietly diverged. Getting that right took a lot of care but made it possible for anyone running the same seed to end up at the same world.</p>
 
-<p>And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)</p>
+<p>And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. <a href="https://youtu.be/0qSC02SHZQs">The world filled the gap on its own</a>.</p>
 
 <img src="images/pink.png" alt="Screenshot of running sim" style="margin-top: 1;">
 </p>
