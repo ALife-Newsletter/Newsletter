@@ -4,7 +4,7 @@
 
 **Workshop Dates:** Workshop 1: May 18 and 19. Workshop 2: May 25 and 26
 
-**Registration link:** [https://alife-edu.github.io/aedu-virtual-workshop-2026.html](https://alife-edu.github.io/aedu-virtual-workshop-2026.html)
+**Registration link:** [https://alife-edu.github.io/aedu-virtual-workshop-2026.html](https://alife-edu.github.io/.aedu-virtual-workshop-2026.html)
 
 AEdu is a free, fully virtual two-day workshop in May 2026, bringing together educators and professionals across the globe to develop shared learning goals for ALife, and build a community around best practices for what (and how) we teach and assess "artificial life" concepts across the education spectrum.  We are aiming to collaboratively align education goals and efforts within the ALife community, to create shared resources as well as "best practices" to this end.
 
