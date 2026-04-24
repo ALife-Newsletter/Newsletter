@@ -126,7 +126,6 @@
 <p>And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.</p>
 
 <img src="images/SoL_microscope_view.png" alt="Screenshot of microscope view" style="margin-top: 1;">
-</p>
 </details>
 
 <details>
