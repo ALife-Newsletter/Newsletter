@@ -19,8 +19,7 @@ The moment I realised I'd gone wrong was when I noticed I was no longer observin
 It was also a bit of a protest, to be honest, against the two-second attention span and the doomscrolling, my own included. I wanted to spend time on something else, and along the way I ended up building something that unfolds slowly and where you have no controls.
 
 I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
-.
-
+<br>
 <img src="images/autumn.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -36,8 +35,7 @@ I had no idea it was a whole field when I started building. Once I found out it 
 Then I felt a bit overwhelmed, because quite a few people reached out wanting to learn more or work together, and I had to figure out how to handle that without losing control of the project. I said no quite a lot early on, which felt harsh given that people were taking time to reach out. What worked better was being upfront from the start. This is a solo hobby project, here's what it is and isn't.
 
 The community itself turned out to be warm and welcoming, full of enthusiasm and hard questions. Different from what I was used to.
-.
-
+<br>
 <img src="images/dispersal.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -59,8 +57,7 @@ At some point I added a soundtrack that responds to what's actually happening. B
 Every world is also fully reproducible from its seed now, so if someone runs a world on their laptop and someone else runs the same seed on their phone, they get the exact same history. I like that a lot. It means worlds aren't lost when you close them, and it opens up more ways to share them. I'm also working on a headless version for people who want to focus more on the data side.
 
 The [concepts documentation](soupof.life/concepts) is there if you want to go deeper on what's simulated versus approximated.
-.
-
+<br>
 <img src="images/formation.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -75,8 +72,7 @@ At some point I committed to observation only, no controls, which forced the und
 
 Then came the harder rebuild. Anya Vostinar, an ALife researcher, asked whether my mechanics were genuinely emergent or just designed to look that way. That sent me back into the codebase properly. I started by patching and fixing things, but every rock I turned I found things that were designed. Thresholds, shortcuts. After a couple of attempts I just made the decision: strip everything and rebuild with bottom-up as the only rule.
 It took a very long time before worlds got interesting again. With so many systems interacting it felt almost like the butterfly effect, a small change somewhere rippled in unpredictable directions. But when worlds started evolving again it felt better than the first time. More earned.
-.
-
+<br>
 <img src="images/goth_sakura.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -90,8 +86,7 @@ Running everything in the browser was a deliberate choice, partly for accessibil
 The other difficult one was getting the simulation to behave identically across different devices. Floating point math works subtly differently on different hardware, and those differences compound over millions of ticks until two worlds that started identical have quietly diverged. Getting that right took a lot of care but made it possible for anyone running the same seed to end up at the same world.
 
 And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. [The world filled the gap on its own.](https://youtu.be/0qSC02SHZQs)
-.
-
+<br>
 <img src="images/pink.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -117,8 +112,7 @@ Evolution happens through heritable numeric traits with noise rather than discre
 What I find most interesting in the data now is trait combinations. Some combinations seem to probe the fitness landscape, establish briefly, collapse, and then reappear millions of ticks later when conditions shift. It's as if they're waiting for the perfect storm. I didn't design that behaviour, and I'm still working out what to make of it.
 
 I have a full tick-by-tick breakdown if any readers want to go deeper.
-.
-
+<br>
 <img src="images/lazer_lizard.png" alt="Screenshot of running sim">
 </p>
 </details>
@@ -136,8 +130,7 @@ Anya Vostinar's question about emergence versus engineering sent me into the ful
 My kids shaped the interface more than I'd have guessed. My eldest wanted to zoom in and capture [organisms](https://soupof.life/featured), which became the microscope view and the card system. My youngest goes through his card collection. My middle one wants to trade cards with friends, so I'm thinking about that.
 
 And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.
-.
-
+<br>
 <img src="images/SoL_microscope_view.png" alt="Screenshot of microscope view">
 </p>
 </details>
@@ -153,8 +146,7 @@ There's also a catch-up feature that generates a description of what's been happ
 Making worlds deterministic opened up more sharing possibilities too. A world is no longer just yours, you can share the seed and someone else can run the exact same history.
 
 Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.
-.
-
+<br>
 <img src="images/SoL_cards.png" alt="Screenshot of three cards">
 </p>
 </details>
@@ -172,8 +164,7 @@ On the lighter side, my middle one wants to trade cards with friends. So I'm thi
 Longer term I want to keep bridging the gap between people with no science background and people who have one. A kid collecting organisms and someone running long replicates are using the same simulation for completely different reasons. I'd like to make both experiences better without compromising either.
 
 My two favourite things about this whole project are still the same. People running worlds for weeks on end, and my kids calling me from another room to show off the latest organism they've spotted. If I can keep both of those happening I'll be happy.
-.
-
+<br>
 <img src="images/SoL_card_collection.png" alt="Screenshot of card collection">
 </p>
 </details>
