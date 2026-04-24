@@ -131,7 +131,7 @@
 <details>
 <summary>In what ways is community engagement built into Soup of Life?</summary>
 
-<p>The main thing is the organism card system. When you find an interesting organism you can capture it as a card, with its traits, lineage, state. Cards are shareable. I have around 680 myself. My favourite is <a href="soupof.life/card/aqfvdb39">one that looks a bit like a lemon or a peanut</a>. There's also a <a href="soupof.life/card/vsxx7ep8">big one with full tentacles and spikes</a> that moves in groups with mesmerising patterns. That one sticks with me.</p>
+<p>The main thing is the organism card system. When you find an interesting organism you can capture it as a card, with its traits, lineage, state. Cards are shareable. I have around 680 myself. My favourite is <a href="https://soupof.life/card/aqfvdb39">one that looks a bit like a lemon or a peanut</a>. There's also a <a href="https://soupof.life/card/vsxx7ep8">big one with full tentacles and spikes</a> that moves in groups with mesmerising patterns. That one sticks with me.</p>
 
 <p>There's also a catch-up feature that generates a description of what's been happening in the world, which helps people make sense of what they're watching when they come back to a running world.</p>
 
