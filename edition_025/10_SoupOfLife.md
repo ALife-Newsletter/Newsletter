@@ -20,7 +20,7 @@ It was also a bit of a protest, to be honest, against the two-second attention s
 
 I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.
 
-<img src="images/autumn.png" alt="Screenshot of running sim"> style="margin-top: 1em;">
+<img src="images/autumn.png" alt="Screenshot of running sim">
 </p>
 </details>
 
