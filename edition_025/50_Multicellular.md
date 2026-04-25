@@ -21,7 +21,7 @@ environment: when food sources were far from each other, cells would
 join into each other, and migrate as a large multicellular
 organism. When food sources were frequent, unicellular strategies were
 dominant. Finally, a third intermediate strategy arose, where
-multi-cellular organisms would send uni-celular "colonizers", similar
+multicellular organisms would send unicellular "colonizers", similar
 to spores.
 
 ![Graphic describing how cell life cycles correspond to different
