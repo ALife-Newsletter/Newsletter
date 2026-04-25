@@ -1,8 +1,8 @@
-# Paper Review - Engineering Basal Cognition [Pla-Mauri \& Solé]
+# Paper Review - Engineering Basal Cognition [Pla-Mauri & Solé]
 
 
 
-Written by [Imy](https://imytk.co.uk)
+Written by [Imy](http://imytk.co.uk)
 
 
 
