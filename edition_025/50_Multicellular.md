@@ -5,7 +5,7 @@ background](images/multicellular_01.jpg)
 
 A recent [pre-print at
 bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.08.681199v3)
-by Researchers from INRIA describes an interesting
+by researchers from INRIA describes an interesting
 simulation of the origins of multicellularity and multicellular
 reproduction.
 
