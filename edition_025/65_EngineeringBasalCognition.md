@@ -6,7 +6,7 @@ Written by [Imy](https://imytk.co.uk)
 
 
 
-How does cognition arise without a nervous system? And what is the minimum genetic machinery needed to implement learning in a single cell? These are the questions that Pla-Mauri and Solé try to unpack in this recent paper. 
+How does cognition arise without a nervous system? And what is the minimum genetic machinery needed to implement learning in a single cell? These are the questions that Pla-Mauri and Solé try to unpack in [this recent paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12930500/). 
 
 ![Engineering Basal Cognition Abstract](images/minimalcog.jpeg)
 
