@@ -1,0 +1,408 @@
+<html>
+<head>
+<title>Alife Newsletter</title>
+<meta charset="UTF-8">
+<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
+
+<style>
+  body {
+         background-color:#f4f4f4;
+
+       }
+
+  .content {
+    background-color:#ffffff;
+    word-spacing:normal;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+  }
+
+  .header {
+    background-color:#000000;
+    color:#ffffff;
+    max-width: 600px;
+    padding: 20px 40px 40px 40px;
+    margin: 0px;
+  }
+
+  .header img {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: Arial;
+  }
+  h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  p {
+    color:#000000;
+    font-family:Arial;
+    font-size:13px; margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  ul {text-align: justify; margin-left: 20px; margin-right: 30px }
+  div {text-align: justify; margin-left: 20px; margin-right: 30px }
+  li { color:#000000;font-family:Arial;font-size:13px; margin-left: 20px; margin-right: 30px }
+
+  h1::before{
+    content:'';
+    position:relative;
+    display:block;
+    top:50%;
+    height:2px;
+    width: 500px;
+    background:#000;
+    margin-bottom: 15px;
+    left:50%;
+    z-index:1;
+    -webkit-transform:translateX(-50%);
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="content">
+    <div class="header">
+      <h1>Alife News</h1>
+      <h2>The Artificial Life Community Newsletter</h2>
+      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
+    </div>
+
+<h1 id="a-word-from-the-team">A Word from the Team</h1>
+<p>Welcome to the 25th issue of the ALife Newsletter!</p>
+<p>In this edition, we explore several ALife sims. We interview the creator of the evolutionary sim Soup of Life, review a paper about a multicellular reproduction sim, and share an asymmetric particle sim called Particle Life in 3D.</p>
+<p>This month, we also highlight the connections between artificial and biological life as we contemplate transferring virtual worm brains into virtual flies and draw parallels between researching cognition using both synthetic biology and actual bacteria like <em>E. coli</em>.</p>
+<p>There are several deadlines coming up in early May, including the deadline to register for the ALife Education Virtual Workshop and the deadline to apply for the ISAL Global Membership Program Pilot. These are both great opportunities, so be sure so check them out!</p>
+<p><a href="https://forms.gle/QpQ68xhvSMt4wiv89">Subscribe to the ALife Newsletter</a>!
+Alternatively, you can register our <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed</a> to read the newsletter from the comfort of your favorite RSS reader! (Claus recommends <a href="https://lzone.de/liferea/">Liferea</a>)</p>
+<p>Let us know what you liked, what you didn't like, what you would like to see more or less! If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">contribution form</a>. 
+You can find past editions of the newletter <a href="https://alife-newsletter.github.io/Newsletter/">here</a>.</p>
+<p>Lana, Imy, Martha, and Claus</p>
+<div class="toc">
+<ul>
+<li><a href="#alife-education-virtual-workshop-may-2026">ALife Education Virtual Workshop - May 2026</a></li>
+<li><a href="#particle-life-in-3d">Particle Life in 3D</a></li>
+<li><a href="#soup-of-life-interview">Soup of Life Interview</a></li>
+<li><a href="#preprint-review-multicellular-reproduction-simulation">Preprint Review: Multicellular Reproduction Simulation</a></li>
+<li><a href="#preprint-review-uploading-a-worm-brain-to-a-digital-fly">Preprint Review: Uploading a worm brain to a digital fly?</a></li>
+<li><a href="#paper-review-engineering-basal-cognition-pla-mauri-sole">Paper Review - Engineering Basal Cognition [Pla-Mauri &amp; Solé]</a></li>
+<li><a href="#origins-of-life-the-possible-and-the-actual">Origins of life: the possible and the actual</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#deadlines">Deadlines</a></li>
+<li><a href="#opportunities">Opportunities</a></li>
+<li><a href="#about-the-artificial-life-newsletter">About the Artificial Life Newsletter</a></li>
+</ul>
+</div>
+
+<h1 id="alife-education-virtual-workshop-may-2026">ALife Education Virtual Workshop - May 2026</h1>
+<p><strong>Deadline to register:</strong> May 1st 2026</p>
+<p><strong>Workshop Dates:</strong> Workshop 1: May 18 and 19. Workshop 2: May 25 and 26</p>
+<p><strong>Registration link:</strong> <a href="https://alife-edu.github.io/.aedu-virtual-workshop-2026.html">https://alife-edu.github.io/aedu-virtual-workshop-2026.html</a></p>
+<p>AEdu is a free, fully virtual two-day workshop in May 2026, bringing together educators and professionals across the globe to develop shared learning goals for ALife, and build a community around best practices for what (and how) we teach and assess "artificial life" concepts across the education spectrum.  We are aiming to collaboratively align education goals and efforts within the ALife community, to create shared resources as well as "best practices" to this end.</p>
+<p><a href="https://alife-edu.github.io/aedu-virtual-workshop-2026.html"><img alt="Aedu" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/aedu.png" /></a></p>
+<p>We are designing this workshop to be engaging and focused on widely applicable, high-value activities. The overall program will involve a variety of different presentation formats and collaborative activities. We are very excited to bring people together and explore challenges and opportunities!</p>
+<p>We welcome interested educators around the globe to come and join us in our first iteration of this workshop.</p>
+<p>Dates: The workshop takes place twice, once on May 18th+19th (suited for Europe/NA), and again on May 25th+26th (suited for Asia/Oceania). Although some of the content will be unique in each, they will share a parallel structure (e.g., some activities/presentations will be repeated) and thus we expect most people to choose to attend one workshop or the other. (i.e. Workshop 1 or Workshop 2)</p>
+<p>More info here: <a href="https://alife-edu.github.io/aedu-virtual-workshop-2026.html">https://alife-edu.github.io/aedu-virtual-workshop-2026.html</a></p>
+<p>Organizers:
+<strong>Jason A. Yoder</strong> - Rose-Hulman Institute of Technology (USA); <strong>Q. Tyrell Davis</strong> - Independent Researcher; <strong>Jean Alfonso-Decena</strong> - In Silence AI (Japan, Phillipines); <strong>Imy Khan</strong> - University of Warwick (UK); <strong>Anya E. Vostinar</strong> - Carleton College, (USA); <strong>Alyssa Adams</strong> - Cross Labs (Japan)</p>
+<h1 id="particle-life-in-3d">Particle Life in 3D</h1>
+<p>Elijas Najarro <a href="https://bsky.app/profile/najarro.science/post/3miej7nquvc2n">shared</a> a mesmerizing implementation of an <a href="https://najarro.science/pl/">asymmetric particle simulation in 3D</a> that runs on browsers.
+Go have a look, toggle the 3D setting and play with the parameters!</p>
+<p><img alt="Screenshot showing the UI and a bunch of colorful flowing 3D shapes made of little dots" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/3dparticles.png" /></p>
+<h1 id="soup-of-life-interview">Soup of Life Interview</h1>
+<p><img alt="Photo of Soup of Life" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/soup_of_life.png" /></p>
+<p><em>I recently had a conversation with the creator of <a href="https://soupof.life">Soup of Life</a> to learn more about how he evolved this simulation to model emergence. Here's what he had to say!</em></p>
+<p>— <em>Martha</em></p>
+<details>
+<summary>I've had a lot of fun exploring Soup of Life. What inspired you to create it?</summary>
+
+<p>Honestly, things just got out of hand.</p>
+
+<p>I watched <a href="https://youtu.be/XX7PdJIGiCw">The Most Controversial Idea in Biology</a> one evening, took a screenshot of the replicator dynamics, and tried to rebuild it myself that same night to see if I could. It worked, the world came alive, and then I kept adding things. Controls for every little thing. Meteorites. A museum for organisms. A social feed for discoveries.</p>
+
+<p>The moment I realised I'd gone wrong was when I noticed I was no longer observing. I was going for quick hits. What happens if I throw a storm in, set everything to scarce, force something to happen. It felt like finding a cheat code in a game you've been playing for weeks. You use it for an hour and then never play again. So I stripped all of it out. No controls, no likes, no god mode. Just life unfolding slowly.</p>
+
+<p>It was also a bit of a protest, to be honest, against the two-second attention span and the doomscrolling, my own included. I wanted to spend time on something else, and along the way I ended up building something that unfolds slowly and where you have no controls.</p>
+
+<p>I missed the slow, weird corners of the internet. People building strange things to see what happened, no metrics, no growth goals. Getting noticed in those places let me rediscover something I thought had gone. Smaller online communities I'd never heard of, people running worlds for weeks.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/autumn.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>How did you first encounter the field of Artificial Life?</summary>
+
+<p>Completely by accident.</p>
+
+<p>I had no idea it was a whole field when I started building. Once I found out it existed I posted the simulation in the ALife community myself, and from there people started reaching out. My first reaction was: I could have saved myself a lot of time. But I probably would also have given up earlier. A lot of what kept me going was discovering these concepts myself, stumbling into them through the simulation rather than reading about them first.</p>
+
+<p>Then I felt a bit overwhelmed, because quite a few people reached out wanting to learn more or work together, and I had to figure out how to handle that without losing control of the project. I said no quite a lot early on, which felt harsh given that people were taking time to reach out. What worked better was being upfront from the start. This is a solo hobby project, here's what it is and isn't.</p>
+
+<p>The community itself turned out to be warm and welcoming, full of enthusiasm and hard questions. Different from what I was used to.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/dispersal.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>Tell me more about your simulation.</summary>
+
+<p>It's a browser-based artificial life simulation. No goals, no controls. You open it and it starts immediately. Organisms are born, evolve, get sick, reproduce, go extinct. Sometimes they do things I've never seen before, and I've been running worlds for a long time now.</p>
+
+<p>There's a lot happening under the surface. Morphology, metabolism, pathogens, zones, lineage tracking, cognition, narration. But what makes it interesting isn't any single system, it's what emerges when they interact over thousands of ticks. I still remember the first time a world produced a <a href="https://soupof.life/card/kbca5xk3">stable organism with tiny tentacles</a>. And the first time one survived past a million ticks without collapsing. Since then people online have found <a href="https://soupof.life/card/wgwmwufv">organisms bigger and stranger than anything I've ever seen</a>, and spotted patterns I hadn't noticed.</p>
+
+<p>One thing that really made the world come alive for me was adding the microscope view, being able to zoom into an individual organism and actually see what's going on. It changed how I related to the simulation.</p>
+
+<p>I see people use it in very different ways. As an aquarium running in the background during work. To collect and compare organisms. Or to dig into all the data it produces. I hadn't thought about it being used like that.</p>
+
+<p>At some point I added a soundtrack that responds to what's actually happening. Births, deaths, population crashes, speciation. Felt fitting.</p>
+
+<p>Every world is also fully reproducible from its seed now, so if someone runs a world on their laptop and someone else runs the same seed on their phone, they get the exact same history. I like that a lot. It means worlds aren't lost when you close them, and it opens up more ways to share them. I'm also working on a headless version for people who want to focus more on the data side.</p>
+
+<p>The <a href="https://soupof.life/concepts">concepts documentation</a> is there if you want to go deeper on what's simulated versus approximated.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/formation.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>How did your simulation evolve over time?</summary>
+
+<p>The first version was just replicator dynamics. Simple blobs competing for resources. From there I kept layering things on. Morphology, pathogens, zones, cognition. Each addition changed the dynamics in ways I didn't fully predict, which made it hard to stop.</p>
+
+<p>At some point I committed to observation only, no controls, which forced the underlying systems to carry the experience on their own.</p>
+
+<p>Then came the harder rebuild. Anya Vostinar, an ALife researcher, asked whether my mechanics were genuinely emergent or just designed to look that way. That sent me back into the codebase properly. I started by patching and fixing things, but every rock I turned I found things that were designed. Thresholds, shortcuts. After a couple of attempts I just made the decision: strip everything and rebuild with bottom-up as the only rule.</p>
+
+<p>It took a very long time before worlds got interesting again. With so many systems interacting it felt almost like the butterfly effect, a small change somewhere rippled in unpredictable directions. But when worlds started evolving again it felt better than the first time. More earned.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/wanderer.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>What are some of the challenges you faced in building Soup of Life?</summary>
+
+<p>Running everything in the browser was a deliberate choice, partly for accessibility and partly because it means I don't need heavy hosting or infrastructure. But it puts real pressure on performance, which was one of the hardest things at the start. When I first posted it online I got a lot of feedback, insights and even code suggestions from forums that helped push the performance forward.</p>
+
+<p>The other difficult one was getting the simulation to behave identically across different devices. Floating point math works subtly differently on different hardware, and those differences compound over millions of ticks until two worlds that started identical have quietly diverged. Getting that right took a lot of care but made it possible for anyone running the same seed to end up at the same world.</p>
+
+<p>And then the rebuild itself. Patching didn't work. I had to strip everything and start over, running parallel sped-up worlds after each change to check what actually happened. I wanted to throw my laptop out of the window more than once. Most of what I removed turned out to be suppressing emergent behaviour rather than enabling it. <a href="https://youtu.be/0qSC02SHZQs">The world filled the gap on its own</a>.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/pink.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>Tell me about your model.</summary>
+
+<p>Each tick runs roughly 40 computational phases. At the global level: a climate model, seasonal oscillations, pathogen co-evolution, and a resource economy across 48 zones.</p>
+
+<p><strong>Food</strong> is partitioned into four channels per zone: micro-food (favours <a href="https://soupof.life/card/cm3r86jg">small bodies</a> with high surface-to-volume ratio), macro-food (gated by a sigmoid on body size, below a certain threshold you simply can't access it), clutter (rewards <a href="https://soupof.life/card/msytrr1f">agile foragers</a>, penalises <a href="https://soupof.life/card/04vah36y">wide bodies</a>), and current strength (punishes <a href="https://soupof.life/card/goxs3fyc">slow movers</a>). I tried simpler setups earlier and kept ending up with everything converging on a single generalist body plan. With four channels I started seeing distinct ecological optima along the size axis, so a <a href="https://soupof.life/card/0u0mp2nq">small grazer</a> and a <a href="https://soupof.life/card/nuk5m7rt">titan</a> aren't competing for the same food.</p>
+
+<p><strong>Energy</strong> is managed through a two-compartment DEB model. One fraction goes to maintenance and growth, the other to a reproductive buffer. The split scales with body plan: small <a href="https://soupof.life/card/fo2f89ud">r-strategists</a> invest less in the soma and reproduce fast; large <a href="https://soupof.life/card/0oyvjmq1">K-strategists</a> invest heavily in maintenance and defer reproduction across thousands of ticks. In my earlier single-pool version I couldn't get r- and K-strategists to coexist stably, things would tip one way or the other. Splitting the compartments seemed to let both persist.</p>
+
+<p><strong>Cognition</strong> has seven levels with real metabolic cost. At level 3 an organism can read the climate phase and start preparing for winter before conditions deteriorate. At level 6 it runs a forward model each tick, evaluating candidate actions against a lookahead of zone state, so you sometimes see organisms break off hunts when the target is leading them into a parasite-dense area. The cost scales quadratically with neural complexity, which is probably why high cognition only persists in my runs where there's stable surplus.</p>
+
+<p><strong>Parasites</strong> use 4D phenotype matching across size, defense, movement, and sociality. Infection probability depends on how closely the parasite's signature matches the host across all four dimensions. One thing I noticed after adding the sociality axis is that social clustering can function as a defensive strategy, because a parasite optimised for solitary hosts has to coevolve separately to exploit clustered ones.</p>
+
+<p><strong>Mortality</strong> is roughly 31 factors, but about five do most of the work in the runs I've analysed: senescence via a Gompertz curve, seasonal thermal exposure, starvation streaks, and trait-survival multipliers. The rest contribute less but seem to matter. When I've removed some of the smaller factors the worlds tend to narrow down quickly to one or two dominant strategies, though I haven't tested this systematically.</p>
+
+<p><strong>Evolution</strong> happens through heritable numeric traits with noise rather than discrete genes. I went with continuous traits partly because selection has a smoother gradient to work on every generation, and partly because it was simpler for me to reason about. The fat-tailed mutation kernel means most offspring stay close to the parent, but rare large jumps let lineages escape local optima. I'd be curious how this compares to what people using discrete architectures observe.</p>
+
+<p>What I find most interesting in the data now is trait combinations. Some combinations seem to probe the fitness landscape, establish briefly, collapse, and then reappear millions of ticks later when conditions shift. It's as if they're waiting for the perfect storm. I didn't design that behaviour, and I'm still working out what to make of it.</p>
+
+<p>I have a full tick-by-tick breakdown if any readers want to go deeper.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/lazer_lizard.png" alt="Screenshot of running sim" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>How has feedback shaped the evolution of your model?</summary>
+
+<p>In almost every direction.</p>
+
+<p>My wife has a doctorate and teaches life sciences and evolution. She kept asking whether things actually made biological sense, what would realistically be selected for, where something felt hand-wavy. A lot got redone because of those conversations.</p>
+
+<p>Anya Vostinar's question about emergence versus engineering sent me into the full rebuild. Probably the single most consequential piece of feedback the project received.</p>
+
+<p>My kids shaped the interface more than I'd have guessed. My eldest wanted to zoom in and capture <a href="https://soupof.life/featured">organisms</a>, which became the microscope view and the card system. My youngest goes through his card collection. My middle one wants to trade cards with friends, so I'm thinking about that.</p>
+
+<p>And then there's feedback from strangers. Bug reports, observations, someone who messaged me at the end of a workweek asking if there was a way to preserve their world because they didn't want to close it. I also like the fleetingness of a world, that it continues without you, that you catch a moment and then let it go. It's part of what the whole thing is about.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/SoL_microscope_view.png" alt="Screenshot of microscope view" style="margin-top: 1;">
+</details>
+
+<details>
+<summary>In what ways is community engagement built into Soup of Life?</summary>
+
+<p>The main thing is the organism card system. When you find an interesting organism you can capture it as a card, with its traits, lineage, state. Cards are shareable. I have around 680 myself. My favourite is <a href="https://soupof.life/card/aqfvdb39">one that looks a bit like a lemon or a peanut</a>. There's also a <a href="https://soupof.life/card/vsxx7ep8">big one with full tentacles and spikes</a> that moves in groups with mesmerising patterns. That one sticks with me.</p>
+
+<p>There's also a catch-up feature that generates a description of what's been happening in the world, which helps people make sense of what they're watching when they come back to a running world.</p>
+
+<p>Making worlds deterministic opened up more sharing possibilities too. A world is no longer just yours, you can share the seed and someone else can run the exact same history.</p>
+
+<p>Honestly though, there isn't really a community yet, at least not in an organised sense. People run worlds, capture organisms, share cards and worlds and send me messages. I'm curious to see where it goes.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/SoL_cards.png" alt="Screenshot of three cards" style="margin-top: 1;">
+</p>
+</details>
+
+<details>
+<summary>Where do you see this going in the future?</summary>
+<p>
+
+<p>A few directions.</p>
+
+<p>I'm working on a headless version for people who want to focus more on the data side, without the browser interface. Some people, including folks from the ALife community, have asked about running things at scale, and making that possible feels like the right next step.</p>
+
+<p>On the lighter side, my middle one wants to trade cards with friends. So I'm thinking about that too.</p>
+
+<p>Longer term I want to keep bridging the gap between people with no science background and people who have one. A kid collecting organisms and someone running long replicates are using the same simulation for completely different reasons. I'd like to make both experiences better without compromising either.</p>
+
+<p>My two favourite things about this whole project are still the same. People running worlds for weeks on end, and my kids calling me from another room to show off the latest organism they've spotted. If I can keep both of those happening I'll be happy.</p>
+
+<img src="https://alife-newsletter.github.io/Newsletter/images_edition_025/SoL_card_collection.png" alt="Screenshot of card collection" style="margin-top: 1;">
+</p>
+</details>
+
+<h1 id="preprint-review-multicellular-reproduction-simulation">Preprint Review: Multicellular Reproduction Simulation</h1>
+<p><img alt="Screenshot of a simulation: Several groups of cells against a pink
+background" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/multicellular_01.jpg" /></p>
+<p>A recent <a href="https://www.biorxiv.org/content/10.1101/2025.10.08.681199v3">pre-print at
+bioRxiv</a>
+by researchers from INRIA describes an interesting
+simulation of the origins of multicellularity and multicellular
+reproduction.</p>
+<p>In their simulation, groups of cells forage in an environment. They
+can move towards the gradient of a nearby food source or multiply, and
+they can adhere to each other. The simulation does not have an
+explicit fitness function, but cells with more energy survive for
+longer, and can reproduce more.</p>
+<p>The researchers observed that cells would self-organize into
+three strategies, depending on the density of food sources in the
+environment: when food sources were far from each other, cells would
+join into each other, and migrate as a large multicellular
+organism. When food sources were frequent, unicellular strategies were
+dominant. Finally, a third intermediate strategy arose, where
+multicellular organisms would send unicellular "colonizers", similar
+to spores.</p>
+<p><img alt="Graphic describing how cell life cycles correspond to different
+environments in the simulation: environment with less frequent food
+sources encourage multicellular
+strategies" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/multicellular_02.png" /></p>
+<p>A <a href="https://bsky.app/profile/escolizzi.bsky.social/post/3mgq5oe7ot22w">thread on BlueSky by author Enrico Sandro
+Colizzi</a>
+describes the preprint in more detail, with several videos. Do take a
+look for more information!</p>
+<h1 id="preprint-review-uploading-a-worm-brain-to-a-digital-fly">Preprint Review: Uploading a worm brain to a digital fly?</h1>
+<p><img alt="Screenshot of a simulation: In the left side, a digital fly; in the
+middle; a digital worm; in the left side, wave
+signals" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/brainbody_01.jpg" /></p>
+<p>A <a href="https://www.biorxiv.org/content/10.64898/2026.03.20.713233v1">recent preprint on Biorxiv by Brunton, Abe, Hu and
+Tuthill</a>,
+from the University of Washington, describes a curious experiment: a
+digital fly, based on data from the <em>Drosophila</em>, was connected to the
+digital replica of the "brain" (connectome) of a <em>C. elegans</em> worm. Then
+the fly performed very realistic walking movement in its digital
+world. Brain upload?!</p>
+<p>Not so fast. The key here is how the brain and the body are
+connected. The authors used a Neural Network to interface the two
+systems, trained using Deep Reinforcement Learning (DRL). According to the
+authors, this shows the power of the DRL algorithm: it managed to generate
+a meaningful output from a biologically implausible input. In a sense,
+this paper reminds me of the classical paper about detecting
+statistically significant signals from the brain of a dead fish
+through pattern recognition algorithms - a cautionary tale about being
+careful of what we ask of optimization algorithms.</p>
+<p>The authors have <a href="https://bsky.app/profile/tuthill.bsky.social/post/3mhtqcrrq4s2b">a thread on Bluesky describing the "digital sphinx"
+preprint</a>
+with more details. <a href="https://www.thetransmitter.org/systems-neuroscience/digital-sphinx-raises-questions-about-connectome-models/">The Transmitter
+magazine</a>
+also has a summary of the findings.</p>
+<h1 id="paper-review-engineering-basal-cognition-pla-mauri-sole">Paper Review - Engineering Basal Cognition [Pla-Mauri &amp; Solé]</h1>
+<p>Written by <a href="http://imytk.co.uk">Imy</a></p>
+<p>How does cognition arise without a nervous system? And what is the minimum genetic machinery needed to implement learning in a single cell? These are the questions that Pla-Mauri and Solé try to unpack in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12930500/">this recent paper</a>. </p>
+<p><img alt="Engineering Basal Cognition Abstract" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/minimalcog.jpeg" /></p>
+<p>Taking a synthetic biology angle, they design minimal synthetic genetic circuits capable of reproducing a few types of adaptive behaviours in silico: habituation, sensitisation, and massed-spaced learning (a cognitive strategy in which learning sessions are distributed over time (spaced learning) rather than concentrated over a short period (massed learning)). All of the circuits used well-characterised regulatory parts (repressors, quorum-sensing molecules, fluorescent reporters). These design decisions are sufficiently grounded in biology to be to be experimentally realisable in <em>E. coli</em>, which is something I feel ALifers sometimes underappreciate. Being able to make concrete predictions of how the real world operates using such tractable models is <em>really</em> cool!</p>
+<p>In essence, the authors find that these circuits actually work, BUT learning operates on timescales that are orders of magnitude slower than synaptic learning, which places hard constraints on what kinds of stimuli and environments such a system could adapt to. The authors discuss what this means for how these types of circuits might operate, and what trade-offs they may impose. I won't ruin that discussion here - you can read more in the paper!</p>
+<p>It reminded me of a few other papers <a href="https://doi.org/10.1098/rstb.2019.0750">1</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006291X21001959">2</a> I've come across in recent times, in part inspired by <a href="https://www.youtube.com/watch?v=I4hq3LUx73Y">Pamela Lyon's keynote talk at ALIFE 2023</a>. </p>
+<p>It's a bit of a technical read in places, but overall I really enjoyed the writing style. The core circuit logic is presented clearly, and the parameter space analyses are intuitive. It's not tremendously long, and so worth checking out if you're interested in minimal cognition, synthetic biology, or just looking for a really nice example of how to write an excellent ALife paper.</p>
+<h1 id="origins-of-life-the-possible-and-the-actual">Origins of life: the possible and the actual</h1>
+<p>This theme issue of Philosophical Transactions B (<a href="https://royalsocietypublishing.org/rstb/issue/380/1936">Origins of life: the possible and the actual</a>) should interest any reader who likes Origins of Life research, as well as related topics: Agency, Transitions, Evolution, Protocells, and of course Artificial Life!
+The issue is from last year, but should remain relevant for many years to come.</p>
+<p><img alt="The cover of the theme issue, showing some glass blown apparatus" src="https://alife-newsletter.github.io/Newsletter/images_edition_025/cover.gif" /></p>
+<h1 id="events">Events</h1>
+<h2 id="santa-fe-institutes-community-lecture">Santa Fe Institute's Community Lecture</h2>
+<p>Book your tickets for SFI's hybrid Community Lecture: <a href="https://lensic.org/events/blaise-aguera-y-arcas/">'Computing, Life, and Intelligence'</a>, by Blaise Agüera y Arcas (20 May 2026, 7:30pm MT) </p>
+<h1 id="deadlines">Deadlines</h1>
+<h2 id="iool-2026-oolens-interdisciplinary-origins-of-life-early-career-meeting">IOoL 2026 | OoLEN's Interdisciplinary Origins of Life Early Career Meeting</h2>
+<p>The Origin of Life Early Career Network's <a href="https://www.oolen.org/news-and-events/in-person-meetings/iool2026/#">Interdisciplinary Origin of Life Meeting for Early Career Researchers</a> (IOoL2026) will be held in Tokyo, Japan at the Earth-Life Science Institute (ELSI) from 9-11 September 2026.</p>
+<ul>
+<li>Abstract submission deadline: 2 May 2026</li>
+</ul>
+<h2 id="ieee-acsos-2026-ieee-international-conference-on-autonomic-computing-and-self-organizing-systems">IEEE ACSOS 2026 | IEEE International Conference on Autonomic Computing and Self-Organizing Systems</h2>
+<p>The 7th IEEE <a href="https://2026.acsos.org/">International Conference on Autonomic Computing and Self-Organizing Systems</a> (ACSOS) will be held in Cesena, Italy at the University of Bologna, Cesena Campus from 7-11 September 2026.</p>
+<ul>
+<li>Abstract registration deadline: 24 April 2026</li>
+<li>Paper submission deadline: 1 May 2026</li>
+</ul>
+<h1 id="opportunities">Opportunities</h1>
+<h2 id="isal-global-membership-program-pilot">ISAL Global Membership Program Pilot</h2>
+<p>ISAL is now offering a special discounted membership rate to scholars from low-income countries through the new <a href="https://alife.org/2026/03/24/new-isal-global-membership-program-pilot/">ISAL Global Membership Program</a>. </p>
+<ul>
+<li>Application deadline: 8 May 2026</li>
+</ul>
+<h1 id="about-the-artificial-life-newsletter">About the Artificial Life Newsletter</h1>
+<p>The ALife Newsletter is a bi-monthly publication that aims to bring interesting news to the Artificial Life community.</p>
+<p>The current editors of the newsletter are: </p>
+<ul>
+<li>Lana Sinapayen</li>
+<li>Claus Aranha</li>
+<li>Imy Khan</li>
+<li>Martha Emerson</li>
+</ul>
+<p>The newsletter is sent by e-mail and can also be accessed by RSS. You can <a href="https://forms.gle/QpQ68xhvSMt4wiv89">subscribe here</a> or follow the <a href="https://alife-newsletter.github.io/Newsletter/RSS.xml">RSS feed here</a>.</p>
+<p>If you have any suggestions for future content, or would like to help us edit the newsletter, you can leave us a message in the  <a href="https://forms.gle/jv7FdtdbWVTaTFGd9">feedback form</a>. We specially appreciate messages from Master's and PhD students who want to talk about their recent work. Send us a line!</p>
+
+</div>
+<!-- class = "content" -->
+
+</body>
+</html>
