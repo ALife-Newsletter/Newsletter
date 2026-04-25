@@ -15,7 +15,7 @@ they can adhere to each other. The simulation does not have an
 explicit fitness function, but cells with more energy survive for
 longer, and can reproduce more.
 
-In their simulation, they observed that cells would self-organize into
+The researchers observed that cells would self-organize into
 three strategies, depending on the density of food sources in the
 environment: when food sources were far from each other, cells would
 join into each other, and migrate as a large multicellular
