@@ -72,6 +72,8 @@ $ python makeAllEditions.py
 
 ## How CI Works
 ### Generates static html files and publishes them to GitHub Pages
-It works on GitHub Action and the workflow file is [.github/workflows/gh_pages_deploy.yml](.github/workflows/gh_pages_deploy.yml)
+It works on GitHub Action and the workflow file is
+[.github/workflows/gh_pages_deploy.yml](.github/workflows/gh_pages_deploy.yml)
 
-The action is triggered by pushing the main branch, and it generates all editions' static html files and publish them on GitHub Pages.
+The action is triggered by pushing the main branch, and it generates
+all editions' static html files and publish them on GitHub Pages.
