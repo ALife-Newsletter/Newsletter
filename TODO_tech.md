@@ -1,23 +1,22 @@
 # Newsletter Tech TODO
 
-- Clear the cruft from the scripts
-  - One entryway scripts for everything:
-	- Check for new content
-	- Check for 12 days
-	- Update RSS
-	- Update Main page
-	- Update ToC MarkDown
-- Update RSS to make it better
-  - RSS checks data on Release rather than existance of file
-  - Make sure the RSS has an .ico
-  - Add the .ico to the main page too
-  - Add a header image to the RSS? (just the logo?)
-- Clean up CSS (Groups / Classes)
-- BONUS: 12 Days Javascript
+## Done
+- Automate the generation of the Index page **Done**
 
-= = = = 
+## TODO
+- Improve the 12 day script:
+  - Include it inside the makeAll script
+  - Transform the 2023 12 day static
+  - redirect the current 12 day link to one following standard
+  - Make it so that the new 12th day script only runs if there is a 12 day active
+- Improve RSS:
+  - Make RSS return if release.dat is in the future
+  - Add title to release.dat
+  - And add a sensible default if it is not
+  - Add reference image from release.dat
+  - And add a sensible default if it is not
+- Clean up / update CSS
+- Generic 12 day Javascript
 
-# Scratchpad
 
-Main script is running 12 Days Alife, followed by make AllEditions
 
