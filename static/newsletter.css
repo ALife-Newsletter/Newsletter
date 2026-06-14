@@ -1,11 +1,4 @@
-<html>
-<head>
-<title>Alife Newsletter</title>
-<meta charset="UTF-8">
-<link rel="alternate" type="application/rss+xml" title="Alife Newsletter RSS Feed" href="RSS.xml" />
-
-<style>
-    body {
+  body {
          background-color:#f4f4f4;
 
        }
@@ -89,16 +82,3 @@
     z-index:1;
     -webkit-transform:translateX(-50%);
   }
-
-</style>
-
-</head>
-
-<body>
-
-  <div class="content">
-    <div class="header">
-      <h1>Alife News</h1>
-      <h2>The Artificial Life Community Newsletter</h2>
-      <img src="https://alife-newsletter.github.io/Newsletter/images/alifenewshead.png">
-    </div>

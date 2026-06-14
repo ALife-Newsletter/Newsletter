@@ -79,5 +79,3 @@ if __name__ == "__main__":
     make_newsletter(target)
 
 
-# with open("edition_004_202202/AlifeJapanReport.md") as f:
-#     print(markdown.markdown(f.read()))
