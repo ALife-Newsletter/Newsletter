@@ -20,9 +20,14 @@ def getDate(edition):
     dateFile = os.path.join(edition,"release_date.dat")
     rdate = ""
     if os.path.exists(dateFile):
+        print(f"Edition {edition} release_date.dat exists.")
         with open(dateFile,"r") as f:
             dateText = f.readline()
-            rdate = date(*[int(s) for s in dateText.split("-")])    
+            edate = date(*[int(s) for s in dateText.split("-")])
+            if (edate <= date.today()):
+                rdate = edate
+            else:
+                print(f"Date in the future")
     return rdate
 
 def getContents(edition):
