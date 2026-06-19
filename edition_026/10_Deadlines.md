@@ -15,6 +15,12 @@
 
 # Events
 
+## ISAL Write/Hack-a-thon
+
+ISAL is organizing a recurring write/hack-a-thon on the last Thursday - Sunday of each month.
+- Date: Kickoff June 25, 11a ET / 5p CEST / midnight JST
+- Place: [ISAL discord](https://discord.gg/SVevXX5rW)
+- Topic: For the June event, writing/updating entries for the [ALife Encyclopedia](https://alife.org/encyclopedia/) 
 
 ## "Humies" awards at GECCO 2026 (July 15th, tentative)
 
