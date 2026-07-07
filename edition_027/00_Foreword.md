@@ -1,4 +1,4 @@
-# A word from the team
+# A word from the team (TODO)
 
 This edition of the ALife Newsletter is a trial for a new format:
 mini-editions.
