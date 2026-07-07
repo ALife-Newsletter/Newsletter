@@ -1,4 +1,4 @@
-# About the Artificial Life Newsletter (TODO)
+# About the Artificial Life Newsletter
 
 The ALife Newsletter is a bi-monthly publication that aims to bring
 interesting news to the Artificial Life community.
