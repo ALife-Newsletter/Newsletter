@@ -10,5 +10,5 @@ Your work does not have to be finished or polished. Lightning talks are all abou
 
 
 
-If you are interested in giving a talk, \[click here to register](https://docs.google.com/forms/d/e/1FAIpQLSclKb4irKtloTfOqm4gGQJ8PQY6wZGdJopn7bgv93ox5l7rmA/viewform).
+If you are interested in giving a talk, [click here to register](https://docs.google.com/forms/d/e/1FAIpQLSclKb4irKtloTfOqm4gGQJ8PQY6wZGdJopn7bgv93ox5l7rmA/viewform).
 
