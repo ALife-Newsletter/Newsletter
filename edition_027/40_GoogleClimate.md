@@ -10,11 +10,11 @@ relate with ALIFE-y topics such as agency and open-endedness, it is
 essential not to lose sight of their **externalities**: In other
 words, the ethical costs that this technology imposes on us and others. 
 
-Recently, Ketan Joshi, a climate analyst and advocate, wrote (a deep
+Recently, Ketan Joshi, a climate analyst and advocate, wrote [a deep
 analysis of Google's yearly Climate
-report)[https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/]
+report](https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/)
 which is well worth reading. This analysis makes clear the rapidly
-growing environmental costs of generative AI. 
+growing environmental costs of generative AI.
 
 ![Graph: Annual power consumption - big tech. Based on annual sustainability reports + CDP submissions. Reports terawatt hours electricity consumption per year (2012-2025). Amazon, Google, Microsoft show exponential growth from 2020.](images/2026_KJ_BigTechEnergyConsumption.png)
 
