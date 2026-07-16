@@ -8,6 +8,6 @@ So here we have synthetic cells behaving somewhat like actual living cells. And 
 
 You can read more in the preprint, [here](https://www.biotic.org/research/spudcell/)
 
-![SpudCells](spudcell.png)
+![SpudCells](images/spudcell.png)
 
 https://www.theguardian.com/science/2026/jul/01/synthetic-life-lab-made-dna-spudcells-scientists
