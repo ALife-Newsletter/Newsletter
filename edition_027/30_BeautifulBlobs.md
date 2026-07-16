@@ -1,6 +1,6 @@
 # News: Synthetic Life from SpudCells
 
-by Martha
+*by Martha*
 
 In the quest for synthetic life, scientists often rely on simple existing lifeforms as a scaffold. Kate Adamala's team at the University of Minnesota had a different idea: her team's SpudCells are built from scratch. The simple cells have a fatty outer layer with water in the middle, and "live" in a bath that provides the chemicals the SpudCells need to grow and divide. 
 
