@@ -1,14 +1,16 @@
 # CFP and Deadlines
 
-## IEEE SSCI-CIS 2027 (August 10th)
-- [IEEE Symposium on Computational Intelligence in ALIFE and Cooperative Intelligent Systems](https://attend.ieee.org/ssci-2027/submissions/call-for-papers/)
-- Submission Deadline: 10 August, 2026
-- Conference Date: 14-17 Feb, 2027
-- Venue: Gold Coast, Queensland, Australia
+## ALIFE 2026
 
-## ERA Workshop Lightning Talks at ALIFE 2026
+### ERA Workshop Lightning Talks at ALIFE 2026
 - [Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSclKb4irKtloTfOqm4gGQJ8PQY6wZGdJopn7bgv93ox5l7rmA/viewform)
 - [ALIFE 2026 Website](https://2026.alife.org/workshops-sessions/)
+
+### Teaching (with) Artificial Life Workshop
+[The Teaching (with) Artificial Life Workshop](https://alife-edu.github.io/tal-alife-2026.html) will be taking place at
+ALIFE 2026 and includes time for 3-5 minute lightning talks about anything relevant to artificial life x education! 
+- Apply to give a short talk: https://forms.gle/kJuAD6H9HEHbS4vt8
+- There will be time to get or give feedback on anything ALife education related that you'd like. Get the discussion started early on [Discord](https://discord.gg/jEtVQCMYjh)
 
 ## EMO 2027 Submission (September 28th)
 - [International Conference on Evolutionary Multi-Criterion Optimization](https://www.emo2027.org/calls/)
