@@ -73,5 +73,10 @@ GSO "aims to regulate self-organization for specific purposes, so that a dynamic
 - Conference Date: July 25-28
 - Venue: Edinburgh, Scotland
 
+### ESANN 2027 (Nov 18th)
+— [European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning](https://www.esann.org)
+- Submission Deadline: 28 November 2026
+- Venue: Bruges, Belgium, and online (hybrid) 
+- Conference Date: · 21–23 April 2027
 
 ​
