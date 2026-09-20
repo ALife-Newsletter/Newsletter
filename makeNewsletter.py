@@ -25,6 +25,9 @@ def make_newsletter(target_edition_name):
                 with open(os.path.join(target_edition_name, filename), "r") as f:
                     text.append(f.read())
     bodytext = "\n".join(text)
+    if len(text) == 0:
+        print("Edition {} empty. Skipping.".format(target_edition_name))
+        return
 
     md = markdown.Markdown(extensions=[TocExtension(toc_depth=1)])
     htmlopen = md.convert(opening)
