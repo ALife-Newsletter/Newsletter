@@ -15,6 +15,16 @@ date is no later than June 1, 2027. Interested people should check the
 [job posting at the Santa Fe Institute's
 webpage](https://santafe.edu/about/jobs/post-doc-thermodynamics)
 
+# Seminars
+
+
+## Teaching in Interdisciplinary Settings: The hows, whens, and whys? (October 29th)
+
+The ALife-Edu group is hosting a virtual talk titled Teaching in Interdisciplinary Settings: The hows, whens, and whys? by Amanda Jean Bowerman on Oct 29th at 9AM EDT. The talk will be at [this Zoom link](https://uio.zoom.us/j/67556554662) and the abstract is below. We'll be recording and sharing that for those who can't make the time.
+
+Interdisciplinarity is becoming a fundamental element of both academia and industry, as fields like data science, cognitive science, and artificial life are becoming more prevalent. These types of fields are appealing to undergraduate students by offering the ability to integrate knowledge across various domains of interest.  However, teaching in interdisciplinary spaces has proven to be challenging, as undergraduate students are still developing disciplinary knowledge coupled with the varying meanings for terminology across disciplines. There has been some recent research into investigating how to facilitate conversations in interdisciplinary settings in addition to developing a toolkit and resources for designing interdisciplinary courses. Flipped classrooms have been instrumental in the integration of interdisciplinarity, providing students the ability to interact through discussion and promoting active learning. In this talk, I will discuss how to handle some of the challenges of teaching in an interdisciplinary setting, drawing insights from my own experiences teaching in interdisciplinary intro-level data science courses while also providing resources and suggestions for implementing interdisciplinary domains in a flipped classroom setting.
+
+
 # NEW CFP and Deadlines
 
 ## “Life As It Could Be:  Interdisciplinary Perspectives on Artificial Life” (October 23rd)
