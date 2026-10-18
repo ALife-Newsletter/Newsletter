@@ -9,7 +9,7 @@ looked the best.
 
 Each cell looks at its 26 neighbors (+-1 in all 3D directions). A live
 cell becomes death with less than 5 or more than 6 neighbors. A dead
-cell becomes alive with exactly 4 neighbors.
+cell becomes alive with exactly 4 neighbors. 
 
 The website does not have a lot of information on the hows and whys of
 these rules, but it is interesting to think how the addition of an
