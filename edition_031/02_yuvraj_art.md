@@ -2,7 +2,7 @@
 
 Shared by Yuvraj Mittal 
 
-[Image from the website, from the piece "Inhabited Ground" showing development across the shared surface"](images/yuvraj.png)
+![Image from the website, from the piece "Inhabited Ground" showing development across the shared surface"](images/yuvraj.png)
 
 Portfolio: [yuvrajmittal.com](yuvrajmittal.com)
 
