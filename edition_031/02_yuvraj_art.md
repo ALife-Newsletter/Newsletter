@@ -2,6 +2,8 @@
 
 Shared by Yuvraj Mittal 
 
+[Image from the website, from the piece "Inhabited Ground" showing development across the shared surface"](images/yuvraj.png)
+
 Portfolio: [yuvrajmittal.com](yuvrajmittal.com)
 
 Intelligence in Nature is a collection of four computational artworks exploring how intricate, organic forms emerge from local interactions in artificial-life systems.
