@@ -1,5 +1,7 @@
 # The Cognition Project Podcast
 
+_Shared by Imy_
+
 In case you needed another podcast...
 
 Cognitive science is pervasive in ALife, with many of the field's influential figures and ideas coming from this field. So I found it really cool to see this new podcast that traces the history of cognitive science through oral history interviews with prominent figures in the field. The creator, Tom Griffiths of Princeton University, has developed it in a way that allows it to be adapted or mapped onto undergraduate cognitive science courses, which could be really useful for incoming (or current) students, as well as anybody who is putting such a course together.
