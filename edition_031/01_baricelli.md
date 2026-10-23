@@ -1,5 +1,7 @@
 # Nils Aall Barricelli's 1954 paper translated
 
+_Shared by Lana_
+
 Have you heard of [Nils Aall Barricelli](https://en.wikipedia.org/wiki/Nils_Aall_Barricelli), the ALife pioneer from the early 1900s who ran evolutionary simulations on military computers in the 1950s?
 Nautilus published a great article about him back in 2014: [Meet the Father of Digital Life](https://nautil.us/meet-the-father-of-digital-life-234937).
 
