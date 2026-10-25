@@ -1,9 +1,10 @@
 # Blog Post: Artificial Life In Music
+
 *written by Claus*
 
 [Helen Bledsoe](https://helenbledsoe.com/) is a musician and alife
 researcher, who recently wrote a nice text introduction to
-[Artificicial Life in
+[Artificial Life in
 Music](https://research.helenbledsoe.com/artificial-life-in-music/) in
 their homepage.
 

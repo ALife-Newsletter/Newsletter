@@ -1,6 +1,6 @@
 # Intelligence in Nature — Artificial Life, Emergence, and Computational Form
 
-_Shared by Yuvraj Mittal _
+_Shared by Yuvraj Mittal_
 
 ![Image from the website, from the piece "Inhabited Ground" showing development across the shared surface"](images/yuvraj.png)
 
