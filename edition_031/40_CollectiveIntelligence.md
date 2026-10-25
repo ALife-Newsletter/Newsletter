@@ -4,10 +4,10 @@ _Shared by Lana_
 
 [A new book](https://mitpress.mit.edu/9781915609557/agnieszka-kurant-collective-intelligence/) published by MIT press, blurb below.
 
-**Conceptual artist Agnieszka Kurant's work alongside newly commissioned texts by renowned thinkers across science, philosophy, technology, anthropology, and economics.
-**
+**Conceptual artist Agnieszka Kurant's work alongside newly commissioned texts by renowned thinkers across science, philosophy, technology, anthropology, and economics.**
 
-[Book cover: blue background with deformed title.](images/collective.png)
+![Book cover: blue background with deformed title.](images/collective.png)
+
 Collective Intelligence is an innovative monograph that documents the last ten years of Polish-born conceptual artist Agnieszka Kurant's interdisciplinary practice. It includes newly commissioned texts by renowned thinkers in science, philosophy, art, technology, anthropology, and economics.
 
 Kurant's experimental work investigates collective and nonhuman intelligences and their impact on transformations of the human, the future of labor and creativity, and the exploitations within digital capitalism. Questioning the ideology of individualism, Kurant proposes that we rethink human and more-than-human worlds from a perspective of plural subjectivity, and, through this fundamental shift in perspective, posits the possibility of alternative political imaginaries. Her work probes the replacement of individual authorship with collective intelligence—a phenomenon observed in slime molds, termite colonies, social movements, cities, the internet, and inside our brains.
