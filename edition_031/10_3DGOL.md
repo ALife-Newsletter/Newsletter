@@ -6,7 +6,8 @@ of several projects, [Cubic Life](https://github.com/xms0g/cubicLife)
 looked the best.
 
 ![3D Game of Life animation](images/3DGOL.gif)
-(If the animation does not show, you can see it [here](https://github.com/ALife-Newsletter/Newsletter/blob/main/edition_031/images/3DGOL.gif).
+
+(If the animation does not show, you can see it [here](https://github.com/ALife-Newsletter/Newsletter/blob/main/edition_031/images/3DGOL.gif).)
 
 Each cell looks at its 26 neighbors (+-1 in all 3D directions). A live
 cell becomes death with less than 5 or more than 6 neighbors. A dead
