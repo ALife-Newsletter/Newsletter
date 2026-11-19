@@ -2,11 +2,6 @@
 
 ## Santa Fe Institute - Postdoctoral Research Fellowship: Network Thermodynamics of Distributed Computation
 
-<details>
-<summary>
-Job application with desired start date no later than June 1st, 2027 (Click for details)
-</summary>
-
 The Santa Fe Institute — a private, not-for-profit research and
 education organization — has an opening for a two-year full-time
 postdoctoral fellowship. They are seeking a highly motivated scholar
@@ -19,16 +14,10 @@ This position is based in-person in Santa Fe, NM. The desired start
 date is no later than June 1, 2027. Interested people should check the
 [job posting at the Santa Fe Institute's
 webpage](https://santafe.edu/about/jobs/post-doc-thermodynamics)
-</details>
 
 # NEW CFP and Deadlines
 
 ## 'Infinite Search Space' Contest (January 31, 2027)
-
-<details>
-<summary>
-ALife programming contest running until January 31st, 2027 (click for details)
-</summary>
 
 (Shared by Neil Brewer, Infinite Search Space)
 
@@ -76,14 +65,8 @@ every solution is published when the contest closes.
 And to watch the classic ant find its highway, or to play with other
 artificial life, there are [free toys in our
 Lab](https://infinitesearchspace.com/lab?topic=Artificial%20Life)
-</details>
 
-
-
-<details>
-<summary>
 ## CRA 2027 - Arts in Robotics (December 1, 2026)
-</summary>
 
 We invite artists and roboticists to explore new forms of creative
 expression at the intersection of art and robotics.  This year’s theme
@@ -102,8 +85,9 @@ ICRA 2027 Arts in Robotics Organizing Committee
 
 ## Embodied Intelligence Conference (31 March – 2 April 2027)
 
-The Embodied Intelligence Conference 2027 (EI 2027) will take place
-online from 31 March to 2 April 2027. Please save the dates!
+The [Embodied Intelligence Conference 2027 (EI
+2027)](https://embodied-intelligence.org/) will take place online from
+31 March to 2 April 2027. Please save the dates!
 
 Since 2021, the Embodied Intelligence Conference has brought together
 researchers from robotics, soft robotics, artificial intelligence, and
@@ -114,11 +98,9 @@ interactive breakout sessions, bringing together researchers from
 around the world.
 
 Conference details:
-Dates: 31 March – 2 April 2027
+- Dates: 31 March – 2 April 2027
+- Format: Fully online and free
 
-Format: Fully online and free
-
-Website: https://embodied-intelligence.org/
 
 # Still active CFP and Deadlines
 
