@@ -1,6 +1,7 @@
 # A word from the team
 
-[mini edition blurb, apology]
+This month is a deadlines-only edition, with one modification: the Humies contribution was inadvertently omitted from last month's newsletter, so it's in this one!
+Enjoy.
 
 [Subscribe to the ALife Newsletter](https://forms.gle/QpQ68xhvSMt4wiv89)!
 Alternatively, you can register our [RSS feed](https://alife-newsletter.github.io/Newsletter/RSS.xml) to read the newsletter from the comfort of your favorite RSS reader! (Claus recommends [Liferea](https://lzone.de/liferea/))
