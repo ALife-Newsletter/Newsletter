@@ -1,4 +1,4 @@
-# 23 rd Human-Competitive Results Awards (“Humies”), 2026
+# 23rd Human-Competitive Results Awards (“Humies”), 2026
 
 Shared by Erik Goodman, edited for length by Lana
 
