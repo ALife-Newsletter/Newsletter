@@ -2,15 +2,15 @@
 
 Shared by Erik Goodman, edited for length by Lana
 
-GECCO 2026 was held July 13-17 this year;
-around 400 people came to San José, Costa Rica to attend in person, and an additional
-200 or so registered to attend virtually. The Humies annually awards $10,000 in cash prizes for computational
-results that are deemed to be competitive with results produced by humans but are
-generated automatically by computers. The finals of the [Humies competition](www.human-competitive.org) was a plenary session attended by
-about 75 people. The six finalists 
-selected from among 9
-entries this year presented
-their work in 10-minute talks.
+GECCO 2026 was held July 13-17 this year; around 400 people came to
+San José, Costa Rica to attend in person, and an additional 200 or so
+registered to attend virtually. The Humies annually awards $10,000 in
+cash prizes for computational results that are deemed to be
+competitive with results produced by humans but are generated
+automatically by computers. The finals of the [Humies
+competition](https://www.human-competitive.org) was a plenary session attended
+by about 75 people. The six finalists selected from among 9 entries
+this year presented their work in 10-minute talks.
 
 All entries and the presentation
 materials of the six finalists are available at www.human-competitive.org.
